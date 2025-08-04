@@ -1,0 +1,268 @@
+
+
+ 
+
+
+Unified Messaging System
+– UMS –
+
+Executive Summary & Problem Statement
+
+
+This document outlines a strategic plan for the Platform Engineering team at HSBC to address the current fragmented landscape of content delivery. The objective is to establish a cohesive and efficient messaging ecosystem by selectively insourcing, rationalizing, and automating key capabilities that are presently dispersed across various internal and third-party tools such as PEGA, Adobe, and other homegrown solutions.
+
+
+The existing content delivery infrastructure at HSBC presents several critical issues:
+Fragmented Ownership and Inefficiency: Decentralized ownership across multiple teams leads to duplicated efforts, suppressed speed-to-market for new initiatives, and increased operational costs.
+Elevated Operational Expenses: Over-reliance on third-party vendors for communication services result in significantly higher costs per message sent.
+Inconsistent Customer Experience: Messaging efforts are often uncoordinated from the customer's perspective, leading to a non-customer-centric communication approach.
+Limited Proactive Capabilities: The current state does not support the delivery of predictive or proactive content to clients, hindering the ability to anticipate and meet customer needs effectively.
+The solution involves the creation of a modular, in-house messaging hub, centrally managed by a single cross-functional team. This approach aims to:
+Consolidate and Streamline: Establish a unified messaging platform to bring consistency and efficiency to content delivery.
+Reduce Vendor Dependency: Decrease reliance on external vendors to significantly lower operational costs.
+Leverage Modern Technologies: Capitalize on the efficiencies offered by Artificial Intelligence (AI) and modern web development frameworks (e.g., React, Svelte) to reduce costs and deliver a contemporary user experience for all stakeholders.
+The path forward is to assemble a core team to build a MVP:
+Kernel Team Formation: A core team of experienced professionals with expertise in banking, software and system development, and change management will spearhead this transformation.
+Proof of Concept (PoC): Develop and deploy a Minimum Viable Product (MVP) of the Unified Messaging System, targeting a specific subset of messages to demonstrate its viability and benefits.
+Phased Global Rollout: Following successful PoC, gradually expand the scope and implement the UMS globally, adapting it to local regulations and customer preferences.
+
+Current State & Pain Points
+
+
+Dimension
+Today
+Impact
+Ownership
+7+ teams across web, mobile, email & SMS
+Diluted accountability, conflicting roadmaps
+Tooling
+PEGA, AEM (Adobe), GPWS, Optimizely, in‑house utilities
+Siloed data, higher licence spend
+Process
+Market‑initiated requests via service desks
+Long lead times, poor prioritisation
+Governance
+No single content strategy owner
+Inconsistent tone, compliance overhead
+
+
+This section details HSBC's current content delivery landscape, highlighting the inefficiencies and challenges that necessitate a unified messaging system.
+Key Challenges:
+Fragmented Ownership: Over seven distinct teams manage content across various channels (web, mobile, email, SMS), leading to duplicated efforts, diluted accountability, and conflicting roadmaps. This significantly hinders speed-to-market.
+Suboptimal Tooling & High Costs: A diverse array of tools (PEGA, Adobe Experience Manager, GPWS, Optimizely, in-house utilities) results in siloed data and inflated licensing, with an estimated £10-20 million annually spent on redundant marketing technology. Upcoming contract renewals highlight the rising opportunity cost.
+Inefficient Processes & Governance Gaps: Market-initiated content requests suffer from long lead times and poor prioritization. The lack of a single content strategy owner contributes to inconsistent brand tone and increased compliance overhead.
+Inconsistent Customer Experience & Limited Agility: Disconnected marketing technology leads to fragmented personalization and uncoordinated messaging, resulting in conflicting or duplicated customer communications. New templates often take over six months to reach production, preventing rapid deployment for regulatory and tactical campaigns.
+
+
+
+
+
+Impact:
+These challenges combine to create a costly, inefficient, and inconsistent content delivery ecosystem that fails to meet both internal operational needs and external customer expectations. A strategic shift to a unified platform is crucial for consolidating efforts, optimizing costs, enhancing customer experience, and enabling a more agile approach to content delivery.
+
+Unified Messaging System (UMS)
+
+Our proposal is to build a single cloud-native platform that progressively absorbs today’s fragmented tools. The system comprises modules atop of which sit user-facing applications (UIs), all exposed and interconnected via a secured API gateway.
+Guiding Principles:
+Own the core: Critical content services run in our cloud estate.
+Composable: Plug-and-play micro-services, not monoliths.
+Data first: Unify profile & consent once, surface everywhere.
+Progressive adoption: Coexist with legacy, migrate by channel.
+UIs
+UI Application
+Primary Users
+Key Functions
+MVP Priority
+Content Studio
+Content editors, translators
+Structured authoring, scheduling, localisation
+High
+Asset Manager
+Designers, editors
+Upload, tag, transform assets
+Medium
+Campaign Builder
+Marketers, CRM Ops
+Drag‑drop journeys, triggers, audiences
+High
+Template Designer
+Designers, developers
+Build responsive email/push templates with tokens & partials
+High
+Experiment Dashboard
+Product & UX teams
+Configure tests, monitor uplift & significance
+Medium
+Audience & Segment Wizard
+Marketers, Data Analysts
+Build rule‑based & ML segments
+High
+Consent Admin Portal
+Compliance, CX
+Manage preference‑centre rules & flows
+Medium
+Analytics & Reporting Hub
+Product leads, Execs
+Real‑time KPIs, funnel & attribution views
+High
+Admin Console
+Platform Ops
+RBAC, feature flags, rollout control
+High
+Developer Portal
+Internal devs, partners
+API docs, schema explorer, sandbox keys
+Low
+
+
+Modules
+Service / Module
+Core Responsibility
+Legacy Capability Replaced
+Content Authoring & Asset Management
+Content Repository & Versioning
+Store structured content, localisation & history and the rest
+AEM content, GPWS repositories
+Digital Asset Manager (DAM)
+Store, tag & transform media assets
+AEM DAM
+Template & Layout Service
+Render channel‑agnostic templates → channel‑specific markup
+AEM templates, Protuson
+Campaign Management
+Personalisation & Decision Engine
+Evaluate rules & ML/AI models to pick content/message (progressing to predictive personalisation)
+PEGA Decision Hub, Salesforce Einstein
+Experimentation Service
+Serve A/B & multivariate tests, collect results
+Optimizely
+Journey Orchestration & Messaging
+Workflow & Orchestration Engine
+Author journeys, manage triggers & queues
+PEGA Campaigns, ICCM flows
+Messaging engine
+Translate unified payloads to Email, SMS, Push, Web, In‑app
+Cinch, MDP, Salesforce sends
+Infrastructure & Single Source of Truth about a Customer
+Consent & Preference Store
+Persist GDPR‑compliant opt‑in/out & channels
+Numbinly lists, CRM consent flags
+Real‑time Event Ingest & Analytics
+Capture events, feed decisioning & reporting
+Adobe/PEGA tracking pixels
+API Gateway & Auth
+OIDC/JWT auth, rate‑limit, enables external devs
+(new control layer)
+DevOps & Observability Stack
+CI/CD pipelines, logging, tracing, SLA views
+(new platform capability)
+
+
+
+AI-Driven Opportunities:
+Ownership over the codebase will facilitate AI integration into internal and external workflows, including:
+Augmented Segmentation: AI proposes optimal rule combinations from historical performance.
+Predictive Personalisation: Models score next-best-content and send-time, feeding the Decision Engine.
+Generative Variants: LLM-powered template variants authored on-the-fly within compliance guardrails.
+AI-assisted development: LLM-powered code generation, test scripting, and documentation will cut build cycles by 30-40%, making in-house tooling economically viable.
+Outcome: Migrate from rules-only personalization to true hyper-personalization, targeting a sustained 5-10% uplift in engagement and conversion.
+ 
+Implementation Roadmap
+Phase
+Qtr
+Key Outputs
+Core Team
+Discovery
+Q4 ’25
+Refine scope, baseline KPIs, PoC tech spikes
+1 PM, 2 Solution Arch, 2 BA
+Pilot (Internal Staff Newsletter Email – Digital Digest)
+Q1 ’26
+End‑to‑end content stack for low‑volume staff digest: Headless CMS live, Content Model v1, Svelte email template component, governed approval workflow, message delivery via Cinch sandbox, analytics dashboard & A/B test harness
++4 FE Dev, 2 Content Ops, 1 Product Owner
+Scale to Mobile & Email
+Q2‑Q3 ’26
+Unified content API, de‑risk PEGA exit
++3 BE Dev, 2 QA, 1 DevOps
+Optimise & Hand‑off
+Q4 ’26
+SLA, cost savings realisation
+Transition team, runbooks
+
+Pilot Build Approach
+The pilot will encompass all key functions—marketing planning, template creation, governance approvals, message delivery and analytics—on a narrow, low‑risk slice of functionality to prove the concept and inform next steps.
+Success gate: ≥20 % faster content cycle time and ≥5 % uplift in email open rate vs current ICCM‑driven newsletter.
+
+
+
+
+Risks, Dependencies & Next Steps
+
+
+Key Risks & Mitigations:
+Vendor Lock-in During Transition: To mitigate this, we will negotiate short-term extensions only with current vendors, avoiding long-term commitments that could hinder the UMS implementation.
+Change Saturation: We will embed content operations change champions within each channel team to manage and facilitate the transition effectively, ensuring a smoother adoption process.
+Data Compliance: Early integration with Information Security and legal teams is crucial to ensure all data handling and privacy requirements are met from the outset.
+Dependencies:
+Contract Terms Access: Gaining full access to current PEGA and Adobe Experience Manager (AEM) contract terms is essential for understanding existing commitments and negotiating new agreements.
+Cloud Hosting Readiness: Confirmation of the Cloud Hosting landing zone's readiness is vital for the technical infrastructure of the UMS.
+HSBC Squad Allocation: The successful allocation of a cross-functional HSBC squad is necessary to staff the project effectively and ensure diverse expertise.
+Immediate Next Steps:
+Executive Endorsement: Secure endorsement of the proposed approach from key executives (Venkat/Catherine) to gain high-level buy-in and support.
+Core Team Onboarding: Onboard the core multidisciplinary team, including deep technical engineers, change-management leads, and finance partners, to establish day-to-day ownership of the project.
+Discovery Kick-off: Schedule the 12-week Discovery phase kick-off, targeting September 1, 2025, to begin detailed planning and analysis.
+PoC & Budget Finalization: Finalize the Proof of Concept (PoC) success criteria and the required budget ask to secure the necessary resources for the initial phase.
+
+
+Appendix – Channel Ownership & Process
+Channel
+Content Hosting
+Other Tools / Systems
+Content Strategy & Creative
+Content Operations
+Demand Intake
+Public Website
+DEPAEM
+Optimizely (experimentation)
+GPWS & Content (market‑initiated)
+GPWS & Content
+Global PWS Service Desk
+Online Banking
+DEPAEM
+—
+Value stream or market‑dependent
+GPWS & Content
+Global PWS Service Desk
+Mobile (North Star)
+DEPAEM
+Optimizely (experimentation)
+Content Design (programme‑initiated)
+Content Design
+Content Design Service Desk
+Push Messaging
+DEPAEM
+PEGA
+No single owner
+CRM & Messaging Ops Service Desk
+CRM & Messaging Ops Service Desk
+In‑App Messaging
+DEPAEM
+PEGA
+No single owner
+CRM & Messaging Ops Service Desk
+CRM & Messaging Ops Service Desk
+Email
+DEPAEM, ICCM, Numbinly, Cinch, Protuson
+PEGA, CIM, Salesforce
+No single owner
+CRM & Messaging Ops Service Desk
+CRM & Messaging Ops Service Desk
+SMS
+MDP
+—
+No single owner
+CRM & Messaging Ops Service Desk
+CRM & Messaging Ops Service Desk
+
+
+How to read this table: Each row shows the primary technology or team driving that aspect of the channel today. “No single owner” indicates gaps in accountability addressed by the new platform.

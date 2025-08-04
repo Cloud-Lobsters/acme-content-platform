@@ -1,0 +1,135 @@
+# Meeting Notes - August 01
+
+## Executive Summary
+
+**What's Going On:**
+HSBC is looking to rationalize and streamline messaging across the bank by creating a new team/capability that manages end-to-end content lifecycle - from creation to delivery. The focus is on building a "T-shaped" architecture where content creation flows horizontally across different systems, while messaging delivery flows vertically through various channels.
+
+**Key Challenges:**
+- Current Hong Kong workflow is inefficient (15-20 steps, manual Excel uploads to Adobe)
+- Inconsistent content management across different markets (some use Adobe AEM, others Sitecore, some nothing)
+- Fear/resistance around potentially replacing Adobe and PEGA systems
+- Need to bridge technical distribution with business value
+- Complex integration between existing systems (Adobe, PEGA, MDP, GCP)
+
+**Way Forward:**
+1. Focus on "T-shaped" architecture: horizontal content flow + vertical distribution
+2. Normalize content journeys first, then standardize toolkits
+3. Create strategic future state architecture that works with existing tools
+4. Map all lifecycle stages across markets to identify consistencies and deviations
+5. Merge messaging capabilities with the new content management approach
+
+**Next Actions:**
+- Tracey to create detailed workflow showing work coming into content creation and distribution flows
+- Venkat to write up appropriate content flow architecture
+- Prepare proposal for Catherine about the new organizational structure
+- Meet Tuesday in Edinburgh for further discussion
+
+**Left to Clarify:**
+- Exact scope and responsibilities of the new team
+- Whether to retain or replace Adobe AEM and PEGA (leaning toward retention)
+- How to provide lightweight solutions for smaller markets (e.g., Vietnam)
+- Integration strategy between current systems and new processes
+- Naming and positioning of the new capability (not just "content hub")
+
+---
+
+**Venkat:** Why they want to send the content out, who they want to send the content out, once they make the decision they want to go in and like decide what is that, like they also are telling me that like in Pega and other platforms like the marketing cloud, Salesforce marketing cloud, they have this whole campaign life cycle management, it is more we're talking about sales engagement or like the client engagement platforms, campaign platforms and we want to just like go end to end.
+
+So in the new thing you are there but I just want you to give enough weightage to the messaging as a delivery, the last step and the messaging controls that we might have before delivering, when I say delivery, to send a message to the China mobile we might use a different provider of this Poland and all right and that is then the last step, maybe the email provider might be different than us, so that is one level, then the level before is like what are we doing in the aggregated MDP, in the MDP or what all capabilities that we have in MDP and then like the step before is AEM, where the templates are there and like the formatting is there and then the step before is like Pega or like I think Decision Night.
+
+So what would be good is, now go back to your topic, I want you to say the new team or new holistic thing, it is not content hub, the content hub is like if people think that it is only warehousing of the content we lose the plot again, I want, we need to think over for the weekend and see what is that we are going to say, that will fit our puzzle
+
+**Tracey:** Cleanly, yeah, I think like if you look at, let me share my screen, so I think we're saying the same thing, this is not just about content, this is the end to end servicing of, it's around, I think I've got your point, I think what you want me to demonstrate or show on here is the flow of the work coming in, whatever you are doing has nothing to do within this page, you will not need to own any of this, so what I want you to, there is already people focused on the mobile, people focused on browser, people focused on APIs, people focused on security, correct, and also edge and routing and all, what we are saying is that on top of what the engineering frameworks that we have, you need to figure out how the content will flow through these things, what thing, that's the bit, so yeah, so you spoke about wanting to in-house our PEGA and Adobe capability and we spoke about content creation, content like distribution and content retirement etc, so what's the exam question, let's take a step, what is the exam question in regards to?
+
+**Venkat:** The exam question is if we are going to create a new team or an enhanced team, how is it going to complement the rest of the value streams or the ownership that are there but cuts across?
+
+**Tracey:** Okay and will this new enhanced team need to in-house PEGA functionality and Adobe functionality?
+
+**Venkat:** I would not say that will be this team's responsibility, they can leverage whatever be the the thing, like I think right, like I think we, that I'm just saying because number one people are panicking, as soon as we say that like we will take out Adobe, I think I got like yesterday three calls, like I think they don't want, like I think, so okay, so things have maybe moved on since we spoke on Wednesday night, okay, so this is about how we leverage the capability that's in PEGA and Adobe and how we distribute. But what we need to say doesn't matter, like what we might have to say is we assume there is a CMS, assume there is a decision system, but we assume there is a CRM, but like there is an entire end-to-end workflow that takes the journey of content all the way from its inception to its delivery, how are we going to tie them together as a journey and like some parts of it we will own, some parts of it we will leverage, like for example, we will not be owning the Hawaii Lab.
+
+**Tracey:** No, no, no, and this proposal doesn't, this doesn't assume that we would own any applications, this is assuming that we will leverage PEGA and Adobe or have the ability to build in-house those modules that Adobe and PEGA provide to HSBC and deliver content out into those channels. This is not saying that we are going to own mobile or browser or any other platform, this is about when there is demand coming in from each of these areas, so for accounts, if there was an onboarding email that needed to go out, making sure that we have the ability to own the template, the content, be able to amend the content, be able to decide where that goes and how it's going to be surfaced.
+
+**Tracey:** Oh, what slide can you see?
+
+**Venkat:** Oh, weird, hold on, let me re-share.
+
+**Tracey:** Yeah, this is not assuming that we will own any platforms, this is assuming that we understand how the demand for content comes into digital platforms and then how we own or leverage the content.
+
+**Venkat:** Yeah, so, no, no, I'm saying other slide last thing, can you?
+
+**Tracey:** Oh, right, right, right, yeah, yeah, sorry, yeah, yeah, I get you. Oh, I don't know where it all is. I've got that many packs opening.
+
+**Venkat:** Maybe you can just copy that particular slide here.
+
+**Tracey:** I will do.
+
+**Venkat:** This is end to end thing. What I'm saying is if you...
+
+**Tracey:** This one?
+
+**Venkat:** Go to the last slide, yeah, this one. I just want to see, do we agree with this? Maybe not, but like does it have the content life cycle steps?
+
+**Venkat:** Right, like I think here, like in a way, they have the messaging is not representing properly here. It was lightly represented here in the last box. That probably this has more to do than what they are showing here, right? But maybe in the content space, these three things, the content publishing, whatever that we are talking about, and then like, what is this model?
+
+**Tracey:** Content fragments are generated.
+
+**Venkat:** Why the hell do we even talk about Excel files? Like, what the hell are we talking about?
+
+**Tracey:** Content fragments are generated automatically.
+
+**Venkat:** That is what they do right now.
+
+**Venkat:** All right. So content fragments are generated automatically with content provided in Excel files, bloody hell.
+
+**Tracey:** Yeah, that is what they are doing right now. They are trying to...
+
+**Venkat:** But what the point is, the first five boxes are how they are planning. This is what Hong Kong is doing, and maybe they are telling me that like after this, they have, or in between this, they have PEGA.
+
+**Tracey:** PEGA is on the other side here. Yeah, so PEGA will come into when you are deciding where it goes, because PEGA offers decisioning functionality.
+
+**Venkat:** Where do you think it is here?
+
+**Tracey:** Here, it is there. Can you see it here?
+
+**Venkat:** Yeah, they are pushing it into open banking mobile PEGA.
+
+**Tracey:** This doesn't actually even make sense, to be honest, because you need...
+
+**Venkat:** I will write up a flow that I think is appropriate.
+
+**Venkat:** That is what I want. I think what we need is, we need an expanded thing, including messaging, including the integration, including the content pool, and now in the bottom, we can say, hey, we are taking advantage of Adobe, we are taking advantage of GCP, and maybe we can say, I think even we are taking advantage of like PEGA, but on the top, the top will be full of the content life, and in the bottom, the possible platforms that might support it, what I am talking about is a more L-shaped thing.
+
+**Venkat:** You can own a vertical, which is the last bit where the delivery will happen, but also you can do the horizontal content flow. It is, in my opinion, it is more like a, what do you call, it is not an L, it is an inverted L, like the content flow and...
+
+**Tracey:** The T-shaped, like the sort of, yeah.
+
+**Tracey:** Okay, so this shows the current workflow on how they raise a request, how it then gets refilled, so it looks like they do, they fill us in, get sent to GCP, GCP then creates something in Excel, weird, and then user uploads manually the file to the content creator, the generator, SMM model, in-app model, content fragments are generated automatically with content provided in Excel, so this is where, this looks like where it is injecting content into mobile or into push, but then I don't understand this bit here, how this, what this is doing, and why content preview and approval is going here, so what is this bit in the middle?
+
+**Venkat:** This bit in the middle, what is this?
+
+**Venkat:** So it is the Adobe thing, so what they are saying...
+
+**Tracey:** That's not Adobe, that's not Adobe, that's not Adobe, it's in Excel, it's in content fragments are generated automatically with content provided in Excel, so then they get their content ready and then push it into Adobe?
+
+**Venkat:** Yeah, so what they are saying, they can take this small server in or out of Adobe, they're writing, it will take a upload from an Excel and it is going to turn it into a Adobe fragment, then they will go into Adobe and then like the, it will enter the proper content for sure, okay, this particular flow, the challenge was we are asking them to start at number two, they are going into the Adobe and they're trying to create a new content to be shared with the clients and it was taking way too long, it is taking them like I think 15 steps, 20 steps, they said oh it is too many steps for us and we are doing way too many of them, we need our own, we will do whatever way automated, we want API into Adobe, we said like I think Adobe cannot be opened up to you, then they went in for a, their Excel will give you an Excel, can you load it into Adobe and turn it into a flow from there, but there is a, the connection between Adobe and MDP is clear, what they want or we want to see, the prior to Adobe also we want to streamline, prior to Adobe also we want to see how we can make it simple and Hong Kong happens to be using those Jira's and Excel's.
+
+**Tracey:** So how to simplify this part of the process?
+
+**Venkat:** As well, yes, yes, yes, yes, we want to simplify or standardize or make it flexible this part of the process and anyway we do own the Adobe, we own the MDP, so we want to bring it now. This is the Hong Kong one particular business use case, Hong Kong digital marketing use case, again we might be having a different flow for Hong Kong, but ultimately what we want to do is, ultimately what we want to do is be able to build a consistent content flow for all markets, yes, all use cases, yes, and I think this is, this is what we are saying here, which is what we would need to do in order to do that, but the exam question that you sent me on Wednesday night was around replacing or in-housing AEM and PEGA, so if we are able to retain AEM and PEGA, then the exam question becomes how do we simplify, is it Hong Kong marketing team self-serving into AEM and pushing it three, yes, okay, and they want automated right now, that is what they came to us saying that we were doing whatever we are doing around before, then we are starting this into Adobe, but we want it to be simpler and can we have a better integration, but the point is like what we need to do is we need to own the journeys, we need to understand the various types of content creation, content formatting, content publication journeys, and try to pick the normalized way of doing it and say that L that we are talking about, the distribution, like I think you can think of it as a LRT, sideways T, the thing will come and then like the distribution is vertical, the distribution is vertical, but the content creation and content ideation is horizontal.
+
+**Tracey:** And just to be clear, are you saying we have to replace AEM and PEGA and in-house it, or we can still leverage PEGA?
+
+**Venkat:** That is not your problem, that I think what I would say is we need to make this sideways T work with anything that line of business uses for that particular layer, if they happen to use Adobe in UK and in Hong Kong they are using Excel sheet, in IWPG they are using something else for the decision. It should be okay, but we need to provide them with a strategic future state architecture, but to start with, we need to focus on normalizing the journey first, then normalizing the toolkits. Right now first we say this is how everybody is doing it, these are all the life cycle steps, this is what the preferred way, this is where I think people are consistent, this is where people are diverting. So we will start with highlighting the differences for each market, then say most of them are using AEM for content, or some people are using Sitecore, some people have nothing, or maybe coming to this side we say some people are using PEGA, some people are using GCP, some people are not Excel sheets, like we need every life cycle state of the content creation and flow, and even distribution. We need to say, and what I'm saying is, then we say this messaging will work well with this horizontal thing, so that way we want to merge the messaging with this new idea.
+
+**Tracey:** Okay, all right, got it. But this one is at the way, I think this is not a wasted effort though.
+
+**Venkat:** Okay. What I'm saying is like, see, PEGA and Adobe in-housing, what we need is, see this is the same thing as we are talking about DSP3, where markets who cannot afford PEGA, we need to give them a simplified solution. Yeah. Where people who cannot afford AEM, we provide with the simpler thing, that I will give it to you as a central thing that we should do, right, but like where, that's why I'm saying it's okay for PEGA and Adobe to be there, anyway, they will be there for next few years. Exactly. But also we can say for a small market Vietnam, how will they do it? Are we able to institutionalize by putting in like some simpler lightweight AEM, lightweight decision?
+
+**Tracey:** Yeah, yeah, I get you. So let me work on the workflow of the work coming into the content creation, and then how we get that into that sort of distribution element. So like the work coming this way and then the distribution going this way.
+
+**Venkat:** Let me work on that. As somebody who wants the distribution, because distribution is such a technical non-business thing, we want it to be combined with the business value. Yeah. And we want to have somebody who is doing the distribution to be connected back into the business. I get it. The best way to connect them back to the business is on the journey.
+
+**Tracey:** Yeah, I get it. And what's the, what's the next steps in this? Because obviously, I can do the thinking on my own, but in order to actually do anything, and we're going to propose to Catherine saying that the new art that we want to create is not just messaging, but it is messaging to us. What is the messaging process? Why is it to make sense for the pieces that we are saying to go along with it?
+
+**Venkat:** Okay, cool. All right. Thanks, speak soon. See, I'll see you Tuesday in Edinburgh. Bye.

@@ -1,0 +1,176 @@
+start	end	text
+0	9600	why they want to send the content out, who they want to send the content out, once they
+9600	17440	make the decision they want to go in and like decide what is that, like they also are telling
+17440	24240	me that like in Pega and other platforms like the marketing cloud, Salesforce marketing cloud,
+24960	31440	they have this whole campaign life cycle management, it is more we're talking about
+31440	39440	sales engagement or like the client engagement platforms, campaign platforms and we want to
+39440	48880	just like go end to end, so in the new thing you are there but I just want you to give enough weightage
+49760	59440	to the messaging as a delivery, the last step and the messaging
+61600	69120	controls that we might have before delivering, when I say delivery, to send a message to the China
+69680	76080	mobile we might use a different provider of this Poland and all right and that is then the last step,
+77040	85760	maybe the email provider might be different than us, so that is one level, then the level before is
+85760	94400	like what are we doing in the aggregated MDP, in the MDP or what all capabilities that we have in
+94400	103680	MDP and then like the step before is AEM, where the templates are there and like the formatting
+103760	114800	is there and then the step before is like Pega or like I think Decision Night, so what would be good
+115680	129600	is, now go back to your topic, I want you to say the new team or new holistic thing, it is not
+129600	137760	content hub, the content hub is like if people think that it is only warehousing of the content
+137760	146960	we lose the plot again, I want, we need to think over for the weekend and see what is that we are
+146960	154480	going to say, that will fit our puzzle
+157520	163680	cleanly, yeah, I think like if you look at, let me share my screen,
+165840	175840	so I think we're saying the same thing, this is not just about content, this is the end to end
+175840	182560	servicing of, it's around, I think I've got your point, I think what you want me to demonstrate
+182560	190000	or show on here is the flow of the work coming in, whatever you are doing has nothing to do
+190000	201760	within this page, you will not need to own any of this, so what I want you to, there is already
+202480	209840	people focused on the mobile, people focused on browser, people focused on
+211040	218880	APIs, people focused on security, correct, and also edge and routing and all, what we are saying is
+219600	228880	that on top of what the engineering frameworks that we have, you need to figure out how the content
+228880	236480	will flow through these things, what thing, that's the bit, so yeah, so you spoke about
+236480	246720	wanting to in-house our PEGA and Adobe capability and we spoke about content creation, content
+246720	254560	like distribution and content retirement etc, so what's the exam question, let's take a step,
+254560	262240	what is the exam question in regards to? The exam question is if we are going to create a new team
+264160	269120	or an enhanced team, how is it going to complement
+271920	279440	the rest of the value streams or the ownership that are there but cuts across?
+280080	290400	Okay and will this new enhanced team need to in-house PEGA functionality and Adobe functionality?
+291760	301760	I would not say that will be this team's responsibility, they can leverage whatever be the
+302560	310160	the thing, like I think right, like I think we, that I'm just saying because number one
+310160	316640	people are panicking, as soon as we say that like we will take out Adobe, I think I got like yesterday
+316640	322480	three calls, like I think they don't want, like I think, so okay, so things have maybe moved on
+322480	331600	since we spoke on Wednesday night, okay, so this is about how we leverage the capability that's
+331600	341520	in PEGA and Adobe and how we distribute. But what we need to say doesn't matter,
+342320	353200	like what we might have to say is we assume there is a CMS, assume there is a decision system,
+354160	362880	but we assume there is a CRM, but like there is an entire end-to-end workflow
+363680	370960	that takes the journey of content all the way from its inception to its delivery,
+371680	379040	how are we going to tie them together as a journey and like some parts of it we will own,
+379680	386800	some parts of it we will leverage, like for example, we will not be owning the Hawaii Lab.
+389120	395680	No, no, no, and this proposal doesn't, this doesn't assume that we would own any
+396960	405760	applications, this is assuming that we will leverage PEGA and Adobe or have the ability
+405760	416880	to build in-house those modules that Adobe and PEGA provide to HSBC and deliver content
+417680	424800	out into those channels. This is not saying that we are going to own mobile or browser
+424800	432240	or any other platform, this is about when there is demand coming in from each of these areas,
+432240	440160	so for accounts, if there was an onboarding email that needed to go out, making sure that we
+440160	447760	have the ability to own the template, the content, be able to amend the content,
+447760	451840	be able to decide where that goes and how it's going to be surfaced.
+462400	467680	Oh, what slide can you see?
+475280	477440	Oh, weird, hold on, let me re-share.
+480720	487600	Yeah, this is not assuming that we will own any platforms, this is assuming that we understand
+488320	494480	how the demand for content comes into digital platforms and then how we
+496640	499200	own or leverage the content.
+503680	509600	Yeah, so, no, no, I'm saying other slide last thing, can you?
+509600	512640	Oh, right, right, right, yeah, yeah, sorry, yeah, yeah, I get you.
+512640	518640	Oh, I don't know where it all is. I've got that many packs opening.
+519440	522320	Maybe you can just copy that particular slide here.
+522320	523280	I will do.
+523280	526480	This is end to end thing. What I'm saying is if you...
+528240	528640	This one?
+530400	537680	Go to the last slide, yeah, this one. I just want to see, do we agree with this? Maybe not,
+537680	541440	but like does it have the content life cycle steps?
+542080	550320	Right, like I think here, like in a way, they have the messaging is not representing
+551040	555280	properly here. It was lightly represented here in the last box.
+555840	562240	That probably this has more to do than what they are showing here, right?
+562880	568800	But maybe in the content space, these three things, the content publishing,
+569360	573440	whatever that we are talking about, and then like, what is this model?
+573440	575200	Content fragments are generated.
+577680	581760	Why the hell do we even talk about Excel files? Like, what the hell are we talking about?
+582960	585360	Content fragments are generated automatically.
+585360	586640	That is what they do right now.
+586640	591040	All right. So content fragments are generated automatically with content
+591040	593440	provided in Excel files, bloody hell.
+593440	598000	Yeah, that is what they are doing right now. They are trying to...
+598000	605600	But what the point is, the first five boxes are how they are planning. This is what
+608960	617360	Hong Kong is doing, and maybe they are telling me that like after this, they have,
+617920	622080	or in between this, they have PEGA.
+623840	629520	PEGA is on the other side here. Yeah, so PEGA will come into when you are deciding
+630240	634240	where it goes, because PEGA offers decisioning functionality.
+635760	637440	Where do you think it is here?
+637440	639760	Here, it is there. Can you see it here?
+639760	647680	Yeah, they are pushing it into open banking mobile PEGA.
+651200	654880	This doesn't actually even make sense, to be honest, because you need...
+656720	659040	I will write up a flow that I think is appropriate.
+659920	663360	That is what I want. I think what we need is,
+664080	670800	we need an expanded thing, including messaging, including the integration,
+671520	678800	including the content pool, and now in the bottom, we can say, hey, we are taking advantage of Adobe,
+679440	685360	we are taking advantage of GCP, and maybe we can say, I think even we are taking advantage of
+685360	694640	like PEGA, but on the top, the top will be full of the content life, and in the bottom,
+694640	704160	the possible platforms that might support it, what I am talking about is a more L-shaped thing.
+705600	713920	You can own a vertical, which is the last bit where the delivery will happen, but also you can
+713920	720800	do the horizontal content flow. It is, in my opinion, it is more like a, what do you call,
+720800	725280	it is not an L, it is an inverted L, like the content flow and...
+725280	728320	The T-shaped, like the sort of, yeah.
+734640	742240	Okay, so this shows the current workflow on how they raise a request,
+743200	749840	how it then gets refilled, so it looks like they do, they fill us in, get sent to GCP,
+749840	758960	GCP then creates something in Excel, weird, and then user uploads manually the file to the content
+758960	767280	creator, the generator, SMM model, in-app model, content fragments are generated automatically
+767360	773360	with content provided in Excel, so this is where, this looks like where it is injecting content
+773360	780640	into mobile or into push, but then I don't understand this bit here, how this, what this
+780640	785760	is doing, and why content preview and approval is going here, so what is this bit in the middle?
+791840	793600	This bit in the middle, what is this?
+797280	801280	So it is the Adobe thing, so what they are saying...
+801280	806400	That's not Adobe, that's not Adobe, that's not Adobe, it's in Excel, it's in content fragments
+806400	813120	are generated automatically with content provided in Excel, so then they get their content ready
+813120	818560	and then push it into Adobe? Yeah, so what they are saying, they can take this
+819360	827120	small server in or out of Adobe, they're writing, it will take a upload from an Excel
+827120	837600	and it is going to turn it into a Adobe fragment, then they will go into Adobe and then like the,
+837600	844480	it will enter the proper content for sure, okay, this particular flow, the challenge was
+844800	851040	we are asking them to start at number two, they are going into the Adobe and they're trying to
+851040	859520	create a new content to be shared with the clients and it was taking way too long, it is taking them
+859520	865440	like I think 15 steps, 20 steps, they said oh it is too many steps for us and we are doing way too
+865440	873600	many of them, we need our own, we will do whatever way automated, we want API into Adobe, we said
+873600	879120	like I think Adobe cannot be opened up to you, then they went in for a, their Excel will give
+879120	884800	you an Excel, can you load it into Adobe and turn it into a flow from there, but there is a,
+886400	893360	the connection between Adobe and MDP is clear, what they want or we want to see,
+894000	898080	the prior to Adobe also we want to streamline,
+902240	910800	prior to Adobe also we want to see how we can make it simple and Hong Kong happens to be using
+910800	918240	those Jira's and Excel's. So how to simplify this part of the process? As well, yes, yes, yes, yes,
+919200	925920	we want to simplify or standardize or make it flexible this part of the process and anyway
+925920	933440	we do own the Adobe, we own the MDP, so we want to bring it now. This is the Hong Kong
+934240	943280	one particular business use case, Hong Kong digital marketing use case, again we might be having
+943280	950880	a different flow for Hong Kong, but ultimately what we want to do is, ultimately what we want
+950880	962720	to do is be able to build a consistent content flow for all markets, yes, all use cases, yes,
+962720	970320	and I think this is, this is what we are saying here, which is what we would need to do in order
+970320	976160	to do that, but the exam question that you sent me on Wednesday night was around replacing or
+976160	983440	in-housing AEM and PEGA, so if we are able to retain AEM and PEGA, then the exam question
+983440	992480	becomes how do we simplify, is it Hong Kong marketing team self-serving into AEM and pushing
+992480	1000640	it three, yes, okay, and they want automated right now, that is what they came to us saying
+1000640	1007280	that we were doing whatever we are doing around before, then we are starting this into Adobe,
+1007280	1015600	but we want it to be simpler and can we have a better integration, but the point is like
+1016320	1024960	what we need to do is we need to own the journeys, we need to understand the various types of
+1024960	1032480	content creation, content formatting, content publication journeys, and try to pick the
+1032480	1039120	normalized way of doing it and say that L that we are talking about, the distribution,
+1039120	1046480	like I think you can think of it as a LRT, sideways T, the thing will come and then
+1046480	1053600	like the distribution is vertical, the distribution is vertical, but the content creation and content
+1054160	1064160	ideation is horizontal. And just to be clear, are you saying we have to replace AEM and PEGA
+1064160	1071600	and in-house it, or we can still leverage PEGA? That is not your problem, that I think
+1071600	1085040	what I would say is we need to make this sideways T work with anything that line of business uses
+1085040	1092480	for that particular layer, if they happen to use Adobe in UK and in Hong Kong they are using
+1092480	1101200	Excel sheet, in IWPG they are using something else for the decision. It should be okay, but we
+1101200	1111680	need to provide them with a strategic future state architecture, but to start with, we need to focus
+1111680	1120080	on normalizing the journey first, then normalizing the toolkits. Right now first we say this is how
+1120160	1125440	everybody is doing it, these are all the life cycle steps, this is what the preferred way,
+1125440	1131200	this is where I think people are consistent, this is where people are diverting. So we will start
+1131200	1139600	with highlighting the differences for each market, then say most of them are using AEM for content,
+1139600	1145440	or some people are using Sitecore, some people have nothing, or maybe coming to this side we say
+1145440	1152160	some people are using PEGA, some people are using GCP, some people are not Excel sheets,
+1152160	1159360	like we need every life cycle state of the content creation and flow, and even distribution.
+1159360	1169840	We need to say, and what I'm saying is, then we say this messaging will work well with this
+1169840	1176240	horizontal thing, so that way we want to merge the messaging with this new idea.
+1178000	1187440	Okay, all right, got it. But this one is at the way, I think this is not a wasted effort though.
+1187440	1193760	Okay. What I'm saying is like, see, PEGA and Adobe in-housing, what we need is,
+1194720	1202000	see this is the same thing as we are talking about DSP3, where markets who cannot afford PEGA,
+1202960	1209280	we need to give them a simplified solution. Yeah. Where people who cannot afford AEM,
+1209280	1215600	we provide with the simpler thing, that I will give it to you as a central thing that we should do,
+1215600	1221200	right, but like where, that's why I'm saying it's okay for PEGA and Adobe to be there,
+1221840	1228560	anyway, they will be there for next few years. Exactly. But also we can say for a small market
+1228560	1236880	Vietnam, how will they do it? Are we able to institutionalize by putting in like some simpler
+1237520	1244480	lightweight AEM, lightweight decision? Yeah, yeah, I get you. So let me work on the workflow of
+1245360	1251760	the work coming into the content creation, and then how we get that into that sort of
+1251760	1255520	distribution element. So like the work coming this way and then the distribution going this way.
+1255520	1264080	Let me work on that. As somebody who wants the distribution, because distribution is such a
+1265200	1273680	technical non-business thing, we want it to be combined with the business value. Yeah. And
+1273680	1280240	we want to have somebody who is doing the distribution to be connected back into the
+1280240	1285680	business. I get it. The best way to connect them back to the business is on the journey.
+1288320	1292800	Yeah, I get it. And what's the, what's the next steps in this? Because obviously,
+1293520	1297120	I can do the thinking on my own, but in order to actually do anything,
+1297520	1309120	and we're going to propose to Catherine saying that the new art that we want to create is not
+1309120	1314720	just messaging, but it is messaging to us. What is the messaging process? Why is it to make sense
+1315280	1322400	for the pieces that we are saying to go along with it? Okay, cool. All right. Thanks,
+1322400	1336160	speak soon. See, I'll see you Tuesday in Edinburgh. Bye.
