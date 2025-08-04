@@ -53,7 +53,7 @@
 
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
 		<!-- Comparison Section -->
-		<div class="grid grid-cols-1 xl:grid-cols-2 gap-10 mb-16">
+		<div class="space-y-10 mb-16">
 			<!-- Current State -->
 			<Card class="border-l-4 border-l-red-500">
 				<CardHeader class="bg-red-50">
@@ -62,26 +62,26 @@
 					</CardTitle>
 				</CardHeader>
 				<CardContent class="p-6 space-y-6">
-					<div class="space-y-4">
-						<div class="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center">
+					<div class="flex flex-wrap items-center justify-center gap-4">
+						<div class="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center min-w-[180px]">
 							<h3 class="font-semibold text-red-800 mb-2">Marketing Team</h3>
 							<p class="text-sm text-red-700">Creates campaign brief<br>Uses own processes</p>
 						</div>
-						<div class="text-center text-red-500 text-2xl">⬇️ HANDOFF</div>
+						<div class="text-red-500 text-2xl">➡️</div>
 						
-						<div class="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center">
+						<div class="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center min-w-[180px]">
 							<h3 class="font-semibold text-red-800 mb-2">Adobe AEM Team</h3>
 							<p class="text-sm text-red-700">Builds templates<br>Takes months to change</p>
 						</div>
-						<div class="text-center text-red-500 text-2xl">⬇️ HANDOFF</div>
+						<div class="text-red-500 text-2xl">➡️</div>
 						
-						<div class="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center">
+						<div class="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center min-w-[180px]">
 							<h3 class="font-semibold text-red-800 mb-2">PEGA Team</h3>
 							<p class="text-sm text-red-700">Handles decisioning<br>Separate from content</p>
 						</div>
-						<div class="text-center text-red-500 text-2xl">⬇️ HANDOFF</div>
+						<div class="text-red-500 text-2xl">➡️</div>
 						
-						<div class="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center">
+						<div class="bg-red-50 border-2 border-red-200 rounded-lg p-4 text-center min-w-[180px]">
 							<h3 class="font-semibold text-red-800 mb-2">Multiple Messaging Teams</h3>
 							<p class="text-sm text-red-700">Email: ICCM, Cinch<br>SMS: MDP<br>Push: PEGA<br>Web: DEP</p>
 						</div>
@@ -111,18 +111,30 @@
 				<CardContent class="p-6 space-y-6">
 					<div>
 						<h3 class="text-lg font-semibold text-gray-800 mb-4">Horizontal Content Flow</h3>
-						<div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-4 space-y-4">
-							<div class="grid grid-cols-2 md:grid-cols-4 gap-2">
+						<div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-4">
+							<div class="flex flex-wrap items-center justify-center gap-2">
 								{#each horizontalSteps as step, i}
-									<div class="bg-white border-2 border-blue-300 rounded-lg p-3 text-center text-xs">
+									<div class="bg-white border-2 border-blue-300 rounded-lg p-3 text-center text-xs min-w-[140px] flex-shrink-0">
 										<div class="font-semibold text-blue-800 mb-1">{step.name}</div>
 										<div class="text-blue-600 whitespace-pre-line">{step.desc}</div>
 									</div>
 									{#if i < horizontalSteps.length - 1}
-										<div class="hidden md:flex items-center justify-center text-blue-600 text-xl font-bold">→</div>
+										<div class="text-blue-600 text-xl font-bold">→</div>
 									{/if}
 								{/each}
 							</div>
+						</div>
+					</div>
+					
+					<div class="text-center text-green-600 text-3xl">⬇️</div>
+					
+					<!-- UMS Central Hub -->
+					<div class="flex justify-center mb-6">
+						<div class="bg-gradient-to-r from-[#db0011] to-[#a50000] text-white rounded-lg p-6 text-center max-w-md">
+							<div class="text-2xl mb-2">🔄</div>
+							<h3 class="text-lg font-bold mb-2">UMS</h3>
+							<h4 class="text-sm font-semibold mb-1">Unified Messaging System</h4>
+							<p class="text-xs opacity-90">Central orchestration hub routing all content to appropriate channels</p>
 						</div>
 					</div>
 					

@@ -3,7 +3,7 @@
 ## Executive Summary
 
 **What's Going On:**
-HSBC is looking to rationalize and streamline messaging across the bank by creating a new team/capability that manages end-to-end content lifecycle - from creation to delivery. The focus is on building a "T-shaped" architecture where content creation flows horizontally across different systems, while messaging delivery flows vertically through various channels.
+Acme Inc is looking to rationalize and streamline messaging across the bank by creating a new team/capability that manages end-to-end content lifecycle - from creation to delivery. The focus is on building a "T-shaped" architecture where content creation flows horizontally across different systems, while messaging delivery flows vertically through various channels.
 
 **Key Challenges:**
 - Current Hong Kong workflow is inefficient (15-20 steps, manual Excel uploads to Adobe)
@@ -48,7 +48,7 @@ So what would be good is, now go back to your topic, I want you to say the new t
 
 **Venkat:** I would not say that will be this team's responsibility, they can leverage whatever be the the thing, like I think right, like I think we, that I'm just saying because number one people are panicking, as soon as we say that like we will take out Adobe, I think I got like yesterday three calls, like I think they don't want, like I think, so okay, so things have maybe moved on since we spoke on Wednesday night, okay, so this is about how we leverage the capability that's in PEGA and Adobe and how we distribute. But what we need to say doesn't matter, like what we might have to say is we assume there is a CMS, assume there is a decision system, but we assume there is a CRM, but like there is an entire end-to-end workflow that takes the journey of content all the way from its inception to its delivery, how are we going to tie them together as a journey and like some parts of it we will own, some parts of it we will leverage, like for example, we will not be owning the Hawaii Lab.
 
-**Tracey:** No, no, no, and this proposal doesn't, this doesn't assume that we would own any applications, this is assuming that we will leverage PEGA and Adobe or have the ability to build in-house those modules that Adobe and PEGA provide to HSBC and deliver content out into those channels. This is not saying that we are going to own mobile or browser or any other platform, this is about when there is demand coming in from each of these areas, so for accounts, if there was an onboarding email that needed to go out, making sure that we have the ability to own the template, the content, be able to amend the content, be able to decide where that goes and how it's going to be surfaced.
+**Tracey:** No, no, no, and this proposal doesn't, this doesn't assume that we would own any applications, this is assuming that we will leverage PEGA and Adobe or have the ability to build in-house those modules that Adobe and PEGA provide to Acme Inc and deliver content out into those channels. This is not saying that we are going to own mobile or browser or any other platform, this is about when there is demand coming in from each of these areas, so for accounts, if there was an onboarding email that needed to go out, making sure that we have the ability to own the template, the content, be able to amend the content, be able to decide where that goes and how it's going to be surfaced.
 
 **Tracey:** Oh, what slide can you see?
 

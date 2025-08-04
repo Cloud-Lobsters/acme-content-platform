@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This directory contains HSBC-related documents and data files:
+This directory contains Acme Inc-related documents and data files:
 - PDF transcript document
 - CSV file with acronyms and tables
 

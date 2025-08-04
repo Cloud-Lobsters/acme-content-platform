@@ -9,10 +9,10 @@ Unified Messaging System
 Executive Summary & Problem Statement
 
 
-This document outlines a strategic plan for the Platform Engineering team at HSBC to address the current fragmented landscape of content delivery. The objective is to establish a cohesive and efficient messaging ecosystem by selectively insourcing, rationalizing, and automating key capabilities that are presently dispersed across various internal and third-party tools such as PEGA, Adobe, and other homegrown solutions.
+This document outlines a strategic plan for the Platform Engineering team at Acme Inc to address the current fragmented landscape of content delivery. The objective is to establish a cohesive and efficient messaging ecosystem by selectively insourcing, rationalizing, and automating key capabilities that are presently dispersed across various internal and third-party tools such as PEGA, Adobe, and other homegrown solutions.
 
 
-The existing content delivery infrastructure at HSBC presents several critical issues:
+The existing content delivery infrastructure at Acme Inc presents several critical issues:
 Fragmented Ownership and Inefficiency: Decentralized ownership across multiple teams leads to duplicated efforts, suppressed speed-to-market for new initiatives, and increased operational costs.
 Elevated Operational Expenses: Over-reliance on third-party vendors for communication services result in significantly higher costs per message sent.
 Inconsistent Customer Experience: Messaging efforts are often uncoordinated from the customer's perspective, leading to a non-customer-centric communication approach.
@@ -46,7 +46,7 @@ No single content strategy owner
 Inconsistent tone, compliance overhead
 
 
-This section details HSBC's current content delivery landscape, highlighting the inefficiencies and challenges that necessitate a unified messaging system.
+This section details Acme Inc's current content delivery landscape, highlighting the inefficiencies and challenges that necessitate a unified messaging system.
 Key Challenges:
 Fragmented Ownership: Over seven distinct teams manage content across various channels (web, mobile, email, SMS), leading to duplicated efforts, diluted accountability, and conflicting roadmaps. This significantly hinders speed-to-market.
 Suboptimal Tooling & High Costs: A diverse array of tools (PEGA, Adobe Experience Manager, GPWS, Optimizely, in-house utilities) results in siloed data and inflated licensing, with an estimated £10-20 million annually spent on redundant marketing technology. Upcoming contract renewals highlight the rising opportunity cost.
@@ -206,7 +206,7 @@ Data Compliance: Early integration with Information Security and legal teams is 
 Dependencies:
 Contract Terms Access: Gaining full access to current PEGA and Adobe Experience Manager (AEM) contract terms is essential for understanding existing commitments and negotiating new agreements.
 Cloud Hosting Readiness: Confirmation of the Cloud Hosting landing zone's readiness is vital for the technical infrastructure of the UMS.
-HSBC Squad Allocation: The successful allocation of a cross-functional HSBC squad is necessary to staff the project effectively and ensure diverse expertise.
+Acme Inc Squad Allocation: The successful allocation of a cross-functional Acme Inc squad is necessary to staff the project effectively and ensure diverse expertise.
 Immediate Next Steps:
 Executive Endorsement: Secure endorsement of the proposed approach from key executives (Venkat/Catherine) to gain high-level buy-in and support.
 Core Team Onboarding: Onboard the core multidisciplinary team, including deep technical engineers, change-management leads, and finance partners, to establish day-to-day ownership of the project.

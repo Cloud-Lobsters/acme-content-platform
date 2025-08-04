@@ -140,10 +140,15 @@ nav .bg-white {
   background-color: white !important;
 }
 
-/* Fix button hover states in nav */
+/* Fix button hover states in nav - consistent 20% opacity for all states */
 nav button:hover {
   background-color: rgba(255, 255, 255, 0.2) !important;
   color: white !important;
+}
+
+/* Prevent hover from increasing opacity beyond 20% for active buttons */
+nav button[class*="bg-white/20"]:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 /* Fix active navigation states */

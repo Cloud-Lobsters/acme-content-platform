@@ -44,7 +44,7 @@ start	end	text
 379680	386800	some parts of it we will leverage, like for example, we will not be owning the Hawaii Lab.
 389120	395680	No, no, no, and this proposal doesn't, this doesn't assume that we would own any
 396960	405760	applications, this is assuming that we will leverage PEGA and Adobe or have the ability
-405760	416880	to build in-house those modules that Adobe and PEGA provide to HSBC and deliver content
+405760	416880	to build in-house those modules that Adobe and PEGA provide to Acme Inc and deliver content
 417680	424800	out into those channels. This is not saying that we are going to own mobile or browser
 424800	432240	or any other platform, this is about when there is demand coming in from each of these areas,
 432240	440160	so for accounts, if there was an onboarding email that needed to go out, making sure that we

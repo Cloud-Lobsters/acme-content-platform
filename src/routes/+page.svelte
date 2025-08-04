@@ -35,12 +35,12 @@
 	];
 
 	let problems = [
-		{ title: 'Fragmented Ownership', desc: '7+ teams managing content across different channels' },
-		{ title: 'Slow Time-to-Market', desc: '6+ months to change templates, blocking campaigns' },
-		{ title: 'High Costs', desc: '£10-20M annually on redundant marketing technology' },
-		{ title: 'Customer Confusion', desc: 'Conflicting messages, uncoordinated communications' },
-		{ title: 'Platform Incidents', desc: '~3 major messaging incidents monthly' },
-		{ title: 'No Single View', desc: 'Channel-first approach, not customer-centric' }
+		{ title: 'Template Change Delays', desc: '6+ months required to update messaging templates' },
+		{ title: 'Conflicting Customer Messages', desc: 'Uncoordinated communications across channels' },
+		{ title: 'No Single Customer View', desc: 'Fragmented data prevents unified customer experience' },
+		{ title: 'Channel-First Approach', desc: 'Technology-driven rather than customer-centric design' },
+		{ title: 'Annual Technology Waste', desc: '£10-20M spent on redundant marketing systems' },
+		{ title: 'System Reliability Issues', desc: '~3 major messaging platform incidents monthly' }
 	];
 
 	let benefits = [
@@ -69,14 +69,18 @@
 			Venkat's strategic initiative to transform Acme Inc's fragmented content and messaging ecosystem into a unified, customer-centric platform
 		</p>
 		<div class="flex gap-4 justify-center">
-			<Button size="lg" class="bg-[#db0011] hover:bg-[#db0011]/90">
-				<FileText class="mr-2 h-4 w-4" />
-				View Content Platform
-			</Button>
-			<Button variant="outline" size="lg">
-				<Settings class="mr-2 h-4 w-4" />
-				Technical Architecture
-			</Button>
+			<a href="/platform">
+				<Button size="lg" class="bg-[#db0011] hover:bg-[#db0011]/90">
+					<FileText class="mr-2 h-4 w-4" />
+					View Content Platform
+				</Button>
+			</a>
+			<a href="/architecture">
+				<Button variant="outline" size="lg">
+					<Settings class="mr-2 h-4 w-4" />
+					Technical Architecture
+				</Button>
+			</a>
 		</div>
 	</div>
 
@@ -126,9 +130,9 @@
 	</div>
 
 	<!-- Current Problems vs Vision -->
-	<div class="grid lg:grid-cols-2 gap-8 mb-16">
+	<div class="flex flex-col lg:flex-row gap-8 mb-16 items-start">
 		<!-- Current Problems -->
-		<Card class="border-red-200 bg-red-50/50">
+		<Card class="border-red-200 bg-red-50/50 flex-1 max-w-lg">
 			<CardHeader>
 				<CardTitle class="text-red-700 flex items-center">
 					🚨 Current State Problems
@@ -147,7 +151,7 @@
 		</Card>
 
 		<!-- Venkat's Vision -->
-		<Card class="border-green-200 bg-green-50/50">
+		<Card class="border-green-200 bg-green-50/50 flex-1 max-w-lg">
 			<CardHeader>
 				<CardTitle class="text-green-700 flex items-center">
 					🎯 Venkat's Integrated Vision
@@ -169,39 +173,43 @@
 
 	<!-- Quick Actions / Navigation -->
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-		<Card class="hover:shadow-lg transition-shadow cursor-pointer group">
-			<CardHeader>
-				<div class="h-12 w-12 bg-[#db0011]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#db0011]/20 transition-colors">
-					<FileText class="h-6 w-6 text-[#db0011]" />
-				</div>
-				<CardTitle class="text-lg">Content Platform</CardTitle>
-			</CardHeader>
-			<CardContent>
-				<CardDescription class="mb-4">
-					Modern HTML5 interface replacing Excel/Jira workflows
-				</CardDescription>
-				<Button variant="ghost" size="sm" class="p-0 h-auto text-[#db0011] hover:text-[#db0011]/80">
-					Explore Platform <ArrowRight class="ml-1 h-4 w-4" />
-				</Button>
-			</CardContent>
-		</Card>
+		<a href="/platform">
+			<Card class="hover:shadow-lg transition-shadow cursor-pointer group">
+				<CardHeader>
+					<div class="h-12 w-12 bg-[#db0011]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#db0011]/20 transition-colors">
+						<FileText class="h-6 w-6 text-[#db0011]" />
+					</div>
+					<CardTitle class="text-lg">Content Platform</CardTitle>
+				</CardHeader>
+				<CardContent>
+					<CardDescription class="mb-4">
+						Modern HTML5 interface replacing Excel/Jira workflows
+					</CardDescription>
+					<Button variant="ghost" size="sm" class="p-0 h-auto text-[#db0011] hover:text-[#db0011]/80">
+						Explore Platform <ArrowRight class="ml-1 h-4 w-4" />
+					</Button>
+				</CardContent>
+			</Card>
+		</a>
 
-		<Card class="hover:shadow-lg transition-shadow cursor-pointer group">
-			<CardHeader>
-				<div class="h-12 w-12 bg-[#db0011]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#db0011]/20 transition-colors">
-					<Settings class="h-6 w-6 text-[#db0011]" />
-				</div>
-				<CardTitle class="text-lg">Architecture</CardTitle>
-			</CardHeader>
-			<CardContent>
-				<CardDescription class="mb-4">
-					Technical specifications and system integration details
-				</CardDescription>
-				<Button variant="ghost" size="sm" class="p-0 h-auto text-[#db0011] hover:text-[#db0011]/80">
-					View Docs <ArrowRight class="ml-1 h-4 w-4" />
-				</Button>
-			</CardContent>
-		</Card>
+		<a href="/architecture">
+			<Card class="hover:shadow-lg transition-shadow cursor-pointer group">
+				<CardHeader>
+					<div class="h-12 w-12 bg-[#db0011]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#db0011]/20 transition-colors">
+						<Settings class="h-6 w-6 text-[#db0011]" />
+					</div>
+					<CardTitle class="text-lg">Architecture</CardTitle>
+				</CardHeader>
+				<CardContent>
+					<CardDescription class="mb-4">
+						Technical specifications and system integration details
+					</CardDescription>
+					<Button variant="ghost" size="sm" class="p-0 h-auto text-[#db0011] hover:text-[#db0011]/80">
+						View Docs <ArrowRight class="ml-1 h-4 w-4" />
+					</Button>
+				</CardContent>
+			</Card>
+		</a>
 	</div>
 
 </div>

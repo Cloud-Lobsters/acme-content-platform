@@ -176,23 +176,23 @@
 </script>
 
 <svelte:head>
-	<title>HSBC Content Platform - Technical Architecture</title>
+	<title>Acme Inc Content Platform - Technical Architecture</title>
 </svelte:head>
 
 <div class="min-h-screen bg-gray-50">
 	<!-- Header -->
-	<div class="bg-gradient-to-r from-[#db0011] to-[#a50000] text-white">
-		<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-			<div class="text-center">
-				<Badge variant="secondary" class="mb-4 bg-white/20 text-white">
-					Technical Architecture
-				</Badge>
-				<h1 class="mb-4 text-4xl font-bold">Platform Architecture Overview</h1>
-				<p class="mx-auto max-w-3xl text-xl text-white/90">
-					Comprehensive technical design for HSBC's unified content and messaging platform,
-					supporting 600M+ monthly communications across 26+ global markets
-				</p>
+	<div class="container mx-auto px-4 py-8">
+		<div class="text-center mb-12">
+			<div class="flex justify-center mb-6">
+				<Badge variant="secondary" class="text-sm">Technical Architecture</Badge>
 			</div>
+			<h1 class="text-4xl font-bold tracking-tight text-foreground mb-4">
+				Platform Architecture Overview
+			</h1>
+			<p class="text-xl text-muted-foreground max-w-3xl mx-auto">
+				Comprehensive technical design for Acme Inc's unified content and messaging platform,
+				supporting 600M+ monthly communications across 26+ global markets
+			</p>
 		</div>
 	</div>
 
@@ -229,11 +229,9 @@
 		<!-- Integration Points -->
 		<Card class="mb-8">
 			<CardHeader>
-				<CardTitle class="flex items-center gap-2 text-2xl">
-					🔌 System Integration Points
-				</CardTitle>
+				<CardTitle class="flex items-center gap-2 text-2xl">🔌 System Integration Points</CardTitle>
 				<CardDescription>
-					API integrations with existing HSBC systems and third-party services
+					API integrations with existing Acme Inc systems and third-party services
 				</CardDescription>
 			</CardHeader>
 			<CardContent>
@@ -269,9 +267,7 @@
 		<!-- Technology Stack -->
 		<Card class="mb-8">
 			<CardHeader>
-				<CardTitle class="flex items-center gap-2 text-2xl">
-					💻 Technology Stack
-				</CardTitle>
+				<CardTitle class="flex items-center gap-2 text-2xl">💻 Technology Stack</CardTitle>
 				<CardDescription>
 					Modern, enterprise-grade technologies chosen for reliability and scalability
 				</CardDescription>
@@ -299,9 +295,7 @@
 			<!-- Security & Compliance -->
 			<Card>
 				<CardHeader>
-					<CardTitle class="flex items-center gap-2 text-xl">
-						🔒 Security & Compliance
-					</CardTitle>
+					<CardTitle class="flex items-center gap-2 text-xl">🔒 Security & Compliance</CardTitle>
 					<CardDescription>Enterprise security measures and regulatory compliance</CardDescription>
 				</CardHeader>
 				<CardContent>
@@ -319,9 +313,7 @@
 			<!-- Performance Metrics -->
 			<Card>
 				<CardHeader>
-					<CardTitle class="flex items-center gap-2 text-xl">
-						📊 Performance Metrics
-					</CardTitle>
+					<CardTitle class="flex items-center gap-2 text-xl">📊 Performance Metrics</CardTitle>
 					<CardDescription>Key performance indicators and current system health</CardDescription>
 				</CardHeader>
 				<CardContent>
@@ -341,11 +333,9 @@
 		</div>
 
 		<!-- Deployment Pipeline -->
-		<Card class="mb-8 mt-8">
+		<Card class="mt-8 mb-8">
 			<CardHeader>
-				<CardTitle class="flex items-center gap-2 text-2xl">
-					🚀 Deployment Pipeline
-				</CardTitle>
+				<CardTitle class="flex items-center gap-2 text-2xl">🚀 Deployment Pipeline</CardTitle>
 				<CardDescription>
 					Automated CI/CD pipeline ensuring safe and reliable deployments
 				</CardDescription>
@@ -366,16 +356,15 @@
 		<!-- Code Examples -->
 		<Card class="mb-8">
 			<CardHeader>
-				<CardTitle class="flex items-center gap-2 text-2xl">
-					💻 Implementation Examples
-				</CardTitle>
+				<CardTitle class="flex items-center gap-2 text-2xl">💻 Implementation Examples</CardTitle>
 				<CardDescription>Key code patterns and API examples</CardDescription>
 			</CardHeader>
 			<CardContent class="space-y-6">
 				<div>
 					<h3 class="mb-3 text-lg font-semibold text-[#db0011]">Message API Endpoint</h3>
 					<div class="rounded-lg bg-gray-900 p-4 text-white">
-						<pre class="text-sm"><code>{`// POST /api/v1/messages
+						<pre class="text-sm"><code
+								>{`// POST /api/v1/messages
 {
   "campaignId": "cc-launch-2024-q4",
   "audience": {
@@ -395,7 +384,8 @@
     "sendTime": "2024-09-01T09:00:00+08:00",
     "timezone": "Asia/Hong_Kong"
   }
-}`}</code></pre>
+}`}</code
+							></pre>
 					</div>
 				</div>
 
@@ -406,8 +396,9 @@
 						Real-time Content Synchronization
 					</h3>
 					<div class="rounded-lg bg-gray-900 p-4 text-white">
-						<pre class="text-sm"><code>{`// WebSocket connection for live content updates
-const contentSocket = new WebSocket('wss://api.hsbc.com/content/live');
+						<pre class="text-sm"><code
+								>{`// WebSocket connection for live content updates
+const contentSocket = new WebSocket('wss://api.Acme Inc.com/content/live');
 
 contentSocket.on('template-updated', (event) => {
   const { templateId, version, changes } = event.data;
@@ -420,7 +411,8 @@ contentSocket.on('template-updated', (event) => {
   
   // Log audit trail
   auditLog.record('template-sync', { templateId, version });
-});`}</code></pre>
+});`}</code
+							></pre>
 					</div>
 				</div>
 
@@ -429,7 +421,8 @@ contentSocket.on('template-updated', (event) => {
 				<div>
 					<h3 class="mb-3 text-lg font-semibold text-[#db0011]">Kafka Message Processing</h3>
 					<div class="rounded-lg bg-gray-900 p-4 text-white">
-						<pre class="text-sm"><code>{`// High-throughput message processing
+						<pre class="text-sm"><code
+								>{`// High-throughput message processing
 const kafka = require('kafkajs');
 
 const consumer = kafka.consumer({ groupId: 'message-delivery' });
@@ -459,7 +452,8 @@ await consumer.run({
       market: messageData.market
     });
   },
-});`}</code></pre>
+});`}</code
+							></pre>
 					</div>
 				</div>
 			</CardContent>
