@@ -15,5 +15,8 @@ This directory contains Acme Inc-related documents and data files:
 - Contains sensitive financial institution materials that should be handled carefully
 - When working with these files, maintain confidentiality and follow appropriate data handling practices
 
-
 Venkat is the project lead and Tracey his subordinate, the point of this is to chart a path forward to rationalise messaging in the bank.
+
+## Meetings
+
+- All meetings transcripts are stored in ./Documents/Meetings. Use that when asked about HSBC
