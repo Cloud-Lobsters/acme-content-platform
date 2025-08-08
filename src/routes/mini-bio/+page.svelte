@@ -180,23 +180,23 @@
 <div
 	class="font-['Georgia','Times New Roman',serif] mx-auto max-w-[210mm] bg-white text-gray-900 shadow-sm print:mx-0 print:my-0 print:max-w-none print:w-full print:shadow-none print:bg-white"
 >
-	<!-- Document Header -->
+	<!-- Document Header / Cover Page -->
 	<header
-		class="bg-gradient-to-r from-red-600 to-red-700 p-6 text-white print:bg-red-700 print:p-4"
+		class="bg-gradient-to-r from-red-600 to-red-700 p-6 text-white print:bg-red-700 print:h-screen print:flex print:items-center print:justify-center print:p-0"
 	>
-		<div class="border-l-4 border-white pl-4 print:border-l-2 print:pl-3">
-			<h1 class="text-2xl font-bold tracking-wide print:text-lg print:tracking-normal">
+		<div class="border-l-4 border-white pl-4 print:border-l-0 print:pl-0 print:text-center print:space-y-4">
+			<h1 class="text-2xl font-bold tracking-wide print:text-4xl print:tracking-normal print:mb-6">
 				HSBC Messaging Rationalization Initiative
 			</h1>
-			<p class="mt-1 text-sm font-medium text-red-100 print:text-xs print:text-red-600">Team Profile & Capabilities</p>
+			<p class="mt-1 text-sm font-medium text-red-100 print:text-2xl print:!text-black print:mt-8">Team Profile & Capabilities</p>
 		</div>
 	</header>
 
 	<!-- Main Content -->
-	<main class="space-y-8 p-8 print:space-y-2 print:p-2 print:mx-0">
+	<main class="space-y-8 p-8 print:space-y-2 print:p-2 print:mx-0 print:break-before-page">
 		<!-- Executive Summary -->
 		<div class="rounded-lg bg-red-600 p-6 text-white print:bg-red-700 print:p-2 print-avoid-break">
-			<h3 class="mb-4 text-xl font-bold print:mb-1 print:text-xs">Executive Summary</h3>
+			<h3 class="mb-4 text-xl font-bold print:mb-1 print:text-xs print:!text-white">Executive Summary</h3>
 			<p class="leading-relaxed text-red-50 print:text-xs print:leading-tight print:mb-0">
 				This team combines deep banking sector knowledge, cutting-edge technical capabilities, and
 				proven delivery excellence to execute HSBC's messaging rationalization initiative across
@@ -609,6 +609,11 @@
 		}
 
 		.text-red-50, .text-red-100 {
+			color: white !important;
+		}
+		
+		/* Force white text on cover page */
+		header p {
 			color: white !important;
 		}
 
