@@ -188,7 +188,7 @@
 			<h1 class="text-2xl font-bold tracking-wide print:text-lg print:tracking-normal">
 				HSBC Messaging Rationalization Initiative
 			</h1>
-			<p class="mt-1 text-sm font-medium text-red-100 print:text-xs">Team Profile & Capabilities</p>
+			<p class="mt-1 text-sm font-medium text-red-100 print:text-xs print:text-red-600">Team Profile & Capabilities</p>
 		</div>
 	</header>
 
@@ -426,14 +426,14 @@
 
 
 		{#each teamMembers as member, index}
-			<div class="team-member-section">
+			<div class="team-member-section {index === 2 ? 'print:break-before-page leon-alex-group' : ''}">
 				<MiniBio {...member} />
 			</div>
 		{/each}
 
 
 		<!-- Statement of Work -->
-		<section class="rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:border-red-700 print:p-6 print:shadow-none print-avoid-break">
+		<section class="rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:border-red-700 print:p-6 print:shadow-none print-avoid-break print:break-before-page">
 			<div class="mb-6 text-center print:mb-4">
 				<h2 class="text-2xl font-bold text-red-700 print:text-lg">Statement of Work</h2>
 				<div class="mx-auto mt-2 h-1 w-24 bg-red-600 print:mt-1 print:h-0.5 print:w-16"></div>
@@ -750,6 +750,22 @@
 		.team-member-section {
 			break-inside: avoid !important;
 			page-break-inside: avoid !important;
+		}
+		
+		/* Leon and Alex should be on same page */
+		.print\:break-before-page {
+			break-before: page !important;
+			page-break-before: always !important;
+		}
+		
+		.leon-alex-group {
+			break-after: avoid !important;
+			page-break-after: avoid !important;
+		}
+		
+		.leon-alex-group + .team-member-section {
+			break-before: avoid !important;
+			page-break-before: avoid !important;
 		}
 
 		/* Contract summary optimization */
