@@ -4,7 +4,7 @@
 	const teamMembers = [
 		{
 			role: 'Lead Technical Architect',
-			name: 'Duncan F.M. Elliot',
+			name: 'Duncan Elliot',
 			credentials: 'MEng Imperial College London | ACA Chartered Accountant (ICAEW)',
 			contact: '07801 638 162 | duncan@cloudlobsters.com',
 			description:
@@ -15,7 +15,7 @@
 					highlight: true
 				},
 				{
-					text: 'Former KPMG Senior Manager with extensive HSBC, Citigroup, and Barclays audit experience',
+					text: 'Former KPMG Senior Manager with extensive HSBC, Citigroup, and Barclays audit and financial modelling experience',
 					highlight: true
 				},
 				{
@@ -85,10 +85,6 @@
 				{
 					text: 'Proven management and client relationship management expertise across complex financial projects',
 					highlight: false
-				},
-				{
-					text: 'Trusted pair of hands when the mission is critical - reliable delivery under pressure',
-					highlight: true
 				}
 			],
 			highlight:
@@ -167,7 +163,7 @@
 				}
 			],
 			highlight:
-				"Alexander will be core to replicating key PEGA functionality within the bank's in-house systems. His exceptional technical depth and financial services infrastructure understanding ensures delivery of scalable, mission-critical systems within the engagement timeline."
+				'Alexander will be core to assessing PEGA functionality that can be in-housed. His exceptional technical depth and financial services infrastructure understanding ensures delivery of scalable, mission-critical systems within the engagement timeline.'
 		}
 	];
 </script>
@@ -188,7 +184,7 @@
 			class="border-l-4 border-white pl-4 print:space-y-4 print:border-l-0 print:pl-0 print:text-center"
 		>
 			<h1 class="text-2xl font-bold tracking-wide print:mb-6 print:text-4xl print:tracking-normal">
-				HSBC Messaging Rationalization Initiative
+				HSBC Messaging Rationalisation Initiative
 			</h1>
 			<p class="mt-1 text-sm font-medium text-red-100 print:mt-8 print:text-2xl print:!text-black">
 				Team Profile & Capabilities
@@ -205,7 +201,7 @@
 			</h3>
 			<p class="leading-relaxed text-red-50 print:mb-0 print:text-xs print:leading-tight">
 				This team combines deep banking sector knowledge, cutting-edge technical capabilities, and
-				proven delivery excellence to execute HSBC's messaging rationalization initiative across
+				proven delivery excellence to execute HSBC's messaging rationalisation initiative across
 				both template compliance assessment and Innovation Banking content management workflow
 				optimisation.
 			</p>
@@ -425,7 +421,7 @@
 			class="print-avoid-break rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:break-before-page print:border-red-700 print:p-6 print:shadow-none"
 		>
 			<div class="mb-6 text-center print:mb-4">
-				<h2 class="text-2xl font-bold text-red-700 print:text-lg">Statement of Work</h2>
+				<h2 class="text-2xl font-bold text-red-700 print:text-xs">Statement of Work</h2>
 				<div class="mx-auto mt-2 h-1 w-24 bg-red-600 print:mt-1 print:h-0.5 print:w-16"></div>
 			</div>
 
@@ -443,10 +439,10 @@
 				<div
 					class="rounded-lg bg-gray-50 p-6 print:border print:border-gray-300 print:bg-white print:p-4"
 				>
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
 						Scope of Work
 					</h3>
-					<ul class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
+					<ul class="space-y-3 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
@@ -464,30 +460,6 @@
 								development</span
 							>
 						</li>
-						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
-							></span>
-							<span
-								><strong>Adobe Functionality Analysis:</strong> Assess core Adobe Creative Suite features
-								currently used and evaluate potential alternatives for future consideration</span
-							>
-						</li>
-						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
-							></span>
-							<span
-								><strong>PEGA Workflow Assessment:</strong> Analyse current PEGA workflow usage and document
-								requirements for future strategic planning</span
-							>
-						</li>
-						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
-							></span>
-							<span
-								><strong>Global Messaging Standardisation:</strong> Implement consistent messaging framework
-								across international operations</span
-							>
-						</li>
 					</ul>
 				</div>
 
@@ -495,10 +467,10 @@
 				<div
 					class="rounded-lg bg-gray-50 p-6 print:border print:border-gray-300 print:bg-white print:p-4"
 				>
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
 						Project Details
 					</h3>
-					<div class="space-y-4 text-gray-800 print:space-y-3 print:text-sm">
+					<div class="space-y-4 text-gray-800 print:space-y-1 print:text-xs">
 						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
 							<span class="font-medium">Team Size:</span>
 							<span class="font-semibold">5 FTEs</span>
@@ -526,10 +498,10 @@
 				<div
 					class="rounded-lg bg-yellow-50 p-6 print:border print:border-yellow-400 print:bg-white print:p-4"
 				>
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
 						HSBC Internal Resource Requirements
 					</h3>
-					<div class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
+					<div class="space-y-3 text-gray-800 print:space-y-1 print:text-xs">
 						<p>
 							<strong>Template Compliance Workstream:</strong> 1 dedicated FTE from relevant compliance
 							or risk team with deep knowledge of HSBC's template governance and regulatory requirements.
@@ -555,14 +527,15 @@
 				<div
 					class="rounded-lg bg-blue-50 p-6 print:border print:border-blue-400 print:bg-white print:p-4"
 				>
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
 						Technical Requirements & Infrastructure Access
 					</h3>
-					<div class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
+					<div class="space-y-3 text-gray-800 print:space-y-1 print:text-xs">
 						<p>
 							<strong>Tooling Flexibility:</strong> Cloud Lobsters requires flexibility to utilize our
 							proven UI frameworks and development tools (including Svelte 5, modern component architecture,
-							and specialized financial services libraries) to ensure optimal delivery speed and quality.
+							and specialized financial services libraries) as well as AI tooling (Anthropic) to ensure
+							optimal delivery speed and quality.
 						</p>
 						<p>
 							<strong>Infrastructure Access:</strong> Ready access to HSBC's development and staging
@@ -586,7 +559,7 @@
 			<div
 				class="mt-8 rounded-lg bg-red-50 p-6 print:mt-6 print:border-2 print:border-red-600 print:bg-white print:p-4"
 			>
-				<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+				<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
 					Key Deliverables
 				</h3>
 				<div class="grid grid-cols-1 gap-4 md:grid-cols-3 print:grid-cols-3 print:gap-3">
@@ -609,8 +582,8 @@
 			<div
 				class="contract-summary mt-6 rounded-lg bg-red-600 p-6 text-white print:mt-4 print:bg-red-700 print:p-4"
 			>
-				<h3 class="mb-3 text-xl font-bold print:mb-2 print:text-base">Contract Summary</h3>
-				<p class="leading-relaxed text-red-50 print:text-xs print:leading-normal">
+				<h3 class="mb-3 text-xl font-bold print:mb-1 print:text-xs">Contract Summary</h3>
+				<p class="leading-relaxed text-red-50 print:text-xs print:leading-tight">
 					Fixed-price 3-months engagement delivering Template Compliance Assessment and Innovation
 					Banking workstreams. Our specialist team will aim to streamline direct to client messaging
 					at Innovation Banking, aiming to replicate some of the Adobe and PEGA functionalities as
