@@ -226,34 +226,34 @@
 					</h3>
 					<ul class="space-y-2 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span class="font-medium">Direct HSBC audit and systems experience</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Major bank remediation programs (PPI, mortgage, credit)</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Regulatory compliance (Section 166, data trails, audit frameworks)</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Advanced financial modelling and working capital analysis</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span
 								>Expert financial modelling for complex banking calculations and risk assessment</span
 							>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Fintech product design across global markets</span>
 						</li>
@@ -267,36 +267,15 @@
 					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
 						Advanced Technology Stack
 					</h3>
-					<ul class="space-y-3 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
-						<li>
-							<span class="font-semibold text-red-600">Languages:</span> TypeScript, JavaScript, Python,
-							Go, C#, SQL, VBA/VB, Bash scripting
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">Frameworks:</span> SvelteKit, React, Next.js,
-							Angular, Flutter, Express.js, NestJS
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">Databases:</span> PostgreSQL, MongoDB, SQL Server,
-							Redis, Vector DBs
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">Cloud & Infrastructure:</span> AWS (full stack),
-							Kubernetes, Docker, Terraform
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">AI/ML:</span> LLM deployment, fine-tuning, stable
-							diffusion, ChatGPT integration
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">DevOps:</span> CI/CD pipelines, ELK Stack, Prometheus,
-							Cloudflare
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">Systems:</span> Linux administration, Terminal/CLI
-							expertise, Server management
-						</li>
-					</ul>
+					<div class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-tight tech-stack-no-bullets">
+						<p><span class="font-semibold text-red-600">Languages:</span> TypeScript, JavaScript, Python, Go, C#, SQL, VBA/VB, Bash scripting</p>
+						<p><span class="font-semibold text-red-600">Frameworks:</span> SvelteKit, React, Next.js, Angular, Flutter, Express.js, NestJS</p>
+						<p><span class="font-semibold text-red-600">Databases:</span> PostgreSQL, MongoDB, SQL Server, Redis, Vector DBs</p>
+						<p><span class="font-semibold text-red-600">Cloud & Infrastructure:</span> AWS (full stack), Kubernetes, Docker, Terraform</p>
+						<p><span class="font-semibold text-red-600">AI/ML:</span> LLM deployment, fine-tuning, stable diffusion, ChatGPT integration</p>
+						<p><span class="font-semibold text-red-600">DevOps:</span> CI/CD pipelines, ELK Stack, Prometheus, Cloudflare</p>
+						<p><span class="font-semibold text-red-600">Systems:</span> Linux administration, Terminal/CLI expertise, Server management</p>
+					</div>
 				</div>
 
 				<!-- Specialised Capabilities -->
@@ -308,36 +287,36 @@
 					</h3>
 					<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-snug">
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Template engines and content management systems</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span class="font-medium"
 								>Automated calculation systems with 1,200%+ efficiency improvements</span
 							>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Multi-language support (English, Spanish, Italian, German)</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span
 								>Cross-cultural product design across DACH, Asian, and Latin American markets</span
 							>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Real-time messaging integration (Twilio, SendGrid)</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Webhook implementation and event-driven architecture</span>
 						</li>
@@ -353,32 +332,32 @@
 					</h3>
 					<ul class="space-y-2 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>3-month fixed engagement experience</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>20-day onboarding processes</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span class="font-medium">Proven regulatory penalty avoidance track record</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>High-value, high-risk project delivery under tight deadlines</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Proven scalability from small markets to enterprise-wide implementations</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
 							></span>
 							<span>Strong stakeholder management across international teams</span>
 						</li>
@@ -452,23 +431,23 @@
 					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">Scope of Work</h3>
 					<ul class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"></span>
 							<span><strong>Template Compliance Assessment:</strong> Comprehensive review and analysis of 300-400 existing templates for regulatory compliance</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"></span>
 							<span><strong>Innovation Banking Workflow Optimisation:</strong> Collaborate with Innovation House to understand requirements and develop MVP to inform long-term robust solution development</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"></span>
 							<span><strong>Adobe Functionality Analysis:</strong> Replicate core Adobe Creative Suite features and scope potential in-house replacement strategies (evaluation only)</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"></span>
 							<span><strong>PEGA Functionality Assessment:</strong> Replicate key PEGA workflow capabilities and assess feasibility for future in-house development (scoping only)</span>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"></span>
 							<span><strong>Global Messaging Standardisation:</strong> Implement consistent messaging framework across international operations</span>
 						</li>
 					</ul>
@@ -600,6 +579,64 @@
 			color: white !important;
 			print-color-adjust: exact;
 			-webkit-print-color-adjust: exact;
+		}
+		
+		/* Ensure all bullet points are red */
+		.bg-red-600.rounded-full,
+		span.bg-red-600.rounded-full,
+		.rounded-full.bg-red-600 {
+			background-color: #db0011 !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+		
+		/* Force red color for all bullet-like elements */
+		.h-1.w-1.rounded-full,
+		.w-1.h-1.rounded-full {
+			background-color: #db0011 !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+		
+		/* Force smaller bullet size in print */
+		span.rounded-full.bg-red-600 {
+			width: 3px !important;
+			height: 3px !important;
+			min-width: 3px !important;
+			min-height: 3px !important;
+			max-width: 3px !important;
+			max-height: 3px !important;
+			margin-top: 6px !important;
+			display: inline-block !important;
+			vertical-align: middle !important;
+			transform: translateY(-1px) !important;
+		}
+		
+		/* Remove default bullets from ALL elements, then add back our custom ones */
+		ul, ol, li, p, div {
+			list-style: none !important;
+			list-style-type: none !important;
+		}
+		
+		/* Hide any default markers */
+		*::marker {
+			display: none !important;
+			content: none !important;
+		}
+		
+		/* Specifically remove bullets from tech stack */
+		.tech-stack-no-bullets,
+		.tech-stack-no-bullets * {
+			list-style: none !important;
+			list-style-type: none !important;
+		}
+		
+		.tech-stack-no-bullets::before,
+		.tech-stack-no-bullets::after,
+		.tech-stack-no-bullets *::before,
+		.tech-stack-no-bullets *::after {
+			display: none !important;
+			content: none !important;
 		}
 
 		.bg-red-50 {

@@ -82,7 +82,7 @@
 			<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-snug">
 				{#each qualifications as qualification}
 					<li class="flex items-start gap-2">
-						<span class="w-1.5 h-1.5 bg-red-600 rounded-full mt-2 flex-shrink-0 print:mt-1.5"></span>
+						<span class="w-1 h-1 bg-red-600 rounded-full mt-1.5 flex-shrink-0 print:mt-1"></span>
 						<span class:font-medium={qualification.highlight}>{qualification.text}</span>
 					</li>
 				{/each}
