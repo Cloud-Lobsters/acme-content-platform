@@ -413,7 +413,11 @@
 
 		{#each teamMembers as member, index}
 			<div
-				class="team-member-section {index === 2 ? 'leon-alex-group print:break-before-page' : ''}"
+				class="team-member-section {index === 0
+					? 'duncan-first print:break-before-page'
+					: ''} {index === 1 ? 'tara-second' : ''} {index === 2
+					? 'leon-alex-group print:break-before-page'
+					: ''}"
 			>
 				<MiniBio {...member} showAvatar={false} />
 			</div>
@@ -603,6 +607,24 @@
 		@page {
 			size: A4;
 			margin: 5mm 8mm 10mm 8mm;
+			@top-left {
+				content: '';
+			}
+			@top-center {
+				content: '';
+			}
+			@top-right {
+				content: '';
+			}
+			@bottom-left {
+				content: '';
+			}
+			@bottom-center {
+				content: '';
+			}
+			@bottom-right {
+				content: '';
+			}
 		}
 
 		/* Main container adjustments for maximum A4 width */
@@ -875,6 +897,17 @@
 			page-break-inside: avoid !important;
 		}
 
+		/* Duncan and Tara should be on same page */
+		.duncan-first {
+			break-after: avoid !important;
+			page-break-after: avoid !important;
+		}
+
+		.tara-second {
+			break-before: avoid !important;
+			page-break-before: avoid !important;
+		}
+
 		/* Leon and Alex should be on same page */
 		.print\:break-before-page {
 			break-before: page !important;
@@ -889,6 +922,23 @@
 		.leon-alex-group + .team-member-section {
 			break-before: avoid !important;
 			page-break-before: avoid !important;
+		}
+
+		/* Remove URLs when printing - Chrome specific */
+		a[href]:after,
+		a[href]::after {
+			display: none !important;
+			content: none !important;
+		}
+
+		a {
+			text-decoration: none !important;
+		}
+
+		/* Force hide any generated content after links */
+		*:after,
+		*::after {
+			content: none !important;
 		}
 
 		/* Contract summary optimization */
