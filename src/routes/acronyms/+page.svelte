@@ -90,10 +90,10 @@
 	<title>Acme Inc Acronyms Dictionary</title>
 </svelte:head>
 
-<div class="min-h-screen bg-gray-50">
-	<div class="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+<div class="min-h-screen bg-gray-50 print:bg-white">
+	<div class="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8 print:px-2 print:py-4">
 		<!-- Search -->
-		<div class="mb-8 text-center">
+		<div class="mb-8 text-center no-print">
 			<div class="mx-auto max-w-md">
 				<Input
 					type="text"
@@ -105,18 +105,18 @@
 		</div>
 
 		<!-- Stats -->
-		<div class="mb-8 text-center text-gray-600">
-			<span class="text-lg font-semibold">{filteredAcronyms.length}</span>
+		<div class="mb-8 text-center text-gray-600 print:mb-4">
+			<span class="text-lg font-semibold print:text-base">{filteredAcronyms.length}</span>
 			{filteredAcronyms.length === 1 ? 'acronym' : 'acronyms'}
 			{searchTerm ? 'found' : 'in total'}
 		</div>
 
 		<!-- Acronyms Grid -->
 		{#if filteredAcronyms.length > 0}
-			<div class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+			<div class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 print:grid-cols-2 print-grid-2 print:gap-3">
 				{#each filteredAcronyms as acronym}
 					<Card
-						class="border-l-4 border-l-[#db0011] transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
+						class="border-l-4 border-l-[#db0011] transition-all duration-200 hover:-translate-y-1 hover:shadow-lg print-avoid-break"
 					>
 						<CardHeader class="pb-3">
 							<CardTitle class="text-xl font-bold text-[#db0011]">
@@ -142,7 +142,7 @@
 		{/if}
 
 		<!-- Back to Home -->
-		<div class="mt-12 text-center">
+		<div class="mt-12 text-center no-print">
 			<a
 				href="/"
 				class="inline-block rounded-lg bg-[#db0011] px-6 py-3 font-semibold text-white transition-colors hover:bg-[#a50000]"
@@ -152,3 +152,73 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	@media print {
+		@page {
+			size: A4;
+			margin: 15mm 20mm 15mm 20mm;
+		}
+
+		body {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+			color: black !important;
+			font-size: 11pt;
+		}
+
+		/* Hide elements */
+		.no-print {
+			display: none !important;
+		}
+
+		/* Avoid page breaks */
+		.print-avoid-break {
+			break-inside: avoid;
+			page-break-inside: avoid;
+		}
+
+		/* Grid adjustments */
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+
+		/* Text and color adjustments */
+		h1, h2, h3, h4, h5, h6 {
+			color: black !important;
+			font-weight: bold !important;
+		}
+
+		.text-\[\#db0011\] {
+			color: black !important;
+		}
+
+		.text-muted-foreground, .text-gray-600, .text-gray-700 {
+			color: #666 !important;
+		}
+
+		/* Card and layout adjustments */
+		[class*="card"] {
+			border: 1px solid #ccc !important;
+			background: white !important;
+			box-shadow: none !important;
+		}
+
+		/* Remove hover states */
+		*:hover {
+			transform: none !important;
+			box-shadow: none !important;
+		}
+
+		/* Button styles */
+		button, .btn, [class*="button"], input {
+			display: none !important;
+		}
+
+		/* Links in print */
+		a {
+			color: black !important;
+			text-decoration: none !important;
+		}
+	}
+</style>

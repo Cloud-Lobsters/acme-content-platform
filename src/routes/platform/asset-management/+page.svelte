@@ -446,3 +446,94 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	@media print {
+		@page {
+			size: A4;
+			margin: 15mm 20mm 15mm 20mm;
+		}
+
+		body {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+			color: black !important;
+			font-size: 11pt;
+		}
+
+		/* Hide elements */
+		.no-print {
+			display: none !important;
+		}
+
+		/* Avoid page breaks */
+		.print-avoid-break {
+			break-inside: avoid;
+			page-break-inside: avoid;
+		}
+
+		/* Grid adjustments */
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+
+		/* Text and color adjustments */
+		h1, h2, h3, h4, h5, h6 {
+			color: black !important;
+			font-weight: bold !important;
+		}
+
+		.text-\[\#db0011\] {
+			color: black !important;
+		}
+
+		.text-gray-400, .text-gray-500, .text-gray-600 {
+			color: #666 !important;
+		}
+
+		/* Card and layout adjustments */
+		[class*="card"] {
+			border: 1px solid #ccc !important;
+			background: white !important;
+			box-shadow: none !important;
+		}
+
+		/* Badge styling */
+		[class*="badge"] {
+			border: 1px solid #666 !important;
+			background: white !important;
+			color: black !important;
+		}
+
+		/* Button and interactive elements */
+		button, .btn, [class*="button"], input[type="checkbox"] {
+			display: none !important;
+		}
+
+		/* SVG icons */
+		svg {
+			color: black !important;
+			fill: black !important;
+		}
+
+		/* Remove hover and interactive states */
+		*:hover {
+			transform: none !important;
+			box-shadow: none !important;
+		}
+
+		.group:hover {
+			transform: none !important;
+		}
+
+		/* Table styling */
+		table {
+			border-collapse: collapse !important;
+		}
+
+		table th, table td {
+			border: 1px solid #ccc !important;
+			padding: 4px 8px !important;
+		}
+	}
+</style>

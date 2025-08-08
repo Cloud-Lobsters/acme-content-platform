@@ -383,3 +383,96 @@
 		</CardContent>
 	</Card>
 </div>
+
+<style>
+	@media print {
+		@page {
+			size: A4;
+			margin: 15mm 20mm 15mm 20mm;
+		}
+
+		body {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+			color: black !important;
+			font-size: 11pt;
+		}
+
+		/* Hide elements */
+		.no-print {
+			display: none !important;
+		}
+
+		/* Avoid page breaks */
+		.print-avoid-break {
+			break-inside: avoid;
+			page-break-inside: avoid;
+		}
+
+		/* Grid adjustments */
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+
+		/* Text and color adjustments */
+		h1, h2, h3, h4, h5, h6 {
+			color: black !important;
+			font-weight: bold !important;
+		}
+
+		.text-\[\#db0011\], .text-foreground {
+			color: black !important;
+		}
+
+		.text-muted-foreground, .text-gray-600, .text-blue-600, .text-green-600, .text-purple-600 {
+			color: #666 !important;
+		}
+
+		/* Card and layout adjustments */
+		[class*="card"] {
+			border: 1px solid #ccc !important;
+			background: white !important;
+			box-shadow: none !important;
+		}
+
+		/* Badge styling */
+		[class*="badge"] {
+			border: 1px solid #666 !important;
+			background: white !important;
+			color: black !important;
+		}
+
+		/* Progress bars */
+		[class*="progress"] {
+			background: #f0f0f0 !important;
+			border: 1px solid #ccc !important;
+		}
+
+		/* Icons and buttons */
+		button, .btn, [class*="button"] {
+			display: none !important;
+		}
+
+		/* SVG icons - make them black */
+		svg {
+			color: black !important;
+			fill: black !important;
+		}
+
+		/* Remove hover states */
+		*:hover {
+			transform: none !important;
+			box-shadow: none !important;
+		}
+
+		/* Table styling */
+		table {
+			border-collapse: collapse !important;
+		}
+
+		table th, table td {
+			border: 1px solid #ccc !important;
+			padding: 4px 8px !important;
+		}
+	}
+</style>

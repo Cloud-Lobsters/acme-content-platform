@@ -566,15 +566,64 @@
 			margin: 15mm 20mm 15mm 20mm;
 		}
 
+		/* Print-specific text sizing */
+		body {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+			color: black !important;
+			font-size: 11pt;
+		}
+
+		/* Hide elements */
+		.no-print {
+			display: none !important;
+		}
+
+		/* Avoid page breaks */
+		.print-avoid-break {
+			break-inside: avoid;
+			page-break-inside: avoid;
+		}
+
+		/* Grid adjustments */
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+
+		/* Text and color adjustments */
+		h1, h2, h3, h4, h5, h6 {
+			color: black !important;
+			font-weight: bold !important;
+		}
+
+		.text-red-600, .text-red-700, .text-red-800 {
+			color: black !important;
+		}
+
+		.text-red-50, .text-red-100 {
+			color: #666 !important;
+		}
+
+		/* Background adjustments */
+		.bg-red-600, .bg-red-700 {
+			background: #f0f0f0 !important;
+			color: black !important;
+			border: 1px solid #ccc !important;
+		}
+
+		.bg-gradient-to-r {
+			background: #f5f5f5 !important;
+			border: 1px solid #ddd !important;
+		}
+
 		/* Ensure bullets show in print */
 		ul {
 			list-style-type: disc !important;
 		}
 
-		/* Print-specific text sizing */
-		body {
-			print-color-adjust: exact;
-			-webkit-print-color-adjust: exact;
+		/* Button styles */
+		button, .btn, [class*="button"] {
+			display: none !important;
 		}
 
 		/* Ensure good page breaks */

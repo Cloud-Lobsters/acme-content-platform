@@ -56,6 +56,74 @@
 	<meta name="description" content="Venkat's strategic initiative to transform Acme Inc's fragmented content and messaging ecosystem into a unified, customer-centric platform" />
 </svelte:head>
 
+<style>
+	@media print {
+		/* Hide navigation elements and buttons */
+		.no-print {
+			display: none !important;
+		}
+		
+		/* Adjust margins and padding for print */
+		.container {
+			max-width: 100% !important;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+		
+		/* Ensure cards don't break across pages */
+		.print-avoid-break {
+			page-break-inside: avoid;
+			break-inside: avoid;
+		}
+		
+		/* Adjust grid layouts for print */
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+		
+		/* Ensure text is black for better print contrast */
+		* {
+			color: black !important;
+			-webkit-print-color-adjust: exact;
+			print-color-adjust: exact;
+		}
+		
+		/* Preserve background colors for important elements */
+		.print-bg {
+			background-color: #f5f5f5 !important;
+		}
+		
+		/* Reduce font sizes slightly for print */
+		h1 {
+			font-size: 28pt !important;
+		}
+		
+		h2 {
+			font-size: 20pt !important;
+		}
+		
+		/* Remove hover states and shadows */
+		.hover\:shadow-lg {
+			box-shadow: none !important;
+		}
+		
+		/* Ensure borders print */
+		.border-l-4 {
+			border-left-width: 3pt !important;
+		}
+		
+		/* Page breaks */
+		.print-page-break {
+			page-break-before: always;
+		}
+		
+		/* Remove link styling */
+		a {
+			text-decoration: none !important;
+		}
+	}
+</style>
+
 <div class="container mx-auto px-4 py-8">
 	<!-- Hero Section -->
 	<div class="text-center mb-12">
@@ -68,7 +136,7 @@
 		<p class="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
 			Venkat's strategic initiative to transform Acme Inc's fragmented content and messaging ecosystem into a unified, customer-centric platform
 		</p>
-		<div class="flex gap-4 justify-center">
+		<div class="flex gap-4 justify-center no-print">
 			<a href="/platform">
 				<Button size="lg" class="bg-[#db0011] hover:bg-[#db0011]/90">
 					<FileText class="mr-2 h-4 w-4" />
@@ -91,9 +159,9 @@
 			<p class="text-muted-foreground">The four pillars of our content and messaging transformation</p>
 		</div>
 		
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 print-grid-2">
 			{#each acronymCards as card}
-				<Card class="border-l-4 border-l-[#db0011] hover:shadow-lg transition-shadow">
+				<Card class="border-l-4 border-l-[#db0011] hover:shadow-lg transition-shadow print-avoid-break">
 					<CardHeader>
 						<div class="text-4xl font-bold text-[#db0011] mb-2">{card.letter}</div>
 						<CardTitle class="text-xl">{card.word}</CardTitle>
@@ -109,16 +177,16 @@
 	</div>
 
 	<!-- Venkat's Vision Quote -->
-	<div class="bg-muted/50 border-l-4 border-l-[#db0011] p-6 mb-12 rounded-r-lg">
+	<div class="bg-muted/50 border-l-4 border-l-[#db0011] p-6 mb-12 rounded-r-lg print-avoid-break print-bg">
 		<blockquote class="text-lg italic text-muted-foreground">
 			<strong class="text-foreground">Venkat:</strong> "We need to own the journeys...the content creation and content ideation is horizontal...the distribution is vertical. It's more like a T-shaped thing."
 		</blockquote>
 	</div>
 
 	<!-- Key Statistics -->
-	<div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+	<div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-16 print-grid-2">
 		{#each stats as stat}
-			<Card class="text-center">
+			<Card class="text-center print-avoid-break">
 				<CardHeader>
 					<CardTitle class="text-3xl font-bold text-[#db0011]">{stat.number}</CardTitle>
 				</CardHeader>
@@ -132,7 +200,7 @@
 	<!-- Current Problems vs Vision -->
 	<div class="flex flex-col lg:flex-row gap-8 mb-16 items-start">
 		<!-- Current Problems -->
-		<Card class="border-red-200 bg-red-50/50 flex-1 max-w-lg">
+		<Card class="border-red-200 bg-red-50/50 flex-1 max-w-lg print-avoid-break">
 			<CardHeader>
 				<CardTitle class="text-red-700 flex items-center">
 					🚨 Current State Problems
@@ -151,7 +219,7 @@
 		</Card>
 
 		<!-- Venkat's Vision -->
-		<Card class="border-green-200 bg-green-50/50 flex-1 max-w-lg">
+		<Card class="border-green-200 bg-green-50/50 flex-1 max-w-lg print-avoid-break">
 			<CardHeader>
 				<CardTitle class="text-green-700 flex items-center">
 					🎯 Venkat's Integrated Vision
@@ -172,7 +240,7 @@
 	</div>
 
 	<!-- Quick Actions / Navigation -->
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 no-print">
 		<a href="/platform">
 			<Card class="hover:shadow-lg transition-shadow cursor-pointer group">
 				<CardHeader>

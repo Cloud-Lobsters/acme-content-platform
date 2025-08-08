@@ -179,12 +179,12 @@
 	<title>Acme Inc Content Platform - Technical Architecture</title>
 </svelte:head>
 
-<div class="min-h-screen bg-gray-50">
+<div class="min-h-screen bg-gray-50 print:bg-white">
 	<!-- Header -->
-	<div class="container mx-auto px-4 py-8">
-		<div class="text-center mb-12">
-			<div class="flex justify-center mb-6">
-				<Badge variant="secondary" class="text-sm">Technical Architecture</Badge>
+	<div class="container mx-auto px-4 py-8 print:px-2 print:py-4">
+		<div class="text-center mb-12 print:mb-6">
+			<div class="flex justify-center mb-6 print:mb-3">
+				<Badge variant="secondary" class="text-sm no-print">Technical Architecture</Badge>
 			</div>
 			<h1 class="text-4xl font-bold tracking-tight text-foreground mb-4">
 				Platform Architecture Overview
@@ -196,9 +196,9 @@
 		</div>
 	</div>
 
-	<div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+	<div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 print:px-2 print:py-4">
 		<!-- System Architecture Overview -->
-		<Card class="mb-8">
+		<Card class="mb-8 print:mb-4 print-avoid-break">
 			<CardHeader>
 				<CardTitle class="flex items-center gap-2 text-2xl">
 					🏗️ System Architecture Layers
@@ -227,7 +227,7 @@
 		</Card>
 
 		<!-- Integration Points -->
-		<Card class="mb-8">
+		<Card class="mb-8 print:mb-4 print-avoid-break">
 			<CardHeader>
 				<CardTitle class="flex items-center gap-2 text-2xl">🔌 System Integration Points</CardTitle>
 				<CardDescription>
@@ -265,7 +265,7 @@
 		</Card>
 
 		<!-- Technology Stack -->
-		<Card class="mb-8">
+		<Card class="mb-8 print:mb-4 print-avoid-break">
 			<CardHeader>
 				<CardTitle class="flex items-center gap-2 text-2xl">💻 Technology Stack</CardTitle>
 				<CardDescription>
@@ -273,7 +273,7 @@
 				</CardDescription>
 			</CardHeader>
 			<CardContent>
-				<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+				<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-2 print-grid-2">
 					{#each technologyStack as stack}
 						<div class="rounded-lg border border-gray-200 bg-white p-4">
 							<h3 class="mb-3 text-lg font-semibold text-[#db0011]">{stack.category}</h3>
@@ -291,9 +291,9 @@
 			</CardContent>
 		</Card>
 
-		<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+		<div class="grid grid-cols-1 gap-8 lg:grid-cols-2 print:grid-cols-1 print:gap-4">
 			<!-- Security & Compliance -->
-			<Card>
+			<Card class="print-avoid-break">
 				<CardHeader>
 					<CardTitle class="flex items-center gap-2 text-xl">🔒 Security & Compliance</CardTitle>
 					<CardDescription>Enterprise security measures and regulatory compliance</CardDescription>
@@ -311,7 +311,7 @@
 			</Card>
 
 			<!-- Performance Metrics -->
-			<Card>
+			<Card class="print-avoid-break">
 				<CardHeader>
 					<CardTitle class="flex items-center gap-2 text-xl">📊 Performance Metrics</CardTitle>
 					<CardDescription>Key performance indicators and current system health</CardDescription>
@@ -333,7 +333,7 @@
 		</div>
 
 		<!-- Deployment Pipeline -->
-		<Card class="mt-8 mb-8">
+		<Card class="mt-8 mb-8 print:mt-4 print:mb-4 print-avoid-break">
 			<CardHeader>
 				<CardTitle class="flex items-center gap-2 text-2xl">🚀 Deployment Pipeline</CardTitle>
 				<CardDescription>
@@ -341,7 +341,7 @@
 				</CardDescription>
 			</CardHeader>
 			<CardContent>
-				<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+				<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 print:grid-cols-2 print-grid-2">
 					{#each deploymentStages as stage}
 						<div class="rounded-lg border-2 border-gray-200 bg-white p-4 text-center">
 							<h3 class="mb-2 text-lg font-semibold text-[#db0011]">{stage.stage}</h3>
@@ -354,7 +354,7 @@
 		</Card>
 
 		<!-- Code Examples -->
-		<Card class="mb-8">
+		<Card class="mb-8 print:mb-4 print-avoid-break">
 			<CardHeader>
 				<CardTitle class="flex items-center gap-2 text-2xl">💻 Implementation Examples</CardTitle>
 				<CardDescription>Key code patterns and API examples</CardDescription>
@@ -460,7 +460,7 @@ await consumer.run({
 		</Card>
 
 		<!-- Navigation -->
-		<div class="mt-12 space-x-4 text-center">
+		<div class="mt-12 space-x-4 text-center no-print">
 			<a
 				href="/platform"
 				class="inline-block rounded-lg bg-gray-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-gray-700"
@@ -476,3 +476,90 @@ await consumer.run({
 		</div>
 	</div>
 </div>
+
+<style>
+	@media print {
+		@page {
+			size: A4;
+			margin: 15mm 20mm 15mm 20mm;
+		}
+
+		body {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+			color: black !important;
+			font-size: 11pt;
+		}
+
+		/* Hide elements */
+		.no-print {
+			display: none !important;
+		}
+
+		/* Avoid page breaks */
+		.print-avoid-break {
+			break-inside: avoid;
+			page-break-inside: avoid;
+		}
+
+		/* Grid adjustments */
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+
+		/* Text and color adjustments */
+		h1, h2, h3, h4, h5, h6 {
+			color: black !important;
+			font-weight: bold !important;
+		}
+
+		.text-\[\#db0011\] {
+			color: black !important;
+		}
+
+		.text-muted-foreground {
+			color: #666 !important;
+		}
+
+		/* Card and layout adjustments */
+		[class*="card"] {
+			border: 1px solid #ccc !important;
+			background: white !important;
+			box-shadow: none !important;
+		}
+
+		/* Badge styling */
+		[class*="badge"] {
+			border: 1px solid #666 !important;
+			background: white !important;
+			color: black !important;
+		}
+
+		/* Code blocks */
+		.bg-gray-900 {
+			background: #f5f5f5 !important;
+			border: 1px solid #ccc !important;
+		}
+
+		.text-white {
+			color: black !important;
+		}
+
+		/* Remove hover states */
+		*:hover {
+			transform: none !important;
+			box-shadow: none !important;
+		}
+
+		/* Button styles */
+		button, .btn, [class*="button"] {
+			display: none !important;
+		}
+
+		/* Links in print */
+		a {
+			color: black !important;
+			text-decoration: none !important;
+		}
+	}
+</style>
