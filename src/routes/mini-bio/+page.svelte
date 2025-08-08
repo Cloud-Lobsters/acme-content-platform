@@ -493,7 +493,7 @@
 							</div>
 							<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
 								<span class="font-medium">Total Investment:</span>
-								<span class="font-semibold text-red-700">£2,000</span>
+								<span class="font-semibold text-red-700">£30,000</span>
 							</div>
 							<div class="flex justify-between">
 								<span class="font-medium">Payment Terms:</span>
@@ -507,7 +507,7 @@
 						class="rounded-lg bg-gray-50 p-4 print:border print:border-gray-300 print:bg-white print:p-2"
 					>
 						<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
-							Key Deliverables
+							Key Deliverable
 						</h3>
 						<div class="space-y-3 print:space-y-1">
 							<!-- Templates Assessed -->
