@@ -124,7 +124,7 @@
 				}
 			],
 			highlight:
-				"Leon's core strength lies in UX/UI design and frontend development, with extensive Adobe Creative Suite and Figma experience making him ideal for replicating core Adobe functionality within HSBC's in-house systems. His multilingual capabilities further position him perfectly for HSBC's global messaging standardization requirements."
+				"Leon's track record of transforming complex financial workflows into intuitive, functional products—from multi-country loan systems to high-conversion payment flows—makes him ideally positioned to solve HSBC's most challenging user experience and technical implementation challenges."
 		},
 		{
 			role: 'Technical Infrastructure Specialist',
@@ -444,7 +444,14 @@
 				<div class="mx-auto mt-2 h-1 w-24 bg-red-600 print:mt-1 print:h-0.5 print:w-16"></div>
 			</div>
 
-			<div class="grid grid-cols-1 gap-6 lg:grid-cols-2 print:grid-cols-1 print:gap-4">
+			<!-- Delivery Framework Disclaimer -->
+			<div class="bg-red-700 rounded-md p-3 mb-6 print:bg-red-800 print:p-2 print:mb-4">
+				<p class="text-sm font-medium text-red-100 print:text-xs">
+					<strong>Delivery Framework:</strong> Services will be delivered through Mansion House Consulting's established Tier 1 Financial Services framework, providing HSBC with additional assurance whilst maintaining direct access to our specialist banking expertise and proven track record.
+				</p>
+			</div>
+
+			<div class="space-y-6 print:space-y-4">
 				<!-- Scope of Work -->
 				<div class="rounded-lg bg-gray-50 p-6 print:bg-white print:p-4 print:border print:border-gray-300">
 					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">Scope of Work</h3>
@@ -455,15 +462,15 @@
 						</li>
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
-							<span><strong>Innovation Banking Workflow Optimisation:</strong> Design and implement streamlined content management workflows</span>
+							<span><strong>Innovation Banking Workflow Optimisation:</strong> Collaborate with Innovation House to understand requirements and develop MVP to inform long-term robust solution development</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
-							<span><strong>Adobe Functionality Replication:</strong> Develop core Adobe Creative Suite features within HSBC's in-house systems</span>
+							<span><strong>Adobe Functionality Analysis:</strong> Replicate core Adobe Creative Suite features and scope potential in-house replacement strategies (evaluation only)</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
-							<span><strong>PEGA Functionality Replication:</strong> Replicate key PEGA workflow capabilities in custom banking solutions</span>
+							<span><strong>PEGA Functionality Assessment:</strong> Replicate key PEGA workflow capabilities and assess feasibility for future in-house development (scoping only)</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
@@ -478,7 +485,7 @@
 					<div class="space-y-4 text-gray-800 print:space-y-3 print:text-sm">
 						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
 							<span class="font-medium">Team Size:</span>
-							<span class="font-semibold">4 FTEs</span>
+							<span class="font-semibold">5 FTEs</span>
 						</div>
 						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
 							<span class="font-medium">Duration:</span>
@@ -496,6 +503,28 @@
 							<span class="font-medium">Payment Terms:</span>
 							<span class="font-semibold">TBD</span>
 						</div>
+					</div>
+				</div>
+
+				<!-- HSBC Internal Resource Requirements -->
+				<div class="rounded-lg bg-yellow-50 p-6 print:bg-white print:p-4 print:border print:border-yellow-400">
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">HSBC Internal Resource Requirements</h3>
+					<div class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
+						<p><strong>Template Compliance Workstream:</strong> 1 dedicated FTE from relevant compliance or risk team with deep knowledge of HSBC's template governance and regulatory requirements.</p>
+						<p><strong>Innovation Banking Workstream:</strong> 1 dedicated FTE from Innovation Banking with subject matter expertise in current workflows and stakeholder relationships to facilitate MVP development and requirements gathering.</p>
+						<p><strong>Knowledge Transfer & Capability Development:</strong> We will leverage existing HSBC developers throughout the engagement to develop in-house capabilities, ensuring the bank can maintain and build upon solutions we implement for long-term sustainability.</p>
+						<p class="text-sm italic text-gray-600 print:text-xs">These internal resources are essential for project success, providing domain expertise and ensuring seamless integration with existing HSBC processes.</p>
+					</div>
+				</div>
+
+				<!-- Technical Requirements & Infrastructure Access -->
+				<div class="rounded-lg bg-blue-50 p-6 print:bg-white print:p-4 print:border print:border-blue-400">
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">Technical Requirements & Infrastructure Access</h3>
+					<div class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
+						<p><strong>Tooling Flexibility:</strong> Cloud Lobsters requires flexibility to utilize our proven UI frameworks and development tools (including Svelte 5, modern component architecture, and specialized financial services libraries) to ensure optimal delivery speed and quality.</p>
+						<p><strong>Infrastructure Access:</strong> Ready access to HSBC's development and staging environments, including necessary permissions for deployment, testing, and integration with existing systems to facilitate seamless solution delivery.</p>
+						<p><strong>Security & Compliance:</strong> All tooling and infrastructure access will be subject to HSBC's security policies and approval processes, with full documentation and compliance with banking regulatory requirements.</p>
+						<p class="text-sm italic text-gray-600 print:text-xs">These requirements enable our team to deliver efficiently whilst maintaining HSBC's security standards and ensuring successful project outcomes.</p>
 					</div>
 				</div>
 			</div>
@@ -523,7 +552,7 @@
 			<div class="mt-6 rounded-lg bg-red-600 p-6 text-white print:mt-4 print:bg-red-700 print:p-4">
 				<h3 class="mb-3 text-xl font-bold print:mb-2 print:text-base">Contract Summary</h3>
 				<p class="leading-relaxed text-red-50 print:text-xs print:leading-normal">
-					Fixed-price 3-month engagement delivering comprehensive messaging rationalisation across HSBC's template compliance and Innovation Banking workflows. Our 4-person specialist team will replicate core Adobe and PEGA functionalities within HSBC's in-house systems, ensuring regulatory compliance and operational excellence.
+					Fixed-price 3-month engagement delivering comprehensive messaging rationalisation across HSBC's template compliance and Innovation Banking workflows. Our 4-person specialist team will replicate core Adobe and PEGA functionalities and provide strategic assessment for potential in-housing, ensuring regulatory compliance and operational excellence.
 				</p>
 			</div>
 		</section>
