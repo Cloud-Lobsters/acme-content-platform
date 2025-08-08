@@ -7,8 +7,16 @@
 		description = '',
 		qualifications = [],
 		highlight = '',
-		children = null
+		children = null,
+		showAvatar = true,
+		avatarUrl = ''
 	} = $props();
+	
+	// Generate avatar URL based on name if not provided
+	// Special case: Alexander -> alex.png
+	let firstName = name ? name.split(' ')[0].toLowerCase() : '';
+	if (firstName === 'alexander') firstName = 'alex';
+	let finalAvatarUrl = $derived(avatarUrl || (firstName ? `/${firstName}.png` : ''));
 </script>
 
 <section class="bg-gray-50 border border-gray-200 rounded-lg p-6 print:bg-white print:border-gray-400 print:p-4 print:break-after-avoid">
@@ -17,10 +25,26 @@
 		<div class="flex-1">
 			{#snippet header()}
 				<div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6">
-					<!-- Left side: Role and Name -->
+					<!-- Left side: Role and Name with Avatar -->
 					<div class="flex-1">
-						<h2 class="text-xl font-bold text-gray-900 print:text-base">{role}</h2>
-						<h3 class="text-lg font-semibold text-red-700 mt-1 print:text-sm">{name}</h3>
+						<div class="flex items-start gap-3">
+							<!-- Avatar -->
+							{#if showAvatar}
+								<div class="flex-shrink-0">
+									<img 
+										src={finalAvatarUrl} 
+										alt="{name} avatar"
+										class="w-16 h-16 rounded-full object-cover border-2 border-red-600 print:w-12 print:h-12 print:border"
+										loading="lazy"
+									/>
+								</div>
+							{/if}
+							<!-- Name and Role -->
+							<div>
+								<h2 class="text-xl font-bold text-gray-900 print:text-base">{role}</h2>
+								<h3 class="text-lg font-semibold text-red-700 mt-1 print:text-sm">{name}</h3>
+							</div>
+						</div>
 					</div>
 					
 					<!-- Right side: Contact Information -->
@@ -54,8 +78,8 @@
 					{/if}
 				</div>
 				
-				<!-- Credentials below, now without contact info -->
-				<div class="bg-white border border-gray-300 rounded-md px-3 py-2 mt-3 print:px-2 print:py-1">
+				<!-- Credentials below, aligned with avatar layout -->
+				<div class="bg-white border border-gray-300 rounded-md px-3 py-2 mt-3 print:px-2 print:py-1 {showAvatar ? 'ml-0' : ''}">
 					<p class="text-sm font-medium text-gray-700 print:text-xs">
 						{credentials}
 					</p>
