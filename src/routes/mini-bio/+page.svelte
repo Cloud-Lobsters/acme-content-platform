@@ -600,6 +600,12 @@
 		@page {
 			size: A4;
 			margin: 5mm 8mm 10mm 8mm;
+			@top-left { content: ""; }
+			@top-center { content: ""; }
+			@top-right { content: ""; }
+			@bottom-left { content: ""; }
+			@bottom-center { content: ""; }
+			@bottom-right { content: ""; }
 		}
 
 		/* Main container adjustments for maximum A4 width */
@@ -899,9 +905,20 @@
 			page-break-before: avoid !important;
 		}
 		
-		/* Remove URLs when printing */
+		/* Remove URLs when printing - Chrome specific */
+		a[href]:after,
 		a[href]::after {
 			display: none !important;
+			content: none !important;
+		}
+		
+		a {
+			text-decoration: none !important;
+		}
+		
+		/* Force hide any generated content after links */
+		*:after,
+		*::after {
 			content: none !important;
 		}
 
