@@ -412,7 +412,7 @@
 			<div
 				class="team-member-section {index === 2 ? 'leon-alex-group print:break-before-page' : ''}"
 			>
-				<MiniBio {...member} />
+				<MiniBio {...member} showAvatar={true} />
 			</div>
 		{/each}
 
