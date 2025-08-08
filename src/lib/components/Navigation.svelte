@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
-	import { Menu, Home, BookOpen, Workflow, Monitor, Settings, MessageSquare } from '@lucide/svelte';
+	import { Menu, Home, BookOpen, Workflow, Monitor, Settings, MessageSquare, Users } from '@lucide/svelte';
 	import { page } from '$app/stores';
 
 	let mobileMenuOpen = $state(false);
@@ -10,7 +10,8 @@
 		{ href: '/platform', label: 'Platform Demo', icon: Monitor },
 		{ href: '/architecture', label: 'Tech Architecture', icon: Settings },
 		{ href: '/acronyms', label: 'Acronyms', icon: BookOpen },
-		{ href: '/content-flow', label: 'Content Flow', icon: Workflow }
+		{ href: '/content-flow', label: 'Content Flow', icon: Workflow },
+		{ href: '/mini-bio', label: 'Team Bios', icon: Users }
 	];
 
 	function isActive(href: string): boolean {
@@ -95,6 +96,13 @@
 	@supports (backdrop-filter: blur(20px)) {
 		.supports-\[backdrop-filter\]\:bg-background\/60 {
 			background-color: hsl(var(--background) / 0.6);
+		}
+	}
+	
+	/* Hide navigation when printing */
+	@media print {
+		nav {
+			display: none !important;
 		}
 	}
 </style>
