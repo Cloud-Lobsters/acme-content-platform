@@ -178,8 +178,10 @@
 </svelte:head>
 
 <div
-	class="font-['Georgia','Times New Roman',serif] mx-auto max-w-[210mm] bg-white text-gray-900 shadow-sm print:mx-auto print:my-0 print:max-w-[210mm] print:shadow-none"
+	class="font-['Georgia','Times New Roman',serif] mx-auto max-w-[210mm] bg-white text-gray-900 shadow-sm print:mx-0 print:my-0 print:max-w-none print:w-full print:shadow-none print:bg-white"
 >
+	<!-- Running Header for Print -->
+
 	<!-- Document Header -->
 	<header
 		class="bg-gradient-to-r from-red-600 to-red-700 p-6 text-white print:bg-red-700 print:p-4"
@@ -193,9 +195,9 @@
 	</header>
 
 	<!-- Main Content -->
-	<main class="space-y-8 p-8 print:space-y-6 print:p-6">
+	<main class="space-y-8 p-8 print:space-y-4 print:p-2 print:mx-0">
 		<!-- Executive Summary -->
-		<div class="rounded-lg bg-red-600 p-6 text-white print:bg-red-700 print:p-4">
+		<div class="rounded-lg bg-red-600 p-6 text-white print:bg-red-700 print:p-4 print-avoid-break">
 			<h3 class="mb-4 text-xl font-bold print:mb-3 print:text-base">Executive Summary</h3>
 			<p class="leading-relaxed text-red-50 print:text-xs print:leading-normal">
 				This team combines deep banking sector knowledge, cutting-edge technical capabilities, and
@@ -207,7 +209,7 @@
 
 		<!-- Combined Team Skills Section -->
 		<section
-			class="rounded-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 p-8 print:border-gray-500 print:bg-white print:p-6"
+			class="rounded-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 p-8 print:border-gray-500 print:bg-white print:p-6 skills-table print-avoid-break"
 		>
 			<div class="mb-8 text-center print:mb-6">
 				<h2 class="text-2xl font-bold text-gray-900 print:text-lg">
@@ -428,7 +430,9 @@
 		<div class="print:break-after-page"></div>
 
 		{#each teamMembers as member, index}
-			<MiniBio {...member} />
+			<div class="team-member-section">
+				<MiniBio {...member} />
+			</div>
 			{#if index === 1}
 				<div class="print:break-after-page"></div>
 			{/if}
@@ -438,7 +442,7 @@
 		<div class="print:break-before-page"></div>
 
 		<!-- Statement of Work -->
-		<section class="rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:border-red-700 print:p-6 print:shadow-none">
+		<section class="rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:border-red-700 print:p-6 print:shadow-none print-avoid-break">
 			<div class="mb-6 text-center print:mb-4">
 				<h2 class="text-2xl font-bold text-red-700 print:text-lg">Statement of Work</h2>
 				<div class="mx-auto mt-2 h-1 w-24 bg-red-600 print:mt-1 print:h-0.5 print:w-16"></div>
@@ -549,7 +553,7 @@
 			</div>
 
 			<!-- Contract Summary -->
-			<div class="mt-6 rounded-lg bg-red-600 p-6 text-white print:mt-4 print:bg-red-700 print:p-4">
+			<div class="mt-6 rounded-lg bg-red-600 p-6 text-white print:mt-4 print:bg-red-700 print:p-4 contract-summary">
 				<h3 class="mb-3 text-xl font-bold print:mb-2 print:text-base">Contract Summary</h3>
 				<p class="leading-relaxed text-red-50 print:text-xs print:leading-normal">
 					Fixed-price 3-month engagement delivering comprehensive messaging rationalisation across HSBC's template compliance and Innovation Banking workflows. Our 4-person specialist team will replicate core Adobe and PEGA functionalities and provide strategic assessment for potential in-housing, ensuring regulatory compliance and operational excellence.
@@ -563,15 +567,69 @@
 	@media print {
 		@page {
 			size: A4;
-			margin: 15mm 20mm 15mm 20mm;
+			margin: 5mm 8mm 10mm 8mm;
 		}
 
-		/* Print-specific text sizing */
-		body {
+		/* Running header for each page */
+		@page {
+			@top-center {
+				content: element(running-header);
+				margin-top: 2mm;
+			}
+		}
+
+		/* Main container adjustments for maximum A4 width */
+		* {
+			box-sizing: border-box;
+		}
+		
+		html, body {
+			width: 100% !important;
+			max-width: 100% !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		/* Print-specific text sizing and font improvements */
+		* {
 			print-color-adjust: exact;
 			-webkit-print-color-adjust: exact;
-			color: black !important;
-			font-size: 11pt;
+			font-family: 'Segoe UI', 'Arial', sans-serif !important;
+			line-height: 1.4 !important;
+		}
+
+		body {
+			font-size: 10pt !important;
+		}
+
+		/* Keep HSBC red color scheme */
+		.text-red-600, .text-red-700 {
+			color: #db0011 !important;
+		}
+
+		.text-red-800 {
+			color: #a50000 !important;
+		}
+
+		.bg-red-600, .bg-red-700 {
+			background-color: #db0011 !important;
+			color: white !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+
+		.bg-red-50 {
+			background-color: #fef2f2 !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+
+		.text-red-50, .text-red-100 {
+			color: white !important;
+		}
+
+		.border-red-600, .border-red-700 {
+			border-color: #db0011 !important;
 		}
 
 		/* Hide elements */
@@ -579,51 +637,133 @@
 			display: none !important;
 		}
 
-		/* Avoid page breaks */
-		.print-avoid-break {
-			break-inside: avoid;
-			page-break-inside: avoid;
+		/* Running header that appears on each page */
+		.print-running-header {
+			position: running(running-header);
+			display: none;
+		}
+		
+		/* Show running header only in print */
+		@media print {
+			.print-running-header {
+				display: block !important;
+				position: running(running-header);
+				width: 100% !important;
+				margin: 0 !important;
+				padding: 0 !important;
+			}
 		}
 
-		/* Grid adjustments */
+		/* Avoid page breaks for important elements */
+		.print-avoid-break, table, section, .rounded-lg {
+			break-inside: avoid !important;
+			page-break-inside: avoid !important;
+		}
+
+		/* Ensure MiniBio components don't break */
+		.grid > div {
+			break-inside: avoid !important;
+			page-break-inside: avoid !important;
+		}
+
+		/* Grid adjustments for better A4 utilization */
 		.print-grid-2 {
 			grid-template-columns: repeat(2, 1fr) !important;
 		}
 
-		/* Text and color adjustments */
-		h1, h2, h3, h4, h5, h6 {
-			color: black !important;
-			font-weight: bold !important;
+		/* Heading improvements */
+		h1 {
+			font-size: 22pt !important;
+			color: #db0011 !important;
+			margin-bottom: 10px !important;
+			text-align: center !important;
 		}
 
-		.text-red-600, .text-red-700, .text-red-800 {
-			color: black !important;
+		h2 {
+			font-size: 14pt !important;
+			color: #db0011 !important;
+			margin-top: 15px !important;
+			margin-bottom: 10px !important;
 		}
 
-		.text-red-50, .text-red-100 {
-			color: #666 !important;
+		h3 {
+			font-size: 12pt !important;
+			color: #333 !important;
+			margin-top: 10px !important;
+			margin-bottom: 8px !important;
 		}
 
-		/* Background adjustments */
-		.bg-red-600, .bg-red-700 {
-			background: #f0f0f0 !important;
-			color: black !important;
-			border: 1px solid #ccc !important;
+		/* Paragraph and list improvements */
+		p {
+			font-size: 10pt !important;
+			margin-bottom: 8px !important;
 		}
 
-		.bg-gradient-to-r {
-			background: #f5f5f5 !important;
-			border: 1px solid #ddd !important;
-		}
-
-		/* Ensure bullets show in print */
 		ul {
 			list-style-type: disc !important;
+			margin-left: 20px !important;
 		}
 
-		/* Button styles */
-		button, .btn, [class*="button"] {
+		li {
+			font-size: 10pt !important;
+			margin-bottom: 4px !important;
+		}
+
+		/* Table optimization to prevent breaks */
+		table {
+			width: 100% !important;
+			break-inside: avoid !important;
+			page-break-inside: avoid !important;
+		}
+
+		/* Statement of Work section optimization */
+		.rounded-lg {
+			margin-bottom: 10px !important;
+			padding: 8px !important;
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+		}
+		
+		/* Maximize content width */
+		section {
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+			width: 100% !important;
+		}
+
+		/* Background color preservation */
+		.bg-gradient-to-r {
+			background: linear-gradient(to right, rgba(219, 0, 17, 0.05), rgba(219, 0, 17, 0.1)) !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+
+		.bg-gray-50 {
+			background-color: #f9fafb !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+
+		.bg-yellow-50 {
+			background-color: #fefce8 !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+
+		.bg-blue-50 {
+			background-color: #eff6ff !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+
+		/* Button removal */
+		button, .btn, [role="button"] {
 			display: none !important;
+		}
+
+		/* Skills table specific styling */
+		.skills-table {
+			break-inside: avoid !important;
 		}
 
 		/* Ensure good page breaks */
@@ -635,8 +775,16 @@
 			break-after: avoid;
 		}
 
-		.print\:break-after-page {
-			break-after: page;
+		/* Team member sections shouldn't break */
+		.team-member-section {
+			break-inside: avoid !important;
+			page-break-inside: avoid !important;
+		}
+
+		/* Contract summary optimization */
+		.contract-summary {
+			break-inside: avoid !important;
+			margin-top: 20px !important;
 		}
 	}
 </style>
