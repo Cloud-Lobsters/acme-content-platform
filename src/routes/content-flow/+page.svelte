@@ -49,13 +49,13 @@
 	<title>Venkat's Content & Messaging Vision</title>
 </svelte:head>
 
-<div class="min-h-screen bg-gray-50">
+<div class="min-h-screen bg-gray-50 print:bg-white">
 
-	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 print:px-2 print:py-4">
 		<!-- Comparison Section -->
 		<div class="space-y-10 mb-16">
-			<!-- Current State -->
-			<Card class="border-l-4 border-l-red-500">
+				<!-- Current State -->
+			<Card class="border-l-4 border-l-red-500 print-avoid-break">
 				<CardHeader class="bg-red-50">
 					<CardTitle class="text-2xl text-red-700 flex items-center gap-3">
 						❌ Current State: Fragmented & Siloed
@@ -102,7 +102,7 @@
 			</Card>
 
 			<!-- Future State -->
-			<Card class="border-l-4 border-l-green-500">
+			<Card class="border-l-4 border-l-green-500 print-avoid-break">
 				<CardHeader class="bg-green-50">
 					<CardTitle class="text-2xl text-green-700 flex items-center gap-3">
 						✅ Venkat's Vision: Integrated T-Shape
@@ -174,7 +174,7 @@
 		</div>
 
 		<!-- Key Insight -->
-		<Card class="mb-12 border-l-4 border-l-[#db0011]">
+		<Card class="mb-12 border-l-4 border-l-[#db0011] print:mb-6 print-avoid-break">
 			<CardContent class="p-8">
 				<p class="text-lg italic text-gray-700 text-center">
 					<strong>The "Link":</strong> Content and messaging become one seamless workflow where content flows horizontally through creation, management, and decisioning, then distributes vertically across all channels as coordinated, personalized customer experiences.
@@ -183,7 +183,7 @@
 		</Card>
 
 		<!-- Success Metrics -->
-		<Card>
+		<Card class="print-avoid-break">
 			<CardHeader class="text-center">
 				<CardTitle class="text-2xl text-gray-800">Key Success Metrics</CardTitle>
 			</CardHeader>
@@ -200,7 +200,7 @@
 		</Card>
 
 		<!-- Navigation -->
-		<div class="text-center mt-12 space-x-4">
+		<div class="text-center mt-12 space-x-4 no-print">
 			<a href="/" class="inline-block bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
 				← Back to Overview
 			</a>
@@ -210,3 +210,89 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	@media print {
+		@page {
+			size: A4;
+			margin: 15mm 20mm 15mm 20mm;
+		}
+
+		body {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+			color: black !important;
+			font-size: 11pt;
+		}
+
+		/* Hide elements */
+		.no-print {
+			display: none !important;
+		}
+
+		/* Avoid page breaks */
+		.print-avoid-break {
+			break-inside: avoid;
+			page-break-inside: avoid;
+		}
+
+		/* Grid adjustments */
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+
+		/* Text and color adjustments */
+		h1, h2, h3, h4, h5, h6 {
+			color: black !important;
+			font-weight: bold !important;
+		}
+
+		.text-\[\#db0011\] {
+			color: black !important;
+		}
+
+		.text-red-700, .text-red-800, .text-green-700, .text-green-800, .text-gray-800, .text-blue-800 {
+			color: black !important;
+		}
+
+		.text-red-600, .text-green-600, .text-gray-600, .text-blue-600, .text-orange-700, .text-orange-800 {
+			color: #666 !important;
+		}
+
+		/* Card and layout adjustments */
+		[class*="card"] {
+			border: 1px solid #ccc !important;
+			background: white !important;
+			box-shadow: none !important;
+		}
+
+		/* Background color adjustments */
+		.bg-red-50, .bg-green-50, .bg-blue-50, .bg-orange-50 {
+			background: #f9f9f9 !important;
+			border: 1px solid #ddd !important;
+		}
+
+		/* Remove gradient backgrounds */
+		[class*="gradient"] {
+			background: white !important;
+			border: 1px solid #ccc !important;
+		}
+
+		/* Remove hover states */
+		*:hover {
+			transform: none !important;
+			box-shadow: none !important;
+		}
+
+		/* Button styles */
+		button, .btn, [class*="button"] {
+			display: none !important;
+		}
+
+		/* Links in print */
+		a {
+			color: black !important;
+			text-decoration: none !important;
+		}
+	}
+</style>

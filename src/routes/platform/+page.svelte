@@ -52,6 +52,68 @@
 	<meta name="description" content="Unified content and messaging platform replacing Excel/Jira workflows" />
 </svelte:head>
 
+<style>
+	@media print {
+		.no-print {
+			display: none !important;
+		}
+		
+		.container {
+			max-width: 100% !important;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+		
+		.print-avoid-break {
+			page-break-inside: avoid;
+			break-inside: avoid;
+		}
+		
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+		
+		* {
+			color: black !important;
+			-webkit-print-color-adjust: exact;
+			print-color-adjust: exact;
+		}
+		
+		.print-bg {
+			background-color: #f5f5f5 !important;
+		}
+		
+		h1 {
+			font-size: 28pt !important;
+		}
+		
+		h2 {
+			font-size: 20pt !important;
+		}
+		
+		.hover\:shadow-lg {
+			box-shadow: none !important;
+		}
+		
+		.border-l-4 {
+			border-left-width: 3pt !important;
+		}
+		
+		.print-page-break {
+			page-break-before: always;
+		}
+		
+		a {
+			text-decoration: none !important;
+		}
+		
+		/* Hide buttons in print */
+		button, .btn, [role="button"] {
+			display: none !important;
+		}
+	}
+</style>
+
 <div class="container mx-auto px-4 py-8">
 	<!-- Hero Section -->
 	<div class="text-center mb-12">
@@ -67,9 +129,9 @@
 	</div>
 
 	<!-- Platform Statistics -->
-	<div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+	<div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12 print-grid-2">
 		{#each platformStats as stat}
-			<Card class="text-center">
+			<Card class="text-center print-avoid-break">
 				<CardHeader class="pb-2">
 					<div class="flex justify-center mb-2">
 						<div class="h-10 w-10 bg-[#db0011]/10 rounded-lg flex items-center justify-center">
@@ -92,9 +154,9 @@
 			<p class="text-muted-foreground">Explore the four core modules of our unified content platform</p>
 		</div>
 
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 print-grid-2">
 			{#each subRoutes as route}
-				<Card class="hover:shadow-lg transition-all duration-300 group border-l-4 border-l-gray-200 hover:border-l-[#db0011]">
+				<Card class="hover:shadow-lg transition-all duration-300 group border-l-4 border-l-gray-200 hover:border-l-[#db0011] print-avoid-break">
 					<CardHeader>
 						<div class="flex items-center justify-between mb-4">
 							<div class="h-12 w-12 {route.color} rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -130,7 +192,7 @@
 	</div>
 
 	<!-- Platform Benefits -->
-	<Card class="bg-gradient-to-r from-[#db0011]/5 to-[#db0011]/10 border-[#db0011]/20">
+	<Card class="bg-gradient-to-r from-[#db0011]/5 to-[#db0011]/10 border-[#db0011]/20 print-avoid-break print-bg">
 		<CardHeader>
 			<div class="text-center">
 				<CardTitle class="text-2xl text-[#db0011] mb-2">Why This Platform?</CardTitle>

@@ -476,3 +476,111 @@ This exclusive offer expires on December 31, 2024.`,
 		</div>
 	</div>
 </div>
+
+<style>
+	@media print {
+		@page {
+			size: A4;
+			margin: 15mm 20mm 15mm 20mm;
+		}
+
+		body {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+			color: black !important;
+			font-size: 11pt;
+		}
+
+		/* Hide elements */
+		.no-print {
+			display: none !important;
+		}
+
+		/* Avoid page breaks */
+		.print-avoid-break {
+			break-inside: avoid;
+			page-break-inside: avoid;
+		}
+
+		/* Grid adjustments */
+		.print-grid-2 {
+			grid-template-columns: repeat(2, 1fr) !important;
+		}
+
+		/* Text and color adjustments */
+		h1, h2, h3, h4, h5, h6 {
+			color: black !important;
+			font-weight: bold !important;
+		}
+
+		.text-\[\#db0011\] {
+			color: black !important;
+		}
+
+		.text-gray-600, .text-gray-700, .text-gray-400, .text-gray-500 {
+			color: #666 !important;
+		}
+
+		/* Card and layout adjustments */
+		[class*="card"] {
+			border: 1px solid #ccc !important;
+			background: white !important;
+			box-shadow: none !important;
+		}
+
+		/* Form elements - hide but show labels */
+		button, .btn, [class*="button"], input, textarea, select {
+			display: none !important;
+		}
+
+		/* Keep labels visible */
+		label {
+			display: block !important;
+			color: black !important;
+			font-weight: bold !important;
+			margin-bottom: 4px !important;
+		}
+
+		/* Show content values as text */
+		.content-preview {
+			display: block !important;
+			color: black !important;
+			margin-bottom: 8px !important;
+		}
+
+		/* SVG icons */
+		svg {
+			color: black !important;
+			fill: black !important;
+		}
+
+		/* Remove hover states */
+		*:hover {
+			transform: none !important;
+			box-shadow: none !important;
+		}
+
+		/* Preview styling */
+		.bg-gray-100 {
+			background: #f5f5f5 !important;
+			border: 1px solid #ddd !important;
+		}
+
+		.bg-white {
+			background: white !important;
+		}
+
+		/* Badge styling */
+		[class*="badge"] {
+			border: 1px solid #666 !important;
+			background: white !important;
+			color: black !important;
+		}
+
+		/* Gradient backgrounds */
+		.bg-gradient-to-r {
+			background: #f0f0f0 !important;
+			border: 1px solid #ccc !important;
+		}
+	}
+</style>
