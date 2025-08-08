@@ -196,11 +196,11 @@
 	<!-- Main Content -->
 	<main class="space-y-8 p-8 print:mx-0 print:break-before-page print:space-y-2 print:p-2">
 		<!-- Executive Summary -->
-		<div class="print-avoid-break rounded-lg bg-red-600 p-6 text-white print:bg-red-700 print:p-2">
-			<h3 class="mb-4 text-xl font-bold print:mb-1 print:text-xs print:!text-white">
+		<div class="print-avoid-break rounded-lg bg-red-50 p-6 text-gray-900 print:bg-red-50 print:p-2">
+			<h3 class="mb-4 text-xl font-bold text-red-700 print:mb-1 print:text-xs">
 				Executive Summary
 			</h3>
-			<p class="leading-relaxed text-red-50 print:mb-0 print:text-xs print:leading-tight">
+			<p class="leading-relaxed text-gray-800 print:mb-0 print:text-xs print:leading-tight">
 				This team combines deep banking sector knowledge, cutting-edge technical capabilities, and
 				proven delivery excellence to execute HSBC's messaging rationalisation initiative across
 				both template compliance assessment and Innovation Banking content management workflow
@@ -409,7 +409,7 @@
 			</div>
 		</section>
 
-		<PageBreak />
+		<!-- <PageBreak /> -->
 
 		{#each teamMembers as member, index}
 			<div
@@ -433,18 +433,17 @@
 			</div>
 
 			<!-- Delivery Framework Disclaimer -->
-			<div class="mb-6 rounded-md bg-red-700 p-3 print:mb-4 print:bg-red-800 print:p-2">
+			<div class="mb-4 rounded-md bg-red-700 p-2 print:mb-2 print:bg-red-800 print:p-1">
 				<p class="text-sm font-medium text-red-100 print:text-xs">
-					<strong>Delivery Framework:</strong> Services will be delivered through Mansion House Consulting's
-					established Tier 1 Financial Services framework, providing HSBC with additional assurance whilst
-					maintaining direct access to our specialist banking expertise and proven track record.
+					<strong>Delivery:</strong> Via Mansion House Consulting's Tier 1 Financial Services framework
+					for additional assurance.
 				</p>
 			</div>
 
-			<div class="space-y-6 print:space-y-4">
+			<div class="space-y-4 print:space-y-2">
 				<!-- Scope of Work -->
 				<div
-					class="rounded-lg bg-gray-50 p-6 print:border print:border-gray-300 print:bg-white print:p-4"
+					class="rounded-lg bg-gray-50 p-4 print:border print:border-gray-300 print:bg-white print:p-2"
 				>
 					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
 						Scope of Work
@@ -470,132 +469,202 @@
 					</ul>
 				</div>
 
-				<!-- Project Details -->
-				<div
-					class="rounded-lg bg-gray-50 p-6 print:border print:border-gray-300 print:bg-white print:p-4"
-				>
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
-						Project Details
-					</h3>
-					<div class="space-y-4 text-gray-800 print:space-y-1 print:text-xs">
-						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
-							<span class="font-medium">Team Size:</span>
-							<span class="font-semibold">5 FTEs</span>
+				<!-- Project Details with Key Deliverables -->
+				<div class="grid grid-cols-1 gap-4 md:grid-cols-2 print:grid-cols-2 print:gap-2">
+					<!-- Project Details -->
+					<div
+						class="rounded-lg bg-gray-50 p-4 print:border print:border-gray-300 print:bg-white print:p-2"
+					>
+						<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
+							Project Details
+						</h3>
+						<div class="space-y-4 text-gray-800 print:space-y-1 print:text-xs">
+							<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
+								<span class="font-medium">Team Size:</span>
+								<span class="font-semibold">5 FTEs</span>
+							</div>
+							<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
+								<span class="font-medium">Duration:</span>
+								<span class="font-semibold">3 Months</span>
+							</div>
+							<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
+								<span class="font-medium">Contract Type:</span>
+								<span class="font-semibold">Fixed Price</span>
+							</div>
+							<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
+								<span class="font-medium">Total Investment:</span>
+								<span class="font-semibold text-red-700">£2,000</span>
+							</div>
+							<div class="flex justify-between">
+								<span class="font-medium">Payment Terms:</span>
+								<span class="font-semibold">TBD</span>
+							</div>
 						</div>
-						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
-							<span class="font-medium">Duration:</span>
-							<span class="font-semibold">3 Months</span>
-						</div>
-						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
-							<span class="font-medium">Contract Type:</span>
-							<span class="font-semibold">Fixed Price</span>
-						</div>
-						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
-							<span class="font-medium">Total Investment:</span>
-							<span class="font-semibold text-red-700">£30,000</span>
-						</div>
-						<div class="flex justify-between">
-							<span class="font-medium">Payment Terms:</span>
-							<span class="font-semibold">TBD</span>
+					</div>
+
+					<!-- Key Deliverables -->
+					<div
+						class="rounded-lg bg-gray-50 p-4 print:border print:border-gray-300 print:bg-white print:p-2"
+					>
+						<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
+							Key Deliverables
+						</h3>
+						<div class="space-y-3 print:space-y-1">
+							<!-- Templates Assessed -->
+							<div
+								class="flex items-center justify-between border-b border-gray-200 pb-2 print:border-gray-300 print:pb-1"
+							>
+								<div class="flex items-center space-x-3 print:space-x-2">
+									<div
+										class="flex h-6 w-6 items-center justify-center rounded-full bg-gray-100 print:h-4 print:w-4"
+									>
+										<svg
+											class="h-3 w-3 text-gray-600 print:h-2 print:w-2"
+											fill="currentColor"
+											viewBox="0 0 20 20"
+										>
+											<path
+												fill-rule="evenodd"
+												d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm2 2h8v8H6V6z"
+												clip-rule="evenodd"
+											/>
+										</svg>
+									</div>
+									<div>
+										<div class="text-sm font-medium text-gray-600 print:text-xs">
+											Templates Assessed
+										</div>
+									</div>
+								</div>
+								<div class="text-right">
+									<div class="text-xl font-bold text-gray-800 print:text-base">300-400</div>
+								</div>
+							</div>
+
+							<!-- Core Systems Enhanced -->
+							<div
+								class="flex items-center justify-between border-b border-gray-200 pb-2 print:border-gray-300 print:pb-1"
+							>
+								<div class="flex items-center space-x-3 print:space-x-2">
+									<div
+										class="flex h-6 w-6 items-center justify-center rounded-full bg-gray-100 print:h-4 print:w-4"
+									>
+										<svg
+											class="h-3 w-3 text-gray-600 print:h-2 print:w-2"
+											fill="currentColor"
+											viewBox="0 0 20 20"
+										>
+											<path
+												fill-rule="evenodd"
+												d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+												clip-rule="evenodd"
+											/>
+										</svg>
+									</div>
+									<div>
+										<div class="text-sm font-medium text-gray-600 print:text-xs">
+											Core Systems Enhanced
+										</div>
+									</div>
+								</div>
+								<div class="text-right">
+									<div class="text-xl font-bold text-gray-800 print:text-base">2</div>
+								</div>
+							</div>
+
+							<!-- Regulatory Focus -->
+							<div class="flex items-center justify-between">
+								<div class="flex items-center space-x-3 print:space-x-2">
+									<div
+										class="flex h-6 w-6 items-center justify-center rounded-full bg-gray-100 print:h-4 print:w-4"
+									>
+										<svg
+											class="h-3 w-3 text-gray-600 print:h-2 print:w-2"
+											fill="currentColor"
+											viewBox="0 0 20 20"
+										>
+											<path
+												fill-rule="evenodd"
+												d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+												clip-rule="evenodd"
+											/>
+										</svg>
+									</div>
+									<div>
+										<div class="text-sm font-medium text-gray-600 print:text-xs">
+											Regulatory Focus
+										</div>
+									</div>
+								</div>
+								<div class="text-right">
+									<div class="text-xl font-bold text-gray-800 print:text-base">Priority</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 
 				<!-- HSBC Internal Resource Requirements -->
 				<div
-					class="rounded-lg bg-yellow-50 p-6 print:border print:border-yellow-400 print:bg-white print:p-4"
+					class="rounded-lg bg-yellow-50 p-4 print:border print:border-yellow-400 print:bg-white print:p-2"
 				>
 					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
 						HSBC Internal Resource Requirements
 					</h3>
-					<div class="space-y-3 text-gray-800 print:space-y-1 print:text-xs">
+					<div class="space-y-2 text-gray-800 print:space-y-0 print:text-xs">
 						<p>
-							<strong>Template Compliance Workstream:</strong> 1 dedicated FTE from relevant compliance
-							or risk team with deep knowledge of HSBC's template governance and regulatory requirements.
+							<strong>Template Compliance:</strong> 1 FTE from compliance/risk team with template governance
+							knowledge.
 						</p>
 						<p>
-							<strong>Innovation Banking Workstream:</strong> 1 dedicated FTE from Innovation Banking
-							with subject matter expertise in current workflows and stakeholder relationships to facilitate
-							MVP development and requirements gathering.
+							<strong>Innovation Banking:</strong> 1 FTE with workflow expertise for MVP development.
 						</p>
 						<p>
-							<strong>Knowledge Transfer & Capability Development:</strong> We will leverage existing
-							HSBC developers throughout the engagement to develop in-house capabilities, ensuring the
-							bank can maintain and build upon solutions we implement for long-term sustainability.
+							<strong>Knowledge Transfer:</strong> Leverage existing HSBC developers for capability development.
 						</p>
-						<p class="text-sm text-gray-600 italic print:text-xs">
-							These internal resources are essential for project success, providing domain expertise
-							and ensuring seamless integration with existing HSBC processes.
+						<p class="text-xs text-gray-600 italic print:text-xs">
+							Essential for project success and seamless integration.
 						</p>
 					</div>
 				</div>
 
 				<!-- Technical Requirements & Infrastructure Access -->
 				<div
-					class="rounded-lg bg-blue-50 p-6 print:border print:border-blue-400 print:bg-white print:p-4"
+					class="rounded-lg bg-blue-50 p-4 print:border print:border-blue-400 print:bg-white print:p-2"
 				>
 					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-1 print:text-xs">
 						Technical Requirements & Infrastructure Access
 					</h3>
-					<div class="space-y-3 text-gray-800 print:space-y-1 print:text-xs">
+					<div class="space-y-2 text-gray-800 print:space-y-0 print:text-xs">
 						<p>
-							<strong>Tooling Flexibility:</strong> Cloud Lobsters requires flexibility to utilize our
-							proven UI frameworks and development tools (including Svelte 5, modern component architecture,
-							and specialized financial services libraries) as well as AI tooling (Anthropic) to ensure
-							optimal delivery speed and quality.
+							<strong>Tooling:</strong> Flexibility to use proven UI frameworks (Svelte 5) and AI tooling
+							(Anthropic).
 						</p>
 						<p>
-							<strong>Infrastructure Access:</strong> Ready access to HSBC's development and staging
-							environments, including necessary permissions for deployment, testing, and integration
-							with existing systems to facilitate seamless solution delivery.
+							<strong>Infrastructure:</strong> Access to HSBC development/staging environments with deployment
+							permissions.
 						</p>
 						<p>
-							<strong>Security & Compliance:</strong> All tooling and infrastructure access will be subject
-							to HSBC's security policies and approval processes, with full documentation and compliance
-							with banking regulatory requirements.
+							<strong>Security:</strong> Subject to HSBC security policies and banking regulatory compliance.
 						</p>
-						<p class="text-sm text-gray-600 italic print:text-xs">
-							These requirements enable our team to deliver efficiently whilst maintaining HSBC's
-							security standards and ensuring successful project outcomes.
+						<p class="text-xs text-gray-600 italic print:text-xs">
+							Enables efficient delivery whilst maintaining security standards.
 						</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- Key Deliverables -->
-			<div
-				class="mt-8 rounded-lg bg-red-50 p-6 print:mt-6 print:border-2 print:border-red-600 print:bg-white print:p-4"
-			>
-				<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
-					Key Deliverables
-				</h3>
-				<div class="grid grid-cols-1 gap-4 md:grid-cols-3 print:grid-cols-3 print:gap-3">
-					<div class="text-center">
-						<div class="mb-2 text-2xl font-bold text-red-600 print:text-lg">300-400</div>
-						<div class="text-sm font-medium text-gray-700 print:text-xs">Templates Assessed</div>
-					</div>
-					<div class="text-center">
-						<div class="mb-2 text-2xl font-bold text-red-600 print:text-lg">2</div>
-						<div class="text-sm font-medium text-gray-700 print:text-xs">Core Systems Enhanced</div>
-					</div>
-					<div class="text-center">
-						<div class="mb-2 text-2xl font-bold text-red-600 print:text-lg">100%</div>
-						<div class="text-sm font-medium text-gray-700 print:text-xs">Regulatory Compliance</div>
 					</div>
 				</div>
 			</div>
 
 			<!-- Contract Summary -->
 			<div
-				class="contract-summary mt-6 rounded-lg bg-red-600 p-6 text-white print:mt-4 print:bg-red-700 print:p-4"
+				class="contract-summary mt-6 rounded-lg bg-red-50 p-6 text-gray-900 print:mt-4 print:bg-red-50 print:p-4"
 			>
-				<h3 class="mb-3 text-xl font-bold print:mb-1 print:text-xs">Contract Summary</h3>
-				<p class="leading-relaxed text-red-50 print:text-xs print:leading-tight">
-					Fixed-price 3-months engagement delivering Template Compliance Assessment and Innovation
-					Banking workstreams. Our specialist team will aim to streamline direct to client messaging
-					at Innovation Banking, aiming to replicate some of the Adobe and PEGA functionalities as
-					well as provide strategic assessment for potential in-housing. We will implement an
-					AI-driven approach to solving the Template Compliance Assemenent workstream.
+				<h3 class="mb-3 text-xl font-bold text-red-700 print:mb-1 print:text-xs">
+					Contract Summary
+				</h3>
+				<p class="leading-relaxed text-gray-800 print:text-xs print:leading-tight">
+					3-month fixed-price engagement delivering Template Compliance Assessment and Innovation
+					Banking optimisation. Streamline messaging workflows, assess Adobe/PEGA functionality for
+					potential in-housing, implement AI-driven compliance solutions.
 				</p>
 			</div>
 		</section>
