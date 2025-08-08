@@ -105,15 +105,11 @@
 					highlight: true
 				},
 				{
-					text: 'Expert in Svelte 5, Tailwind CSS, and modern component architecture',
-					highlight: false
-				},
-				{
-					text: 'Designed end-to-end merchant loan workflows achieving 30% increase in dealership car buyers',
+					text: 'Expert frontend developer specializing in Svelte 5, Tailwind CSS, and modern component architecture',
 					highlight: true
 				},
 				{
-					text: "Fluent in English, Spanish, Italian, and German - enabling direct stakeholder engagement across HSBC's global operations",
+					text: 'Designed end-to-end merchant loan workflows achieving 30% increase in dealership car buyers',
 					highlight: true
 				},
 				{
@@ -129,8 +125,12 @@
 			name: 'Alexander Heather',
 			credentials: 'Full-Stack Developer | Advanced DevOps & LLM Integration Expert',
 			description:
-				"At 19, Alexander demonstrates remarkable technical maturity with 7+ years of enterprise-level development. His early exposure to financial technology through family connections provides valuable context for HSBC's regulatory and operational requirements.",
+				"Alexander brings exceptional technical depth with 7+ years of enterprise-level development experience, having started coding at age 12 inspired by his father who built mission-critical trading software still used by the world's largest financial institutions.",
 			qualifications: [
+				{
+					text: 'Full-stack developer with strong design sensibility, delivering both technical excellence and user-focused interfaces',
+					highlight: true
+				},
 				{
 					text: 'Built comprehensive microservices architecture with 12+ interconnected repositories',
 					highlight: false
@@ -145,6 +145,10 @@
 					highlight: false
 				},
 				{
+					text: 'Expert at terminal operations with deep knowledge of Linux server administration and system optimization',
+					highlight: true
+				},
+				{
 					text: 'Manages separate AWS cloud infrastructure with ELK Stack, Fluentd, and Prometheus monitoring',
 					highlight: false
 				},
@@ -154,7 +158,7 @@
 				}
 			],
 			highlight:
-				"Alexander's exceptional technical depth and understanding of financial services infrastructure ensures effective delivery of scalable, mission-critical systems within the engagement timeline."
+				"Alexander's exceptional technical depth will be invaluable in the delivery of scalable, mission-critical systems within the engagement timeline."
 		}
 	];
 </script>
@@ -194,51 +198,53 @@
 
 		<!-- Combined Team Skills Section -->
 		<section
-			class="rounded-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 p-6 print:border-gray-500 print:bg-white print:p-3"
+			class="rounded-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 p-8 print:border-gray-500 print:bg-white print:p-6"
 		>
-			<div class="mb-6 text-center print:mb-4">
+			<div class="mb-8 text-center print:mb-6">
 				<h2 class="text-2xl font-bold text-gray-900 print:text-lg">
 					Combined Team Skills & Technical Expertise
 				</h2>
 				<div class="mx-auto mt-3 h-1 w-24 bg-red-600 print:mt-2 print:h-0.5 print:w-16"></div>
 			</div>
 
-			<div class="grid grid-cols-1 gap-6 lg:grid-cols-2 print:grid-cols-3 print:gap-3">
-				<!-- Banking & Financial Expertise (Combined Core + Specialized) -->
+			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2 print:grid-cols-1 print:gap-6">
+				<!-- Core Banking & Financial Services -->
 				<div
-					class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm print:border-gray-400 print:p-2 print:shadow-none"
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
 				>
-					<h3 class="mb-3 text-lg font-bold text-red-700 print:mb-2 print:text-sm">
-						Banking & Financial Expertise
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+						Core Banking & Financial Services
 					</h3>
-					<ul class="space-y-1.5 text-gray-800 print:space-y-0.5 print:text-xs print:leading-tight">
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+					<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-snug">
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
 							<span class="font-medium">Direct HSBC audit and systems experience</span>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
 							<span>Major bank remediation programs (PPI, mortgage, credit)</span>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span>Regulatory compliance (Section 166, audit frameworks)</span>
+							<span>Regulatory compliance (Section 166, data trails, audit frameworks)</span>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span class="font-medium">1,200%+ efficiency improvements in automation</span>
+							<span>Advanced financial modeling and working capital analysis</span>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span>Template engines and content management systems</span>
+							<span
+								>Expert financial modelling for complex banking calculations and risk assessment</span
+							>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
 							<span>Fintech product design across global markets</span>
 						</li>
@@ -247,75 +253,166 @@
 
 				<!-- Advanced Technology Stack -->
 				<div
-					class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm print:border-gray-400 print:p-2 print:shadow-none"
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
 				>
-					<h3 class="mb-3 text-lg font-bold text-red-700 print:mb-2 print:text-sm">
-						Technology Stack
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+						Advanced Technology Stack
 					</h3>
-					<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-tight">
+					<ul class="space-y-3 text-gray-800 print:space-y-2 print:text-xs print:leading-snug">
 						<li>
-							<span class="font-semibold text-red-600">Languages:</span> TypeScript, Python, SQL, VBA
+							<span class="font-semibold text-red-600">Languages:</span> TypeScript, JavaScript, Python,
+							Go, C#, SQL, VBA/VB, Bash scripting
 						</li>
 						<li>
-							<span class="font-semibold text-red-600">Frameworks:</span> SvelteKit, React, Angular
+							<span class="font-semibold text-red-600">Frameworks:</span> SvelteKit, React, Next.js,
+							Angular, Flutter, Express.js, NestJS
 						</li>
 						<li>
-							<span class="font-semibold text-red-600">Databases:</span> PostgreSQL, SQL Server, MongoDB
+							<span class="font-semibold text-red-600">Databases:</span> PostgreSQL, MongoDB, SQL Server,
+							Redis, Vector DBs
 						</li>
 						<li>
-							<span class="font-semibold text-red-600">Cloud:</span> AWS, Kubernetes, Docker
+							<span class="font-semibold text-red-600">Cloud & Infrastructure:</span> AWS (full stack),
+							Kubernetes, Docker, Terraform
 						</li>
 						<li>
-							<span class="font-semibold text-red-600">AI/ML:</span> LLM deployment, ChatGPT integration
+							<span class="font-semibold text-red-600">AI/ML:</span> LLM deployment, fine-tuning, stable
+							diffusion, ChatGPT integration
 						</li>
 						<li>
-							<span class="font-semibold text-red-600">DevOps:</span> CI/CD, ELK Stack, Prometheus
+							<span class="font-semibold text-red-600">DevOps:</span> CI/CD pipelines, ELK Stack, Prometheus,
+							Cloudflare
+						</li>
+						<li>
+							<span class="font-semibold text-red-600">Systems:</span> Linux administration, Terminal/CLI
+							expertise, Server management
 						</li>
 					</ul>
 				</div>
 
-				<!-- Delivery & Global Capabilities -->
+				<!-- Specialized Capabilities -->
 				<div
-					class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm print:border-gray-400 print:p-2 print:shadow-none"
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
 				>
-					<h3 class="mb-3 text-lg font-bold text-red-700 print:mb-2 print:text-sm">
-						Delivery & Global Capabilities
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+						Specialized Capabilities
 					</h3>
-					<ul class="space-y-1.5 text-gray-800 print:space-y-0.5 print:text-xs print:leading-tight">
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+					<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-snug">
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span class="font-medium">3-month fixed engagement track record</span>
+							<span>Template engines and content management systems</span>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span class="font-medium">Regulatory penalty avoidance expertise</span>
+							<span class="font-medium"
+								>Automated calculation systems with 1,200%+ efficiency improvements</span
+							>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span>High-risk project delivery under tight deadlines</span>
+							<span>Multi-language support (English, Spanish, Italian, German)</span>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span>Multi-language: English, German, Spanish, Italian, French</span>
+							<span
+								>Cross-cultural product design across DACH, Asian, and Latin American markets</span
+							>
 						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
-							></span>
-							<span>Cross-cultural design (DACH, Asian, Latin American markets)</span>
-						</li>
-						<li class="flex items-start gap-1.5">
-							<span class="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-red-600 print:mt-1"
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
 							<span>Real-time messaging integration (Twilio, SendGrid)</span>
 						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span>Webhook implementation and event-driven architecture</span>
+						</li>
 					</ul>
 				</div>
-			</div>
 
+				<!-- Project Delivery Excellence -->
+				<div
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
+				>
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+						Project Delivery Excellence
+					</h3>
+					<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-snug">
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span>3-month fixed engagement experience</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span>20-day onboarding processes</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span class="font-medium">Regulatory penalty avoidance track record</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span>High-value, high-risk project delivery under tight deadlines</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span>Proven scalability from small markets to enterprise-wide implementations</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span>Strong stakeholder management across international teams</span>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Team Language Capabilities -->
+				<div
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm lg:col-span-2 print:col-span-1 print:border-gray-400 print:p-4 print:shadow-none"
+				>
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+						Team Language Capabilities
+					</h3>
+					<div
+						class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-5 print:grid-cols-3 print:gap-3"
+					>
+						<div class="text-center">
+							<div class="font-semibold text-red-600 print:text-xs">English</div>
+							<div class="text-sm text-gray-700 print:text-xs">
+								Native fluency (all team members)
+							</div>
+						</div>
+						<div class="text-center">
+							<div class="font-semibold text-red-600 print:text-xs">French</div>
+							<div class="text-sm text-gray-700 print:text-xs">Fluent (Duncan)</div>
+						</div>
+						<div class="text-center">
+							<div class="font-semibold text-red-600 print:text-xs">German</div>
+							<div class="text-sm text-gray-700 print:text-xs">Fluent (Leon)</div>
+						</div>
+						<div class="text-center">
+							<div class="font-semibold text-red-600 print:text-xs">Spanish</div>
+							<div class="text-sm text-gray-700 print:text-xs">
+								Fluent (Leon), Conversational (Duncan)
+							</div>
+						</div>
+						<div class="text-center">
+							<div class="font-semibold text-red-600 print:text-xs">Italian</div>
+							<div class="text-sm text-gray-700 print:text-xs">Fluent (Leon)</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<!-- Page Break after Combined Skills -->
