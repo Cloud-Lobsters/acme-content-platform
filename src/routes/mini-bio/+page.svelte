@@ -50,7 +50,7 @@
 			name: 'Tara Whitaker',
 			credentials: 'BA (Hons) Magdalen College Oxford | FCA Fellow Chartered Accountant (ICAEW)',
 			description:
-				'Tara delivers exceptional financial modeling expertise and Big 4 consulting experience, with proven track record in complex banking remediation programs.',
+				'Tara delivers exceptional financial modelling expertise and Big 4 consulting experience, with proven track record in complex banking remediation programs.',
 			qualifications: [
 				{
 					text: 'Former KPMG Senior Manager with extensive experience in major bank remediation programs',
@@ -90,7 +90,7 @@
 				}
 			],
 			highlight:
-				"Tara's combination of banking remediation expertise and automated calculation solutions makes her ideally suited for both the 300-400 template compliance assessment and Innovation Banking workflow optimization."
+				"Tara's combination of banking remediation expertise and automated calculation solutions makes him ideally suited for both the 300-400 template compliance assessment and Innovation Banking workflow optimisation."
 		},
 		{
 			role: 'Senior Product Design & Full-Stack Developer',
@@ -113,12 +113,16 @@
 					highlight: true
 				},
 				{
-					text: 'Current Cloud Lobsters role involves analyzing requests and developing functional products for complex workflows',
+					text: 'Extensive experience with content creation tools (Adobe Creative Suite, Figma) - ideal for replicating core Adobe functionality in custom solutions',
+					highlight: true
+				},
+				{
+					text: 'Current Cloud Lobsters role involves analysing requests and developing functional products for complex workflows',
 					highlight: false
 				}
 			],
 			highlight:
-				"Leon's multilingual capabilities and cross-cultural experience across multiple markets position him ideally for HSBC's global messaging standardization requirements."
+				"Leon's core strength lies in UX/UI design and frontend development, with extensive Adobe Creative Suite and Figma experience making him ideal for replicating core Adobe functionality within HSBC's in-house systems. His multilingual capabilities further position him perfectly for HSBC's global messaging standardization requirements."
 		},
 		{
 			role: 'Technical Infrastructure Specialist',
@@ -132,33 +136,33 @@
 					highlight: true
 				},
 				{
-					text: 'Built comprehensive microservices architecture with 12+ interconnected repositories',
+					text: 'Built comprehensive microservices architecture with 12+ interconnected repositories using gRPC for high-performance inter-service communication',
 					highlight: false
 				},
 				{
-					text: 'Built own server infrastructure with locally deployed Kubernetes across 3+ nodes with advanced monitoring',
+					text: 'Built custom server infrastructure with locally deployed Kubernetes cluster across 3+ nodes featuring comprehensive ELK Stack, Fluentd, and Prometheus monitoring',
 					highlight: true
 				},
-				{ text: 'Early LLM adopter with production AI integration experience', highlight: false },
+				{ text: 'Built AI image generator in production utilising fine-tuned LoRAs with stable diffusion model weights deployed on-premise for optimal performance', highlight: true },
 				{
 					text: 'Developed sophisticated templating engine for programmatic content generation',
 					highlight: false
 				},
 				{
-					text: 'Expert at terminal operations with deep knowledge of Linux server administration and system optimization',
+					text: 'Expert at terminal operations with deep knowledge of Linux server administration and system optimisation',
 					highlight: true
 				},
 				{
-					text: 'Manages separate AWS cloud infrastructure with ELK Stack, Fluentd, and Prometheus monitoring',
+					text: 'Experienced in AWS cloud infrastructure management and deployment',
 					highlight: false
 				},
 				{
-					text: 'Built approximately 7 different platforms in 6 months at Cloud Lobsters',
+					text: 'Delivered 7 distinct platforms within 6 months at Cloud Lobsters, demonstrating rapid development capabilities',
 					highlight: true
 				}
 			],
 			highlight:
-				"Alexander's exceptional technical depth will be invaluable in the delivery of scalable, mission-critical systems within the engagement timeline."
+				"Alexander will be core to replicating key PEGA functionality within the bank's in-house systems. His exceptional technical depth and financial services infrastructure understanding ensures delivery of scalable, mission-critical systems within the engagement timeline."
 		}
 	];
 </script>
@@ -192,7 +196,7 @@
 				This team combines deep banking sector knowledge, cutting-edge technical capabilities, and
 				proven delivery excellence to execute HSBC's messaging rationalization initiative across
 				both template compliance assessment and Innovation Banking content management workflow
-				optimization.
+				optimisation.
 			</p>
 		</div>
 
@@ -234,7 +238,7 @@
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span>Advanced financial modeling and working capital analysis</span>
+							<span>Advanced financial modelling and working capital analysis</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
@@ -290,12 +294,12 @@
 					</ul>
 				</div>
 
-				<!-- Specialized Capabilities -->
+				<!-- Specialised Capabilities -->
 				<div
 					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
 				>
 					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
-						Specialized Capabilities
+						Specialised Capabilities
 					</h3>
 					<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-snug">
 						<li class="flex items-start gap-2">
