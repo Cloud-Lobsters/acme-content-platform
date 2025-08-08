@@ -1,5 +1,6 @@
 <script>
 	import MiniBio from '$lib/components/MiniBio.svelte';
+	import PageBreak from '$lib/components/PageBreak.svelte';
 
 	const teamMembers = [
 		{
@@ -408,11 +409,13 @@
 			</div>
 		</section>
 
+		<PageBreak />
+
 		{#each teamMembers as member, index}
 			<div
 				class="team-member-section {index === 2 ? 'leon-alex-group print:break-before-page' : ''}"
 			>
-				<MiniBio {...member} showAvatar={true} />
+				<MiniBio {...member} showAvatar={false} />
 			</div>
 		{/each}
 
