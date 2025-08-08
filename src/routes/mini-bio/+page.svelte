@@ -410,9 +410,9 @@
 
 		{#each teamMembers as member, index}
 			<div
-				class="team-member-section {index === 2 ? 'leon-alex-group print:break-before-page' : ''}"
+				class="team-member-section {index === 0 ? 'duncan-first print:break-before-page' : ''} {index === 1 ? 'tara-second' : ''} {index === 2 ? 'leon-alex-group print:break-before-page' : ''}"
 			>
-				<MiniBio {...member} showAvatar={true} />
+				<MiniBio {...member} />
 			</div>
 		{/each}
 
@@ -872,6 +872,17 @@
 			page-break-inside: avoid !important;
 		}
 
+		/* Duncan and Tara should be on same page */
+		.duncan-first {
+			break-after: avoid !important;
+			page-break-after: avoid !important;
+		}
+		
+		.tara-second {
+			break-before: avoid !important;
+			page-break-before: avoid !important;
+		}
+
 		/* Leon and Alex should be on same page */
 		.print\:break-before-page {
 			break-before: page !important;
@@ -886,6 +897,12 @@
 		.leon-alex-group + .team-member-section {
 			break-before: avoid !important;
 			page-break-before: avoid !important;
+		}
+		
+		/* Remove URLs when printing */
+		a[href]::after {
+			display: none !important;
+			content: none !important;
 		}
 
 		/* Contract summary optimization */
