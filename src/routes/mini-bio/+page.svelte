@@ -6,11 +6,12 @@
 			role: 'Lead Technical Architect',
 			name: 'Duncan F.M. Elliot',
 			credentials: 'MEng Imperial College London | ACA Chartered Accountant (ICAEW)',
+			contact: '07801 638 162 | duncan@cloudlobsters.com',
 			description:
 				'Duncan brings unique expertise combining software engineering, financial services knowledge, accounting, and regulatory compliance. With 20+ years of experience in the banking and IT sector, including direct HSBC audit experience.',
 			qualifications: [
 				{
-					text: 'Full-stack developer with extensive coding background and solution architecture expertise as well as proven track record in running high performance AI-enabled development teams.',
+					text: 'Full-stack developer with extensive coding background and solution architecture expertise as well as a proven track record in running high performance AI-enabled development teams.',
 					highlight: true
 				},
 				{
@@ -38,7 +39,7 @@
 					highlight: false
 				},
 				{
-					text: 'Proven track record building scalable solutions across multiple markets and use cases',
+					text: 'A proven track record building scalable solutions across multiple markets and use cases',
 					highlight: false
 				}
 			],
@@ -49,8 +50,9 @@
 			role: 'Senior Manager',
 			name: 'Tara Whitaker',
 			credentials: 'BA (Hons) Magdalen College Oxford | FCA Fellow Chartered Accountant (ICAEW)',
+			contact: '07585 554 498 | tara@cloudlobsters.com',
 			description:
-				'Tara delivers exceptional financial modelling expertise and Big 4 consulting experience, with proven track record in complex banking remediation programs.',
+				'Tara delivers exceptional financial modelling expertise and Big 4 consulting experience, with a proven track record in complex banking remediation programs.',
 			qualifications: [
 				{
 					text: 'Former KPMG Senior Manager with extensive experience in major bank remediation programs',
@@ -105,16 +107,16 @@
 					highlight: true
 				},
 				{
-					text: 'Expert frontend developer specializing in Svelte 5, Tailwind CSS, and modern component architecture',
-					highlight: true
+					text: 'Expert frontend developer specialising in Svelte 5, Tailwind CSS, and modern component architecture',
+					highlight: false
 				},
 				{
 					text: 'Designed end-to-end merchant loan workflows achieving 30% increase in dealership car buyers',
-					highlight: true
+					highlight: false
 				},
 				{
 					text: 'Extensive experience with content creation tools (Adobe Creative Suite, Figma) - ideal for replicating core Adobe functionality in custom solutions',
-					highlight: true
+					highlight: false
 				},
 				{
 					text: 'Current Cloud Lobsters role involves analysing requests and developing functional products for complex workflows',
@@ -143,14 +145,17 @@
 					text: 'Built custom server infrastructure with locally deployed Kubernetes cluster across 3+ nodes featuring comprehensive ELK Stack, Fluentd, and Prometheus monitoring',
 					highlight: true
 				},
-				{ text: 'Built AI image generator in production utilising fine-tuned LoRAs with stable diffusion model weights deployed on-premise for optimal performance', highlight: true },
+				{
+					text: 'Built AI image generator in production utilising fine-tuned LoRAs with stable diffusion model weights deployed on-premise for optimal performance',
+					highlight: false
+				},
 				{
 					text: 'Developed sophisticated templating engine for programmatic content generation',
 					highlight: false
 				},
 				{
 					text: 'Expert at terminal operations with deep knowledge of Linux server administration and system optimisation',
-					highlight: true
+					highlight: false
 				},
 				{
 					text: 'Experienced in AWS cloud infrastructure management and deployment',
@@ -360,7 +365,7 @@
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
-							<span class="font-medium">Regulatory penalty avoidance track record</span>
+							<span class="font-medium">Proven regulatory penalty avoidance track record</span>
 						</li>
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
@@ -428,6 +433,100 @@
 				<div class="print:break-after-page"></div>
 			{/if}
 		{/each}
+
+		<!-- Page Break before Statement of Work -->
+		<div class="print:break-before-page"></div>
+
+		<!-- Statement of Work -->
+		<section class="rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:border-red-700 print:p-6 print:shadow-none">
+			<div class="mb-6 text-center print:mb-4">
+				<h2 class="text-2xl font-bold text-red-700 print:text-lg">Statement of Work</h2>
+				<div class="mx-auto mt-2 h-1 w-24 bg-red-600 print:mt-1 print:h-0.5 print:w-16"></div>
+			</div>
+
+			<div class="grid grid-cols-1 gap-6 lg:grid-cols-2 print:grid-cols-1 print:gap-4">
+				<!-- Scope of Work -->
+				<div class="rounded-lg bg-gray-50 p-6 print:bg-white print:p-4 print:border print:border-gray-300">
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">Scope of Work</h3>
+					<ul class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span><strong>Template Compliance Assessment:</strong> Comprehensive review and analysis of 300-400 existing templates for regulatory compliance</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span><strong>Innovation Banking Workflow Optimisation:</strong> Design and implement streamlined content management workflows</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span><strong>Adobe Functionality Replication:</strong> Develop core Adobe Creative Suite features within HSBC's in-house systems</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span><strong>PEGA Functionality Replication:</strong> Replicate key PEGA workflow capabilities in custom banking solutions</span>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
+							<span><strong>Global Messaging Standardisation:</strong> Implement consistent messaging framework across international operations</span>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Project Details -->
+				<div class="rounded-lg bg-gray-50 p-6 print:bg-white print:p-4 print:border print:border-gray-300">
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">Project Details</h3>
+					<div class="space-y-4 text-gray-800 print:space-y-3 print:text-sm">
+						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
+							<span class="font-medium">Team Size:</span>
+							<span class="font-semibold">4 FTEs</span>
+						</div>
+						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
+							<span class="font-medium">Duration:</span>
+							<span class="font-semibold">3 Months</span>
+						</div>
+						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
+							<span class="font-medium">Contract Type:</span>
+							<span class="font-semibold">Fixed Price</span>
+						</div>
+						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
+							<span class="font-medium">Total Investment:</span>
+							<span class="font-semibold text-red-700">£30,000</span>
+						</div>
+						<div class="flex justify-between">
+							<span class="font-medium">Payment Terms:</span>
+							<span class="font-semibold">TBD</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Key Deliverables -->
+			<div class="mt-8 rounded-lg bg-red-50 p-6 print:mt-6 print:bg-white print:p-4 print:border-2 print:border-red-600">
+				<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">Key Deliverables</h3>
+				<div class="grid grid-cols-1 gap-4 md:grid-cols-3 print:grid-cols-1 print:gap-3">
+					<div class="text-center">
+						<div class="mb-2 text-2xl font-bold text-red-600 print:text-lg">300-400</div>
+						<div class="text-sm font-medium text-gray-700 print:text-xs">Templates Assessed</div>
+					</div>
+					<div class="text-center">
+						<div class="mb-2 text-2xl font-bold text-red-600 print:text-lg">2</div>
+						<div class="text-sm font-medium text-gray-700 print:text-xs">Core Systems Enhanced</div>
+					</div>
+					<div class="text-center">
+						<div class="mb-2 text-2xl font-bold text-red-600 print:text-lg">100%</div>
+						<div class="text-sm font-medium text-gray-700 print:text-xs">Regulatory Compliance</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Contract Summary -->
+			<div class="mt-6 rounded-lg bg-red-600 p-6 text-white print:mt-4 print:bg-red-700 print:p-4">
+				<h3 class="mb-3 text-xl font-bold print:mb-2 print:text-base">Contract Summary</h3>
+				<p class="leading-relaxed text-red-50 print:text-xs print:leading-normal">
+					Fixed-price 3-month engagement delivering comprehensive messaging rationalisation across HSBC's template compliance and Innovation Banking workflows. Our 4-person specialist team will replicate core Adobe and PEGA functionalities within HSBC's in-house systems, ensuring regulatory compliance and operational excellence.
+				</p>
+			</div>
+		</section>
 	</main>
 </div>
 
