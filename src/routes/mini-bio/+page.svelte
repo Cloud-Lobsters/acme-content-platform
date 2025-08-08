@@ -15,16 +15,16 @@
 					highlight: true
 				},
 				{
+					text: 'Former KPMG Senior Manager with extensive HSBC, Citigroup, and Barclays audit experience',
+					highlight: true
+				},
+				{
 					text: 'Expert in designing end-to-end software with user-centric UI/UX focus for elegant, intuitive solutions',
 					highlight: false
 				},
 				{
 					text: 'Extensive experience in API design, implementation, and deployment across complex enterprise environments',
 					highlight: false
-				},
-				{
-					text: 'Former KPMG Senior Manager with extensive HSBC, Citigroup, and Barclays audit experience',
-					highlight: true
 				},
 				{
 					text: 'Led development of PPI remediation calculation models processing millions of customers in redress programs',
@@ -39,7 +39,7 @@
 					highlight: false
 				},
 				{
-					text: 'A proven track record building scalable solutions across multiple markets and use cases',
+					text: 'Delivered €200M+ in regulatory penalty avoidance across major UK banks through proactive compliance frameworks and risk mitigation strategies',
 					highlight: false
 				}
 			],
@@ -138,12 +138,12 @@
 					highlight: true
 				},
 				{
-					text: 'Built comprehensive microservices architecture with 12+ interconnected repositories using gRPC for high-performance inter-service communication',
-					highlight: false
-				},
-				{
 					text: 'Built custom server infrastructure with locally deployed Kubernetes cluster across 3+ nodes featuring comprehensive ELK Stack, Fluentd, and Prometheus monitoring',
 					highlight: true
+				},
+				{
+					text: 'Built comprehensive microservices architecture with 12+ interconnected repositories using gRPC for high-performance inter-service communication',
+					highlight: false
 				},
 				{
 					text: 'Built AI image generator in production utilising fine-tuned LoRAs with stable diffusion model weights deployed on-premise for optimal performance',
@@ -163,7 +163,7 @@
 				},
 				{
 					text: 'Delivered 7 distinct platforms within 6 months at Cloud Lobsters, demonstrating rapid development capabilities',
-					highlight: true
+					highlight: false
 				}
 			],
 			highlight:
@@ -178,26 +178,32 @@
 </svelte:head>
 
 <div
-	class="font-['Georgia','Times New Roman',serif] mx-auto max-w-[210mm] bg-white text-gray-900 shadow-sm print:mx-0 print:my-0 print:max-w-none print:w-full print:shadow-none print:bg-white"
+	class="font-['Georgia','Times New Roman',serif] mx-auto max-w-[210mm] bg-white text-gray-900 shadow-sm print:mx-0 print:my-0 print:w-full print:max-w-none print:bg-white print:shadow-none"
 >
 	<!-- Document Header / Cover Page -->
 	<header
-		class="bg-gradient-to-r from-red-600 to-red-700 p-6 text-white print:bg-red-700 print:h-screen print:flex print:items-center print:justify-center print:p-0"
+		class="bg-gradient-to-r from-red-600 to-red-700 p-6 text-white print:flex print:h-screen print:items-center print:justify-center print:bg-red-700 print:p-0"
 	>
-		<div class="border-l-4 border-white pl-4 print:border-l-0 print:pl-0 print:text-center print:space-y-4">
-			<h1 class="text-2xl font-bold tracking-wide print:text-4xl print:tracking-normal print:mb-6">
+		<div
+			class="border-l-4 border-white pl-4 print:space-y-4 print:border-l-0 print:pl-0 print:text-center"
+		>
+			<h1 class="text-2xl font-bold tracking-wide print:mb-6 print:text-4xl print:tracking-normal">
 				HSBC Messaging Rationalization Initiative
 			</h1>
-			<p class="mt-1 text-sm font-medium text-red-100 print:text-2xl print:!text-black print:mt-8">Team Profile & Capabilities</p>
+			<p class="mt-1 text-sm font-medium text-red-100 print:mt-8 print:text-2xl print:!text-black">
+				Team Profile & Capabilities
+			</p>
 		</div>
 	</header>
 
 	<!-- Main Content -->
-	<main class="space-y-8 p-8 print:space-y-2 print:p-2 print:mx-0 print:break-before-page">
+	<main class="space-y-8 p-8 print:mx-0 print:break-before-page print:space-y-2 print:p-2">
 		<!-- Executive Summary -->
-		<div class="rounded-lg bg-red-600 p-6 text-white print:bg-red-700 print:p-2 print-avoid-break">
-			<h3 class="mb-4 text-xl font-bold print:mb-1 print:text-xs print:!text-white">Executive Summary</h3>
-			<p class="leading-relaxed text-red-50 print:text-xs print:leading-tight print:mb-0">
+		<div class="print-avoid-break rounded-lg bg-red-600 p-6 text-white print:bg-red-700 print:p-2">
+			<h3 class="mb-4 text-xl font-bold print:mb-1 print:text-xs print:!text-white">
+				Executive Summary
+			</h3>
+			<p class="leading-relaxed text-red-50 print:mb-0 print:text-xs print:leading-tight">
 				This team combines deep banking sector knowledge, cutting-edge technical capabilities, and
 				proven delivery excellence to execute HSBC's messaging rationalization initiative across
 				both template compliance assessment and Innovation Banking content management workflow
@@ -207,10 +213,10 @@
 
 		<!-- Combined Team Skills Section -->
 		<section
-			class="rounded-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 p-8 print:border-gray-500 print:bg-white print:p-3 skills-table print-avoid-break"
+			class="skills-table print-avoid-break rounded-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 p-8 print:border-gray-500 print:bg-white print:p-3"
 		>
 			<div class="mb-8 text-center print:mb-2">
-				<h2 class="text-2xl font-bold text-gray-900 print:text-xs print:mb-0">
+				<h2 class="text-2xl font-bold text-gray-900 print:mb-0 print:text-xs">
 					Combined Team Skills & Technical Expertise
 				</h2>
 				<div class="mx-auto mt-3 h-1 w-24 bg-red-600 print:mt-0.5 print:h-0.5 print:w-8"></div>
@@ -260,45 +266,6 @@
 					</ul>
 				</div>
 
-				<!-- Advanced Technology Stack -->
-				<div
-					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-2 print:shadow-none"
-				>
-					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
-						Advanced Technology Stack
-					</h3>
-					<ul class="space-y-3 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
-						<li>
-							<span class="font-semibold text-red-600">Languages:</span> TypeScript, JavaScript, Python,
-							Go, C#, SQL, VBA/VB, Bash scripting
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">Frameworks:</span> SvelteKit, React, Next.js,
-							Angular, Flutter, Express.js, NestJS
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">Databases:</span> PostgreSQL, MongoDB, SQL Server,
-							Redis, Vector DBs
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">Cloud & Infrastructure:</span> AWS (full stack),
-							Kubernetes, Docker, Terraform
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">AI/ML:</span> LLM deployment, fine-tuning, stable
-							diffusion, ChatGPT integration
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">DevOps:</span> CI/CD pipelines, ELK Stack, Prometheus,
-							Cloudflare
-						</li>
-						<li>
-							<span class="font-semibold text-red-600">Systems:</span> Linux administration, Terminal/CLI
-							expertise, Server management
-						</li>
-					</ul>
-				</div>
-
 				<!-- Specialised Capabilities -->
 				<div
 					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
@@ -336,16 +303,48 @@
 							></span>
 							<span>Real-time messaging integration (Twilio, SendGrid)</span>
 						</li>
-						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
-							></span>
-							<span>Webhook implementation and event-driven architecture</span>
+					</ul>
+				</div>
+				<!-- Advanced Technology Stack -->
+				<div
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm lg:col-span-2 print:col-span-2 print:border-gray-400 print:p-2 print:shadow-none"
+				>
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
+						Advanced Technology Stack
+					</h3>
+					<ul class="space-y-3 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
+						<li>
+							<span class="font-semibold text-red-600">Languages:</span> TypeScript, JavaScript, Python,
+							Go, C#, SQL, VBA/VB, Bash scripting
+						</li>
+						<li>
+							<span class="font-semibold text-red-600">Frameworks:</span> SvelteKit, React, Next.js,
+							Angular, Flutter, Express.js, NestJS
+						</li>
+						<li>
+							<span class="font-semibold text-red-600">Databases:</span> PostgreSQL, MongoDB, SQL Server,
+							Redis, Vector DBs
+						</li>
+						<li>
+							<span class="font-semibold text-red-600">Cloud & Infrastructure:</span> AWS (full stack),
+							Kubernetes, Docker, Terraform
+						</li>
+						<li>
+							<span class="font-semibold text-red-600">AI/ML:</span> LLM deployment, fine-tuning, stable
+							diffusion, ChatGPT integration
+						</li>
+						<li>
+							<span class="font-semibold text-red-600">DevOps:</span> CI/CD pipelines, ELK Stack, Prometheus,
+							Cloudflare
+						</li>
+						<li>
+							<span class="font-semibold text-red-600">Systems:</span> Linux administration, Terminal/CLI
+							expertise, Server management
 						</li>
 					</ul>
 				</div>
-
 				<!-- Project Delivery Excellence -->
-				<div
+				<!-- <div
 					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-2 print:shadow-none"
 				>
 					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
@@ -383,10 +382,10 @@
 							<span>Strong stakeholder management across international teams</span>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 
 				<!-- Team Language Capabilities -->
-				<div
+				<!-- <div
 					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm lg:col-span-2 print:col-span-2 print:border-gray-400 print:p-2 print:shadow-none"
 				>
 					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
@@ -420,63 +419,96 @@
 							<div class="text-sm text-gray-700 print:text-xs">Fluent (Leon)</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</section>
 
-
 		{#each teamMembers as member, index}
-			<div class="team-member-section {index === 2 ? 'print:break-before-page leon-alex-group' : ''}">
+			<div
+				class="team-member-section {index === 2 ? 'leon-alex-group print:break-before-page' : ''}"
+			>
 				<MiniBio {...member} />
 			</div>
 		{/each}
 
-
 		<!-- Statement of Work -->
-		<section class="rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:border-red-700 print:p-6 print:shadow-none print-avoid-break print:break-before-page">
+		<section
+			class="print-avoid-break rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:break-before-page print:border-red-700 print:p-6 print:shadow-none"
+		>
 			<div class="mb-6 text-center print:mb-4">
 				<h2 class="text-2xl font-bold text-red-700 print:text-lg">Statement of Work</h2>
 				<div class="mx-auto mt-2 h-1 w-24 bg-red-600 print:mt-1 print:h-0.5 print:w-16"></div>
 			</div>
 
 			<!-- Delivery Framework Disclaimer -->
-			<div class="bg-red-700 rounded-md p-3 mb-6 print:bg-red-800 print:p-2 print:mb-4">
+			<div class="mb-6 rounded-md bg-red-700 p-3 print:mb-4 print:bg-red-800 print:p-2">
 				<p class="text-sm font-medium text-red-100 print:text-xs">
-					<strong>Delivery Framework:</strong> Services will be delivered through Mansion House Consulting's established Tier 1 Financial Services framework, providing HSBC with additional assurance whilst maintaining direct access to our specialist banking expertise and proven track record.
+					<strong>Delivery Framework:</strong> Services will be delivered through Mansion House Consulting's
+					established Tier 1 Financial Services framework, providing HSBC with additional assurance whilst
+					maintaining direct access to our specialist banking expertise and proven track record.
 				</p>
 			</div>
 
 			<div class="space-y-6 print:space-y-4">
 				<!-- Scope of Work -->
-				<div class="rounded-lg bg-gray-50 p-6 print:bg-white print:p-4 print:border print:border-gray-300">
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">Scope of Work</h3>
+				<div
+					class="rounded-lg bg-gray-50 p-6 print:border print:border-gray-300 print:bg-white print:p-4"
+				>
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">
+						Scope of Work
+					</h3>
 					<ul class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
-							<span><strong>Template Compliance Assessment:</strong> Comprehensive review and analysis of 300-400 existing templates for regulatory compliance</span>
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span
+								><strong>Template Compliance Assessment:</strong> Comprehensive review and analysis of
+								300-400 existing templates for regulatory compliance</span
+							>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
-							<span><strong>Innovation Banking Workflow Optimisation:</strong> Collaborate with Innovation House to understand requirements and develop MVP to inform long-term robust solution development</span>
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span
+								><strong>Innovation Banking Workflow Optimisation:</strong> Collaborate with Innovation
+								House to understand requirements and develop MVP to inform long-term robust solution
+								development</span
+							>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
-							<span><strong>Adobe Functionality Analysis:</strong> Replicate core Adobe Creative Suite features and scope potential in-house replacement strategies (evaluation only)</span>
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span
+								><strong>Adobe Functionality Analysis:</strong> Assess core Adobe Creative Suite features
+								currently used and evaluate potential alternatives for future consideration</span
+							>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
-							<span><strong>PEGA Functionality Assessment:</strong> Replicate key PEGA workflow capabilities and assess feasibility for future in-house development (scoping only)</span>
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span
+								><strong>PEGA Workflow Assessment:</strong> Analyse current PEGA workflow usage and document
+								requirements for future strategic planning</span
+							>
 						</li>
 						<li class="flex items-start gap-2">
-							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"></span>
-							<span><strong>Global Messaging Standardisation:</strong> Implement consistent messaging framework across international operations</span>
+							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
+							></span>
+							<span
+								><strong>Global Messaging Standardisation:</strong> Implement consistent messaging framework
+								across international operations</span
+							>
 						</li>
 					</ul>
 				</div>
 
 				<!-- Project Details -->
-				<div class="rounded-lg bg-gray-50 p-6 print:bg-white print:p-4 print:border print:border-gray-300">
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">Project Details</h3>
+				<div
+					class="rounded-lg bg-gray-50 p-6 print:border print:border-gray-300 print:bg-white print:p-4"
+				>
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">
+						Project Details
+					</h3>
 					<div class="space-y-4 text-gray-800 print:space-y-3 print:text-sm">
 						<div class="flex justify-between border-b border-gray-200 pb-2 print:border-gray-300">
 							<span class="font-medium">Team Size:</span>
@@ -502,31 +534,72 @@
 				</div>
 
 				<!-- HSBC Internal Resource Requirements -->
-				<div class="rounded-lg bg-yellow-50 p-6 print:bg-white print:p-4 print:border print:border-yellow-400">
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">HSBC Internal Resource Requirements</h3>
+				<div
+					class="rounded-lg bg-yellow-50 p-6 print:border print:border-yellow-400 print:bg-white print:p-4"
+				>
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">
+						HSBC Internal Resource Requirements
+					</h3>
 					<div class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
-						<p><strong>Template Compliance Workstream:</strong> 1 dedicated FTE from relevant compliance or risk team with deep knowledge of HSBC's template governance and regulatory requirements.</p>
-						<p><strong>Innovation Banking Workstream:</strong> 1 dedicated FTE from Innovation Banking with subject matter expertise in current workflows and stakeholder relationships to facilitate MVP development and requirements gathering.</p>
-						<p><strong>Knowledge Transfer & Capability Development:</strong> We will leverage existing HSBC developers throughout the engagement to develop in-house capabilities, ensuring the bank can maintain and build upon solutions we implement for long-term sustainability.</p>
-						<p class="text-sm italic text-gray-600 print:text-xs">These internal resources are essential for project success, providing domain expertise and ensuring seamless integration with existing HSBC processes.</p>
+						<p>
+							<strong>Template Compliance Workstream:</strong> 1 dedicated FTE from relevant compliance
+							or risk team with deep knowledge of HSBC's template governance and regulatory requirements.
+						</p>
+						<p>
+							<strong>Innovation Banking Workstream:</strong> 1 dedicated FTE from Innovation Banking
+							with subject matter expertise in current workflows and stakeholder relationships to facilitate
+							MVP development and requirements gathering.
+						</p>
+						<p>
+							<strong>Knowledge Transfer & Capability Development:</strong> We will leverage existing
+							HSBC developers throughout the engagement to develop in-house capabilities, ensuring the
+							bank can maintain and build upon solutions we implement for long-term sustainability.
+						</p>
+						<p class="text-sm text-gray-600 italic print:text-xs">
+							These internal resources are essential for project success, providing domain expertise
+							and ensuring seamless integration with existing HSBC processes.
+						</p>
 					</div>
 				</div>
 
 				<!-- Technical Requirements & Infrastructure Access -->
-				<div class="rounded-lg bg-blue-50 p-6 print:bg-white print:p-4 print:border print:border-blue-400">
-					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">Technical Requirements & Infrastructure Access</h3>
+				<div
+					class="rounded-lg bg-blue-50 p-6 print:border print:border-blue-400 print:bg-white print:p-4"
+				>
+					<h3 class="mb-4 text-lg font-bold text-gray-900 print:mb-3 print:text-base">
+						Technical Requirements & Infrastructure Access
+					</h3>
 					<div class="space-y-3 text-gray-800 print:space-y-2 print:text-sm">
-						<p><strong>Tooling Flexibility:</strong> Cloud Lobsters requires flexibility to utilize our proven UI frameworks and development tools (including Svelte 5, modern component architecture, and specialized financial services libraries) to ensure optimal delivery speed and quality.</p>
-						<p><strong>Infrastructure Access:</strong> Ready access to HSBC's development and staging environments, including necessary permissions for deployment, testing, and integration with existing systems to facilitate seamless solution delivery.</p>
-						<p><strong>Security & Compliance:</strong> All tooling and infrastructure access will be subject to HSBC's security policies and approval processes, with full documentation and compliance with banking regulatory requirements.</p>
-						<p class="text-sm italic text-gray-600 print:text-xs">These requirements enable our team to deliver efficiently whilst maintaining HSBC's security standards and ensuring successful project outcomes.</p>
+						<p>
+							<strong>Tooling Flexibility:</strong> Cloud Lobsters requires flexibility to utilize our
+							proven UI frameworks and development tools (including Svelte 5, modern component architecture,
+							and specialized financial services libraries) to ensure optimal delivery speed and quality.
+						</p>
+						<p>
+							<strong>Infrastructure Access:</strong> Ready access to HSBC's development and staging
+							environments, including necessary permissions for deployment, testing, and integration
+							with existing systems to facilitate seamless solution delivery.
+						</p>
+						<p>
+							<strong>Security & Compliance:</strong> All tooling and infrastructure access will be subject
+							to HSBC's security policies and approval processes, with full documentation and compliance
+							with banking regulatory requirements.
+						</p>
+						<p class="text-sm text-gray-600 italic print:text-xs">
+							These requirements enable our team to deliver efficiently whilst maintaining HSBC's
+							security standards and ensuring successful project outcomes.
+						</p>
 					</div>
 				</div>
 			</div>
 
 			<!-- Key Deliverables -->
-			<div class="mt-8 rounded-lg bg-red-50 p-6 print:mt-6 print:bg-white print:p-4 print:border-2 print:border-red-600">
-				<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">Key Deliverables</h3>
+			<div
+				class="mt-8 rounded-lg bg-red-50 p-6 print:mt-6 print:border-2 print:border-red-600 print:bg-white print:p-4"
+			>
+				<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+					Key Deliverables
+				</h3>
 				<div class="grid grid-cols-1 gap-4 md:grid-cols-3 print:grid-cols-3 print:gap-3">
 					<div class="text-center">
 						<div class="mb-2 text-2xl font-bold text-red-600 print:text-lg">300-400</div>
@@ -544,10 +617,16 @@
 			</div>
 
 			<!-- Contract Summary -->
-			<div class="mt-6 rounded-lg bg-red-600 p-6 text-white print:mt-4 print:bg-red-700 print:p-4 contract-summary">
+			<div
+				class="contract-summary mt-6 rounded-lg bg-red-600 p-6 text-white print:mt-4 print:bg-red-700 print:p-4"
+			>
 				<h3 class="mb-3 text-xl font-bold print:mb-2 print:text-base">Contract Summary</h3>
 				<p class="leading-relaxed text-red-50 print:text-xs print:leading-normal">
-					Fixed-price 3-month engagement delivering comprehensive messaging rationalisation across HSBC's template compliance and Innovation Banking workflows. Our 4-person specialist team will replicate core Adobe and PEGA functionalities and provide strategic assessment for potential in-housing, ensuring regulatory compliance and operational excellence.
+					Fixed-price 3-months engagement delivering Template Compliance Assessment and Innovation
+					Banking workstreams. Our specialist team will aim to streamline direct to client messaging
+					at Innovation Banking, aiming to replicate some of the Adobe and PEGA functionalities as
+					well as provide strategic assessment for potential in-housing. We will implement an
+					AI-driven approach to solving the Template Compliance Assemenent workstream.
 				</p>
 			</div>
 		</section>
@@ -561,13 +640,13 @@
 			margin: 5mm 8mm 10mm 8mm;
 		}
 
-
 		/* Main container adjustments for maximum A4 width */
 		* {
 			box-sizing: border-box;
 		}
-		
-		html, body {
+
+		html,
+		body {
 			width: 100% !important;
 			max-width: 100% !important;
 			margin: 0 !important;
@@ -587,7 +666,8 @@
 		}
 
 		/* Keep HSBC red color scheme */
-		.text-red-600, .text-red-700 {
+		.text-red-600,
+		.text-red-700 {
 			color: #db0011 !important;
 		}
 
@@ -595,7 +675,8 @@
 			color: #a50000 !important;
 		}
 
-		.bg-red-600, .bg-red-700 {
+		.bg-red-600,
+		.bg-red-700 {
 			background-color: #db0011 !important;
 			color: white !important;
 			print-color-adjust: exact;
@@ -608,16 +689,18 @@
 			-webkit-print-color-adjust: exact;
 		}
 
-		.text-red-50, .text-red-100 {
+		.text-red-50,
+		.text-red-100 {
 			color: white !important;
 		}
-		
+
 		/* Force white text on cover page */
 		header p {
 			color: white !important;
 		}
 
-		.border-red-600, .border-red-700 {
+		.border-red-600,
+		.border-red-700 {
 			border-color: #db0011 !important;
 		}
 
@@ -626,18 +709,20 @@
 			display: none !important;
 		}
 
-
 		/* Ensure header repeats properly */
 		header {
 			break-after: avoid;
 		}
 
 		/* Avoid page breaks for important elements */
-		.print-avoid-break, table, section, .rounded-lg {
+		.print-avoid-break,
+		table,
+		section,
+		.rounded-lg {
 			break-inside: avoid !important;
 			page-break-inside: avoid !important;
 		}
-		
+
 		/* Keep executive summary and skills table together */
 		main > div:first-child,
 		main > section:first-of-type {
@@ -708,7 +793,7 @@
 			margin-left: 0 !important;
 			margin-right: 0 !important;
 		}
-		
+
 		/* Maximize content width */
 		section {
 			margin-left: 0 !important;
@@ -718,7 +803,11 @@
 
 		/* Background color preservation */
 		.bg-gradient-to-r {
-			background: linear-gradient(to right, rgba(219, 0, 17, 0.05), rgba(219, 0, 17, 0.1)) !important;
+			background: linear-gradient(
+				to right,
+				rgba(219, 0, 17, 0.05),
+				rgba(219, 0, 17, 0.1)
+			) !important;
 			print-color-adjust: exact;
 			-webkit-print-color-adjust: exact;
 		}
@@ -742,7 +831,9 @@
 		}
 
 		/* Button removal */
-		button, .btn, [role="button"] {
+		button,
+		.btn,
+		[role='button'] {
 			display: none !important;
 		}
 
@@ -756,18 +847,18 @@
 			break-inside: avoid !important;
 			page-break-inside: avoid !important;
 		}
-		
+
 		/* Leon and Alex should be on same page */
 		.print\:break-before-page {
 			break-before: page !important;
 			page-break-before: always !important;
 		}
-		
+
 		.leon-alex-group {
 			break-after: avoid !important;
 			page-break-after: avoid !important;
 		}
-		
+
 		.leon-alex-group + .team-member-section {
 			break-before: avoid !important;
 			page-break-before: avoid !important;
