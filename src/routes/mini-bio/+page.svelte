@@ -180,8 +180,6 @@
 <div
 	class="font-['Georgia','Times New Roman',serif] mx-auto max-w-[210mm] bg-white text-gray-900 shadow-sm print:mx-0 print:my-0 print:max-w-none print:w-full print:shadow-none print:bg-white"
 >
-	<!-- Running Header for Print -->
-
 	<!-- Document Header -->
 	<header
 		class="bg-gradient-to-r from-red-600 to-red-700 p-6 text-white print:bg-red-700 print:p-4"
@@ -195,11 +193,11 @@
 	</header>
 
 	<!-- Main Content -->
-	<main class="space-y-8 p-8 print:space-y-4 print:p-2 print:mx-0">
+	<main class="space-y-8 p-8 print:space-y-2 print:p-2 print:mx-0">
 		<!-- Executive Summary -->
-		<div class="rounded-lg bg-red-600 p-6 text-white print:bg-red-700 print:p-4 print-avoid-break">
-			<h3 class="mb-4 text-xl font-bold print:mb-3 print:text-base">Executive Summary</h3>
-			<p class="leading-relaxed text-red-50 print:text-xs print:leading-normal">
+		<div class="rounded-lg bg-red-600 p-6 text-white print:bg-red-700 print:p-2 print-avoid-break">
+			<h3 class="mb-4 text-xl font-bold print:mb-1 print:text-xs">Executive Summary</h3>
+			<p class="leading-relaxed text-red-50 print:text-xs print:leading-tight print:mb-0">
 				This team combines deep banking sector knowledge, cutting-edge technical capabilities, and
 				proven delivery excellence to execute HSBC's messaging rationalization initiative across
 				both template compliance assessment and Innovation Banking content management workflow
@@ -209,24 +207,24 @@
 
 		<!-- Combined Team Skills Section -->
 		<section
-			class="rounded-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 p-8 print:border-gray-500 print:bg-white print:p-6 skills-table print-avoid-break"
+			class="rounded-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 p-8 print:border-gray-500 print:bg-white print:p-3 skills-table print-avoid-break"
 		>
-			<div class="mb-8 text-center print:mb-6">
-				<h2 class="text-2xl font-bold text-gray-900 print:text-lg">
+			<div class="mb-8 text-center print:mb-2">
+				<h2 class="text-2xl font-bold text-gray-900 print:text-xs print:mb-0">
 					Combined Team Skills & Technical Expertise
 				</h2>
-				<div class="mx-auto mt-3 h-1 w-24 bg-red-600 print:mt-2 print:h-0.5 print:w-16"></div>
+				<div class="mx-auto mt-3 h-1 w-24 bg-red-600 print:mt-0.5 print:h-0.5 print:w-8"></div>
 			</div>
 
-			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2 print:grid-cols-1 print:gap-6">
+			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2 print:grid-cols-2 print:gap-2">
 				<!-- Core Banking & Financial Services -->
 				<div
-					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-2 print:shadow-none"
 				>
-					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
 						Core Banking & Financial Services
 					</h3>
-					<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-snug">
+					<ul class="space-y-2 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
@@ -264,12 +262,12 @@
 
 				<!-- Advanced Technology Stack -->
 				<div
-					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-2 print:shadow-none"
 				>
-					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
 						Advanced Technology Stack
 					</h3>
-					<ul class="space-y-3 text-gray-800 print:space-y-2 print:text-xs print:leading-snug">
+					<ul class="space-y-3 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
 						<li>
 							<span class="font-semibold text-red-600">Languages:</span> TypeScript, JavaScript, Python,
 							Go, C#, SQL, VBA/VB, Bash scripting
@@ -348,12 +346,12 @@
 
 				<!-- Project Delivery Excellence -->
 				<div
-					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-4 print:shadow-none"
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm print:border-gray-400 print:p-2 print:shadow-none"
 				>
-					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
 						Project Delivery Excellence
 					</h3>
-					<ul class="space-y-2 text-gray-800 print:space-y-1 print:text-xs print:leading-snug">
+					<ul class="space-y-2 text-gray-800 print:space-y-0 print:text-xs print:leading-tight">
 						<li class="flex items-start gap-2">
 							<span class="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-red-600 print:mt-1.5"
 							></span>
@@ -389,13 +387,13 @@
 
 				<!-- Team Language Capabilities -->
 				<div
-					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm lg:col-span-2 print:col-span-1 print:border-gray-400 print:p-4 print:shadow-none"
+					class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm lg:col-span-2 print:col-span-2 print:border-gray-400 print:p-2 print:shadow-none"
 				>
-					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">
+					<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-1 print:text-xs">
 						Team Language Capabilities
 					</h3>
 					<div
-						class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-5 print:grid-cols-3 print:gap-3"
+						class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-5 print:grid-cols-5 print:gap-1"
 					>
 						<div class="text-center">
 							<div class="font-semibold text-red-600 print:text-xs">English</div>
@@ -426,20 +424,13 @@
 			</div>
 		</section>
 
-		<!-- Page Break after Combined Skills -->
-		<div class="print:break-after-page"></div>
 
 		{#each teamMembers as member, index}
 			<div class="team-member-section">
 				<MiniBio {...member} />
 			</div>
-			{#if index === 1}
-				<div class="print:break-after-page"></div>
-			{/if}
 		{/each}
 
-		<!-- Page Break before Statement of Work -->
-		<div class="print:break-before-page"></div>
 
 		<!-- Statement of Work -->
 		<section class="rounded-lg border-2 border-red-600 bg-white p-8 shadow-lg print:border-red-700 print:p-6 print:shadow-none print-avoid-break">
@@ -536,7 +527,7 @@
 			<!-- Key Deliverables -->
 			<div class="mt-8 rounded-lg bg-red-50 p-6 print:mt-6 print:bg-white print:p-4 print:border-2 print:border-red-600">
 				<h3 class="mb-4 text-lg font-bold text-red-700 print:mb-3 print:text-base">Key Deliverables</h3>
-				<div class="grid grid-cols-1 gap-4 md:grid-cols-3 print:grid-cols-1 print:gap-3">
+				<div class="grid grid-cols-1 gap-4 md:grid-cols-3 print:grid-cols-3 print:gap-3">
 					<div class="text-center">
 						<div class="mb-2 text-2xl font-bold text-red-600 print:text-lg">300-400</div>
 						<div class="text-sm font-medium text-gray-700 print:text-xs">Templates Assessed</div>
@@ -570,13 +561,6 @@
 			margin: 5mm 8mm 10mm 8mm;
 		}
 
-		/* Running header for each page */
-		@page {
-			@top-center {
-				content: element(running-header);
-				margin-top: 2mm;
-			}
-		}
 
 		/* Main container adjustments for maximum A4 width */
 		* {
@@ -637,27 +621,23 @@
 			display: none !important;
 		}
 
-		/* Running header that appears on each page */
-		.print-running-header {
-			position: running(running-header);
-			display: none;
-		}
-		
-		/* Show running header only in print */
-		@media print {
-			.print-running-header {
-				display: block !important;
-				position: running(running-header);
-				width: 100% !important;
-				margin: 0 !important;
-				padding: 0 !important;
-			}
+
+		/* Ensure header repeats properly */
+		header {
+			break-after: avoid;
 		}
 
 		/* Avoid page breaks for important elements */
 		.print-avoid-break, table, section, .rounded-lg {
 			break-inside: avoid !important;
 			page-break-inside: avoid !important;
+		}
+		
+		/* Keep executive summary and skills table together */
+		main > div:first-child,
+		main > section:first-of-type {
+			break-after: avoid !important;
+			page-break-after: avoid !important;
 		}
 
 		/* Ensure MiniBio components don't break */
@@ -764,15 +744,6 @@
 		/* Skills table specific styling */
 		.skills-table {
 			break-inside: avoid !important;
-		}
-
-		/* Ensure good page breaks */
-		.print\:break-before-page {
-			break-before: page;
-		}
-
-		.print\:break-after-avoid {
-			break-after: avoid;
 		}
 
 		/* Team member sections shouldn't break */
