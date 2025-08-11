@@ -56,5 +56,8 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"mermaid": "^11.9.0"
 	}
 }
