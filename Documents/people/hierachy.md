@@ -13,6 +13,12 @@
 - **Department**: US Operations (dan.avidan@us.hsbc.com)
 - **Authority**: Key stakeholder with vendor engagement oversight
 
+### **Fernando H COSTA**
+- **Role**: Chief of Staff
+- **Department**: WPB Tech Digital Platforms
+- **Email**: fernando.h.costa@hsbc.com
+- **Authority**: Senior leadership for FQDN initiative and vendor engagement
+
 ## Project Leadership
 
 ### **Lambert J Z YAN** (Lambert Yan)
@@ -78,8 +84,10 @@
 ### Supporting Roles
 - **Alex J DE VINE** - CC recipient, likely manager or stakeholder
 - **Manish18 KUMAR** - CC recipient, technical support
-- **Tracey1 BAILEY** - CC recipient, administrative/coordination support
+- **Tracey1 BAILEY** - CC recipient, administrative/coordination support (reports to Venkat VAJPEY as subordinate)
 - **Grzegorz WENC** - grzegorz.wenc@hsbc.com, technical support
+- **Yagnam CHANDRA SHEKAR** - yagnamchandrashekar@hsbc.co.in, India operations
+- **Sunil DS** - sunil.ds@hsbc.co.in, India operations
 
 ## Departmental Structure (Inferred)
 
@@ -96,7 +104,16 @@
 - Cross-regional: Kosizin VISWANATHAN
 - Regional leads coordinate with global stakeholders
 
-## Key Project: AEM & MDP Messages Automation
+## Key Projects
+
+### AEM & MDP Messages Automation
 - **Objective**: Campaign automation and hyper-personalization
 - **Stakeholders**: Multi-regional team spanning US, Europe, Asia-Pacific
 - **Technical Focus**: Adobe Experience Manager (AEM) and Message Delivery Platform (MDP) integration
+
+### FQDN Initiative
+- **Lead**: Fernando H COSTA (Chief of Staff, WPB Tech Digital Platforms)
+- **External Partners**: 
+  - Cloud Lobsters (Duncan Elliot - duncan@cloudlobsters.com, Tara Whitaker - tara@cloudlobsters.com)
+  - Mansion House Consulting (John Smith - john.smith@mansion-house.co.uk, Partner)
+- **Status**: New engagement, SoW in preparation

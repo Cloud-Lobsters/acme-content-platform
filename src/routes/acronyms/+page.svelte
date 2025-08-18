@@ -75,7 +75,13 @@
 			meaning: 'Digital Services Platform 3',
 			notes: 'Acme Inc internal platform reference'
 		},
-		{ title: 'SMM', meaning: 'Social Media Management', notes: 'Content model reference' }
+		{ title: 'SMM', meaning: 'Social Media Management', notes: 'Content model reference' },
+		{
+			title: 'FQDN',
+			meaning: 'Fully Qualified Domain Name',
+			notes: 'New initiative led by Fernando H COSTA'
+		},
+		{ title: 'WPB', meaning: 'Wealth and Personal Banking', notes: 'Business division' }
 	];
 
 	$: filteredAcronyms = acronyms.filter(

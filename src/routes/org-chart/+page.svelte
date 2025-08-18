@@ -17,6 +17,7 @@
     %% Senior Leadership (Decision Makers)
     VV["Venkat VAJPEY<br/>Senior Manager/Director<br/>Digital Marketing/Campaign Management"] 
     DA["Dan Avidan<br/>Senior Manager/Technical Lead<br/>US Operations"]
+    FC["Fernando H COSTA<br/>Chief of Staff<br/>WPB Tech Digital Platforms"]
     
     %% Project Leadership Level
     TB["Tracey BAILEY<br/>Project Coordinator/Manager"]
@@ -56,6 +57,8 @@
     AD["Alex J DE VINE<br/>Support"]
     MK2["Manish KUMAR<br/>Support"]
     GW["Grzegorz WENC<br/>Support"]
+    YCS["Yagnam CHANDRA SHEKAR<br/>India Operations"]
+    SDS["Sunil DS<br/>India Operations"]
     
     %% Primary Reporting Structure (Vertical Flow)
     VV --> TB
@@ -67,6 +70,7 @@
     
     %% Advisory Connection
     DA -.-> VV
+    FC -.-> VV
     
     %% Project Leadership to Implementation
     TB --> KV
@@ -96,6 +100,8 @@
     VV -.-> AD
     VV -.-> MK2
     VV -.-> GW
+    FC -.-> YCS
+    FC -.-> SDS
     
     %% Styling
     classDef seniorLeader fill:#e1f5fe,stroke:#0277bd,stroke-width:3px,color:#000
@@ -105,12 +111,12 @@
     classDef regional fill:#fce4ec,stroke:#c2185b,stroke-width:1px,color:#000
     classDef supporting fill:#f1f8e9,stroke:#689f38,stroke-width:1px,color:#000
     
-    class VV,DA seniorLeader
+    class VV,DA,FC seniorLeader
     class TB,LY,AC projectLead
     class TBA,GM,JP techLead
     class KV,JH,SK,BH implTeam
     class PT,PL,WC,AT,ND,AH,TG,MH,MD,PW,RR,MK regional
-    class AD,MK2,GW supporting`;
+    class AD,MK2,GW,YCS,SDS supporting`;
 
 	const legendItems = [
 		{ color: '#e1f5fe', border: '#0277bd', label: 'Senior Leadership', description: 'Decision makers and strategic oversight' },

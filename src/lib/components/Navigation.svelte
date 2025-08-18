@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
-	import { 
+	import {
 		NavigationMenuRoot,
 		NavigationMenuList,
 		NavigationMenuItem,
@@ -9,7 +9,18 @@
 		NavigationMenuLink,
 		NavigationMenuViewport
 	} from '$lib/components/ui/navigation-menu/index.js';
-	import { Menu, Home, BookOpen, Workflow, Monitor, Settings, MessageSquare, Users, ChevronDown } from '@lucide/svelte';
+	import {
+		Menu,
+		Home,
+		BookOpen,
+		Workflow,
+		Monitor,
+		Settings,
+		MessageSquare,
+		Users,
+		ChevronDown,
+		Shield
+	} from '@lucide/svelte';
 	import { page } from '$app/stores';
 	import { cn } from '$lib/utils.js';
 
@@ -19,7 +30,6 @@
 		{ href: '/', label: 'Home', icon: Home },
 		{ href: '/platform', label: 'Platform Demo', icon: Monitor },
 		{ href: '/architecture', label: 'Tech Architecture', icon: Settings },
-		{ href: '/acronyms', label: 'Acronyms', icon: BookOpen },
 		{ href: '/content-flow', label: 'Content Flow', icon: Workflow }
 	];
 
@@ -27,6 +37,11 @@
 		{ href: '/people', label: 'People & Organization' },
 		{ href: '/org-chart', label: 'Org Chart' },
 		{ href: '/mini-bio', label: 'Team Bios' }
+	];
+
+	const adminMenuItems = [
+		{ href: '/admin/sow', label: 'Statement of Work' },
+		{ href: '/acronyms', label: 'Acronyms' }
 	];
 
 	function isActive(href: string): boolean {
@@ -37,7 +52,11 @@
 	}
 
 	function isPeopleMenuActive(): boolean {
-		return peopleMenuItems.some(item => $page.url.pathname.startsWith(item.href));
+		return peopleMenuItems.some((item) => $page.url.pathname.startsWith(item.href));
+	}
+
+	function isAdminMenuActive(): boolean {
+		return adminMenuItems.some((item) => $page.url.pathname.startsWith(item.href));
 	}
 
 	function toggleMobileMenu() {
@@ -78,28 +97,63 @@
 								</Button>
 							</NavigationMenuItem>
 						{/each}
-						
+
 						<!-- People Menu with Submenu -->
 						<NavigationMenuItem class="relative">
-							<NavigationMenuTrigger class={cn(
-								'inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2',
-								isPeopleMenuActive()
-									? 'bg-white/20 text-white hover:bg-white/20 data-[state=open]:bg-white/20'
-									: 'text-white hover:bg-white/20 data-[state=open]:bg-white/20'
-							)}>
+							<NavigationMenuTrigger
+								class={cn(
+									'inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50'
+								)}
+							>
 								<Users class="mr-2 h-4 w-4" />
 								People
 							</NavigationMenuTrigger>
-							<NavigationMenuContent class="absolute left-0 top-full mt-1 min-w-[200px] bg-white rounded-md border border-gray-300 shadow-lg z-50 p-2">
+							<NavigationMenuContent
+								class="absolute top-full left-0 z-50 mt-1 min-w-[200px] rounded-md border border-gray-300 bg-white p-2 shadow-lg"
+							>
 								<div class="space-y-1">
 									{#each peopleMenuItems as item}
 										<a
 											href={item.href}
 											class={cn(
-												'block px-3 py-2 text-sm rounded-md transition-colors no-underline',
+												'block rounded-md px-3 py-2 text-sm no-underline transition-colors',
 												isActive(item.href)
-													? 'bg-red-500 text-white font-semibold'
-													: 'text-black hover:bg-gray-100 hover:text-black font-medium'
+													? 'bg-red-500 font-semibold text-white'
+													: 'font-medium text-gray-700 hover:bg-red-50 hover:text-red-600'
+											)}
+										>
+											{item.label}
+										</a>
+									{/each}
+								</div>
+							</NavigationMenuContent>
+						</NavigationMenuItem>
+
+						<!-- Admin Menu with Submenu -->
+						<NavigationMenuItem class="relative">
+							<NavigationMenuTrigger
+								class={cn(
+									'inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50',
+									isAdminMenuActive()
+										? 'bg-white/20 text-white hover:bg-white/20 data-[state=open]:bg-white/20'
+										: 'text-white hover:bg-white/20 data-[state=open]:bg-white/20'
+								)}
+							>
+								<Shield class="mr-2 h-4 w-4" />
+								Admin
+							</NavigationMenuTrigger>
+							<NavigationMenuContent
+								class="absolute top-full left-0 z-50 mt-1 min-w-[200px] rounded-md border border-gray-300 bg-white p-2 shadow-lg"
+							>
+								<div class="space-y-1">
+									{#each adminMenuItems as item}
+										<a
+											href={item.href}
+											class={cn(
+												'block rounded-md px-3 py-2 text-sm no-underline transition-colors',
+												isActive(item.href)
+													? 'bg-red-500 font-semibold text-white'
+													: 'font-medium text-black hover:bg-gray-100 hover:text-black'
 											)}
 											style="color: {isActive(item.href) ? 'white' : 'black'} !important;"
 										>
@@ -139,13 +193,32 @@
 							{item.label}
 						</Button>
 					{/each}
-					
+
 					<!-- People Menu Items in Mobile -->
 					<div class="ml-4 space-y-1 border-l border-white/20 pl-4">
-						<div class="mb-2 text-xs font-semibold uppercase tracking-wide text-white/70">
+						<div class="mb-2 text-xs font-semibold tracking-wide text-white/70 uppercase">
 							People
 						</div>
 						{#each peopleMenuItems as item}
+							<Button
+								variant="ghost"
+								class="{isActive(item.href)
+									? 'bg-white/20 text-white hover:bg-white/20'
+									: 'text-white hover:bg-white/20'} w-full justify-start text-sm"
+								href={item.href}
+								onclick={() => (mobileMenuOpen = false)}
+							>
+								{item.label}
+							</Button>
+						{/each}
+					</div>
+
+					<!-- Admin Menu Items in Mobile -->
+					<div class="ml-4 space-y-1 border-l border-white/20 pl-4">
+						<div class="mb-2 text-xs font-semibold tracking-wide text-white/70 uppercase">
+							Admin
+						</div>
+						{#each adminMenuItems as item}
 							<Button
 								variant="ghost"
 								class="{isActive(item.href)
@@ -171,7 +244,7 @@
 			background-color: hsl(var(--background) / 0.6);
 		}
 	}
-	
+
 	/* Hide navigation when printing */
 	@media print {
 		nav {
