@@ -1,0 +1,558 @@
+TRACEY:		         own channel where we can A B test, which is good. And I have
+				                no issues with it. But I just yeah, and it's just there's so
+				                many people like fishing in the same pond at the moment. And
+				                obviously how Jenny I create images, messages and publish to
+				                test it against create current creative. So that's like,
+				                looking at what the current standards are the design
+				                standards, color palettes, all that sort of jazz, the end goal
+				                of one to one personalized communications is all about
+				                hyper personalization, which is what Venkat was talking about
+				                as well. But starting point, and it's realistic, and an
+				                aggregate, non personal data, etc.
+				                Ages that will build
+				
+DUNCAN:		         this is not to do with the testing the templates, right?
+				                This is to do on
+				
+TRACEY:		         No, no, no, this is the second. This is the second part. Yeah.
+				                So, um, there, there is an element of, I think he is
+				                talking about, sorry, no, it is, it's both. So he is talking
+				                about creating an agent that am using existing tech and that
+				                actually scans for compliance. So I think that's on I think
+				                it's on down here. Let me look at it.
+				
+DUNCAN:		         Can we just check there's two bits in this compliance that
+				your advert email push, whatever is compliant, but separately,
+				there's the T's and C's that three to four thousand pond is
+				compliant, that doesn't feel like it fits in here, or maybe
+				it does.
+TRACEY:		 Well, I think he is saying it does. So I think what he's
+				saying is, they're going to create an AI agent that will
+				scan the copy for compliance. So that will be compliance to our
+				brand, and compliance to the regulatory. And, and I think
+				he's called it like other assets in here as well. So, and I
+				think we come down here. And so this is this is, I'll just let
+				you read it. There's no point in me reading a slide for you. And
+				but I think this is what he's talking about is in actually
+				creating an AI agent that I think it's down here.
+DUNCAN:		 Wow. Do you know any commercials around this?
+TRACEY:		 Yeah, they're all they're all here. They're looking for seed
+				money to support this. And so this is the use case that we
+				have as well. But they're just looking at marketing, we're
+				looking so we're looking at the full, what is the content that's
+				on the FQDN. So Duncan, this is what we're talking about. They're
+				not, it's not like PDFs or Word templates that go out to
+				customers as such. It's what content is on the URLs. So I'm
+				scanning that content exactly HTML like scanning that content
+				against brand and regulatory. He's specifically talking about
+				this proof of concept being for marketing, but then with the
+				view that it can scale to, to do other things as well. Obviously,
+				if it's successful, here's what his and here's his sort of flow
+				and diagram on what he thinks he can achieve.
+DUNCAN:		 Who's he in this context?
+TRACEY:		 James Taylor. He's the guy that works in marketing. He's a
+				market, he works in marketing. Let me slick him up a second.
+DUNCAN:		 So it's him reaching out to Google who?
+TRACEY:		 Correct.
+DUNCAN:		 Seems a little bit a deal from Google? No,
+TRACEY:		 no, no, no, no. So this is so which one is this one. So he is
+				head of data and MarTech platforms. So this is this guy,
+				but he's specifically in and he's specifically in marketing.
+DUNCAN:		 Did we just see an access database?
+TRACEY:		 Yeah.
+DUNCAN:		 On LinkedIn, LinkedIn.
+TRACEY:		 Yeah.
+DUNCAN:		 Yeah, I don't know what it is.
+				It does that xxx for internal budget or is that to include
+				Google and so on.
+TRACEY:		 So this is just so and I'm trying to see what their I've got a
+				meeting. So his his in his next in command is a guy you can see
+				how many emails I've got open his next in command is a guy
+				called Sam James on holiday. So I've got a meeting with Sam. I
+				have a meeting with Sam I think it's on Thursday or Wednesday.
+				Here, I've got a meeting with this dude. Sam Parry. I've got
+				meeting with him to find out a bit more about this. So
+				so
+				so Yana is the girl that I was working with, he is in the
+				customer kit, the customer team. That's who will be giving us
+				the requirements for our proof of concept in regards to what
+				are the regulatory requirements and the brand guidelines,
+				etc, etc. So she's then obviously had a conversation
+				with James, who she said is currently working with Google
+				to develop an AI agent provide compliance oversight. But when
+				you look at it, it's very much focused on marketing, what Yana
+				is looking at is the whole FQDN estate, and whether or not
+				that's compliant or not. So James is, you know, starting off
+				with a small use case, which is fine. But we need to make sure
+				that we've got skin in the game as well, which is obviously
+				what, you know, we're doing with with Venkat.
+DUNCAN:		 Yeah, Google is providing.
+TRACEY:		 So there, I think they're, they're basically writing the
+				whole LLM really, they've done, they're creating the agent,
+				aren't they? James can do that. So he'll be, he'll be doing this.
+DUNCAN:		 Yeah, I mean, they'll just be using a model like Gemini. They
+				are using Gemini. Yeah. I think it says it in here. Do you know
+				where it's hosted?
+				And is this Google? Or is this a third party consulting house?
+TRACEY:		 No, it's Google directly with Google. So they have our Google
+				Google Cloud. Okay.
+DUNCAN:		 Yeah, they've Google Cloud.
+				Yeah, I mean, James's degrees in marketing. So I doubt he's
+				coding in any LLMs.
+TRACEY:		 Oh, no, he's definitely not. That's what he'll be using. And
+				that's what he'll be using them to do.
+DUNCAN:		 Yeah.
+				No, it's to support existing copywriters. Okay.
+TRACEY:		 So this is another use. So this is so he has a number of use
+				cases. So he has a copyright use use case, which is this. So
+				every year, obviously, we hire copywriters to write the content
+				for our marketing campaigns and our public web, just like we
+				have UI and UX developers as well. And what he's saying is
+				that, are you basically a copywriter costs around 136k a
+				year. And actually, we could eliminate that by creating this
+				whole gen AI model.
+DUNCAN:		 Okay, so it's a very defined use case.
+TRACEY:		 Yes, but he's also got one for image. And so finding the right
+				image and to use in the market is not only to take a lot of time
+				and effort. So he said, like, I'm the premier three campaign
+				alone, photography costs 60k, and get the image contract was
+				worth 75k, just covering stock photo purchase. And so what he's
+				saying is, he wants to create this gen AI solution that will
+				generate images and produce high quality, unique images grounded
+				in HTC guidelines and blah, blah, blah. And that will save
+				sort of this, you know, per year. But if you see they're
+				looking for xxxk for all these use cases. So it's quite
+				interesting where they're landing on xxxk.
+DUNCAN:		 xxxk per agent or?
+TRACEY:		 No, no, no. Well, no, it looks like they're separate asks. So I
+				think it looks like xxxk per agent.
+DUNCAN:		 And how many agents is he building?
+TRACEY:		 So he's building one for copyright, he's building one for
+				image. And then he's building the one that I'm interested in
+				is this compliance one. And this is again, xxxk.
+DUNCAN:		 I mean, okay, but that's for the point of concept. It's not even
+				for a working solution.
+TRACEY:		 Correct. So correct. We haven't we haven't committed to spending
+				this. So he just PC. So this is what James is doing. He's out
+				trying to get people to give him the money to proceed with this
+				solution. Obviously, I already have locked in the funding with
+				Venkat for our compliance solution. But I need to make
+				sure that we don't duplicate effort. But this might give you
+				better idea in regards to what sort of ask is there's where it
+				says Gemini there and you read it somewhere using Gemini
+				grounded in with publicly accessible guidelines and
+				advertising standards authority, and the FCA marketing compliance
+				agent will enable like marketing campaign managers to pre check
+				their submissions with the aim of reducing the accept rate. So I
+				think what happens is these are marketing people and create the
+				content, and then they submit it in for approval and it gets
+				rejected. Whereas this will give them they can run it through and
+				make sure it passes before sending it in for approval. And
+				then it's basically straight through. And then he was saying
+				that it comes back around the loop two, three times before
+				they get it right. But they've got no way of knowing if they're
+				going to get it right second time or third time, whereas this
+				agent will basically call out what they've done wrong. So
+				they'll be able to fix it and then get it through next time,
+				like quite, like,
+DUNCAN:		 it's a pre checker, isn't it? It's like we apply for a credit
+				card with a pre check.
+				What you're doing here is you're adding another step to the
+				process, right? What we're proposing is let's bring
+				everything together. So an end to end to generate you would
+				generate your you generate your content and then you run it
+				inside of the platform and say we'll run it through that just
+				to see that content whether or not or generate it in in the
+				platform.
+TRACEY:		 Oh, look, they've got something Google agent space. Do you want
+				to watch this?
+DUNCAN:		 You make it full screen?
+				Can you hear it?
+TRACEY:		 Not really.
+DUNCAN:		 Could you make it full screen?
+TRACEY:		 I'm just trying to get the volume on.
+DUNCAN:		 No, you're fine.
+				I mean, you know, you can create an agent in chat GPT or in in
+				Gemini. That's was one of the first thing that you can do that
+				we have an agent in our company for specific tasks. And all it
+				is sets of guideline and then you've got your agent.
+TRACEY:		 Is that all they're doing here then?
+DUNCAN:		 Yeah, like literally, this could be done in in like a couple of
+				hours. You just write an MD file for for specifying an agent. I
+				mean, just ask. I actually like creating an agent like that,
+				right? What does it involve?
+TRACEY:		 But it's not you remember GPT when you created our own agents
+				or this one would it looks at compliance of advertising, it
+				copyrights essentially text for before it goes out to the
+				client just to make sure it's make sure it's compliant. So what
+				would be the steps required to create such a thing?
+DUNCAN:		 I mean, I've been doing this this morning, ironically, with
+				an employment contract.
+				10 minutes.
+				Hmm. Okay. So agents have like there was the first thing that
+				they brought out in GPT. The ability to create your own to
+				train your own agent on your own data set essentially. And it's
+				just you can do it in chat GPT like right click create new
+				agent. And then you basically prompt it and you give it like
+				the instructions.
+				So that's all they're doing here. Yeah.
+TRACEY:		 Tracy, this morning, it's very similar with this to review an
+				employment contract this morning, I just said that you
+				are the best employment lawyer in Britain, please tell me that
+				it went through it and explained where we were possibly in
+				breach. And how we could tighten it is very similar, but you just
+				have to a training data set.
+DUNCAN:		 Yeah, I think I think the best thing about this would be to just
+				go ahead and do a training data set.
+TRACEY:		 The best thing about this would be to just go ahead with with
+				both and then see the difference. I think if we do a
+				compliance one, ours will be integrated inside of a platform
+				as in login details, management, user management, different
+				functionalities, we can work on to it. I think this is a
+				standalone platform that you have to log in and copy paste
+				your thing. Whereas this the one that if we did, let's say we
+				develop an LLM for figuring out the validity, the compliance in
+				terms of business or business or regulatory for the existing
+				FDHQ, I think it's called templates. Well, that agent can
+				now be repurposed and integrated inside of the tool so that if a
+				new one is generated, you can just run the agent behind it
+				inside of the tool and it will say well, okay, you've written
+				that text, may I suggest this on the basis that in this
+				jurisdiction, X, Y, Z is not particularly
+				like a coupon.
+DUNCAN:		 Yeah, exactly. Rather than having to go through that tool,
+				which is all they've done is just got a set of basically got
+				Yeah, but on the other hand, given the importance of AI and
+				the organization and the rate at which you're going to need to
+				deploy it in order to cut the fat, like it's worth spreading
+				your bets, I'd say. Like that's how I would sell it to Vencat.
+				I'd say, well, let's have a look and see what the differences
+TRACEY:		 Yeah, okay, that's fine. I just wanted you to be aware and have
+				visibility of it. And the other thing is we need to move fast
+				because this is not slowing down. And so we don't want to
+				miss the boat either. And then some gods, okay, we're going to
+				give them, you know, we've got the funding, but so I think the
+				next steps for us is to break that statement of work Duncan
+				into those tranches. And how do you normally do the invoicing?
+DUNCAN:		 So they were doing like an invoicing against, like a
+				certain deliverables. So like you got paid like four times
+				rather than just at the end or, you know, obviously, you don't
+				get paid at the beginning, but at the end, so you can do
+				similar, you can break the invoice down into for each of
+				the phases, you have, or I think the way we were proposing it was
+				that we bill at the end of every month, because we were aligning
+				our phases at the end of the month. Now admittedly, if we
+				overshoot in terms of like Christmas is in there, if we're
+				not, we don't start soon, soon. Yeah. Then it might mean that
+				the final phase drifts into January just because of
+				Christmas leave. Yeah. And then apparently how it works is that
+				you'll build at the end of the month, you then pay mansion
+				house 32, 34 days later, and they then pay us.
+				Apparently, that's the that's the flow.
+TRACEY:		 So we don't pay them for 32 to 34 days.
+DUNCAN:		 Apparently that well, if the invoice is dated, you know, the
+				first of September or the end of August, then you guys hold on,
+				you know, your your payment guys hold on to it for about, it's
+				probably a 30 day term, but they're a bit late. And then
+				they then
+				get in what you call it.
+TRACEY:		 So yeah, that's okay.
+				You could also suggest that we link up with the team and have
+				meetings and then just be open about what they're doing.
+				Oh, no, no, we definitely will. We definitely will talk to we
+				you will be talking to these guys no doubt about it. And I
+				will definitely at some level, it's pretty critical to have
+				some ability to do this internally, train a team that
+				can do it in the long run. These kind of agent and that that's
+				really like the angles what you want to take is like, well, if
+				you pay Google to do it, then you'll have to go to Google to
+				depend upon them to every time you need an agent.
+DUNCAN:		 Yeah.
+TRACEY:		 The other thing, Tracy, we used to do when I was at KPMG, and I
+				think we proposed to do it here is every Friday, we send out an
+				update to you, Venkat, whoever's relevant, which basically says
+				what we've done this week, what we're going to do next week, any
+				issues or opportunities or anything funky, whatever, any
+				risks issues, whatever. Yeah. And then finally, anything sort
+				of to do with effort or FTEs or anything around that. So every
+				Friday to two o'clock, you'd receive that into your inbox.
+				And that means there's no because basically, the secret
+				here is no surprises.
+				Yeah, obviously, you strive. I think obviously, I know you
+				guys, I would just give you xxxk right now and say, come in, do
+				the work for three months. And I trust you implicitly. Venkat.
+				Venkat is not even actually the issue. Venkat is just like, are
+				they starting tomorrow? I'm like, no, there's a process.
+				He's like, fuck, I need them. I need them on the ground. And I'm
+				like, I know. And he's really pushing to get you in really,
+				really quickly. And whereas Somnath, Chandra, Fernando, they
+				don't know you guys. And they're like, we're not just giving these
+				people xxxk Tracy, you know, any broken down deliverables, we
+				invoices against deliverables, we need to hold them accountable.
+				Like, they can't just come in and do nothing for xxxk. We have
+				to have output. And I'm like, they will give you output. They
+				will, they will surpass your, you know, your expectation and
+				I put, don't worry about that. And they're like, well, we need
+				that in writing, because, you know, we don't know these
+				people. And I'm like, fair enough. So that's what we need.
+				And if you can actually sign off on the at the end of the month,
+				whatever, who actually signs off on it, me, me, some level, it's
+				about our trust with each other. So exactly, my biggest fear,
+				I'll tell you my biggest fear, Tracy is, and I've seen some of
+				the projects is that let's say, HSBC doesn't provide us with
+				internal SMEs. No, don't worry. But that's my biggest fear is
+				that that would happen. And we're sort of stymied. We've
+				stopped to our other projects, and we're pinned down, we
+				deliver nothing. I agreed. I agreed. And don't worry. And
+				as soon as I can, and what I what I've been asking Fernando
+				as well is, can we get you NDA'd? So we can have the we can
+				bring you into these conversations early now, we can
+				then identify who you need. So I already have the team, like in
+				Jana's world, and Jana, so I've already had a meeting with
+				Jana. Where's she here? So she's had a website customer team.
+				She reports to the head of UK customer, which is Becky Moffat.
+				I've had a meeting with Becky and said, we're going to spin up
+				this team, we're going to look at create like an end to end
+				content creation, creation, workflow and tool, and blah, blah,
+				blah, blah. And but I need your help. I need people in your team
+				to explain the challenges and the problems that you currently
+				have. So she's put me in touch with like Amy from the CRM team,
+				Carolyn Harrison from the customer communication team,
+				Emily Turner for Innovation Banking, which is the area that
+				we have spoken about before, which is the use case that we
+				think we want to go with, because it's quite nice and
+				ring fence. And they have people that can help us. And we've got
+				we've got people in the global, the global AEM team that sit
+				directly in Venkat's world as well. So I'm already trying to
+				identify who all the key players are, where they are, and where
+				they're in the country and where they're situated. And then
+				really, what I want to try and do is do like two, maybe two
+				one day workshops in London, where we get everyone in
+				physically in the round table, that we can add like you guys
+				will obviously steer the ship in regards to what you need from
+				them. And then they will take actions away to then come back.
+				And then obviously, my job would be helping you follow up on that
+				and make sure they deliver on time to you. But the bigger one
+				is, Jana has already started to gather what the regulatory
+				requirements are for the FQDN scanning and what the brand
+				guidelines are, what the color palettes are, etc, etc. And, and
+				I'm just looking at where should we store them. And Fernando is
+				already looking at can we can you use all of the so like, see
+				for Svelte and stuff, will you need like a license for will
+				HSBC need to be on board or what's the situation there
+				Duncan with that because I wasn't sure.
+DUNCAN:		 What do you mean? Like a license for for what?
+TRACEY:		 Using Svelte because like obviously with React. I think it
+				is. But when
+DUNCAN:		 Giro is moving to Svelte at the moment.
+TRACEY:		 Oh, wow. Really?
+DUNCAN:		 Yeah. We've we're seeing them in the packages there. We're
+				seeing a lot of like, libraries which are designed for like
+				incredibly large volumes. And then there's all the guys who
+				they've hired, they're all part of this stuff. So we're in
+				early on this.
+TRACEY:		 Exactly. So like things like that will be really interesting
+				for interesting for Venkat.
+DUNCAN:		 And it's free. It's completely free.
+TRACEY:		 So, okay, so the other thing to do for me Duncan is what what
+				kit? What was the I because you were saying basically VDI would
+				be better for you rather than having to take our dev kits like
+				our laptops and stuff. And so what do you want? Like do you
+				have like a wish list of what you need from us? And I can get
+				that. I can get that spun up now.
+DUNCAN:		 I kind of need to talk to IT and see what they can give me
+				because ultimately if if I
+				if yeah, we'll need access to do you have VDIs but OS X VDIs?
+TRACEY:		 I don't think so.
+DUNCAN:		 Or do you have? Okay, in which case we will have to have a
+				separate we'll have to have a separate MacBook. Or do you have
+				Linux machines as well? Linux?
+TRACEY:		 I'm not sure what we've got. I'll get I'll get someone from IT
+				I'll get someone that can talk through
+DUNCAN:		 Yeah, especially if you just hook me up with someone from IT and
+				then we'll be able to talk.
+TRACEY:		 Just to explain those well mansion houses advice was to go
+				VDI because that wouldn't delay our onboarding. And then as
+				that's happening also then ask for the relevant
+DUNCAN:		 Yeah, we can start we can start with VDI and we can use Windows
+				God. We can do that for now. But I mean, if I should probably
+				probably a good idea. Let's just use Windows for this engagement.
+				But then if there's any further work and ongoing basis, then we
+				would we would definitely need
+				our own hardware on Mac or Linux.
+				But I think for the length of this engagement, I think I'm
+				I'll relearn Windows.
+TRACEY:		 You think Alex will be able to
+				You might not need to done. You might not need to Duncan. Let me
+				just connect with the right person and then we can see what's
+				available because if I can start that now, even though we haven't
+				signed the statement of work, then when do you think you can
+				break down those deliverables and the invoicing associated and
+				get that back to me?
+DUNCAN:		 So I'll do that tomorrow.
+TRACEY:		 So that needs to go back via Manchin's house.
+DUNCAN:		 Yeah.
+TRACEY:		 And then get them to send it to NatWest ASAP and tell them they
+				need to. They're only copying Fernando in I think at the moment
+				they need to copy me.
+				They're not copying you in. They're copying you in. Who else?
+				Let me find the email.
+				By the way, Sunil and Fernando.
+				Make sure they copy me in as well.
+				Okay, Sam, Sam, Sunil and Fernando.
+				And Yagnam Chandra.
+				Oh, that's Chandra. Yeah, that's our procurement manager.
+				Yeah, actually, you know what? Don't, don't, don't get them to
+				copy me in. I'll get it from Fernando. Fernando works for me
+				anyway, so I'll get it from Fernando.
+DUNCAN:		 Okay.
+TRACEY:		 Fernando, Chief of Staff for me.
+				So I'll get it from him.
+				Good to keep distance.
+				Yeah, I think it is good for me to keep distance, actually.
+				So I'll get it from him.
+				It is good for me to keep distance, actually.
+				So let's do that.
+DUNCAN:		 Break down the deliverables and the invoicing
+				and then get that back tomorrow.
+TRACEY:		 That would be amazing.
+				And then
+				what is the next step then?
+				And then I'll find someone from...
+DUNCAN:		 Going back to the other piece around the agents, the
+				emphasis here is they're not going to produce any, any
+				platform whatsoever. They're just going to give you the
+				built-in interface for the equivalent of chat GPT for
+				Gemini. And they'll just try a bunch of agents where people
+				have to log on and copy paste it.
+				That is not what we're proposing to do for workshop number two.
+				We're proposing to bring together a bunch of different
+				processes which are happening back to back and taking a long
+				time and try and figure out a way where then we can just
+				expedite it into one platform.
+TRACEY:		 Yeah, absolutely. And that's what we need.
+				We need a more joined up view rather than this fragmented,
+				you know, piece of like, you're, you know, sorry, I'm
+				totally distracted.
+				And we kind of have this fragmented view because it's not
+				reusable and it's not scalable either.
+				So it's just, it's at the mercy of who knows about it and who's
+				using it rather than it being integrated into their actual
+				workflow.
+DUNCAN:		 Yeah, I agree. Yeah.
+				They're not going to create a platform like Infeldt or
+				whatever, or Angular, they use Google.
+				Yeah.
+				I started off a lot more impressed with the deck than I
+				finished, if that makes sense.
+				I started going, wow, this is amazing.
+				And by the way, I was like, actually, you're paying $600,000
+				to chat with three agents.
+TRACEY:		 Well, I know.
+				We signed up to do that as well, by the way.
+				We're happy to sign up to that contract.
+				I don't think they're going to get all that funding, though.
+				That's another thing.
+				I don't think they're going to get that.
+				And I think Venkat's probably going to be the one that says,
+				you're not doing that.
+				But I might say to him, to your point, Duncan, maybe
+				don't be too worried about it.
+				I would. I think at the end of the day, he might end up making
+				us look good.
+				Well, somebody needs to.
+				I'll put the blur on my tongue.
+				I've sung your praises to everybody.
+				They think you're going to come in and solve world peace.
+				They think you're going to get peace treaties in Ukraine, etc.
+				Should we put Gazara as work stream number three?
+DUNCAN:		 I think we should, to be honest.
+				Why not?
+				We have a solution, but I'm not sure it will work.
+				I'm happy to execute that solution if it's the right one,
+				if it's the one I'm thinking of.
+TRACEY:		 Just nuke a few people's homes.
+				You may very well say so yourself.
+DUNCAN:		 I couldn't possibly comment.
+				Exactly right.
+TRACEY:		 So I think I think we've got a clear way forward.
+				Let's try and get that back ASAP.
+				And then it'll come to me for sign off.
+				So I can sign that off.
+				I'm really pushing to try and get that signed off this week
+				because I'm like, their team don't do anything fast
+				unless you push, push, push.
+				They always come up with excuses.
+				Like I said to Fernando, like, can't we just get that
+				retrospectively and sign it on?
+				He's like, no, no.
+				So they're so risk adverse that it's, you know,
+				it's not even funny.
+				So I think if we can just give them peace of mind,
+				I think that would be great.
+				Then we need to do pairs, of course,
+				which so Mansion House then needs to kick off pairs.
+				And yeah, so I want to get you NDA'd
+				while you're doing pairs though.
+DUNCAN:		 Yeah, no, I know.
+TRACEY:		 So we can start to bring you up to speed,
+				especially get your requirements for like your kit and stuff.
+DUNCAN:		 No, a hundred percent, it'd be great.
+TRACEY:		 When are you next, what's your London time like?
+				Just so we're aware.
+				So I was going to come down next week,
+				but Venk has decided to take the second week off
+				without telling anybody.
+				So he's really annoying like that.
+				So I was thinking of the first week of September.
+DUNCAN:		 Sounds good.
+TRACEY:		 I normally do either Tuesday to Thursday
+				or Wednesday, Thursday.
+DUNCAN:		 Okay.
+				But I can't do Monday to Wednesday actually,
+				if that works better.
+				Don't think it makes a huge difference.
+				We might have something on Monday lunchtime,
+				but other than that,
+				I don't think there's a huge amount in it.
+TRACEY:		 Okay, excellent.
+				All right.
+				Yeah, I'll maybe get that organized.
+				And I wouldn't mind coming to spend a day with you guys,
+				not in here to SPC office.
+				So we can just-
+DUNCAN:		 A hundred percent.
+				Yeah.
+TRACEY:		 So let's work out what day that's better.
+DUNCAN:		 As a side note,
+				I'm a bit surprised that Google is in the business
+				of doing that kind of stuff,
+				of going in consulting in a big organization.
+				I didn't think it was a line of business
+				that I'd be interested in.
+TRACEY:		 You're surprised?
+DUNCAN:		 Yeah.
+				I guess it's free money.
+				Yeah.
+				That's what IBM pushed into eventually.
+				Yeah.
+TRACEY:		 They keep trying to invite me
+				to Google summits and stuff.
+DUNCAN:		 Yep.
+TRACEY:		 But I've got no time to attend anything.
+				I have no time to do anything at the minute.
+				Right, cool.
+				Okay.
+				Okay.
+				Onwards and upwards.
+				I shall-
+				I will-
+				We'll give you this statement of work.
+DUNCAN:		 Tomorrow.
+TRACEY:		 Excellent.
+				Okay.
+				Look forward to it.
+				Thank you very much, guys.
+				Speak soon.
+				Bye. Bye.
+DUNCAN:		 Bye.
