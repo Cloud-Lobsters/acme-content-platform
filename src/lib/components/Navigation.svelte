@@ -41,6 +41,7 @@
 
 	const adminMenuItems = [
 		{ href: '/admin/sow', label: 'Statement of Work' },
+		{ href: '/admin/summary', label: 'Executive Summary' },
 		{ href: '/acronyms', label: 'Acronyms' }
 	];
 
