@@ -1,0 +1,947 @@
+FRAMEWORK SUBCONTRACT AGREEMENT - INSTRUCTIONS FOR COMPLETION
+
+Please delete these instructions, all guidance notes and remove all highlighting and square brackets, including in the schedules, before finalising this agreement.
+[Yellow Highlighting] = Details are required for insertion
+Red text = Guidance notes 
+Please also read Guidance Note for Framework Subcontract Agreement [docx] prior to completing this agreement
+This Framework Subcontract Agreement is made [insert day and month] 20[insert year] (“Agreement”)
+Parties
+CAPGEMINI UK PLC, (company number 00943935) a company incorporated under the laws of England and Wales whose registered office is at 95 Queen Victoria Street, London, EC4V 4HN (Main Contractor); and
+[Insert name of party] [of OR a company incorporated in [England and Wales] under number [insert registered number] whose registered office is at] [insert address] (Sub-Contractor)
+(each of the Main Contractor and the Sub-Contractor being a party and together the Main Contractor and the Sub-Contractor are the parties).
+Background
+The Main Contractor has entered into the Main Contract (as defined below) to undertake the Work (as defined below).
+The Main Contractor wishes to sub-contract the Sub-Contract Work (as defined below) to the Sub-Contractor and the Sub-Contractor is willing to undertake the Sub-Contract Work, in accordance with the terms and conditions of this Agreement.
+The parties agree:
+Definitions
+In this Agreement:
+
+
+Interpretation
+	In this Agreement:
+a reference to this Agreement includes its schedules, appendices and annexes (if any);
+the table of contents, background section and any clause, schedule or other headings in this Agreement are included for convenience only and shall have no effect on the interpretation of this Agreement;
+a reference to a ‘party’ includes that party’s personal representatives, successors and permitted assigns;
+a reference to a ‘person’ includes a natural person, corporate or unincorporated body (in each case whether or not having separate legal personality) and that person’s personal representatives, successors and permitted assigns
+a reference to a ‘company’ includes any company, corporation or other body corporate, wherever and however incorporated or established;
+a reference to a gender includes each other gender;
+words in the singular include the plural and vice versa;
+any words that follow ‘include’, ‘includes’, ‘including’, ‘in particular’ or any similar words and expressions shall be construed as illustrative only and shall not limit the sense of any word, phrase, term, definition or description preceding those words;
+a reference to ‘writing’ or ‘written’ includes any method of reproducing words in a legible and non-transitory form;
+a reference to legislation is a reference to that legislation as amended, extended, re-enacted or consolidated from time to time;
+a reference to legislation includes all subordinate legislation made from time to time under that legislation; and
+a reference to any English action, remedy, method of judicial proceeding, court, official, legal document, legal status, legal doctrine, legal concept or thing shall, in respect of any jurisdiction other than England, be deemed to include a reference to that which most nearly approximates to the English equivalent in that jurisdiction.
+Scope of this Agreement and procedure for agreeing Statements of Work
+The Main Contractor may from time to time during the term of this Agreement seek proposals from Sub-Contractor for services.  The Main Contractor is not obliged to request any proposal from the Sub-Contractor.
+Each Statement of Work is separate and made by the parties signing the relevant Statement of Work.  
+Each Statement of Work is entered into pursuant to the terms of this Agreement and fully incorporates the terms of this Agreement and the terms of the Main Contract unless expressly agreed otherwise by the parties in a Statement of Work.  
+Unless express provision is made to the contrary, the following order of priority shall apply in the event of any conflict or inconsistency between the above documents:
+the Statement of Work; and
+the terms and conditions of this Agreement.
+Sub-Contractor’s obligations
+3.1	During the Term, the Sub-Contractor shall:
+perform the Sub-Contract Work (including the provision of Deliverables) in accordance with the terms of this Statement of Work, and the Main Contract so as to put the Main Contractor into a position in which the Main Contractor is able to fulfil all of its obligations to the Customer under the Main Contract in so far as the same relate to the Sub-Contract Work;
+collaborate with, and act in accordance with the instructions of, the Main Contractor and the Customer where required by the Main Contractor (including co-operating and working with all other 3rd party service providers engaged by Main Contractor as part of providing its services to the Customer);
+achieve the Sub-Contract Work and each part of them by the corresponding date(s) set out in the Statement of Work and in any event to enable the Main Contractor to have reasonable time to fulfil its obligations to the Customer;
+co-operate with the Main Contractor and the Customer where required by the Main Contractor in all matters arising under this Agreement and any Statement of Work;
+provide all information, documents, materials, data or other items necessary for the provision of the Sub-Contract Works to the Main Contractor in a timely manner;
+inform the Main Contractor in a timely manner of any matters (including any health, safety or security requirements) which may affect the provision of the Sub-Contract Works; 
+ensure that all tools, equipment, materials or other items used in the provision of the Sub-Contract Works are suitable for the performance of the same, in good condition and in good working order; 
+provide, as required, sufficient numbers of staff of the suitable grade and calibre at all times to provide and maintain the Deliverables and Sub-Contract Work;
+ensure that the Sub-Contract Work and Deliverables are provided by the Key Personnel. The Sub-Contractor may not change Key Personnel without the Main Contractor’s prior written consent and any replacement must be approved by the Main Contractor; 
+provide the Sub-contract Works and Deliverables using all reasonable skill and care and in accordance with Good Industry Practice and Applicable Law; 
+will ensure that Deliverables will be free from defects in design material and workmanship and will be of satisfactory quality including fit for purpose for any reason made known by Main Contractor to Sub-Contractor;
+enter into any copyright agreement and/or confidentiality agreement if and when reasonably required by the Main Contractor or the Customer; and
+obtain and maintain all necessary licences, permits and consents required to enable it to perform the Sub-Contract Work and otherwise comply with its obligations under the Statements of Work.
+The Sub-Contractor’s employees, subcontractors and agents shall have reasonable access to and use of existing facilities within any premises where relevant to its responsibilities under a Statement of Work and, such access is granted subject to Clause 3.3 and any, rights, obligations or restrictions specified in the Main Contract; and
+The Sub-Contractor will ensure that its employees and subcontractors comply with such rules, regulations and practices whilst on premises which are under Customer and/or Main Contractor’s control. In any case, the Sub-Contractor shall at all times be responsible for the actions of its personnel, the personnel of its sub-contractors and visitors while these personnel and visitors are at the premises and the said responsibility shall extend to all acts of such personnel while they are on any of the said premises whether or not such acts fall within the scope and course of their employment. 
+The Sub-Contractor shall achieve the Sub-Contract Work and each part of them by the corresponding date[s] set out in the relevant Statement of Work. If the Sub-Contractor fails to comply with the provisions of this Clause 3.4, due to its Default, then the Main Contractor may:
+refuse to accept any subsequent attempts to perform the Sub-Contract Works (or part thereof) and terminate the Statement of Work immediately by written notice to the Sub-Contractor;
+procure work similar to the Sub-Contract Work from an alternative supplier; and
+recover from the Sub-Contractor all Losses, damages, costs and expenses incurred by the Main Contractor arising from the Sub-Contractor’s default.
+The Sub-Contractor shall not (during the term of the applicable Statement of Work and for 6 (six) months afterwards), without the Main Contractor’s written consent, offer employment to any of the Main Contractor’s personnel who have been engaged in any Sub-Contract in relation to a Statement of Work. However, this restriction shall not apply to any person who (without having been approached directly or indirectly) responds to a general recruitment advert placed by or on behalf of the new employer. If the Sub-Contractor breaches this Clause 3.5, the Sub-Contractor shall promptly pay to the Main Contractor a sum equal to the annual salary of the employee in question (net of benefits) and it is agreed that this amount is a genuine pre-estimate of the loss that the Main Contractor is likely to suffer as a result of such breach.
+Notwithstanding, clause 3.5, the Sub-Contractor agrees that any restrictions in the Main Contract relating to the non-solicitation of personnel shall be construed as placing restrictions on the Sub-Contractor with regards to both the solicitation of the Customer’s and the Main Contractor’s personnel.
+Warranties
+Each party represents and warrants that it has the right, power and authority to enter into this Agreement and any Statement of Work and grant to the other party the rights (if any) contemplated in this Agreement and any Statement of Work.
+The Sub-Contractor warrants that the staff supplied or engaged in the delivery of this Statement of Work shall not assert any claim for equal treatment against the Main Contractor under the Agency Worker Regulations 2010 or any other legislation.  In the event of any such assertion or claim, the Sub-Contractor shall indemnify the Main Contractor on demand, for any claim or costs (including legal costs) incurred by, or awarded against the Main Contractor, in respect of any such claim or allegation.
+The Sub-contractor warrants and undertakes to the Prime Contractor that all Staff providing the Services are employed directly by the Sub-contractor and that, in all cases, the Sub-contractor makes all payments to the Staff as employment income and deducts (and accounts to HMRC) for income tax and National Insurance Contributions through PAYE from all payments made to Staff. 
+The Sub-contractor shall indemnify, keep indemnified and hold harmless the Prime Contractor against all claims and losses arising out of or in connection with any breach of the obligations set out in Clause 4.3 above.
+[Drafting note to be deleted: To be used only where we have an obligation to our customer not to use contractors within the supply chain.  Such obligations are prevalent, for example, in the financial services sector.  Note that in some customer contracts there may be a slightly lesser obligation (for example, not to use contractors who are outside IR35, which would allow our subcontractor to use contractors who are assessed as inside IR35).  If this is the case and the contractor raises concerns about this drafting there may be an opportunity to negotiate an amendment to more closely reflect the obligations to our customer. Where clauses 4.3 and 4.4 are used, Clause 5.9 should be deleted].
+Price and payment
+The Main Contractor shall pay to the Sub-Contractor the Price set out in the Statement of Work for the Sub-Contract Work in accordance with the timetable in the Statement of Work together with any applicable VAT. Unless otherwise specified in the Statement of Work, the Subcontractor shall invoice the Price monthly in arrears. The Main Contractor shall make payment of undisputed and validly invoiced sums no later than 30 days after receipt of an invoice. Unless otherwise specified in the Statement of Work, the Prices are fixed and firm for the Term and are the only charges payable for the Sub-Contract Work, Deliverables and performance of all other obligations of the Sub-Contractor under the Statement of Work.
+The Sub-Contractor shall comply with the Main Contractor’s purchase order mandatory policy, namely that Purchase Orders are only deemed valid if they include a Purchase Order number generated through GPS (“Purchase Order Number”). 
+The Main Contractor will only pay invoices that can be referenced to a valid Purchase Order Number.
+If the Customer:
+refuses to pay the Main Contractor for any of the Sub-Contract Work undertaken by the Sub-Contractor under this Agreement; 
+claims money back from the Main Contractor in respect of any of the Sub-Contract Work; and/or
+requires that any or all of the Sub-Contract Work undertaken by the Sub-Contractor be performed again to such a standard as it may reasonably require under the Main Contract;
+	the Sub-Contractor shall indemnify and keep indemnified the Main Contractor from any and all Losses suffered or incurred by it.
+Payment of the Prices by the Main Contractor is strictly subject to the Sub-Contractor performing its obligations under this Agreement satisfactorily and within the time scales set by the Main Contractor and the Main Contractor having received payment by the Customer.
+The Main Contractor shall not be deemed to have accepted the Deliverables until it has had done so in writing. 
+In addition to the Sub-Contract Work to be provided by the Sub-Contractor in connection with a Statement of Work, the Main Contractor may require additional services to be provided.  These services shall be at a price to be agreed between the parties in advance of their supply.
+The Sub-Contractor acknowledges that the Main Contractor will not be operating PAYE or making or deducting any national insurance contributions in respect of the provision of the Services and the Prices payable under this Agreement. 
+The Sub-Contractor acknowledges that it is an “end user” for the purposes of the IR35 legislation rules and that it will therefore issue a status determination to all workers and other relevant parties within the supply chain where required to do so. The parties agree that the Main Contractor is not an end user for these purposes and the Sub-Contractor will indemnify the Main Contractor against all and any liability, assessment or claim together with all costs and expenses and any penalty, fine or interest incurred or payable or paid by the Main Contractor (and/or its Affiliates) in connection with or in consequence of failure by the Sub-Contractor or any of its subcontractors to comply with its or their obligations under the IR35 rules (including those in respect of being a “Fee Payer”) insofar as they relate to the operation of this Agreement. [Drafting Note to be deleted: Where clauses 4.3 and 4.4 are not used, Clause 5.9 should be included].
+The Sub-Contractor will, as far as is required by law, be responsible for and will account to the appropriate authorities for all income tax liabilities and national insurance or similar contributions and any other liability, deduction, contribution, assessment or claim arising from or made in connection with fees paid and/or benefits provided as a result of the performance of the Services and/or any payment or benefit received by the individual in respect of the Services.
+If any claim, assessment or demand is made against the Main Contractor (and/or its Affiliates) for payment of income tax or national insurance contributions or other similar contributions due in connection with either the performance of the Services or any payment or benefit received by the Sub-Contractor and/or the individual in respect of the Services, the Sub-Contractor will, where such recovery is not prohibited by law, indemnify the Main Contractor (and/or its Affiliates) against any liability, assessment or claim together with all costs and expenses and any penalty, fine or interest incurred or payable or paid by the Main Contractor (and/or its Affiliates) in connection with or in consequence of any such liability, assessment or claim.
+The Main Contractor (and/or its Affiliates may, at its sole discretion, satisfy the indemnities referred to in Clause 5.11 above (in whole or in part) by way of deduction from any payments to be made by the Main Contractor to the Sub-Contractor under this Agreement.
+The Sub-Contractor will pay to the Main Contractor any and all Rebates calculated and owed pursuant to Schedule 4.
+Main Contractor reserves the right to deduct any overpayments from any monies due or which may become due on any account to Sub-Contractor or may recover such overpayment as a debt. 
+Progress and collaboration
+The Sub-Contractor shall collaborate (include attending meetings) and co-operate with the Main Contractor and the Customer.
+For the purposes of the smooth handling and implementation of the Statement of Work and the completion of the Sub-Contract Work, the Main Contractor shall appoint a project manager (the “Project Manager”) to whom shall be delegated the day to day responsibilities of managing the Project and who shall be responsible for liaison with and the co-ordination of the Sub-Contractor. The Sub-Contractor shall also appoint a representative (the “Representative”) with day to day responsibility for discharging the Sub-Contractor's obligations under the Statement of Work. The Project Manager and the Representative are as named in the Statement of Work or as shall be notified in writing between the parties from time to time.
+The Project Manager and the Representative shall:
+meet regularly to monitor the progress of the Sub-Contract Work and review any issues arising from the provision of the Sub-Contract Work;
+establish administrative procedures and controls for the Sub-Contract Work to be provided; and
+be the first point of contact for all commercial and contractual issues associated with the Statement of Work.
+The Sub-Contractor shall commence and complete the provision of the Sub-Contract Work in accordance with the Statement of Work.
+Confidential information
+Confidential Information means any information (whether in oral, written, electronic or any other form) which is marked ‘confidential’ or ‘secret’ or is, by its nature, clearly confidential. The Sub-Contractor acknowledges that any information relating to the Main Contractor’s Customer obtained by the Sub-Contractor pursuant to this Agreement (including any Statement of Work) is deemed to be the Main Contractor’s Confidential Information. Confidential Information does not, however, include any information which: (a) is in, or has become part of, the public domain other than by a breach of this Agreement and / or a Statement of Work; (b) becomes available to a party in a lawful manner from a third party who, to the best of that party’s knowledge, is lawfully entitled to disclose the same; and/or (c) can be proven was independently developed by or for a party without reference to the other’s party’s Confidential Information.
+Each party shall, in relation to the other’s Confidential Information: (a) keep it secret and confidential using the same standard of care the receiving party uses to safeguard its own Confidential Information and no less than a reasonable standard of care; (b) use it only for purposes connected to the Statement of Work; (c) disclose it only to such of its employees, directors, agents, subcontractors, group companies and/or professional advisers as need to know and on condition that it informs them of its confidential nature and directs them to deal with it on terms no less onerous than in this Clause 7.2; (d) be responsible for any breach of these confidentiality obligations by any person to whom it discloses the other’s Confidential Information; and (e) not otherwise disclose it to third parties without the other party’s prior written consent. The obligations of confidentiality in this Clause 7.2 shall not prevent a party disclosing information which is required to be disclosed under any applicable law, stock exchange requirement, or by order of a court or governmental body or authority of competent jurisdiction, provided that, to the extent it is permitted to do so, it notifies the other party as soon as reasonably possible on becoming aware of the obligation to disclose. The Sub-Contractor agrees that the Main Contractor may disclose the Sub-Contractor’s Confidential Information to the Customer.
+The Sub-Contractor shall comply with any further security requirements that may be specified in the Statement of Work.
+Each party shall, on written request, either return or destroy the other’s Confidential Information in its possession except that each party shall be entitled to keep copies or records to the extent required by law (and such copies shall continue to be Confidential Information and subject to the obligations of confidentiality in this Agreement).
+The provisions of Clause 7.2 shall continue after the termination of the Statement of Work.
+Any publicity to be issued in connection with this Agreement and/or any Statement of Work shall only be issued subject to prior written consent from both parties.
+Ownership of intellectual property
+Nothing in this Agreement shall affect the ownership of Intellectual Property Rights owned by either party and existing prior to this Agreement or generated outside the Work or Sub-Contract Work and which the respective party agrees to make available to the other in the course of the Work or Sub-Contract Work (“Background IPR”).
+Subject to Clause 8.1 above, the IPRs in any items created by the Sub-Contractor (or any third party on behalf of the Sub-Contractor) specifically for the purposes of the Statement of Work (the “Foreground IPRs”) shall vest in the Main Contractor upon creation, and the Sub-Contractor hereby assigns (and shall procure that any relevant third parties assign) to the Main Contractor with full title guarantee (by way of a present assignment of future rights) all rights in and title to the Foreground IPRs. The Sub-Contractor shall (and shall procure that any relevant third parties shall) execute any documentation which may be necessary to ensure that all rights in the Foreground IPRs are properly transferred to the Main Contractor.
+The Sub-Contractor is hereby granted a non-exclusive, royalty free, non-transferable licence to use the materials, documentation, data, software and other items provided by the Main Contractor to the Sub-Contractor pursuant to the Statement of Work and the Foreground IPRs (“Main Contractor Materials”) for the term of the Statement of Work solely for the purposes of providing the Sub-Contract Work. Title to and ownership of all Main Contractor Materials shall vest in and remain with the Main Contractor.
+Subject to Clause 8.2, the Sub-Contractor hereby grants to the Main Contractor a non-exclusive, perpetual, royalty free licence to use all the materials, documentation, data, software and other items provided by the Sub-Contractor (or its sub-contratcors) to the Main Contractor pursuant to the Statement of Works and the Sub-Contractor Background IPR (“SubContractor Licensed Materials”) to the extent necessary to receive the benefit of and to use the Sub-Contract Work and Deliverables.
+Where the Sub-Contract Work or Deliverables are being provided for the benefit of the Customer, the Sub-Contractor hereby grants to Main Contractor (i) a licence to use the Sub-Contractor Licensed Materials to the extent necessary to provide the Sub-Contract Work to the Customer; and (ii) the right to sub-license the Sub-Contractor Licensed Materials to the Customer on the same terms as in Clause 8.4 above.
+The Sub-Contractor shall upon demand and in any event upon the expiry or termination of the Statement of Work deliver up to the Main Contractor any Main Contractor Materials and Foreground IPRs in the Main Contractor’s possession or control.
+The Sub-Contractor warrants that the Sub-Contract Work, Deliverables, Foreground IPRs and Sub-Contractor Licenced Materials, and Main Contractor’s receipt and use thereof will not infringe the IPRs of any third party. The Sub-Contractor shall indemnify Main Contractor in respect of all Losses sustained by Main Contractor arising out of or in connection with any claim for infringement in connection with the receipt or use by Main Contractor (and/or the Customer and group companies) of any of the Sub-Contract Work, Deliverables, Foreground IPRs and/or Sub-Contractor Licenced Materials. The Main Contractor shall use its reasonable endeavours to mitigate such Losses.
+Data protection
+Each party agrees that, in the performance of their respective obligations under this Agreement, it shall comply with Applicable Data Protection Legislation. 
+To the extent that the Sub-Contractor is located in a Third Country and will process Personal Data of Main Contractor or Main Contractor’s Customer’s the parties shall enter into Standard Contractual Clauses for international data transfers as may be adopted by the European Commission and/or competent data protection authorities including the UK Addendum to the Standard Contractual Clauses for international data transfers (as set out in Schedule 4). 
+9.3	Both parties hereto are informed that contact Personal Data of their representatives, employees and contractors may be collected and processed by the other party for the sole purpose of the management of the contractual relationship defined under this Agreement and not per se in relation to the performance of the Agreement.
+9.4	Such processing activities outlined in clause 9.3 shall be strictly restricted for contacting the representatives, employees and contractors of the other party for contacting and billing purposes as a result of the contractual relationship. The contact Personal Data shall not be processed for any other purposes and, in particular, shall not be used for marketing purposes unrelated to the main purpose unless expressly permitted by Main Contractor.
+9.5	The parties therefore expressly agree that each of them acts as Data Controller for the processing of the Personal Data collected and processed for the management of the contractual relationship as defined above in clauses 9.3 and 9.4. In this regard, the parties commit to comply with Applicable Data Protection Legislation.
+9.6	Where, the Main Contractor acts as Data Processor (on behalf of Main Contractor’s Customer) and the Sub-Contractor acts as Main Contractor’s Sub-Processor, and where the Main Contractor’s Customer requires Main Contractor to agree to certain (flow down or other) terms in relation to the Processing of the Personal Data, such applicable terms in the Main Contract i.e. Appendix A of the relevant Statement of Work shall apply to the Sub-Processor and such terms shall include the Main Contractor’s Customer’s instructions.
+Limitation of liability
+The extent of the parties’ liability under or in connection with this Agreement and any Statement of Work (regardless of whether such liability arises in tort, contract or in any other way and whether or not caused by negligence or misrepresentation) shall be as set out in this clause 10, unless amended in the relevant Statement of Work.
+The parties agree that the limitations in this clause 10 are reasonable given each party’s respective commercial positions and their ability to obtain insurance in respect of the risks arising under or in connection with a Statement of Work.
+Subject to clause 10.7, the aggregate liability of:
+the Sub-Contractor to the Main Contractor under this Agreement and all Statements of Work, (whether in contract, tort (including negligence), breach of statutory duty or otherwise) for loss or damage to the property of the other Party caused by its negligence shall not exceed £5,000,000 (five million pounds sterling) for any one occasion; and
+the Main Contractor to the Sub-Contractor under this Agreement and all Statements of Work, (whether in contract, tort (including negligence), breach of statutory duty or otherwise), shall not exceed the Price paid by the Main Contractor under the applicable Statement of Work in the year prior to the act or omission alleged to have caused the loss in question.
+Subject to clauses 10.5 and 10.710.7, neither party shall be liable for any consequential, indirect or special loss.
+The limitations of liability set out in clauses 10.3.1 and 10.4 shall not apply in respect of any indemnities given by either party under this Agreement.
+Except as expressly stated in this Agreement, and subject to clause 10.7, all warranties and conditions whether express or implied by statute, common law or otherwise are excluded to the extent permitted by law.
+Notwithstanding any other provision of this Agreement, the liability of the parties shall not be limited in any way in respect of the following:
+death or personal injury caused by negligence;
+fraud or fraudulent misrepresentation;
+breach of any obligation as to title implied by:
+section 12 of the Sale of Goods Act 1979; or
+section 2 of the Supply of Goods and Services Act 1982;
+
+breach of section 2 of the Consumer Protection Act 1987;
+
+any other Losses which cannot be excluded or limited by Applicable Law;
+any Losses caused by wilful misconduct.
+The provisions of Clause 10.4 will not limit Main Contractor’s right to recover for any: 
+direct loss of business or profits; or 
+additional and/or administrative costs and expenses incurred by Main Contractor arising from a Default by the Sub-Contractor; or 
+expenditure or charges incurred by Main Contractor arising from a Default by the Sub-Contractor; or 
+the cost of procuring replacement services where Main Contractor has terminated or replaced the Sub-Contractor in accordance with this Agreement; or 
+additional costs to maintain the Sub-Contract Work arising from a Default by the Sub-Contractor; or 
+loss or corruption of Main Contractor data including costs of rectification of the data arising out of a Default by the Sub-Contractor; or 
+any regulatory losses, fines, expenses or other losses arising from a breach by the Sub-Contractor of any law or regulation. 
+Termination
+This Agreement shall come into full force and effect on the Commencement Date. 
+Termination of a Statement of Work shall not affect the continuance of this Agreement or any other Statement of Work then in force.  Neither shall termination or expiry of this Agreement affect the continuance of any Statement of Work then in force.
+Either party may terminate this Agreement or a Statement of Work at any time by giving notice in writing to the other party if:
+the other party commits a material breach of this Agreement and such breach is not remediable;
+the other party commits a material breach of this Agreement which is not remedied within 14 days of receiving written notice of such breach;
+any consent, licence or authorisation held by the other party is revoked or modified such that the other party is no longer able to comply with its obligations under this Agreement or receive any benefit to which it is entitled.
+Either party may terminate this Agreement at any time by giving notice in writing to the other party if that other party:
+stops carrying on all or a significant part of its business, or indicates in any way that it intends to do so;
+is unable to pay its debts either within the meaning of section 123 of the Insolvency Act 1986 or if the non-defaulting party reasonably believes that to be the case; 
+becomes the subject of a company voluntary arrangement under the Insolvency Act 1986;
+has a receiver, manager, administrator or administrative receiver appointed over all or any part of its undertaking, assets or income;
+has a resolution passed for its winding up;
+has a petition presented to any court for its winding up or an application is made for an administration order, or any winding-up or administration order is made against it;
+is subject to any procedure for the taking control of its goods that is not withdrawn or discharged within seven days of that procedure being commenced;
+has a freezing order made against it;
+is subject to any recovery or attempted recovery of items supplied to it by a supplier retaining title to those items; and
+ is subject to any events or circumstances analogous to those in clauses 11.4.1 to 11.4.9 in any jurisdiction.
+Either party may terminate this Agreement at any time by giving not less than four weeks’ notice in writing to the other party if the other party undergoes a change of control or if it is realistically anticipated that it will undergo a change of control within two months. For the purposes of this clause 11.5, ‘control’ shall mean beneficial ownership of more than 50% of the issued share capital of a company or the legal power to direct or cause the direction of the management of a company.
+The right of a party to terminate the Agreement pursuant to clause 11.5 shall not apply to the extent that the relevant procedure is entered into for the purpose of amalgamation, reconstruction or merger (where applicable) where the amalgamated, reconstructed or merged party agrees to adhere to this Agreement.
+If a party becomes aware that any event has occurred, or circumstances exist, which may entitle the other party to terminate this Agreement under this clause 11, it shall immediately notify the other party in writing.
+Termination or expiry of this Agreement will not affect any accrued rights and liabilities of either party at any time up to the date of termination.
+Where the Statements of Work under this Agreement relate to only one Customer, this Agreement shall terminate immediately if (i) the Main Contract is terminated by the Customer for any reason (ii) any payment due from the Customer to the Main Contractor is not made under the Main Contract or (iii) the Customer withdraws its consent to sub-contract the Sub-Contract Work to the Sub-Contractor.  Where the Statements of Work under this Agreement relate to more than one Customer, the relevant Statement of Work(s) shall terminate immediately if: (i) the relevant Main Contract is terminated by the Customer for any reason, or (ii) any payment due from the Customer to the Main Contractor is not made under the relevant Main Contract, or (iii) if the Customer withdraws its consent to sub-contract the relevant Sub-Contract Work to the Sub-Contractor.
+On termination of this Agreement or a Statement of Work for any reason, Sub-Contractor will provide Main Contractor with any assistance necessary to ensure that an orderly transfer is achieved with minimal disruption, to Main Contractor or any person nominated by Main Contractor, of the Deliverables and Sub-Contract Work, functions and operations which were provided prior to termination by the other party.  The provisions of this Clause will apply whatever the reason for termination. 
+Insurance
+The Sub-Contractor must effect and maintain with a reputable insurance company policies of insurance which are the same as or equivalent to those policies which the Main Contractor is required to have in place under the terms of the Main Contract. Such policies must be maintained for the period specified in the Main Contract and the Sub-Contractor shall give to the Main Contractor, on request, copies of all such policies or a broker’s verification of insurance to demonstrate that appropriate cover is in place, together with receipts or other evidence of payment of the latest premiums due under those policies. 
+Anti-bribery
+For the purposes of this Clause 13:
+	“Associated Person” shall have the meaning given to it in the Bribery Act 2010 (the Act).
+	“Adequate Procedures” shall mean policies and procedures which a party reasonably believes would provide it with a defence to an offence under section 7(1) of the Act as such defence is set out in section 7(2) of the Act (with reference to any guidance issued under section 9 of the Act).
+Each party shall:
+comply with all Applicable Laws, statutes, regulations, and codes relating to anti-bribery (including but not limited to the Act) in all jurisdictions applicable to this Agreement (“Relevant Requirements”);
+not engage in any activity, practice or conduct which would constitute an offence under sections 1, 2 or 6 of the Act whether or not such activity, practice or conduct had been carried out in the United Kingdom;
+have and shall maintain in place at all times Adequate Procedures and shall ensure compliance by its Associated Persons with the Relevant Requirements and Clause 13.2.1, and shall enforce their provisions where appropriate;
+promptly report to the other party any request or demand for any undue financial or other advantage of any kind received by it in connection with the performance of its obligations under the Agreement (the Sub-Contractor shall use the process set out in Clause 13.2.5 below); and
+from time to time and at the reasonable request the other party, confirm in writing to the other party that it has complied with its undertakings under Clause 13 and shall provide any information reasonably requested by the other party to evidence such compliance, including reasonable details of its Adequate Procedures.
+In accordance with Clause 13.2.4, where the Sub-Contractor becomes aware at any time of any requests from Associated Persons of the Sub-Contractor or the Main Contractor, which it considers could be in breach of the Relevant Requirements it will immediately report such concerns to Main Contractor’s UK Ethics and Compliance Officer at the email address:  ethics.uk@capgemini.com
+Each party acknowledges that any breach by it of this Clause 13 shall constitute a material breach of the Agreement and any Statement of Work.
+Anti-facilitation of Tax Evasion
+14.1	For the purposes of this Clause 14 the expressions ‘associated with’, ‘prevention procedures’, ‘UK Tax Evasion Offence’ and ‘Foreign Tax Evasion Offence’ shall be construed in accordance with Part 3 of the Criminal Finances Act 2017 (CFA 2017) and guidance published under it. Furthermore, a person associated with the Sub-Contractor includes but is not limited to any subcontractor of the Sub-Contractor and persons associated with such subcontractor.
+14.2	The Sub-Contractor shall and shall procure that persons associated with it (“Sub-Contractor’s Associates”) or persons associated with any of the Sub-Contractor’s Associates, and in each case,  performing Services for or on behalf of the Sub-Contractor in connection with this Agreement and/or the Services (“Sub-Contractor Associated Persons”) shall:
+14.2.1	not engage in any activity, practice or conduct which would constitute either:
+14.2.1.1	a UK Tax Evasion Offence under section 45(5) of the Criminal Finances Act 2017; 
+14.2.1.2	a Foreign Tax Evasion Offence under section 46(6) of the Criminal Finances Act 2017;
+14.2.2	[comply with Main Contractor’s applicable policies including Ethics, Anti-bribery and Anti-corruption Policies as may be updated from time to time;]
+14.2.3	have and shall maintain in place throughout the term of this Agreement such prevention policies and procedures as are both reasonable to prevent any breach of Clause 14.2.1; and 
+14.2.4	not do, or omit to do, any act that will cause or lead Main Contractor to commit an offence under section 45(1) or section 46(1) of the Criminal Finances Act 2017.
+14.3	Without limitation to Clause 14.2, above, the Sub-Contractor shall:
+14.3.1	ensure that all Sub-Contractor Associated Persons involved in providing the Services or with the Agreement have been vetted and that due diligence has been undertaken [and is undertaken on a regular continuing basis] to such standard or level of assurance as is [reasonably required by Main Contractor OR reasonably necessary in relation to a person in that position in the relevant circumstances];
+14.3.2	[ensure all Sub-Contractor Associated Persons (including any subcontractors approved by Main Contractor) involved in performing Services in connection with the Agreement are subject to and at all times comply with equivalent obligations to the Sub-Contractor's under this Clause 14 [and the Sub-Contractor shall be liable to Main Contractor for any act or omission by any such person in breach of any of the obligations under this Clause 14 as if this was an act or omission of the Sub-Contractor itself];]]
+14.3.3	[ensure its own policies and other prevention procedures [and those of relevant Sub-Contractor Associated Persons] are endorsed by the Sub-Contractor [or relevant Sub-Contractor Associated Persons'] top-level management and include clear written guidance and training to each of the Sub-Contractor Associated Persons involved in providing the Services or with the Agreement]; and  
+14.3.4	take account of any guidance about preventing facilitation of tax evasion offences which may be published and updated in accordance with Section 47 of the Criminal Finances Act 2017.
+14.4	The Sub-Contractor shall promptly provide evidence of compliance with this Clause 14 by the Sub-Contractor and all persons associated with it and / or any other related information as Main Contractor may reasonably request.
+14.5	The record keeping, audit and other related terms and obligations set out in Clause 16 shall equally apply in respect of the Sub-Contractor’s compliance with this Clause 14.
+14.6	The Sub-Contractor’s warrants and represents that:
+14.6.1	[its responses to the Main Contractor’s due diligence questionnaire are complete and accurate; and]
+14.6.2	neither the Sub-Contractor nor any of the Sub-Contractor Associated Persons]:
+14.6.2.1	has been convicted of any offence involving tax evasion or the facilitation of tax evasion;
+14.6.2.2	having made reasonable enquiries, it has not been or is not the subject of any investigation, inquiry or enforcement proceedings by any governmental, administrative or regulatory body regarding any offence or alleged offence concerning tax evasion or the facilitation of tax evasion;
+14.6.2.3	has been or is listed by any government agency as being debarred, suspended, proposed for suspension or debarment, or otherwise ineligible for participation in government procurement programmes or other government contracts including[, without limitation,] any exclusion under regulation 57 of the Public Contracts Regulations 2015 (SI 2015/102) or regulation 80 of the Utilities Contracts Regulations 2016 (SI 2016/274);
+14.7	[The Sub-Contractor shall indemnify Main Contractor against any losses, liabilities, damages, costs (including [but not limited to] legal fees) and expenses incurred by, or awarded against, the Main Contractor as a result of any breach of this Clause 14 by the Sub-Contractor [or any breach of provisions equivalent to this Clause 14 in any subcontract by any subcontractor].
+14.8	Any breach of this Clause 14 by the Sub-Contractor shall constitute a material breach of the Agreement.
+14.9	[If Main Contractor terminates this Agreement for breach of this Clause 14, the Sub-Contractor shall not be entitled to claim compensation or any further remuneration, regardless of any activities or agreements with additional third parties entered into before termination.]
+Sustainable procurement, environment and prevention of modern slavery
+The Main Contractor expects its subcontractors to conduct their business relationships on a fair and ethical basis and in compliance with the Main Contractor's Core Principles of Sustainable Procurement (the “Principles”). The Main Contractor is also committed to reducing its impact on the environment and has set itself objectives for environmental performance as set out in Main Contractor’s UK Environmental Policy (the “Policy”), and Main Contractor expects its subcontractors to adhere to the Policy and the objectives contained therein. The Principles and the Policy are set out on the following website pages:
+https://www.capgemini.com/gb-en/about-us/crs/our-core-principles-of-sustainable-procurement/ 
+https://www.capgemini.com/wp-content/uploads/2022/06/Policy-Env-June-2022-update.pdf 
+The Main Contractor may revise the Principles and/or Policy at any time by amending the website pages. The Sub-Contractor shall check www.capgemini.com from time to time to take notice of any changes that the Main Contractor has made.
+The Sub-Contractor shall, and shall ensure that its subcontractors, suppliers and other third parties engaged in connection with a Statements of Work shall, at all times comply with the Principles and the Policy, and shall notify the Main Contractor as soon as possible in the event that the Sub-Contractor or its subcontractors, suppliers or third parties breach the Principles or Policy.
+The Sub-Contractor shall review its compliance, and the compliance of its relevant subcontractors, suppliers and third parties, with the Principles and Policy periodically whilst continuing to provide any services or goods to the Main Contractor.
+The Sub-Contractor shall, at no charge to the Main Contractor, promptly answer any questions or requests for information from the Main Contractor to enable the Main Contractor to assess the Sub-Contractor’s compliance with the Principles and Policy and/or promptly complete and return any surveys issued by the Main Contractor regarding the Principles and Policy.
+The Sub-Contractor warrants that:
+it has not been and is not engaged in any practices involving the use of child labour, forced labour, the exploitation of vulnerable people, or human trafficking (slavery and human trafficking);
+its employees and agency workers are paid in compliance with all applicable employment laws and minimum wage requirements; and
+it will take reasonable steps to prevent slavery and human trafficking in connection with the Sub-Contractor's business; and
+it will comply with the Main Contractor’s Supplier Standards of Conduct currently available at https://www.capgemini.com/wp-content/uploads/2024/04/Supplier-Standards-of-Conduct-_-English-version-_-26042024.pdf as updated from time to time by the Main Contractor.
+The Sub-Contractor agrees to provide all reasonable information required by the Main Contractor for the purposes of completing the Main Contractor's annual anti-slavery and human trafficking statement as required by the UK's Modern Slavery Act 2015.
+The Sub-Contractor will permit the Main Contractor and its third party representatives, on reasonable notice during normal business hours, but without notice if there are reasonable grounds to suspect an instance of slavery and human trafficking, to access and take copies of the Sub-Contractor's records and any other information held at the Sub-Contractor's premises and to meet with the Sub-Contractor's personnel and more generally to audit the Sub-Contractor's compliance with its obligations under this clause 15. The Sub-Contractor shall give all necessary assistance to the conduct of such audits during this Agreement and the Term of any Statements of Work.
+The Sub-Contractor will adopt modern slavery provisions in its contracts with suppliers and subcontractors so as to ensure compliance with the Modern Slavery Act 2015.
+Each party acknowledges that any breach by it of this Clause 15 shall constitute a material breach of the Agreement and any Statement of Work.
+Audits and investigations
+In addition to, and notwithstanding, any other rights of audit that Main Contractor has under this Agreement, the Sub-Contractor shall, for the purpose of assessing compliance by it (and/or its sub-contractors) obligations under this Agreement and / or any Statement of Work including ensuring accuracy of invoices, allow Main Contractor and /or its agents (subject to Main Contractor’s reasonable confidentiality terms) access to inspect and audit all information, records, accounts and other relevant information and premises (including allowing copying of documents) within Sub-Contractor’s possession or control including any Sub-Contractor equipment and materials stored on, or to be used at Main Contractor’s premises at all reasonable times during normal working hours except as stated in clause 16.2 and for a period of 18 months after termination or completion of performance of a Statement of Work. The Sub-Contractor shall provide Main Contractor and its agent with all reasonable cooperation, and assistance in respect of its obligation in this clause 16.1. 
+Where such access, inspection or audit is required by an official government regulator, the Sub-Contractor shall allow such inspection or audit at any time and there shall be not be a limit to the number of such inspections or audits that can be undertaken.
+Except in cases where it reasonably believes there has been a breach in which case it (and its agents) shall be entitled to immediate access, Main Contractor shall arrange access at such times and in such a manner as shall be intended to prevent such reviews unreasonably interfering with the Sub-Contractor’s operations. 
+The parties shall bear their own costs and expenses incurred in respect of an inspection carried out in accordance with clauses 16.1 and 16.2, unless the inspection identifies a material default by the Sub-Contractor, in which case the Sub-Contractor shall reimburse Main Contractor for all its reasonable costs incurred in the course of the audit/ inspection.
+If an inspection identifies that Main Contractor has overpaid any part of the Price in a Statement of Work or any errors in the amount paid by Main Contractor, the Sub-Contractor shall refund to Main Contractor the amount overpaid (plus interest on such amount from the date of payment until the date of the refund) and rectify any errors within 14 days of notice to do so.
+Main Contractor agrees it shall not have access to any other data belonging to Sub-Contractor's other customers. Furthermore, Main Contractor may, at its discretion, accept an independent audit report in lieu of performing an audit in the manner set out above.
+Dispute resolution
+Any question or difference which may arise concerning the construction meaning or effect of this Agreement and/or any Statement of Work or any matter arising out of or in connection with this Agreement and/or any Statement of Work shall in the first instance be referred to the Project Manager and the Representative for discussion and resolution at or by the next regular management meeting.  If the matter is not resolved at this meeting the matter will be referred to the next level of the Sub-Contractor and the Main Contractor's management who must meet within two (2) weeks to attempt to resolve the matter.  If the matter is not resolved at that meeting the escalation continues with the same maximum time intervals up to two (2) more levels of management.  If the unresolved matter is having a serious effect on the Sub-Contract Work the parties will use reasonable endeavours to reduce the elapsed time in completing the process.  The Sub-Contractor may not initiate any legal action or purport to terminate this Agreement and/or a Statement of Work an until the process has been completed unless such party has reasonable cause to do so to avoid damage to its business or to protect or preserve any right of action it may have.
+The levels of escalation shall be detailed in a Statement of Works:
+
+If any of the above (as detailed in the Statement of Work) are unable to attend a meeting a substitute may attend provided that such substitute has at least the same seniority and is authorised to settle the unresolved matter.
+If the dispute is not resolved by escalation in accordance with Clause 17.1, the parties will seek to resolve disputes between them by an Alternative Dispute Resolution technique recommended by the Centre for Effective Dispute Resolution. Neither party may initiate any legal action until the escalation in Clause 17 has been exhausted and either party has refused to submit to Alternative Dispute Resolution.
+Where a dispute between the parties overlaps with a dispute between the Customer and the Main Contractor then notwithstanding the requirements of this Clause 17, the Sub-Contractor shall, at its own cost and at the request of the Main Contractor provide all reasonable assistance and information with regard to the resolution of such dispute and adhere to the dispute resolution procedures specified in the Main Contract.
+Force majeure
+Neither party shall be under any liability to the other party for any delay or failure to perform any obligation hereunder to the extent the same is wholly caused by Force Majeure.
+Each party hereto agrees to:
+give notice forthwith to the other on becoming aware of an Event of Force Majeure such notice to contain details of the circumstances giving rise to the Event of Force Majeure including its expected duration; and
+use best endeavours to minimise the effects of that Force Majeure event.
+Where the party seeking to claim relief from Force Majeure is the Sub-Contractor, relief shall only be afforded if the Sub-Contractor has fully complied with all and any requirements or obligations specified in the Agreement and the Statement of Work as being relevant to the Force Majeure event and it is acknowledged that any Force Majeure event which is capable of being mitigated (including, without limitation, any robust back-up or business continuity or disaster recovery arrangement) shall not be regarded as a Force Majeure event.  
+Changes
+If either party wishes to make a change to this Agreement at any time, Main Contractor may require, and the Sub-Contractor may recommend, such a change (a Change Request) under the procedure set out in this clause.
+Each Change Request shall include such information necessary to enable the parties to assess the impact of the proposed change.
+Where Main Contractor issues a Change Request, the Sub-Contractor shall reply to Main Contractor within [X] business days of receipt, or such period as is otherwise agreed between the parties, either agreeing to the Change Request and providing details of work required; or refusing the Change Request and outlining the reasons for refusal.
+A Change Request shall be submitted by the party requesting the change to the other party and shall only become binding on the parties once the Change Request is signed by an authorised representative of both parties and no variation to this Agreement shall be valid unless the provisions of this clause 19 are complied with.
+Until a Change Request made in accordance with this clause 19 have been signed by an authorised representative of both parties, Main Contractor and the Sub-Contractor shall continue to perform this Agreement in compliance with its terms prior to the signature of the Change Request.
+Entire agreement
+The parties agree that this Agreement and any Statement of Work entered into pursuant to it for Sub-Contract Work constitutes the entire agreement between them and supersedes all previous agreements, understandings and arrangements between them, whether in writing or oral in respect of its subject matter.
+Each party acknowledges that it has not entered into this Agreement or any Statement of Work in reliance on, and shall have no remedies in respect of, any representation or warranty that is not expressly set out in this Agreement or any Statement of Work. No party shall have any claim for innocent or negligent misrepresentation on the basis of any statement in this Agreement or a Statement of Work.
+Nothing in this Agreement or a Statement of Work purports to limit or exclude any liability for fraud.
+Notices
+Any notice or other communication given by a party under this Agreement or a Statement of Work shall:
+be in writing and in English;
+be signed by, or on behalf of, the party giving it; and
+be sent to the relevant party at the address set out in clause 21.3.
+Notices may be given, and are deemed received:
+by hand: on receipt of a signature at the time of delivery;
+by Royal Mail Recorded Signed For post: on the second Business Day after posting;
+by post: forty-eight (48) hours after a first class registered letter is posted to the appropriate address.
+Notices and other communications shall be sent to the registered office stated in the Agreement (or any other address notified for this purpose by that party).
+All references to time are to the local time at the place of deemed receipt.
+ A notice given under this Agreement is not validly served if sent by email.
+Further assurance
+Each party shall at the request of the other, and at the cost of the requesting party, do all acts and execute all documents which are necessary to give full effect to this Agreement and any Statement of Work.
+Variation
+No variation of this Agreement nor any Statement of Work shall be valid or effective unless it is in writing, refers to this Agreement or the Statement of Work and is duly signed or executed by, or on behalf of, each party.
+Assignment
+The Sub-Contractor may not assign, subcontract or encumber any right or obligation under this Agreement, in whole or in part, without the Main Contractor’s prior written consent.
+No partnership or agency
+The parties are independent businesses and are not partners, principal and agent or employer and employee and this Agreement or any Statement of Work does not establish any joint venture, trust, fiduciary or other relationship between them, other than the contractual relationship expressly provided for in it. None of the parties shall have, nor shall represent that they have, any authority to make any commitments on the other party’s behalf.
+Equitable relief
+The Sub-Contractor recognises that any breach or threatened breach of this Agreement or a Statement of Work may cause the Main Contractor irreparable harm for which damages may not be an adequate remedy. Accordingly, in addition to any other remedies and damages available to it, the Sub-Contractor acknowledges and agrees that the Main Contractor is entitled to the remedies of specific performance, injunction and other equitable relief without proof of special damages.
+Severance
+If any provision of this Agreement or a Statement of Work (or part of any provision of the foregoing documents) is or becomes illegal, invalid or unenforceable, the legality, validity and enforceability of any other provision of this Agreement or Statement of Work shall not be affected.
+If any provision of this Agreement or a Statement of Work (or part of any provision of the foregoing documents) is or becomes illegal, invalid or unenforceable but would be legal, valid and enforceable if some part of it was deleted or modified, the provision or part-provision in question shall apply with such deletions or modifications as may be necessary to make the provision legal, valid and enforceable. In the event of such deletion or modification, the parties shall negotiate in good faith in order to agree the terms of a mutually acceptable alternative provision.
+Waiver
+No failure, delay or omission by either party in exercising any right, power or remedy provided by law or under this Agreement or a Statement of Work shall operate as a waiver of that right, power or remedy, nor shall it preclude or restrict any future exercise of that or any other right, power or remedy.
+No single or partial exercise of any right, power or remedy provided by law or under this Agreement or a Statement of Work shall prevent any future exercise of it or the exercise of any other right, power or remedy.
+A waiver of any term, provision, condition or breach of this Agreement or a Statement of Work shall only be effective if given in writing and signed by the waiving party, and then only in the instance and for the purpose for which it is given.
+Compliance with law
+Each party shall comply and shall (at its own expense unless expressly agreed otherwise) ensure that in the performance of its duties under this Agreement and any Statement of Work, its employees, agents and representatives will comply with all Applicable Law.
+Counterparts
+This Agreement and Statements of Work may be signed in any number of separate counterparts, each of which when signed and dated shall be an original, and such counterparts taken together shall constitute one and the same agreement.
+Costs and expenses
+Each party shall pay its own costs and expenses incurred in connection with the negotiation, preparation, signature and performance of this Agreement and any Statements of Work.
+Third party rights
+Any person who is not a party to this Agreement or a Statement of Work shall not have any rights under the Contracts (Rights of Third Parties) Act 1999 to enforce any of its provisions.
+Governing law
+This Agreement or a Statement of Work and any dispute or claim arising out of, or in connection with, it, its subject matter or formation (including non-contractual disputes or claims) shall be governed by, and construed in accordance with, the laws of England and Wales.
+Jurisdiction
+The parties irrevocably agree that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim arising out of, or in connection with, this Agreement and each Statement of Work, its subject matter or formation (including non-contractual disputes or claims).
+
+Agreed by the parties on the date set out at the head of this Agreement
+
+and
+
+
+Schedule 1
+STATEMENT OF WORK
+Instructions for completion:
+Please delete these instructions and all guidance notes throughout the SOW and remove all highlighting and square brackets before finalising this SOW
+[Yellow Highlighting] = Details are required for insertion
+Red text = Guidance notes 
+Please also read Guidance Note for Framework Subcontract Agreement [docx] prior to completing this SOW
+NOTE – please do not include any IR35 wording in this SOW – IR35 provisions are dealt with at Framework Agreement level. Please refer to the UK ERPSTN Procurement Team for further details.
+
+This template Statement of Work is only to be used where there is an existing Framework Subcontract Agreement in place.  It cannot be used with other forms of agreement.
+
+Introduction
+This Statement of Work (hereinafter referred to as the “SOW”) is executed and entered into effective as of the [10] day of [October] 2025 by and between Cloud Lobsters Ltd incorporated and registered in England and Wales with company number [16016819] whose registered office is at [71-75 Shelton Street, Covent Garden, WC2H 9JQ] (the “Sub-Contractor”), and CAPGEMINI UK PLC incorporated and registered in England and Wales with company number 00943935 whose registered office is at 95 Queen Victoria Street, London, EC4V 4HN (the “Main Contractor” or “Capgemini”).
+BACKGROUND
+By an agreement, details (or certain details) of which are set out in Appendix A (the “Main Contract”) made the [date of the Main Contract between Capgemini and the Customer – XX] day of [Month] 20XX between [HSBC] (the “Customer”) and the Main Contractor, the Main Contractor took on certain obligations and was granted certain rights on the terms and conditions set out therein;
+The Main Contractor and the Sub-Contractor have entered into a governing agreement dated [date of Framework Agreement between Capgemini and the Sub-Contractor – XX] day of [October] 20[25] (“Agreement”); 
+Pursuant to the Agreement the Sub-Contractor has agreed to perform certain services described in section 3.1 and/or Appendix C in connection with the Work to be carried out under the Main Contract. 
+The parties hereby agree that:
+The terms of the Agreement are expressly incorporated into and form part of this SOW together with any terms set out herein.
+All definitions contained in the Agreement shall apply to this SOW unless expressly varied to the contrary in this SOW.  
+The Appendices below and attached hereto are incorporated into this SOW. 
+In consideration of the foregoing and the promises, covenants, and agreements hereinafter set forth, and in further consideration of certain other valuable consideration, the receipt and sufficiency of which each of the Parties expressly acknowledges, the Main Contractor and Sub-Contractor hereby agree by, and between themselves, the terms set out below.
+Schedule
+The Sub-Contractor will perform the Sub-Contract Work as described in the SOW commencing on the the start date of services, which is expected to be – 27th day of October 2025, but if the start date of the services is earlier than the date specified here, the SOW will commence on actual start date of the services. The Sub-Contract Work will continue until completed or until a date specified in the SOW. The Sub-Contractor agrees that no Sub-Contract Work will be delivered, or work performed prior to the commencement date or beyond the end date unless a change control notice is agreed upon by both Parties. 
+Scope of Sub-Contract Work 
+The Sub-Contractor shall perform the Sub-Contract Work as described in section 3.1 and/or Appendix C to the Main Contractor’s and/or Customer’s reasonable satisfaction.
+Deliverables and Acceptance Criteria
+The Sub-Contractor will have exclusive control over the means, method and details of fulfilling the Deliverables detailed in the SOW. The Sub-Contractor shall complete the following Deliverables to the Main Contractor’s and/or Customer’s reasonable satisfaction in accordance with the requirements of this SOW and the due dates and acceptance criteria specified below: 
+DELIVERABLE NAMES AND DESCRIPTIONS – Provide a complete list of all quantifiable services/deliverables/outputs/specifications to be completed by the Sub-Contractor. Ensure that this is sufficiently detailed so that any 3rd party would be able understand exactly what is required. For example, if a report/presentation is required, please define what is expected from the report/presentation such as: format; length; level of detail; key outputs; key conclusions; etc.
+Main Contract between Capgemini and our Customer may help to guide deliverables detail.
+NOTE – Wording such as “assist”, “support”, “contribute to” is not appropriate to include in 	 Deliverables – suppliers must be fully accountable for delivery of all of their designated outputs.
+
+ACCEPTANCE CRITERIA – Provide a full description of what would be classed as acceptable to Capgemini / our Customer. Will you be able to, without question, deliver Capgemini’s obligations to our Customer based on what has been delivered to you by the Sub-Contractor, and how will you judge that this is the case? For example, if completion of a piece of coding is required this code may need to successfully migrate into a test or live environment.
+NOTE – “Accepted by Capgemini”, “Accepted by the Customer”, “Approved by PM” etc. is not acceptance criteria – please define the specific criteria against which Capgemini will judge successful delivery.
+Acceptance Criteria from the Main Contract between Capgemini and our Customer may help to guide acceptance criteria.
+
+Due Dates – For longer term services and/or services including multiple outputs, it is expected that Deliverables would likely be staggered throughout the term of the SOW with some Deliverables having dependencies on others. ie. we should not be in receipt of multiple Deliverables over a long-term SOW with all deliverable due dates on the last day of the SOW term.
+
+Workstream-1: Template Compliance Assessment
+
+Table 1 – Deliverables and Acceptance Criteria
+The Sub-Contractor shall have no authority to authorise deviations from the project plan or project schedule; grant a time extension; or approve substitute Deliverables. 
+Acceptance Procedure
+All Deliverables will be documented by the Sub-Contractor through a report which will be presented to the Capgemini Project Manager upon completion of each Deliverable. The Deliverables shall be measured against the Acceptance Criteria detailed in section 3.1 and/or Appendix C. The Capgemini Project Manager shall provide written confirmation of acceptance of Deliverables or details of additional and/or remedial Sub-Contract Work required ahead of acceptance. Such confirmation by the Capgemini Project Manager shall not be unreasonably withheld. The Sub-Contractor shall receive confirmation of acceptance of Deliverables from the Capgemini Project Manager before the respective invoices are submitted. 
+Location of Performance 
+LOCATION OF PERFORMANCE – Provide a complete list of all locations from which the Sub-Contract Work will be performed.
+Include any details of home working, however, please note that this shall only be permitted if approval is provided by Capgemini’s Customer.
+
+
+Table 2 – Location of Performance
+Roles and Responsibilities
+Subcontractor responsibilities/ obligations/ warranties
+For the duration of this SOW, all Sub-Contract Work including Deliverables under this SOW will be managed directly by the Sub-Contractor.
+If any personnel assigned by the Sub-Contractor is unable to complete the Sub-Contract Work or unable to attend any Location of Performance for a prolonged period, for any reason such as illness, the Sub-Contractor will replace the personnel with an adequately skilled alternative and such transfer shall not affect the performance of the Deliverables in accordance with section 3.1 and/or Appendix C. 
+For the avoidance of doubt, time of Sub-Contractor’s performance shall be of the essence. 
+Security Clearance
+Where the Main Contract mandates a level of National Security Vetting clearance, all personnel provided to perform the agreed Deliverables must have their clearances validated by the Capgemini Personnel Security Vetting Team prior to their start date. 
+On the grounds of national security*, the Sub-Contractor will provide the following details to Capgemini 5 days prior to the start date for each of the personnel used to fulfil the work outlined in this SOW:
+Surname
+Forename
+Date of Birth
+Clearance Sponsoring Authority
+Where the Capgemini Personnel Security Vetting Team are unable to validate said clearance, the Sub-Contractor will be required to provide alternative personnel.
+*IR35 regulation prevents disclosure of personnel details in this SOW however, Capgemini as main contractor, must ensure that the customer contractual requirement for National Security Vetting are met.
+Main Contractor Dependencies
+[Include any responsibilities Capgemini has to ensure the services are carried out to our expectations. What we need to provide to the Sub-Contractor in order for them to complete their Deliverables? For example: access to sites; systems; clearances; equipment or documentation required.
+The Sub-Contractor my input details in to this section.
+NOTE: Capgemini shall be contractually obliged to provide any dependencies inserted in to this section
+This section 3.4(b) can be deleted if N/A.]
+SECURITY CLEARANCE: Where the customer contract mandates a level of National Security Vetting clearance, the Capgemini Project Manager raising this SOW is responsible for ensuring that the proposed Sub-Contractor personnel meet the contract requirements prior to entering customer buildings or accessing customer systems or data. 
+The Capgemini Project Manager should provide the Capgemini UK Personnel Security Vetting Team (security.vetting.uk@capgemini.com) with the following details of each of the Sub-Contractor personnel a minimum of 3 business days prior to the contract start date:
+Surname
+Forename
+Date of Birth
+Clearance Sponsoring Authority
+The Capgemini Personnel Security Vetting Team will check the clearance with the sponsoring authority and aim to confirm written validity of clearance to the Project Manager by email within 48 hours.
+Written confirmation of security clearance from the Capgemini Personnel Security Vetting Team should retained by the Project Manager 
+
+The Capgemini Project Manager will be the formal Personnel Security Vetting Point of Contact (POC) under this SOW for any security incident(s), security vetting anomalies and any compliance checks in relation to the Sub-Contractor staff. 
+Customer Dependencies
+[Include any responsibilities Capgemini’s Customer has to ensure the services are carried out to their expectations. What the Customer needs to provide to the Sub-Contractor in order for them to complete their Deliverables. For example: access to sites; systems; clearances; equipment or documentation required.
+The Sub-Contractor my input details in to this section.
+This section 3.4(c) can be deleted if N/A.]
+The Main Contractor shall use reasonable endeavours to arrange for the Customer to accept and provide any Customer Dependencies requested to facilitate completion of the Sub-Contract Work. However, the Main Contractor shall not be responsible or liable for Customer compliance regarding any Customer Dependencies. For the avoidance of doubt, the Main Contract shall apply in the instance of any contradiction with this section 3.4 (c).
+NOTE – it remains Capgemini’s responsibility to ensure that all Customer dependencies and responsibilities are fulfilled and that all requisite inputs are available to the Sub-Contractor.
+If Main Contractor Dependencies and/or Customer Dependencies are captured in Appendix A then these can be deleted.
+
+Sub-Contractor Essential Skills, Competencies & Qualifications
+The Sub-Contractor warrants that the personnel responsible for performing the Sub-Contract Work under this SOW will be adequately qualified and skilled.
+The essential skills, competencies & qualifications provided by the Sub-Contractor are as listed below:
+[Please insert a list of all skills, competencies and qualifications required by the Sub-Contractor]
+[Please insert a list of all skills, competencies and qualifications required by the Sub-Contractor]
+[Please insert a list of all skills, competencies and qualifications required by the Sub-Contractor]
+3.6	Capgemini Escalation details
+
+Table 3 – Escalation details for Capgemini
+3.7	Sub-Contractor Escalation Details
+NOTE – Sub-Contractor to complete their own escalation details
+
+Table 4 – Escalation details for Sub-Contractor
+NOTE – please do not include any IR35 wording in this SOW – IR35 provisions are dealt with at Framework Agreement level. Please refer to the UK ERPSTN Procurement Team for further details.
+
+Technical and Security requirements 
+The Sub-Contractor and its employees must at all times adhere to any security requirements of the Main Contractor and/or the Customer including but not limited to ensuring all Sub-Contractor personnel working using Customer accounts have obtained appropriate login credentials in accordance with Customer requirements. If at the direction of the Customer the employees of the Sub-Contractor are requested to leave a site or prevented from performing the Sub-Contract Work, the Sub-Contractor must immediately notify the Main Contractor. The Sub-Contractor shall notify Capgemini of any health and safety related concerns promptly and in writing.
+Security Clearance
+Where the Main Contract mandates a level of National Security Vetting clearance, validation of clearance is required under the conditions of this SOW. Any Sub-contractor personnel failing to meet the aftercare obligations of holding said clearance will be requested to leave site and reported to the appropriate vetting authority.
+[Insert details of any additional security requirements we need the Sub-Contractor to adhere to further to those set out in the Sub-Contractor Framework Agreement and Customer Main Contract flow downs]
+Sub-Contractor Licensed Materials
+SUB-CONTRACTOR MATERIALS – Provide a complete list of all materials, including any open-sourced materials or licenses, to be used and provided by the Sub-Contractor. The Sub-Contractor may complete this section if required.
+
+Tale 6 – Sub-Contractor Licensed Materials
+Change Control Procedure
+Changes to this SOW may be proposed in writing at any time by either party but will only be enacted when formally authorised by both parties. Any changes to this SOW shall be made in accordance with clause 19 of the Agreement.
+Termination
+The Main Contractor may terminate this SOW immediately for convenience at any time. Termination shall not affect the Main Contractor’s liability to pay the Sub-Contractor for any Sub-Contract Work already delivery or any time and expenses already incurred, providing that the Sub-Contract Work is delivered to the satisfaction of Main Contractor and the Customer and in accordance with the terms and conditions set out in the Agreement and this SOW.
+Note – Please do not delete, amend or add to this clause without first consulting the UK ERPSTN Procurement Team
+Warranty Period
+The Sub-Contractor warrants that for a period of ninety (90) days following approval of the Deliverables by the Main Contractor in line with the Acceptance Criteria detailed in section 3.1 and/or Appendix C, that the Deliverables and any related outcomes shall conform in all respects to the specifications and requirements agreed by the parties. In case that the Deliverables provided by the Sub-Contractor cannot be fully tested the Sub-Contractor warrants that for a period of ninety (90) days following Main Contractor and/or Customer commencement of use of the Deliverables, that the Deliverables and any related outcomes shall conform in all respects to the specifications and requirements agreed by the parties.
+Quality Assurance
+The Sub-Contractor warrants it understands the Main Contractor’s business and needs; and shall provide the Sub-Contract Work and Deliverables using all reasonable skill and care within the meaning of the Supply of Goods and Services Act 1982, Part II, s 13; and in accordance with best industry practice; and the law. Furthermore, Deliverables shall be of satisfactory quality within the meaning of the Sale of Goods Act 1979.
+The Sub-Contractor shall perform all Sub-Contract Work to the standards agreed within the key performance indicators (KPIs) set out in the below table.
+KPI Table – KPIs are critical and measurable factors against which successful performance can be evaluated. Please include any KPIs, tolerances and reporting dates in the below table. For complex, longer-term, multi-Deliverable SOWs it is expected that Sub-Contract Work will be monitored at regular intervals throughout the term in accordance with pre-determined KPIs to ensure clarity of performance measurement. If there are no KPIs, please remove the below table and the final sentence above. 
+
+
+Payment
+Payment to Sub-Contractor for performance of the Sub-Contract Work described in this SOW shall be made in line with completion of the Deliverables and milestones set out in section 3.1 and/or Appendix C, as detailed in the below table and/or Appendix E. 
+PAYMENT – The payment dates set out in the table below should correspond with the Deliverables and Acceptance Criteria due dates set out in table 1 within section 3.1.
+For longer term services and/or services including multiple outputs, it is expected that Deliverables would likely be staggered throughout the term of the SOW (with staggered payment dates) and some Deliverables having dependencies on others. ie. we should not be in receipt of multiple Deliverables over a long-term SOW with all deliverable due dates and payment dates on the last day of the SOW term.
+
+
+
+Deviations from the Agreement
+Any deviations from the Agreement can be found in Appendix B.
+Additional Terms
+Notwithstanding Clause 18 of the Agreement, the Sub-Contractor represents and warrants that (i) it has taken into account the impact of the Coronavirus pandemic and any potential consequences thereof when entering into this Agreement and (ii) the Coronavirus pandemic will not impact the Sub-Contractor’s ability to perform its obligations under the Agreement including providing the Services and / or the Deliverables/goods.  In this Agreement, “Coronavirus” shall be ascribed the meaning as set out in s1(1) of the Coronavirus Act 2020.
+The Sub-Contractor agrees that the Main Contractor may on written notice to the Sub-Contractor suspend or terminate (without liability) in full or in part the Sub-Contractor’s right to perform the Sub-Contract Work and/or provide the Deliverables/goods if the Coronavirus pandemic or any consequences thereof impacts (i) the Customer’s ability to receive the Sub-Contract Work or (ii) the Main Contractor’s performance of the Contract.
+
+
+
+SIGNED for and on behalf of	SIGNED for and on behalf of
+[Insert full Legal entity name of Sub-Contractor]	CAPGEMINI UK PLC
+
+Signed:_______________________________	Signed:_________________________
+
+Role:________________________________	Role: ________________________
+
+Print Name:___________________________	Print Name:______________________
+
+Date:_________________________________	Date:___________________________
+Appendix A – Customer Main Contract flow down terms 
+[Insert a copy of Customer Main Contract flow down terms applicable to this SOW – these are often non-negotiable.  ]
+
+Appendix B – Deviations from the Sub-Contractor Framework Agreement
+
+Appendix B – Special Terms for HSBC Engagement
+1. Payment Terms
+Notwithstanding anything in the MSA, the Sub-Contractor shall be paid within one (1) Business Days of Capgemini receiving cleared funds from HSBC in respect of the relevant Deliverables. For the avoidance of doubt, no additional 30-day period applies. If HSBC does not pay Capgemini, the Sub-Contractor shall not be entitled to payment.
+2. Rebates
+The rebate mechanism in Schedule 3 of the MSA shall not apply to this SOW, nor shall revenues under this SOW count towards any calculation of annual revenues for rebate purposes.
+3. Intellectual Property
+All Deliverables and Foreground IP created under this SOW shall vest directly in HSBC. Capgemini shall have no right, title, or licence in respect of such Deliverables other than a temporary right to pass them through to HSBC for the purpose of delivery. Cloud Lobsters retains ownership of its Background IP, which is licensed to HSBC solely as required for use of the Deliverables under this SOW. For the avoidance of doubt, no residual rights or continuing licence are granted to Capgemini.
+4. Liability & Indemnities
+For this SOW, the Sub-Contractor’s aggregate liability shall be limited to one hundred and twenty-five percent (125%) of the charges payable under this SOW. All indemnities are subject to this liability cap, save for fraud, death, personal injury, or wilful misconduct. For the avoidance of doubt, liability caps apply on a per-SOW basis and shall not be aggregated across multiple SOWs.
+5. Change Control
+For this SOW, either party may propose a Change Request. The Sub-Contractor shall have not less than fifteen (15) Business Days to assess any Change Request. No Change Request shall be binding unless agreed in writing by both parties. No Change Request shall be deemed accepted by default.
+6. Security Obligations
+The obligations under Schedule 2 (Technical and Organisational Security Measures) shall apply only where the Sub-Contractor processes HSBC data on its own IT infrastructure. Where all work is carried out on HSBC-provided equipment or virtual machines, these obligations shall not apply.
+7. Audit Rights
+For this SOW, any audit shall be limited to once per year, on at least ten (10) Business Days’ written notice, and confined to records directly relating to the services under this SOW. Audit rights shall expire twelve (12) months after termination of this SOW.
+8. Termination
+If HSBC terminates the prime contract, this SOW shall automatically terminate with immediate effect, and the Sub-Contractor shall have no claim against Capgemini save for payment for Sub-Contract Work completed and accepted prior to termination.
+9. Insurance
+The Sub-Contractor shall maintain professional indemnity, public liability, and employer’s liability insurance at levels proportionate to the services provided under this SOW and consistent with SME industry practice. Capgemini acknowledges that higher levels of cover are not commercially feasible for the Sub-Contractor.
+10. Personnel Replacement
+Where replacement of personnel is required due to fault of the Sub-Contractor, the costs shall be borne by the Sub-Contractor. Otherwise, replacement costs shall be shared fairly between the parties.
+11. Interest on Overpayments For this SOW, Clause 16.5 of the MSA is amended as follows: If an inspection identifies that the Main Contractor has overpaid any part of the Price in a Statement of Work or any errors in the amount paid by the Main Contractor, the Sub-Contractor shall refund to the Main Contractor the amount overpaid, together with interest on such amount from the date of payment until the date of refund. For the purposes of this clause, interest shall accrue at a rate equal to the Bank of England Base Rate minus two percent (2%), subject always to a minimum of zero percent (0%).
+
+
+Appendix C – Sub-Contract Work
+
+[Insert description of the Sub-Contract Work – Include any details that cannot be easily included in section 3.1, or any additional details (eg. Specifications and tolerances)]
+
+Appendix D - Description of Personal Data Processing
+
+[Complete the embedded document for the customer engagement – the Sub-Contractor should support in completing this document]
+
+
+Appendix E – Prices/ratecard
+
+[Insert details of the prices payable and any payment timetable - Include any details that cannot be easily included in section 10]
+
+
+
+
+
+Schedule 2
+Technical and organisational security measures
+The Supplier shall implement and maintain the appropriate administrative, physical, and technical safeguards to protect the confidentiality, integrity and availability of the data that it receives, maintains, stores, processes or transmits on behalf of Capgemini and disposes of such information securely at the end of its lifecycle.
+In any case, the Supplier must have, but not limited to, the below technical and organizational security measures.
+General
+The Supplier warrants that it has established and during the term of this Agreement it will always enforce that:
+Cyber / information security policies and procedures are formulated, developed and implemented with governance model and specified function;
+A person is accountable for Cyber / information security policies implementation;
+The cyber / information security policies, procedures and implementations are reviewed by the Supplier at appropriate management level;
+The security management system of the Supplier is certified or aligned with001 and SSAE16/ISAE3402;
+If Cloud infrastructure is in place, the supplier has ensured the Cloud supplier holds CSS – C STAR certification;
+it shall provide Capgemini with services using SSAE 18 – SOC 2 Type 2 or ISAE 3000 Type 2 Reporting or ISO27001 certified (or at least equivalent) data centers with evidences
+Where the supplier subcontracts, prior approval from Capgemini must be obtained, and a third-party risk assessment must be provided to demonstrate the subcontractors’ alignment with the present measures.
+Cyber / Information security program
+The Supplier warrants that it has established and during the term of this Agreement it will always enforce:
+An on-going program of cyber / information security governance, policies, procedures and technical controls;
+Procedures to conduct periodic independent security risk assessments related to data processing;
+A control and audit plan to ensure compliance against policies and standards;
+A security incident and personal data breach management process;
+A security awareness plan and proof of training;
+A security / privacy by design methodology;
+Business continuity and recovery plans, including regular testing;
+Rigorous change control procedures
+Asset Management
+The Supplier warrants that it has established and during the term of this Agreement it will maintain:
+An inventory of assets (physical and logical) supporting the data processing for Capgemini.
+Access and authentication
+The Supplier warrants that it has established, documented and during the term of this Agreement it will always enforce:
+An information classification scheme that ensures appropriate and adequate security, both physical, logical as appropriate to the asset / media’s classification;
+Appropriate mechanisms for user authentication and authorization in accordance with the “need-to-know” principle
+Controls to restrict access for remote users, contractors and suppliers;
+Timely and accurate administration of user account and authentication management;
+Privileged and User access reviews to ensure access remains appropriate related to individual’s role.
+Processes to ensure assignment of unique IDs to each person with computer access;
+Processes to ensure change of default passwords and security parameters;
+Mechanisms to track all access to the data by unique ID;
+Mechanisms to encrypt or hash all passwords; 
+Process to promptly revoke accesses of inactive accounts or terminated/transferred users.
+Security architecture and design
+The Supplier warrants that it has established, documented and during the term of this Agreement it will always maintain:
+A security architecture that ensures delivery of the appropriate technical and organizational security measures;
+a system of effective firewall(s) and intrusion detection technologies necessary to protect the data;
+data base and application layer design processes that ensure applications are designed to protect the data that is collected, processed, used, stored, accessed, and transmitted through such systems.
+Security mechanisms including device management, device security, identity & access management, cloud security, internet security.
+System/Application and network management
+The Supplier warrants that it has established and during the term of this Agreement and any transition assistance period it will always maintain:
+Applicable security patches;
+Applicable secure configurations:
+Processes to monitor, analyze, and respond to security alerts;
+Appropriate network security design elements that provide for segregation of data;
+E-mails are automatically scanned by server based anti-virus software;
+Use and regularly update anti-virus software;
+Processes to regularly maintain, manage and protect the installed software;
+In case the Supplier is working in a multi-tenancy mode, network and data segregation are implemented;
+Data security
+The Supplier warrants that it has established and during the term of this Agreement it will always enforce that:
+Personal Data at rest are encrypted using AES encryption algorithm or equivalent with minimum 256-bit encrypting;
+Personal data in transit are encrypted using TLS 1.2 and above with minimum 2048-bit asymmetric key.
+Devices storing personal data are not being taken off-site without Capgemini’s prior authorization;
+Personal Data held on media are removed / destroyed to render them unusable unrecoverable, before the device is released for re-use;
+Processes and solutions to prevent the leakage of data are in place.
+Physical access
+The Supplier warrants that it has established and will enforce during the term of this Agreement and any transition assistance period (“TAP”):
+physical protection mechanisms for all information assets and information technology to ensure such assets and technology are stored and protected in appropriate data centers
+appropriate facility entry controls to limit physical access to systems that store or process the data;
+processes to ensure access to facilities is monitored and restricted on a “need-to-know” basis;
+Physical access to the Supplier’s premises is restricted to authorized personnel.
+Periodic access review is implemented for both logical (network) access and physical (facilities) access.
+Paper record
+The Supplier warrants that it has established and during the term of this Agreement it will always enforce:
+a clear desk and clear screen policy;
+That information, which includes paper documents, handled by the Supplier is classified, labeled, protected and handled according to the classification policy.
+Due diligence/audits
+The Supplier warrants that it has established and during the term of this Agreement it will always enforce:
+A security assessment based on Capgemini Baseline Policy before the renewal of the Agreement
+An annual pentest on systems and applications hosting personal data
+Disaster Recovery
+Supplier shall have in place appropriate business continuity and disaster recovery plans based at minimum on the Business Continuity Institute (“BCI”) good practice guidelines. Such plans shall be approved by the Supplier’s senior management at the level equivalent to a CEO or COO.
+Supplier shall recover all data and shall provide access to Capgemini business within the agreed recovery time objective (“RTO”).
+Supplier shall ensure recovery of data until the agreed recovery point objective (“RPO”).
+Supplier shall perform Disaster Recovery tests at least once in a year including testing the recoverability of backups. The test plans shall be made available to Capgemini upon request
+Backups including personal data shall benefit from the same level of protection than personal data in production
+Information Security incident and Data breach notification and mitigation
+The Supplier agrees to report to Capgemini any security breach in writing without undue delay after being aware and within a maximum of twenty-four (24) hours. In addition, the Supplier shall provide any additional information reasonably requested by Capgemini for purposes of investigating the security breach and any other available information that Capgemini is required to include to the individual under the laws at the time of notification or promptly thereafter as information becomes delayed.
+In the event of any security breach, the Supplier agrees to promptly cure such security breach and mitigate any harmful effects therefrom. Similarly, if because of any security breach, Capgemini is required by applicable law to notify impacted individuals, the Supplier agrees to reimburse Capgemini reasonable costs associated with such notifications or, at the Supplier’s election, provide the notification directly.
+Schedule 3
+
+Rebate structure agreed between Main Contractor and Sub-contractor
+The Sub-contractor has agreed to apply a volume rebate on all of Main Contractor’s Annual Gross Spend, as per the table below:
+
+
+1. Rebates will be calculated annually in arrears from 1st January through to 31st December (a “Calendar Year”) and provided as a bank transfer by 31st January of the following Calendar Year. 
+2.If the Main Contractor requests the rebate payment date is earlier than the beginning of the following period, the Sub-Contractor will support the request, and pay a sum equal to the relevant rebate amount.
+Worked example;
+By means of example, for the Calendar Year 1st January 2025 – 31st December 2025  
+Gross Spend is £500,000;
+In this situation the following Rebate would apply:
+2.5% Rebate agreed = £12,500.
+3. The Sub-Contractor shall provide the Main Contractor with bi-annual updates and within 7 days  following a request from Capgemini in relation to its entitlement to any Rebate. If the Main Contractor is entitled to any Rebate the Sub-Contractor shall notify the Main Contractor of this fact within thirty (30) days of the end of the relevant  Calendar Year The Sub-Contractor shall pay a sum equal to the relevant Rebate to the Main Contractor on the earlier of:
+(a)  thirty (30) days of a Sub-Contractor notification under this paragraph 3;
+(b) within thirty (30) days of Main Contractor request under paragraph 2 above; or 
+(b)  the 31st January following the relevant Calendar Year. 
+Schedule 4
+ 
+Standard Contractual Clauses and the UK Addendum
+
+STANDARD CONTRACTUAL CLAUSES
+
+SECTION I
+Clause 1
+Purpose and scope 
+The purpose of these standard contractual clauses is to ensure compliance with the requirements of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation) for the transfer of personal data to a third country.
+The Parties:
+the natural or legal person(s), public authority/ies, agency/ies or other body/ies (hereinafter “entity/ies”) transferring the personal data, as listed in Annex I.A. (hereinafter each “data exporter”), and
+the entity/ies in a third country receiving the personal data from the data exporter, directly or indirectly via another entity also Party to these Clauses, as listed in Annex I.A. (hereinafter each “data importer”)
+have agreed to these standard contractual clauses (hereinafter: “Clauses”). 
+These Clauses apply with respect to the transfer of personal data as specified in Annex I.B. 
+The Appendix to these Clauses containing the Annexes referred to therein forms an integral part of these Clauses.
+Clause 2
+Effect and invariability of the Clauses
+These Clauses set out appropriate safeguards, including enforceable data subject rights and effective legal remedies, pursuant to Article 46(1) and Article 46 (2)(c) of Regulation (EU) 2016/679 and, with respect to data transfers from controllers to processors and/or processors to processors, standard contractual clauses pursuant to Article 28(7) of Regulation (EU) 2016/679, provided they are not modified, except to select the appropriate Module(s) or to add or update information in the Appendix. This does not prevent the Parties from including the standard contractual clauses laid down in these Clauses in a wider contract and/or to add other clauses or additional safeguards, provided that they do not contradict, directly or indirectly, these Clauses or prejudice the fundamental rights or freedoms of data subjects. 
+These Clauses are without prejudice to obligations to which the data exporter is subject by virtue of Regulation (EU) 2016/679.
+Clause 3
+Third-party beneficiaries
+Data subjects may invoke and enforce these Clauses, as third-party beneficiaries, against the data exporter and/or data importer, with the following exceptions:
+Clause 1, Clause 2, Clause 3, Clause 6, Clause 7;
+Clause 8 - Module One: Clause 8.5 (e) and Clause 8.9(b); Module Two: Clause 8.1(b), 8.9(a), (c), (d) and (e); Module Three: Clause 8.1(a), (c) and (d) and Clause 8.9(a), (c), (d), (e), (f) and (g); Module Four: Clause 8.1 (b) and Clause 8.3(b);
+Clause 9 - Module Two: Clause 9(a), (c), (d) and (e); Module Three: Clause 9(a), (c), (d) and (e);
+Clause 12 - Module One: Clause 12(a) and (d); Modules Two and Three: Clause 12(a), (d) and (f);
+Clause 13;
+Clause 15.1(c), (d) and (e);
+Clause 16(e);
+Clause 18 - Modules One, Two and Three: Clause 18(a) and (b); Module Four: Clause 18.
+Paragraph (a) is without prejudice to rights of data subjects under Regulation (EU) 2016/679.
+Clause 4
+Interpretation
+Where these Clauses use terms that are defined in Regulation (EU) 2016/679, those terms shall have the same meaning as in that Regulation.
+These Clauses shall be read and interpreted in the light of the provisions of Regulation (EU) 2016/679.
+These Clauses shall not be interpreted in a way that conflicts with rights and obligations provided for in Regulation (EU) 2016/679. 
+Clause 5
+Hierarchy
+In the event of a contradiction between these Clauses and the provisions of related agreements between the Parties, existing at the time these Clauses are agreed or entered into thereafter, these Clauses shall prevail.
+Clause 6
+Description of the transfer(s)
+The details of the transfer(s), and in particular the categories of personal data that are transferred and the purpose(s) for which they are transferred, are specified in Annex I.B.
+Clause 7 - Optional
+Docking clause
+An entity that is not a Party to these Clauses may, with the agreement of the Parties, accede to these Clauses at any time, either as a data exporter or as a data importer, by completing the Appendix and signing Annex I.A.  
+Once it has completed the Appendix and signed Annex I.A, the acceding entity shall become a Party to these Clauses and have the rights and obligations of a data exporter or data importer in accordance with its designation in Annex I.A.
+The acceding entity shall have no rights or obligations arising under these Clauses from the period prior to becoming a Party.
+
+SECTION II – OBLIGATIONS OF THE PARTIES
+Clause 8
+Data protection safeguards
+The data exporter warrants that it has used reasonable efforts to determine that the data importer is able, through the implementation of appropriate technical and organisational measures, to satisfy its obligations under these Clauses. 
+MODULE ONE: Transfer controller to controller
+8.1	Purpose limitation
+The data importer shall process the personal data only for the specific purpose(s) of the transfer, as set out in Annex I.B. It may only process the personal data for another purpose: 
+where it has obtained the data subject’s prior consent; 
+where necessary for the establishment, exercise or defence of legal claims in the context of specific administrative, regulatory or judicial proceedings; or 
+where necessary in order to protect the vital interests of the data subject or of another natural person.
+8.2	Transparency 
+In order to enable data subjects to effectively exercise their rights pursuant to Clause 10, the data importer shall inform them, either directly or through the data exporter:
+of its identity and contact details;
+of the categories of personal data processed;
+of the right to obtain a copy of these Clauses;
+where it intends to onward transfer the personal data to any third party/ies, of the recipient or categories of recipients (as appropriate with a view to providing meaningful information), the purpose of such onward transfer and the ground therefore pursuant to Clause 8.7.
+Paragraph (a) shall not apply where the data subject already has the information, including when such information has already been provided by the data exporter, or providing the information proves impossible or would involve a disproportionate effort for the data importer. In the latter case, the data importer shall, to the extent possible, make the information publicly available.
+On request, the Parties shall make a copy of these Clauses, including the Appendix as completed by them, available to the data subject free of charge. To the extent necessary to protect business secrets or other confidential information, including personal data, the Parties may redact part of the text of the Appendix prior to sharing a copy, but shall provide a meaningful summary where the data subject would otherwise not be able to understand its content or exercise his/her rights. On request, the Parties shall provide the data subject with the reasons for the redactions, to the extent possible without revealing the redacted information.
+Paragraphs (a) to (c) are without prejudice to the obligations of the data exporter under Articles 13 and 14 of Regulation (EU) 2016/679.  
+8.3	Accuracy and data minimisation
+Each Party shall ensure that the personal data is accurate and, where necessary, kept up to date. The data importer shall take every reasonable step to ensure that personal data that is inaccurate, having regard to the purpose(s) of processing, is erased or rectified without delay.
+If one of the Parties becomes aware that the personal data it has transferred or received is inaccurate, or has become outdated, it shall inform the other Party without undue delay.
+The data importer shall ensure that the personal data is adequate, relevant and limited to what is necessary in relation to the purpose(s) of processing. 
+8.4	Storage limitation
+The data importer shall retain the personal data for no longer than necessary for the purpose(s) for which it is processed. It shall put in place appropriate technical or organisational measures to ensure compliance with this obligation, including erasure or anonymisation of the data and all back-ups at the end of the retention period.  
+8.5	Security of processing
+The data importer and, during transmission, also the data exporter shall implement appropriate technical and organisational measures to ensure the security of the personal data, including  protection against a breach of security leading to accidental or unlawful destruction, loss, alteration, unauthorised disclosure or access (hereinafter “personal data breach”). In assessing the appropriate level of security, they shall take due account of the state of the art, the costs of implementation, the nature, scope, context and purpose(s) of processing and the risks involved in the processing for the data subject. The Parties shall in particular consider having recourse to encryption or pseudonymisation, including during transmission, where the purpose of processing can be fulfilled in that manner. 
+The Parties have agreed on the technical and organisational measures set out in Annex II. The data importer shall carry out regular checks to ensure that these measures continue to provide an appropriate level of security.
+The data importer shall ensure that persons authorised to process the personal data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality.
+In the event of a personal data breach concerning personal data processed by the data importer under these Clauses, the data importer shall take appropriate measures to address the personal data breach, including measures to mitigate its possible adverse effects.
+In case of a personal data breach that is likely to result in a risk to the rights and freedoms of natural persons, the data importer shall without undue delay notify both the data exporter and the competent supervisory authority pursuant to Clause 13. Such notification shall contain i) a description of the nature of the breach (including, where possible, categories and approximate number of data subjects and personal data records concerned), ii) its likely consequences, iii) the measures taken or proposed to address the breach, and iv) the details of a contact point from whom more information can be obtained. To the extent it is not possible for the data importer to provide all the information at the same time, it may do so in phases without undue further delay. 
+In case of a personal data breach that is likely to result in a high risk to the rights and freedoms of natural persons, the data importer shall also notify without undue delay the data subjects concerned of the personal data breach and its nature, if necessary in cooperation with the data exporter, together with the information referred to in paragraph (e), points ii) to iv), unless the data importer has implemented measures to significantly reduce the risk to the rights or freedoms of natural persons, or notification would involve disproportionate efforts. In the latter case, the data importer shall instead issue a public communication or take a similar measure to inform the public of the personal data breach. 
+The data importer shall document all relevant facts relating to the personal data breach, including its effects and any remedial action taken, and keep a record thereof.
+8.6	Sensitive data
+Where the transfer involves personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, or biometric data for the purpose of uniquely identifying a natural person, data concerning health or a person’s sex life or sexual orientation, or data relating to criminal convictions or offences (hereinafter “sensitive data”), the data importer shall apply specific restrictions and/or additional safeguards adapted to the specific nature of the data and the risks involved. This may include restricting the personnel permitted to access the personal data, additional security measures (such as pseudonymisation) and/or additional restrictions with respect to further disclosure.
+8.7	Onward transfers
+The data importer shall not disclose the personal data to a third party located outside the European Union (in the same country as the data importer or in another third country, hereinafter “onward transfer”) unless the third party is or agrees to be bound by these Clauses, under the appropriate Module. Otherwise, an onward transfer by the data importer may only take place if: 
+it is to a country benefitting from an adequacy decision pursuant to Article 45 of Regulation (EU) 2016/679 that covers the onward transfer; 
+the third party otherwise ensures appropriate safeguards pursuant to Articles 46 or 47 of Regulation (EU) 2016/679 with respect to the processing in question;
+the third party enters into a binding instrument with the data importer ensuring the same level of data protection as under these Clauses, and the data importer provides a copy of these safeguards to the data exporter;
+it is necessary for the establishment, exercise or defence of legal claims in the context of specific administrative, regulatory or judicial proceedings;
+it is necessary in order to protect the vital interests of the data subject or of another natural person; or
+where none of the other conditions apply, the data importer has obtained the explicit consent of the data subject for an onward transfer in a specific situation, after having informed him/her of its purpose(s), the identity of the recipient and the possible risks of such transfer to him/her due to the lack of appropriate data protection safeguards. In this case, the data importer shall inform the data exporter and, at the request of the latter, shall transmit to it a copy of the information provided to the data subject.
+Any onward transfer is subject to compliance by the data importer with all the other safeguards under these Clauses, in particular purpose limitation.
+8.8	Processing under the authority of the data importer
+The data importer shall ensure that any person acting under its authority, including a processor, processes the data only on its instructions. 
+8.9	Documentation and compliance
+Each Party shall be able to demonstrate compliance with its obligations under these Clauses. In particular, the data importer shall keep appropriate documentation of the processing activities carried out under its responsibility.
+The data importer shall make such documentation available to the competent supervisory authority on request.
+
+MODULE THREE: Transfer processor to processor
+Instructions
+(a)	The data exporter has informed the data importer that it acts as processor under the instructions of its controller(s), which the data exporter shall make available to the data importer prior to processing. 
+(b)	The data importer shall process the personal data only on documented instructions from the controller, as communicated to the data importer by the data exporter, and any additional documented instructions from the data exporter. Such additional instructions shall not conflict with the instructions from the controller. The controller or data exporter may give further documented instructions regarding the data processing throughout the duration of the contract.
+The data importer shall immediately inform the data exporter if it is unable to follow those instructions. Where the data importer is unable to follow the instructions from the controller, the data exporter shall immediately notify the controller.
+The data exporter warrants that it has imposed the same data protection obligations on the data importer as set out in the contract or other legal act under Union or Member State law between the controller and the data exporter.
+8.2	Purpose limitation
+The data importer shall process the personal data only for the specific purpose(s) of the transfer, as set out in Annex I.B., unless on further instructions from the controller, as communicated to the data importer by the data exporter, or from the data exporter.
+8.3	Transparency 
+On request, the data exporter shall make a copy of these Clauses, including the Appendix as completed by the Parties, available to the data subject free of charge. To the extent necessary to protect business secrets or other confidential information, including personal data, the data exporter may redact part of the text of the Appendix prior to sharing a copy, but shall provide a meaningful summary where the data subject would otherwise not be able to understand its content or exercise his/her rights. On request, the Parties shall provide the data subject with the reasons for the redactions, to the extent possible without revealing the redacted information.
+8.4	Accuracy
+If the data importer becomes aware that the personal data it has received is inaccurate, or has become outdated, it shall inform the data exporter without undue delay. In this case, the data importer shall cooperate with the data exporter to rectify or erase the data.
+8.5	Duration of processing and erasure or return of data
+Processing by the data importer shall only take place for the duration specified in Annex I.B. After the end of the provision of the processing services, the data importer shall, at the choice of the data exporter, delete all personal data processed on behalf of the controller and certify to the data exporter that it has done so, or return to the data exporter all personal data processed on its behalf and delete existing copies. Until the data is deleted or returned, the data importer shall continue to ensure compliance with these Clauses. In case of local laws applicable to the data importer that prohibit return or deletion of the personal data, the data importer warrants that it will continue to ensure compliance with these Clauses and will only process it to the extent and for as long as required under that local law. This is without prejudice to Clause 14, in particular the requirement for the data importer under Clause 14(e) to notify the data exporter throughout the duration of the contract if it has reason to believe that it is or has become subject to laws or practices not in line with the requirements under Clause 14(a). 
+Security of processing
+(a)	The data importer and, during transmission, also the data exporter shall implement appropriate technical and organisational measures to ensure the security of the data, including protection against a breach of security leading to accidental or unlawful destruction, loss, alteration, unauthorised disclosure or access to that data (hereinafter “personal data breach”). In assessing the appropriate level of security, they shall take due account of the state of the art, the costs of implementation, the nature, scope, context and purpose(s) of processing and the risks involved in the processing for the data subject. The Parties shall in particular consider having recourse to encryption or pseudonymisation, including during transmission, where the purpose of processing can be fulfilled in that manner. In case of pseudonymisation, the additional information for attributing the personal data to a specific data subject shall, where possible, remain under the exclusive control of the data exporter or the controller. In complying with its obligations under this paragraph, the data importer shall at least implement the technical and organisational measures specified in Annex II. The data importer shall carry out regular checks to ensure that these measures continue to provide an appropriate level of security. 
+(b)	The data importer shall grant access to the data to members of its personnel only to the extent strictly necessary for the implementation, management and monitoring of the contract. It shall ensure that persons authorised to process the personal data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality.
+In the event of a personal data breach concerning personal data processed by the data importer under these Clauses, the data importer shall take appropriate measures to address the breach, including measures to mitigate its adverse effects. The data importer shall also notify, without undue delay, the data exporter and, where appropriate and feasible, the controller after having become aware of the breach. Such notification shall contain the details of a contact point where more information can be obtained, a description of the nature of the breach (including, where possible, categories and approximate number of data subjects and personal data records concerned), its likely consequences and the measures taken or proposed to address the data breach, including measures to mitigate its possible adverse effects. Where, and in so far as, it is not possible to provide all information at the same time, the initial notification shall contain the information then available and further information shall, as it becomes available, subsequently be provided without undue delay. 
+(d)	The data importer shall cooperate with and assist the data exporter to enable the data exporter to comply with its obligations under Regulation (EU) 2016/679, in particular to notify its controller so that the latter may in turn notify the competent supervisory authority and the affected data subjects, taking into account the nature of processing and the information available to the data importer.
+8.7	Sensitive data
+Where the transfer involves personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, or biometric data for the purpose of uniquely identifying a natural person, data concerning health or a person’s sex life or sexual orientation, or data relating to criminal convictions and offences (hereinafter “sensitive data”), the data importer shall apply the specific restrictions and/or additional safeguards set out in Annex I.B.
+8.8	Onward transfers
+The data importer shall only disclose the personal data to a third party on documented instructions from the controller, as communicated to the data importer by the data exporter. In addition, the data may only be disclosed to a third party located outside the European Union (in the same country as the data importer or in another third country, hereinafter “onward transfer”) if the third party is or agrees to be bound by these Clauses, under the appropriate Module, or if: 
+the onward transfer is to a country benefitting from an adequacy decision pursuant to Article 45 of Regulation (EU) 2016/679 that covers the onward transfer;
+the third party otherwise ensures appropriate safeguards pursuant to Articles 46 or 47 of Regulation (EU) 2016/679;
+the onward transfer is necessary for the establishment, exercise or defence of legal claims in the context of specific administrative, regulatory or judicial proceedings; or
+the onward transfer is necessary in order to protect the vital interests of the data subject or of another natural person.
+Any onward transfer is subject to compliance by the data importer with all the other safeguards under these Clauses, in particular purpose limitation.
+Documentation and compliance
+(a)	The data importer shall promptly and adequately deal with enquiries from the data exporter or the controller that relate to the processing under these Clauses. 
+(b)	The Parties shall be able to demonstrate compliance with these Clauses. In particular, the data importer shall keep appropriate documentation on the processing activities carried out on behalf of the controller.
+(c)	The data importer shall make all information necessary to demonstrate compliance with the obligations set out in these Clauses available to the data exporter, which shall provide it to the controller.
+(d)	The data importer shall allow for and contribute to audits by the data exporter of the processing activities covered by these Clauses, at reasonable intervals or if there are indications of non-compliance. The same shall apply where the data exporter requests an audit on instructions of the controller. In deciding on an audit, the data exporter may take into account relevant certifications held by the data importer. 
+(e)	Where the audit is carried out on the instructions of the controller, the data exporter shall make the results available to the controller.
+(f)	The data exporter may choose to conduct the audit by itself or mandate an independent auditor. Audits may include inspections at the premises or physical facilities of the data importer and shall, where appropriate, be carried out with reasonable notice. 
+The Parties shall make the information referred to in paragraphs (b) and (c), including the results of any audits, available to the competent supervisory authority on request
+Clause 9
+Use of sub-processors
+MODULE THREE: Transfer processor to processor
+OPTION 2: GENERAL WRITTEN AUTHORISATION The data importer has the controller’s general authorisation for the engagement of sub-processor(s) from an agreed list. The data importer shall specifically inform the controller in writing of any intended changes to that list through the addition or replacement of sub-processors at least 30 days in advance, thereby giving the controller sufficient time to be able to object to such changes prior to the engagement of the sub-processor(s). The data importer shall provide the controller with the information necessary to enable the controller to exercise its right to object. The data importer shall inform the data exporter of the engagement of the sub-processor(s). 
+(b)	Where the data importer engages a sub-processor to carry out specific processing activities (on behalf of the controller), it shall do so by way of a written contract that provides for, in substance, the same data protection obligations as those binding the data importer under these Clauses, including in terms of third-party beneficiary rights for data subjects. The Parties agree that, by complying with this Clause, the data importer fulfils its obligations under Clause 8.8. The data importer shall ensure that the sub-processor complies with the obligations to which the data importer is subject pursuant to these Clauses.
+(c)	The data importer shall provide, at the data exporter’s or controller’s request, a copy of such a sub-processor agreement and any subsequent amendments. To the extent necessary to protect business secrets or other confidential information, including personal data, the data importer may redact the text of the agreement prior to sharing a copy.
+(d)	The data importer shall remain fully responsible to the data exporter for the performance of the sub-processor’s obligations under its contract with the data importer. The data importer shall notify the data exporter of any failure by the sub-processor to fulfil its obligations under that contract. 
+(e)	The data importer shall agree a third-party beneficiary clause with the sub-processor whereby - in the event the data importer has factually disappeared, ceased to exist in law or has become insolvent - the data exporter shall have the right to terminate the sub-processor contract and to instruct the sub-processor to erase or return the personal data.
+
+Clause 10
+Data subject rights
+MODULE ONE: Transfer controller to controller
+The data importer, where relevant with the assistance of the data exporter, shall deal with any enquiries and requests it receives from a data subject relating to the processing of his/her personal data and the exercise of his/her rights under these Clauses without undue delay and at the latest within one month of the receipt of the enquiry or request. The data importer shall take appropriate measures to facilitate such enquiries, requests and the exercise of data subject rights. Any information provided to the data subject shall be in an intelligible and easily accessible form, using clear and plain language.
+In particular, upon request by the data subject the data importer shall, free of charge :
+provide confirmation to the data subject as to whether personal data concerning him/her is being processed and, where this is the case, a copy of the data relating to him/her and the information in Annex I; if personal data has been or will be onward transferred, provide information on recipients or categories of recipients (as appropriate with a view to providing meaningful information) to which the personal data has been or will be onward transferred, the purpose of such onward transfers and their ground pursuant to Clause 8.7; and provide information on the right to lodge a complaint with a supervisory authority in accordance with Clause 12(c)(i); 
+rectify inaccurate or incomplete data concerning the data subject; 
+erase personal data concerning the data subject if such data is being or has been processed in violation of any of these Clauses ensuring third-party beneficiary rights, or if the data subject withdraws the consent on which the processing is based. 
+Where the data importer processes the personal data for direct marketing purposes, it shall cease processing for such purposes if the data subject objects to it. 
+The data importer shall not make a decision based solely on the automated processing of the personal data transferred (hereinafter “automated decision”), which would produce legal effects concerning the data subject or similarly significantly affect him / her, unless with the explicit consent of the data subject or if authorised to do so under the laws of the country of destination, provided that such laws lays down suitable measures to safeguard the data subject’s rights and legitimate interests. In this case, the data importer shall, where necessary in cooperation with the data exporter:
+inform the data subject about the envisaged automated decision, the envisaged consequences and the logic involved; and
+implement suitable safeguards, at least by enabling the data subject to contest the decision, express his/her point of view and obtain review by a human being. 
+Where requests from a data subject are excessive, in particular because of their repetitive character, the data importer may either charge a reasonable fee taking into account the administrative costs of granting the request or refuse to act on the request.
+The data importer may refuse a data subject’s request if such refusal is allowed under the laws of the country of destination and is necessary and proportionate in a democratic society to protect one of the objectives listed in Article 23(1) of Regulation (EU) 2016/679.
+If the data importer intends to refuse a data subject’s request, it shall inform the data subject of the reasons for the refusal and the possibility of lodging a complaint with the competent supervisory authority and/or seeking judicial redress.
+
+MODULE THREE: Transfer processor to processor
+(a)	The data importer shall promptly notify the data exporter and, where appropriate, the controller of any request it has received from a data subject, without responding to that request unless it has been authorised to do so by the controller.
+(b)	The data importer shall assist, where appropriate in cooperation with the data exporter, the controller in fulfilling its obligations to respond to data subjects’ requests for the exercise of their rights under Regulation (EU) 2016/679 or Regulation (EU) 2018/1725, as applicable. In this regard, the Parties shall set out in Annex II the appropriate technical and organisational measures, taking into account the nature of the processing, by which the assistance shall be provided, as well as the scope and the extent of the assistance required. 
+(c)	In fulfilling its obligations under paragraphs (a) and (b), the data importer shall comply with the instructions from the controller, as communicated by the data exporter
+Clause 11
+Redress
+The data importer shall inform data subjects in a transparent and easily accessible format, through individual notice or on its website, of a contact point authorised to handle complaints. It shall deal promptly with any complaints it receives from a data subject. 
+
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+In case of a dispute between a data subject and one of the Parties as regards compliance with these Clauses, that Party shall use its best efforts to resolve the issue amicably in a timely fashion. The Parties shall keep each other informed about such disputes and, where appropriate, cooperate in resolving them.   
+Where the data subject invokes a third-party beneficiary right pursuant to Clause 3, the data importer shall accept the decision of the data subject to: 
+lodge a complaint with the supervisory authority in the Member State of his/her habitual residence or place of work, or the competent supervisory authority pursuant to Clause 13;
+refer the dispute to the competent courts within the meaning of Clause 18.
+The Parties accept that the data subject may be represented by a not-for-profit body, organisation or association under the conditions set out in Article 80(1) of Regulation (EU) 2016/679. 
+The data importer shall abide by a decision that is binding under the applicable EU or Member State law.
+The data importer agrees that the choice made by the data subject will not prejudice his/her substantive and procedural rights to seek remedies in accordance with applicable laws.
+Clause 12
+Liability
+MODULE ONE: Transfer controller to controller
+Each Party shall be liable to the other Party/ies for any damages it causes the other Party/ies by any breach of these Clauses. 
+Each Party shall be liable to the data subject, and the data subject shall be entitled to receive compensation, for any material or non-material damages that the Party causes the data subject by breaching the third-party beneficiary rights under these Clauses. This is without prejudice to the liability of the data exporter under Regulation (EU) 2016/679.
+Where more than one Party is responsible for any damage caused to the data subject as a result of a breach of these Clauses, all responsible Parties shall be jointly and severally liable and the data subject is entitled to bring an action in court against any of these Parties.
+The Parties agree that if one Party is held liable under paragraph (c), it shall be entitled to claim back from the other Party/ies that part of the compensation corresponding to its / their responsibility for the damage.
+The data importer may not invoke the conduct of a processor or sub-processor to avoid its own liability.
+
+MODULE THREE: Transfer processor to processor
+Each Party shall be liable to the other Party/ies for any damages it causes the other Party/ies by any breach of these Clauses. 
+The data importer shall be liable to the data subject, and the data subject shall be entitled to receive compensation, for any material or non-material damages the data importer or its sub-processor causes the data subject by breaching the third-party beneficiary rights under these Clauses. 
+Notwithstanding paragraph (b), the data exporter shall be liable to the data subject, and the data subject shall be entitled to receive compensation, for any material or non-material damages the data exporter or the data importer (or its sub-processor) causes the data subject by breaching the third-party beneficiary rights under these Clauses. This is without prejudice to the liability of the data exporter and, where the data exporter is a processor acting on behalf of a controller, to the liability of the controller under Regulation (EU) 2016/679 or Regulation (EU) 2018/1725, as applicable.
+The Parties agree that if the data exporter is held liable under paragraph (c) for damages caused by the data importer (or its sub-processor), it shall be entitled to claim back from the data importer that part of the compensation corresponding to the data importer’s responsibility for the damage.
+Where more than one Party is responsible for any damage caused to the data subject as a result of a breach of these Clauses, all responsible Parties shall be jointly and severally liable and the data subject is entitled to bring an action in court against any of these Parties.
+The Parties agree that if one Party is held liable under paragraph (e), it shall be entitled to claim back from the other Party/ies that part of the compensation corresponding to its / their responsibility for the damage.
+The data importer may not invoke the conduct of a sub-processor to avoid its own liability.
+Clause 13
+Supervision
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+Where the data exporter is not established in an EU Member State, but falls within the territorial scope of application of Regulation (EU) 2016/679 in accordance with its Article 3(2) without however having to appoint a representative pursuant to Article 27(2) of Regulation (EU) 2016/679:] The supervisory authority of one of the Member States in which the data subjects whose personal data is transferred under these Clauses in relation to the offering of goods or services to them, or whose behaviour is monitored, are located, as indicated in Annex I.C, shall act as competent supervisory authority. 
+The data importer agrees to submit itself to the jurisdiction of and cooperate with the competent supervisory authority in any procedures aimed at ensuring compliance with these Clauses. In particular, the data importer agrees to respond to enquiries, submit to audits and comply with the measures adopted by the supervisory authority, including remedial and compensatory measures. It shall provide the supervisory authority with written confirmation that the necessary actions have been taken.
+
+
+SECTION III – LOCAL LAWS AND OBLIGATIONS IN CASE OF ACCESS BY PUBLIC AUTHORITIES
+Clause 14
+Local laws and practices affecting compliance with the Clauses
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+The Parties warrant that they have no reason to believe that the laws and practices in the third country of destination applicable to the processing of the personal data by the data importer, including any requirements to disclose personal data or measures authorising access by public authorities, prevent the data importer from fulfilling its obligations under these Clauses. This is based on the understanding that laws and practices that respect the essence of the fundamental rights and freedoms and do not exceed what is necessary and proportionate in a democratic society to safeguard one of the objectives listed in Article 23(1) of Regulation (EU) 2016/679, are not in contradiction with these Clauses.
+The Parties declare that in providing the warranty in paragraph (a), they have taken due account in particular of the following elements:
+the specific circumstances of the transfer, including the length of the processing chain, the number of actors involved and the transmission channels used; intended onward transfers; the type of recipient; the purpose of processing; the categories and format of the transferred personal data; the economic sector in which the transfer occurs; the storage location of the data transferred; 
+the laws and practices of the third country of destination– including those requiring the disclosure of data to public authorities or authorising access by such authorities – relevant in light of the specific circumstances of the transfer, and the applicable limitations and safeguards; 
+any relevant contractual, technical or organisational safeguards put in place to supplement the safeguards under these Clauses, including measures applied during transmission and to the processing of the personal data in the country of destination.
+The data importer warrants that, in carrying out the assessment under paragraph (b), it has made its best efforts to provide the data exporter with relevant information and agrees that it will continue to cooperate with the data exporter in ensuring compliance with these Clauses.
+The Parties agree to document the assessment under paragraph (b) and make it available to the competent supervisory authority on request.
+The data importer agrees to notify the data exporter promptly if, after having agreed to these Clauses and for the duration of the contract, it has reason to believe that it is or has become subject to laws or practices not in line with the requirements under paragraph (a), including following a change in the laws of the third country or a measure (such as a disclosure request) indicating an application of such laws in practice that is not in line with the requirements in paragraph (a). 
+Following a notification pursuant to paragraph (e), or if the data exporter otherwise has reason to believe that the data importer can no longer fulfil its obligations under these Clauses, the data exporter shall promptly identify appropriate measures (e.g. technical or organisational measures to ensure security and confidentiality) to be adopted by the data exporter and/or data importer to address the situation. The data exporter shall suspend the data transfer if it considers that no appropriate safeguards for such transfer can be ensured, or if instructed by the competent supervisory authority to do so. In this case, the data exporter shall be entitled to terminate the contract, insofar as it concerns the processing of personal data under these Clauses. If the contract involves more than two Parties, the data exporter may exercise this right to termination only with respect to the relevant Party, unless the Parties have agreed otherwise. Where the contract is terminated pursuant to this Clause, Clause 16(d) and (e) shall apply.  
+Clause 15
+Obligations of the data importer in case of access by public authorities
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+15.1	Notification
+The data importer agrees to notify the data exporter and, where possible, the data subject promptly (if necessary with the help of the data exporter) if it: 
+receives a legally binding request from a public authority, including judicial authorities, under the laws of the country of destination for the disclosure of personal data transferred pursuant to these Clauses; such notification shall include information about the personal data requested, the requesting authority, the legal basis for the request and the response provided; or
+becomes aware of any direct access by public authorities to personal data transferred pursuant to these Clauses in accordance with the laws of the country of destination; such notification shall include all information available to the importer.
+If the data importer is prohibited from notifying the data exporter and/or the data subject under the laws of the country of destination, the data importer agrees to use its best efforts to obtain a waiver of the prohibition, with a view to communicating as much information as possible, as soon as possible. The data importer agrees to document its best efforts in order to be able to demonstrate them on request of the data exporter. 
+Where permissible under the laws of the country of destination, the data importer agrees to provide the data exporter, at regular intervals for the duration of the contract, with as much relevant information as possible on the requests received (in particular, number of requests, type of data requested, requesting authority/ies, whether requests have been challenged and the outcome of such challenges, etc.). 
+The data importer agrees to preserve the information pursuant to paragraphs (a) to (c) for the duration of the contract and make it available to the competent supervisory authority on request. 
+Paragraphs (a) to (c) are without prejudice to the obligation of the data importer pursuant to Clause 14(e) and Clause 16 to inform the data exporter promptly where it is unable to comply with these Clauses.
+15.2	Review of legality and data minimisation
+The data importer agrees to review the legality of the request for disclosure, in particular whether it remains within the powers granted to the requesting public authority, and to challenge the request if, after careful assessment, it concludes that there are reasonable grounds to consider that the request is unlawful under the laws of the country of destination, applicable obligations under international law and principles of international comity. The data importer shall, under the same conditions, pursue possibilities of appeal. When challenging a request, the data importer shall seek interim measures with a view to suspending the effects of the request until the competent judicial authority has decided on its merits. It shall not disclose the personal data requested until required to do so under the applicable procedural rules. These requirements are without prejudice to the obligations of the data importer under Clause 14(e).
+The data importer agrees to document its legal assessment and any challenge to the request for disclosure and, to the extent permissible under the laws of the country of destination, make the documentation available to the data exporter. It shall also make it available to the competent supervisory authority on request. 
+The data importer agrees to provide the minimum amount of information permissible when responding to a request for disclosure, based on a reasonable interpretation of the request.
+SECTION IV – FINAL PROVISIONS
+Clause 16
+Non-compliance with the Clauses and termination
+The data importer shall promptly inform the data exporter if it is unable to comply with these Clauses, for whatever reason. 
+In the event that the data importer is in breach of these Clauses or unable to comply with these Clauses, the data exporter shall suspend the transfer of personal data to the data importer until compliance is again ensured or the contract is terminated. This is without prejudice to Clause 14(f).
+The data exporter shall be entitled to terminate the contract, insofar as it concerns the processing of personal data under these Clauses, where:
+the data exporter has suspended the transfer of personal data to the data importer pursuant to paragraph (b) and compliance with these Clauses is not restored within a reasonable time and in any event within one month of suspension; 
+the data importer is in substantial or persistent breach of these Clauses; or
+the data importer fails to comply with a binding decision of a competent court or supervisory authority regarding its obligations under these Clauses.
+In these cases, it shall inform the competent supervisory authority of such non-compliance. Where the contract involves more than two Parties, the data exporter may exercise this right to termination only with respect to the relevant Party, unless the Parties have agreed otherwise. 
+Personal data that has been transferred prior to the termination of the contract pursuant to paragraph (c) shall at the choice of the data exporter immediately be returned to the data exporter or deleted in its entirety. The same shall apply to any copies of the data. The data importer shall certify the deletion of the data to the data exporter. Until the data is deleted or returned, the data importer shall continue to ensure compliance with these Clauses. In case of local laws applicable to the data importer that prohibit the return or deletion of the transferred personal data, the data importer warrants that it will continue to ensure compliance with these Clauses and will only process the data to the extent and for as long as required under that local law. 
+Either Party may revoke its agreement to be bound by these Clauses where (i) the European Commission adopts a decision pursuant to Article 45(3) of Regulation (EU) 2016/679 that covers the transfer of personal data to which these Clauses apply; or (ii) Regulation (EU) 2016/679 becomes part of the legal framework of the country to which the personal data is transferred. This is without prejudice to other obligations applying to the processing in question under Regulation (EU) 2016/679. 
+Clause 17
+Governing law
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+These Clauses shall be governed by the law of one of the EU Member States, provided such law allows for third-party beneficiary rights. The Parties agree that this shall be the law of Ireland.
+Clause 18
+Choice of forum and jurisdiction
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+Any dispute arising from these Clauses shall be resolved by the courts of an EU Member State.
+The Parties agree that those shall be the courts of __Ireland.
+A data subject may also bring legal proceedings against the data exporter and/or data importer before the courts of the Member State in which he/she has his/her habitual residence. 
+The Parties agree to submit themselves to the jurisdiction of such courts.
+APPENDIX 
+ANNEX I
+A. LIST OF PARTIES
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+
+Data exporter(s): [Identity and contact details of the data exporter(s) and, where applicable, of its/their data protection officer and/or representative in the European Union] 
+1. Name: Capgemini UK PLC
+Address: 95 Queen Victoria Street, London, EC4V 4HN
+Contact person’s name, position and contact details:  
+Activities relevant to the data transferred under these Clauses: …
+Signature and date: …
+Role (controller/processor): Controller of business contact data and Processor of Customer Personal Data
+
+2. …
+
+Data importer(s): [Identity and contact details of the data importer(s), including any contact person with responsibility for data protection]
+1. Name: …
+Address: …
+Contact person’s name, position and contact details: …
+Activities relevant to the data transferred under these Clauses: …
+Signature and date: …
+Role (controller/processor): Controller of business contact data and Processor of Customer Personal Data
+
+
+2. …
+B. DESCRIPTION OF TRANSFER
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+
+Categories of data subjects whose personal data is transferred
+………………………..
+Categories of personal data transferred
+………………………..
+Sensitive data transferred (if applicable) and applied restrictions or safeguards that fully take into consideration the nature of the data and the risks involved, such as for instance strict purpose limitation, access restrictions (including access only for staff having followed specialised training), keeping a record of access to the data, restrictions for onward transfers or additional security measures.
+………………………..
+The frequency of the transfer (e.g. whether the data is transferred on a one-off or continuous basis).
+…………………………
+Nature of the processing
+…………………………
+Purpose(s) of the data transfer and further processing
+………………………..
+The period for which the personal data will be retained, or, if that is not possible, the criteria used to determine that period 
+……………………..
+For transfers to (sub-) processors, also specify subject matter, nature and duration of the processing
+……………………..
+
+C. COMPETENT SUPERVISORY AUTHORITY
+
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+
+Identify the competent supervisory authority/ies in accordance with Clause 13
+
+The Data Protection CommissionANNEX II - TECHNICAL AND ORGANISATIONAL MEASURES INCLUDING TECHNICAL AND ORGANISATIONAL MEASURES TO ENSURE THE SECURITY OF THE DATA
+
+MODULE ONE: Transfer controller to controller
+MODULE THREE: Transfer processor to processor
+
+Please see Schedule 2 of the Agreement which lists out the technical and organisational measures. 
+
+ANNEX III – LIST OF SUB-PROCESSORS
+
+MODULE THREE: Transfer processor to processor
+
+The controller has authorised the use of the following sub-processors: 
+For the details please see Appendix D of the Statement of Work which lists any authrosied sub-processors. 
+
+Standard Data Protection Clauses to be issued by the Commissioner under S119A(1) Data Protection Act 2018
+International Data Transfer Addendum to the EU Commission Standard Contractual Clauses
+VERSION B1.0, in force 21 March 2022
+This Addendum has been issued by the Information Commissioner for Parties making Restricted Transfers. The Information Commissioner considers that it provides Appropriate Safeguards for Restricted Transfers when it is entered into as a legally binding contract.
+Part 1: Tables
+Table 1: Parties
+
+Table 2: Selected SCCs, Modules and Selected Clauses
+
+
+Table 3: Appendix Information
+“Appendix Information” means the information which must be provided for the selected modules as set out in the Appendix of the Approved EU SCCs (other than the Parties), and which for this Addendum is set out in:
+
+Table 4: Ending this Addendum when the Approved Addendum Changes
+
+ Alternative Part 2 Mandatory Clauses:
+
+
+￼ 	Where the data exporter is a processor subject to Regulation (EU) 2016/679 acting on behalf of a Union institution or body as controller, reliance on these Clauses when engaging another processor (sub-processing) not subject to Regulation (EU) 2016/679 also ensures compliance with Article 29(4) of Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295 of 21.11.2018, p. 39), to the extent these Clauses and the data protection obligations as set out in the contract or other legal act between the controller and the processor pursuant to Article 29(3) of Regulation (EU) 2018/1725 are aligned. This will in particular be the case where the controller and processor rely on the standard contractual clauses included in Decision […].￼ 	This requires rendering the data anonymous in such a way that the individual is no longer identifiable by anyone, in line with recital 26 of Regulation (EU) 2016/679, and that this process is irreversible.￼ 	The Agreement on the European Economic Area (EEA Agreement) provides for the extension of the European Union's internal market to the three EEA States Iceland, Liechtenstein and Norway. The Union data protection legislation, including Regulation (EU) 2016/679, is covered by the EEA Agreement and has been incorporated into Annex XI thereto. Therefore, any disclosure by the data importer to a third party located in the EEA does not qualify as an onward transfer for the purpose of these Clauses.
+
+￼ See Article 28(4) of Regulation (EU) 2016/679 and, where the controller is an EU institution or body, Article 29(4) of Regulation (EU) 2018/1725.￼ 	The Agreement on the European Economic Area (EEA Agreement) provides for the extension of the European Union's internal market to the three EEA States Iceland, Liechtenstein and Norway. The Union data protection legislation, including Regulation (EU) 2016/679, is covered by the EEA Agreement and has been incorporated into Annex XI thereto. Therefore, any disclosure by the data importer to a third party located in the EEA does not qualify as an onward transfer for the purposes of these Clauses.
+￼ 	This requirement may be satisfied by the sub-processor acceding to these Clauses under the appropriate Module, in accordance with Clause 7.￼ 	That period may be extended by a maximum of two more months, to the extent necessary taking into account the complexity and number of requests. The data importer shall duly and promptly inform the data subject of any such extension. ￼ 	As regards the impact of such laws and practices on compliance with these Clauses, different elements may be considered as part of an overall assessment. Such elements may include relevant and documented practical experience with prior instances of requests for disclosure from public authorities, or the absence of such requests, covering a sufficiently representative time-frame. This refers in particular to internal records or other documentation, drawn up on a continuous basis in accordance with due diligence and certified at senior management level, provided that this information can be lawfully shared with third parties. Where this practical experience is relied upon to conclude that the data importer will not be prevented from complying with these Clauses, it needs to be supported by other relevant, objective elements, and it is for the Parties to consider carefully whether these elements together carry sufficient weight, in terms of their reliability and representativeness, to support this conclusion. In particular, the Parties have to take into account whether their practical experience is corroborated and not contradicted by publicly available or otherwise accessible, reliable information on the existence or absence of requests within the same sector and/or the application of the law in practice, such as case law and reports by independent oversight bodies.

@@ -41,6 +41,7 @@
 
 	const adminMenuItems = [
 		{ href: '/admin/sow', label: 'Statement of Work' },
+		{ href: '/admin/cap-sow', label: 'CAP SoW' },
 		{ href: '/admin/summary', label: 'Executive Summary' },
 		{ href: '/acronyms', label: 'Acronyms' }
 	];
@@ -100,67 +101,71 @@
 						{/each}
 
 						<!-- People Menu with Submenu -->
-						<NavigationMenuItem class="relative">
+						<NavigationMenuItem>
 							<NavigationMenuTrigger
 								class={cn(
-									'inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50'
+									'!bg-transparent hover:!bg-white/20 data-[state=open]:!bg-white/20 !text-white focus:!bg-white/20',
+									isPeopleMenuActive() && '!bg-white/20'
 								)}
 							>
 								<Users class="mr-2 h-4 w-4" />
 								People
 							</NavigationMenuTrigger>
 							<NavigationMenuContent
-								class="absolute top-full left-0 z-50 mt-1 min-w-[200px] rounded-md border border-gray-300 bg-white p-2 shadow-lg"
+								class="left-0 top-0 w-auto data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52"
 							>
-								<div class="space-y-1">
-									{#each peopleMenuItems as item}
-										<a
-											href={item.href}
-											class={cn(
-												'block rounded-md px-3 py-2 text-sm no-underline transition-colors',
-												isActive(item.href)
-													? 'bg-red-500 font-semibold text-white'
-													: 'font-medium text-gray-700 hover:bg-red-50 hover:text-red-600'
-											)}
-										>
-											{item.label}
-										</a>
-									{/each}
+								<div class="min-w-[200px] rounded-md border border-gray-300 bg-white p-2 shadow-lg">
+									<div class="space-y-1">
+										{#each peopleMenuItems as item}
+											<a
+												href={item.href}
+												class={cn(
+													'block rounded-md px-3 py-2 text-sm no-underline transition-colors',
+													isActive(item.href)
+														? 'bg-red-500 font-semibold text-white'
+														: 'font-medium text-black hover:bg-gray-100 hover:text-black'
+												)}
+												style="color: {isActive(item.href) ? 'white' : 'black'} !important;"
+											>
+												{item.label}
+											</a>
+										{/each}
+									</div>
 								</div>
 							</NavigationMenuContent>
 						</NavigationMenuItem>
 
 						<!-- Admin Menu with Submenu -->
-						<NavigationMenuItem class="relative">
+						<NavigationMenuItem>
 							<NavigationMenuTrigger
 								class={cn(
-									'inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50',
-									isAdminMenuActive()
-										? 'bg-white/20 text-white hover:bg-white/20 data-[state=open]:bg-white/20'
-										: 'text-white hover:bg-white/20 data-[state=open]:bg-white/20'
+									'!bg-transparent hover:!bg-white/20 data-[state=open]:!bg-white/20 !text-white focus:!bg-white/20',
+									isAdminMenuActive() && '!bg-white/20'
 								)}
 							>
 								<Shield class="mr-2 h-4 w-4" />
 								Admin
 							</NavigationMenuTrigger>
 							<NavigationMenuContent
-								class="absolute top-full left-0 z-50 mt-1 min-w-[200px] rounded-md border border-gray-300 bg-white p-2 shadow-lg"
+								class="left-0 top-0 w-auto data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52"
 							>
-								<div class="space-y-1">
-									{#each adminMenuItems as item}
-										<a
-											href={item.href}
-											class={cn(
-												'block rounded-md px-3 py-2 text-sm no-underline transition-colors',
-												isActive(item.href)
-													? 'bg-red-500 font-semibold text-white'
-													: 'font-medium text-black hover:bg-gray-100 hover:text-black'
-											)}
-											style="color: {isActive(item.href) ? 'white' : 'black'} !important;"
-										>
-											{item.label}
-										</a>
-									{/each}
+								<div class="min-w-[200px] rounded-md border border-gray-300 bg-white p-2 shadow-lg">
+									<div class="space-y-1">
+										{#each adminMenuItems as item}
+											<a
+												href={item.href}
+												class={cn(
+													'block rounded-md px-3 py-2 text-sm no-underline transition-colors',
+													isActive(item.href)
+														? 'bg-red-500 font-semibold text-white'
+														: 'font-medium text-black hover:bg-gray-100 hover:text-black'
+												)}
+												style="color: {isActive(item.href) ? 'white' : 'black'} !important;"
+											>
+												{item.label}
+											</a>
+										{/each}
+									</div>
 								</div>
 							</NavigationMenuContent>
 						</NavigationMenuItem>

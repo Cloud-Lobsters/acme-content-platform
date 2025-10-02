@@ -1,0 +1,978 @@
+<div class="cap-contract-wrapper">
+    <div class="container">
+        <div class="header">
+            <div class="logo">Capgemini</div>
+            <h1>FRAMEWORK SUBCONTRACT AGREEMENT</h1>
+            <p><strong>Version 8 - August 2025</strong></p>
+            <p class="copyright">Copyright © 2025 Capgemini. All rights reserved.</p>
+        </div>
+
+        <div class="section">
+            <h2>INSTRUCTIONS FOR COMPLETION</h2>
+            <p class="guidance">Please delete these instructions, all guidance notes and remove all highlighting and square brackets, including in the schedules, before finalising this agreement.</p>
+            <ul>
+                <li><span class="highlight-yellow">[Yellow Highlighting]</span> = Details are required for insertion</li>
+                <li class="guidance">Red text = Guidance notes</li>
+                <li>Please also read Guidance Note for Framework Subcontract Agreement [docx] prior to completing this agreement</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Agreement Details</h2>
+            <p>This Framework Subcontract Agreement is made <span class="highlight-yellow">[insert day and month]</span> 20<span class="highlight-yellow">[insert year]</span> ("<strong>Agreement</strong>")</p>
+        </div>
+
+        <div class="parties">
+            <h2>Parties</h2>
+            <div class="section">
+                <h3>(1) Main Contractor</h3>
+                <p><strong>CAPGEMINI UK PLC</strong>, (company number 00943935) a company incorporated under the laws of England and Wales whose registered office is at 95 Queen Victoria Street, London, EC4V 4HN (<strong>Main Contractor</strong>); and</p>
+            </div>
+            <div class="section">
+                <h3>(2) Sub-Contractor</h3>
+                <p><span class="highlight-yellow">[Insert name of party] [of OR a company incorporated in [England and Wales] under number [insert registered number] whose registered office is at] [insert address]</span> (<strong>Sub-Contractor</strong>)</p>
+            </div>
+            <p>(each of the Main Contractor and the Sub-Contractor being a party and together the Main Contractor and the Sub-Contractor are the parties).</p>
+        </div>
+
+        <div class="section">
+            <h2>Background</h2>
+            <div class="clause">
+                <p><strong>A</strong> The Main Contractor has entered into the Main Contract (as defined below) to undertake the Work (as defined below).</p>
+            </div>
+            <div class="clause">
+                <p><strong>B</strong> The Main Contractor wishes to sub-contract the Sub-Contract Work (as defined below) to the Sub-Contractor and the Sub-Contractor is willing to undertake the Sub-Contract Work, in accordance with the terms and conditions of this Agreement.</p>
+            </div>
+            <p><strong>The parties agree:</strong></p>
+        </div>
+
+        <div class="section" id="definitions">
+            <h1>1. Definitions</h1>
+            <p><strong>1.1</strong> In this Agreement:</p>
+
+            <table class="definition-table">
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Definition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Affiliate</strong></td>
+                        <td>means in relation to a party to this Agreement, any subsidiary companies of that party, any parent of that party and subsidiary companies of such parent and any companies that the party: (i) directly or indirectly, controls or is controlled by; (ii) is under common control with; or (iii) has a significant equity interest in;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Applicable Data Protection Legislation</strong></td>
+                        <td>means any applicable data protection regulation that may apply in the context of the Agreement and in particular (i) the European Regulation n° 2016/679 relating to the processing of Personal Data (GDPR); (ii) any implementing laws of the GDPR (including but not limited to the UK GDPR and the Data Protection Act 2018); and (iii) any regulation relating to the processing of Personal Data applicable during the term of the Agreement.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Applicable Law</strong></td>
+                        <td>means laws, rules, regulations, regulatory guidance, regulatory requirements, policy, guideline, or case law of the relevant jurisdiction from time to time having the force of law and in the case of the Sub-Contractor are relevant to the provision, receipt or use of the Services;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Background IPR</strong></td>
+                        <td>has the meaning given in clause 8.1;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bribery Laws</strong></td>
+                        <td>means the Bribery Act 2010 and associated guidance published by the Secretary of State for Justice under the Bribery Act 2010 and all other applicable United Kingdom laws, legislation, statutory instruments and regulations in relation to bribery or corruption and any similar or equivalent laws in any other relevant jurisdiction;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Business Day</strong></td>
+                        <td>means a day other than a Saturday, Sunday or bank or public holiday in England;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Commencement Date</strong></td>
+                        <td>means the date at the head of this Agreement or where no such date is set out, the date of the last signature to this Agreement;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Confidential Information</strong></td>
+                        <td>has the meaning given in clause 7.1;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Customer</strong></td>
+                        <td>means the customer under the main contract as detailed in the Statement of Work;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data Controller</strong></td>
+                        <td>means the natural or legal person, public authority, agency or other body which determines the purposes and means of the processing of Personal Data;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data Processor</strong></td>
+                        <td>means the entity acting on behalf of the Data Controller;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data Subject</strong></td>
+                        <td>means an identified or identifiable natural person. An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Default</strong></td>
+                        <td>means any breach of the obligations of either party or any actionable default, act, omission, negligence or statement of either party, agents or sub-contractors of either party in connection with or in relation to the subject matter of this Agreement and in respect of which such party is liable to the other.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Deliverables</strong></td>
+                        <td>any deliverables to be provided as part of the Sub-Contract Work including those deliverables specified in a Statement of Work;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Force Majeure</strong></td>
+                        <td>means an event beyond a party's reasonable control that could not have been reasonably anticipated or avoided and is not attributable to any act or failure to take preventative action by that party. Examples of such events may include, an act of God, flood, fire, explosion, lightning, earthquake or other natural disaster; war, riot or civil unrest;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Good Industry Practice</strong></td>
+                        <td>shall mean the exercise of that degree of skill, care, prudence, efficiency, foresight and timeliness as would be expected from a leading company within the relevant industry or business sector</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Intellectual Property Rights (IPRs)</strong></td>
+                        <td>means copyright, patents, rights in inventions, rights in confidential information, Know-how, trade secrets, trade marks, service marks, trade names, design rights, rights in get-up, database rights, rights in data, semi-conductor chip topography rights, mask works, utility models, domain names, rights in computer software and all similar rights of whatever nature and, in each case: (i) whether registered or not, (ii) including any applications to protect or register such rights, (iii) including all renewals and extensions of such rights or applications, (iv) whether vested, contingent or future and (v) wherever existing;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>International Data Transfer Addendum ("UK Addendum")</strong></td>
+                        <td>means the addendum to the EU Commission standard contractual clauses as amended from time to time;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Key Personnel</strong></td>
+                        <td>any personnel identified in a Statement of Work as being key personnel;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Know-how</strong></td>
+                        <td>means inventions, discoveries, improvements, processes, formulae, techniques, specifications, technical information, methods, tests, reports, component lists, manuals, instructions, drawings and information relating to customers and suppliers (whether written or in any other form and whether confidential or not);</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Losses</strong></td>
+                        <td>means all damages, liabilities, demands, costs, expenses, claims, actions and proceedings (including all consequential, direct, indirect, special or incidental loss or punitive damages or loss, legal and other professional fees, cost and expenses, fines, penalties, interest and loss of profit or any other form of economic loss (including loss of reputation));</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Main Contract</strong></td>
+                        <td>means the agreement entered into between the Main Contractor and the Customer as attached in Appendix A of the Statement of Work;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Personal Data</strong></td>
+                        <td>means any information relating to any Data Subject;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Prices</strong></td>
+                        <td>means the sums set out in the Statement of Work;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rebate</strong></td>
+                        <td>an amount of money calculated in accordance with Schedule 4 that is to be returned to the Main Contractor in accordance with Schedule 4 and clause 5.13;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Standard Contractual Clauses</strong></td>
+                        <td>means the decision (EU) 2021/914 of June 4th, 2021 on standard contractual clauses for the transfer of personal data to third countries pursuant to Regulation (EU) 2016/679 of the European Parliament and of the Council as amended from time to time;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Statement of Work</strong></td>
+                        <td>means the applicable statement of work entered into by the Main Contractor and the Sub-Contractor under this Agreement which is substantially in the form set out in Schedule 1 to this Agreement. For the avoidance of doubt, the "Draft" watermark is included on Schedule 1 to indicate that Schedule 1 does not need to be executed when this Agreement is executed and is a template;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sub-Contract Work</strong></td>
+                        <td>means that part of the Work to be sub-contracted by the Main Contractor to the Sub-Contractor as described in the Statement of Work, and to be performed by the Sub-Contractor pursuant to the terms and conditions of this Agreement and the Statement of Work;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sub-Processor</strong></td>
+                        <td>means the Sub-Contractor who will undertake processing activities on behalf of the Data Processor in accordance with the terms of this Agreement;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Term</strong></td>
+                        <td>means the duration of a Statement of Work as stated therein;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Third Country</strong></td>
+                        <td>means a country located outside the UK or a country benefitting from UK Adequacy Regulations;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>UK Adequacy Regulations</strong></td>
+                        <td>means regulations, made by the Secretary of State under section 17A of the Data Protection Act 2018 giving effect to a finding by the Secretary of State that the specified country ensures an 'adequate' level of protection of personal data;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>VAT</strong></td>
+                        <td>means value added tax, as defined by the Value Added Tax Act 1994; and</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Work</strong></td>
+                        <td>means the work to be provided by the Main Contractor to the Customer pursuant to the terms and conditions of the Main Contract.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>1.2 Interpretation</h3>
+            <p>In this Agreement:</p>
+            <div class="sub-clause">
+                <p><strong>1.2.1</strong> a reference to this Agreement includes its schedules, appendices and annexes (if any);</p>
+                <p><strong>1.2.2</strong> the table of contents, background section and any clause, schedule or other headings in this Agreement are included for convenience only and shall have no effect on the interpretation of this Agreement;</p>
+                <p><strong>1.2.3</strong> a reference to a 'party' includes that party's personal representatives, successors and permitted assigns;</p>
+                <p><strong>1.2.4</strong> a reference to a 'person' includes a natural person, corporate or unincorporated body (in each case whether or not having separate legal personality) and that person's personal representatives, successors and permitted assigns;</p>
+                <p><strong>1.2.5</strong> a reference to a 'company' includes any company, corporation or other body corporate, wherever and however incorporated or established;</p>
+                <p><strong>1.2.6</strong> a reference to a gender includes each other gender;</p>
+                <p><strong>1.2.7</strong> words in the singular include the plural and vice versa;</p>
+                <p><strong>1.2.8</strong> any words that follow 'include', 'includes', 'including', 'in particular' or any similar words and expressions shall be construed as illustrative only and shall not limit the sense of any word, phrase, term, definition or description preceding those words;</p>
+                <p><strong>1.2.9</strong> a reference to 'writing' or 'written' includes any method of reproducing words in a legible and non-transitory form;</p>
+                <p><strong>1.2.10</strong> a reference to legislation is a reference to that legislation as amended, extended, re-enacted or consolidated from time to time;</p>
+                <p><strong>1.2.11</strong> a reference to any English action, remedy, method of judicial proceeding, court, official, legal document, legal status, legal doctrine, legal concept or thing shall, in respect of any jurisdiction other than England, be deemed to include a reference to that which most nearly approximates to the English equivalent in that jurisdiction;</p>
+                <p><strong>1.2.12</strong> unless expressly provided otherwise in this Agreement, all references to times of day are to London (GMT/BST) time; and</p>
+                <p><strong>1.2.13</strong> any obligation on a party not to do or omit to do anything shall include an obligation not to allow that thing to be done or omitted to be done.</p>
+            </div>
+
+            <h3>1.3 Order of Precedence</h3>
+            <p>Unless expressly stated otherwise in a Statement of Work, in the event of any conflict or inconsistency between the provisions of the documents forming part of this Agreement, the order of precedence shall be as follows:</p>
+            <div class="sub-clause">
+                <p><strong>1.3.1</strong> The Statement of Work;</p>
+                <p><strong>1.3.2</strong> The body of this Agreement; and</p>
+                <p><strong>1.3.3</strong> The schedules to this Agreement.</p>
+            </div>
+        </div>
+
+        <div class="section" id="sub-contract-work">
+            <h1>2. Sub-Contract Work</h1>
+
+            <h3>2.1 Appointment</h3>
+            <p>The Main Contractor hereby appoints the Sub-Contractor and the Sub-Contractor hereby agrees to carry out and complete the Sub-Contract Work in accordance with the terms and conditions set out in this Agreement and the applicable Statement of Work and to comply in all respects with the Statement of Work and this Agreement.</p>
+
+            <h3>2.2 Performance Standards</h3>
+            <p>The Sub-Contractor shall:</p>
+            <div class="sub-clause">
+                <p><strong>2.2.1</strong> perform the Sub-Contract Work in a professional and workmanlike manner and in accordance with Good Industry Practice and the standard specified in a Statement of Work (if any);</p>
+                <p><strong>2.2.2</strong> carry out the Sub-Contract Work in accordance with all Applicable Laws;</p>
+                <p><strong>2.2.3</strong> carry out the Sub-Contract Work and deliver all Deliverables in accordance with the timescales specified in the Statement of Work or as otherwise agreed by the parties in writing;</p>
+                <p><strong>2.2.4</strong> provide such information as the Main Contractor may reasonably require, and ensure that all information provided by the Sub-Contractor is true, accurate and complete in all respects and not misleading;</p>
+                <p><strong>2.2.5</strong> co-operate with the Main Contractor and the Customer in all matters relating to the Sub-Contract Work; and</p>
+                <p><strong>2.2.6</strong> comply with all the Main Contractor's reasonable written instructions.</p>
+            </div>
+
+            <h3>2.3 Main Contractor Obligations</h3>
+            <p>The Main Contractor shall:</p>
+            <div class="sub-clause">
+                <p><strong>2.3.1</strong> co-operate with the Sub-Contractor in all matters relating to the Sub-Contract Work; and</p>
+                <p><strong>2.3.2</strong> provide the Sub-Contractor with reasonable access (subject to such access being available to the Main Contractor under the Main Contract) to the Customer's premises, office accommodation and other facilities as reasonably required by the Sub-Contractor for carrying out the Sub-Contract Work.</p>
+            </div>
+
+            <h3>2.4 Sub-Contracting</h3>
+            <p>The Sub-Contractor shall not sub-contract any of the Sub-Contract Work without the prior written consent of the Main Contractor.</p>
+
+            <h3>2.5 Assignment</h3>
+            <p>The Sub-Contractor shall not, without the prior written consent of the Main Contractor, assign, transfer, charge, sub-contract or deal in any other manner with all or any of its rights or obligations under this Agreement.</p>
+        </div>
+
+        <div class="section" id="personnel">
+            <h1>3. Personnel</h1>
+
+            <h3>3.1 Key Personnel</h3>
+            <p>The Sub-Contractor shall ensure that the Key Personnel identified in the applicable Statement of Work are dedicated to the performance of the Sub-Contract Work in accordance with the terms of the Statement of Work for the duration of the Statement of Work.</p>
+
+            <h3>3.2 Substitution</h3>
+            <p>The Sub-Contractor shall not remove or replace any Key Personnel without the Main Contractor's prior written consent (such consent not to be unreasonably withheld or delayed) and the Sub-Contractor shall ensure that any replacement personnel have the necessary skills and experience to perform the Sub-Contract Work and are acceptable to the Main Contractor.</p>
+
+            <h3>3.3 Standards of Conduct</h3>
+            <p>The Sub-Contractor shall ensure that all Sub-Contractor Personnel:</p>
+            <div class="sub-clause">
+                <p><strong>3.3.1</strong> comply with all Applicable Laws and all reasonable policies, rules and regulations of the Main Contractor and the Customer (as provided to the Sub-Contractor in writing);</p>
+                <p><strong>3.3.2</strong> conduct themselves in a professional manner at all times;</p>
+                <p><strong>3.3.3</strong> comply with all the Main Contractor's and the Customer's health and safety and security requirements and regulations; and</p>
+                <p><strong>3.3.4</strong> do not do or say anything which may bring the Main Contractor or the Customer into disrepute.</p>
+            </div>
+
+            <h3>3.4 Right to Object</h3>
+            <p>The Main Contractor may object to the provision of services by any person whose conduct has, in the Main Contractor's reasonable opinion, been unsatisfactory. On receipt of such objection the Sub-Contractor shall promptly remove that person from the performance of the Sub-Contract Work and replace them with an equally qualified substitute acceptable to the Main Contractor.</p>
+
+            <h3>3.5 Employment Status</h3>
+            <p>Nothing in this Agreement is intended to, or shall operate to, create a partnership between the parties, or to authorise either party to act as agent for the other, and neither party shall have authority to act in the name or on behalf of or otherwise to bind the other in any way.</p>
+        </div>
+
+        <div class="section" id="charges">
+            <h1>4. Charges and Payment</h1>
+
+            <h3>4.1 Charges</h3>
+            <p>The Main Contractor shall pay the Prices to the Sub-Contractor for the Sub-Contract Work, subject to the terms of this Agreement and the applicable Statement of Work.</p>
+
+            <h3>4.2 Invoicing</h3>
+            <p>The Sub-Contractor shall invoice the Main Contractor in accordance with the terms set out in the Statement of Work. Each invoice shall include all supporting documentation as may be reasonably required by the Main Contractor.</p>
+
+            <h3>4.3 Payment Terms</h3>
+            <p>Subject to clause 4.4, the Main Contractor shall pay all properly submitted and undisputed invoices within 60 days of receipt.</p>
+
+            <h3>4.4 Payment Disputes</h3>
+            <p>If the Main Contractor disputes any invoice, it shall notify the Sub-Contractor in writing within 30 days of receipt of the invoice, giving reasons for the dispute. The Main Contractor shall pay the undisputed portion of the invoice in accordance with clause 4.3.</p>
+
+            <h3>4.5 VAT</h3>
+            <p>All Prices are exclusive of VAT. Where VAT is payable in respect of any supply made under this Agreement, the Main Contractor shall pay such VAT to the Sub-Contractor against receipt of a valid VAT invoice.</p>
+
+            <h3>4.6 Price Review</h3>
+            <p>Unless otherwise agreed in a Statement of Work, the Prices shall remain fixed for the Term of that Statement of Work.</p>
+        </div>
+
+        <div class="section" id="rebates">
+            <h1>5. Rebates</h1>
+
+            <h3>5.1 Rebate Obligation</h3>
+            <p>The Sub-Contractor shall pay to the Main Contractor any Rebate calculated in accordance with Schedule 4 within 30 days of the end of each calendar quarter (or as otherwise specified in Schedule 4).</p>
+
+            <h3>5.2 Records and Audit</h3>
+            <p>The Sub-Contractor shall maintain accurate records of all transactions and activities relevant to the calculation of any Rebate and shall permit the Main Contractor (and its appointed auditors) to inspect such records on reasonable notice during normal business hours.</p>
+        </div>
+
+        <div class="section" id="main-contract">
+            <h1>6. Main Contract Flow Down</h1>
+
+            <h3>6.1 Compliance with Main Contract</h3>
+            <p>The Sub-Contractor shall comply with all terms and conditions of the Main Contract to the extent that they are applicable to the Sub-Contract Work and are consistent with the terms of this Agreement.</p>
+
+            <h3>6.2 Customer Requirements</h3>
+            <p>The Sub-Contractor acknowledges that the Main Contractor's obligations under this Agreement are subject to the Main Contract and the Sub-Contractor shall comply with any reasonable requirements of the Customer as notified to it by the Main Contractor.</p>
+
+            <h3>6.3 Changes to Main Contract</h3>
+            <p>If there are any changes to the Main Contract which affect the Sub-Contract Work, the Main Contractor shall notify the Sub-Contractor and the parties shall discuss in good faith any necessary amendments to this Agreement or the applicable Statement of Work.</p>
+        </div>
+
+        <div class="section" id="confidentiality">
+            <h1>7. Confidentiality</h1>
+
+            <h3>7.1 Definition</h3>
+            <p><strong>Confidential Information</strong> means any information which has been disclosed to a party by the other party pursuant to or in connection with this Agreement (whether orally or in writing or any other medium, and whether or not the information is expressly stated to be confidential or marked as such) including but not limited to:</p>
+            <div class="sub-clause">
+                <p><strong>7.1.1</strong> any information that would be regarded as confidential by a reasonable business person relating to:</p>
+                <div style="margin-left: 20px;">
+                    <p>(a) the business, affairs, customers, clients, suppliers, plans, intentions, or market opportunities of the disclosing party; and</p>
+                    <p>(b) the operations, processes, product information, know-how, designs, trade secrets or software of the disclosing party;</p>
+                </div>
+                <p><strong>7.1.2</strong> any information developed by either party pursuant to this Agreement; and</p>
+                <p><strong>7.1.3</strong> the existence and contents of this Agreement.</p>
+            </div>
+
+            <h3>7.2 Confidentiality Obligations</h3>
+            <p>Each party undertakes that it shall not at any time during this Agreement, and for a period of five years after termination or expiry of this Agreement, disclose to any person any Confidential Information, except as permitted by clause 7.3.</p>
+
+            <h3>7.3 Permitted Disclosures</h3>
+            <p>Each party may disclose the other party's Confidential Information:</p>
+            <div class="sub-clause">
+                <p><strong>7.3.1</strong> to its employees, officers, representatives or advisers who need to know such information for the purposes of carrying out the party's obligations under this Agreement;</p>
+                <p><strong>7.3.2</strong> as may be required by law, a court of competent jurisdiction or any governmental or regulatory authority; or</p>
+                <p><strong>7.3.3</strong> with the prior written consent of the other party.</p>
+            </div>
+
+            <h3>7.4 Exceptions</h3>
+            <p>The obligations in clause 7.2 shall not apply to any Confidential Information that:</p>
+            <div class="sub-clause">
+                <p><strong>7.4.1</strong> is or becomes generally available to the public (other than as a result of its disclosure by the receiving party or its representatives);</p>
+                <p><strong>7.4.2</strong> was available to the receiving party on a non-confidential basis before disclosure by the disclosing party;</p>
+                <p><strong>7.4.3</strong> was, is or becomes available to the receiving party on a non-confidential basis from a person who, to the receiving party's knowledge, is not bound by a confidentiality agreement with the disclosing party; or</p>
+                <p><strong>7.4.4</strong> the parties agree in writing is not confidential or may be disclosed.</p>
+            </div>
+
+            <h3>7.5 Return of Information</h3>
+            <p>On termination or expiry of this Agreement, each party shall return to the other party all Confidential Information in its possession or control, or at the disclosing party's option, destroy such information and certify to the disclosing party that it has done so.</p>
+        </div>
+
+        <div class="section" id="intellectual-property">
+            <h1>8. Intellectual Property Rights</h1>
+
+            <h3>8.1 Background IPR</h3>
+            <p><strong>Background IPR</strong> means all Intellectual Property Rights owned by or licensed to either party prior to the Commencement Date or developed independently of this Agreement.</p>
+
+            <h3>8.2 Ownership of Deliverables</h3>
+            <p>All Intellectual Property Rights in any Deliverables created by the Sub-Contractor pursuant to this Agreement shall, on creation, vest in the Main Contractor absolutely. The Sub-Contractor:</p>
+            <div class="sub-clause">
+                <p><strong>8.2.1</strong> hereby assigns (by way of present assignment of future rights) all Intellectual Property Rights in the Deliverables to the Main Contractor;</p>
+                <p><strong>8.2.2</strong> shall execute all such documents and do all such acts and things as the Main Contractor may reasonably require to give effect to such assignment; and</p>
+                <p><strong>8.2.3</strong> warrants that it has obtained or shall obtain from all persons involved in the creation of the Deliverables the necessary rights and waivers to enable it to comply with this clause 8.2.</p>
+            </div>
+
+            <h3>8.3 Background IPR License</h3>
+            <p>Each party grants to the other party a non-exclusive, royalty-free licence to use its Background IPR to the extent necessary for the receiving party to perform its obligations under this Agreement.</p>
+
+            <h3>8.4 Moral Rights</h3>
+            <p>The Sub-Contractor shall ensure that all moral rights in any works created under this Agreement are waived in favour of the Main Contractor.</p>
+
+            <h3>8.5 IPR Indemnity</h3>
+            <p>The Sub-Contractor shall indemnify the Main Contractor against all Losses incurred by the Main Contractor as a result of any claim that the use or possession of any Deliverables or Background IPR provided by the Sub-Contractor infringes the Intellectual Property Rights of any third party.</p>
+        </div>
+
+        <div class="section" id="data-protection">
+            <h1>9. Data Protection</h1>
+
+            <h3>9.1 Compliance</h3>
+            <p>Both parties shall comply with all Applicable Data Protection Legislation in relation to the processing of Personal Data under this Agreement.</p>
+
+            <h3>9.2 Processing of Personal Data</h3>
+            <p>To the extent that the Sub-Contractor processes any Personal Data on behalf of the Main Contractor, the Sub-Contractor shall:</p>
+            <div class="sub-clause">
+                <p><strong>9.2.1</strong> process Personal Data only on the documented instructions of the Main Contractor;</p>
+                <p><strong>9.2.2</strong> ensure that persons authorized to process Personal Data are subject to appropriate confidentiality obligations;</p>
+                <p><strong>9.2.3</strong> implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk;</p>
+                <p><strong>9.2.4</strong> not engage a Sub-Processor without prior written authorization from the Main Contractor;</p>
+                <p><strong>9.2.5</strong> assist the Main Contractor in responding to Data Subject requests;</p>
+                <p><strong>9.2.6</strong> assist the Main Contractor in ensuring compliance with data security, breach notification and data protection impact assessment obligations;</p>
+                <p><strong>9.2.7</strong> delete or return all Personal Data to the Main Contractor at the end of the provision of services; and</p>
+                <p><strong>9.2.8</strong> make available to the Main Contractor all information necessary to demonstrate compliance with data protection obligations.</p>
+            </div>
+
+            <h3>9.3 International Data Transfers</h3>
+            <p>If the Sub-Contractor transfers Personal Data to a Third Country, it shall ensure that appropriate safeguards are in place, including by executing the Standard Contractual Clauses and/or UK Addendum as applicable.</p>
+
+            <h3>9.4 Data Protection Schedule</h3>
+            <p>The parties' detailed data protection obligations are set out in Schedule 2 (Data Protection).</p>
+        </div>
+
+        <div class="section" id="warranties">
+            <h1>10. Warranties and Representations</h1>
+
+            <h3>10.1 Sub-Contractor Warranties</h3>
+            <p>The Sub-Contractor warrants and represents that:</p>
+            <div class="sub-clause">
+                <p><strong>10.1.1</strong> it has the full right, power and authority to enter into and perform this Agreement;</p>
+                <p><strong>10.1.2</strong> it has and shall maintain all necessary licences, consents, permissions and authorizations necessary to perform its obligations under this Agreement;</p>
+                <p><strong>10.1.3</strong> the Sub-Contract Work shall be performed with reasonable skill and care and in accordance with Good Industry Practice;</p>
+                <p><strong>10.1.4</strong> the Deliverables shall be fit for any purpose expressly or impliedly made known to the Sub-Contractor;</p>
+                <p><strong>10.1.5</strong> it has obtained or shall obtain from all Sub-Contractor Personnel all necessary rights and waivers to enable it to comply with its obligations under this Agreement;</p>
+                <p><strong>10.1.6</strong> the Sub-Contract Work and Deliverables shall not infringe any Intellectual Property Rights of any third party; and</p>
+                <p><strong>10.1.7</strong> it shall comply with all Applicable Laws in performing its obligations under this Agreement.</p>
+            </div>
+
+            <h3>10.2 No Other Warranties</h3>
+            <p>Except as expressly stated in this Agreement, all warranties, representations, conditions and other terms, whether express or implied by statute, common law or otherwise are excluded to the fullest extent permitted by law.</p>
+        </div>
+
+        <div class="section" id="liability">
+            <h1>11. Liability</h1>
+
+            <h3>11.1 Total Liability Cap</h3>
+            <p>Subject to clause 11.3, the total aggregate liability of either party arising out of or in connection with this Agreement, whether in contract, tort (including negligence), breach of statutory duty or otherwise, shall not exceed the greater of:</p>
+            <div class="sub-clause">
+                <p><strong>11.1.1</strong> <span class="highlight-yellow">[insert amount, e.g., 125%]</span> of the Prices paid or payable in the 12 months immediately preceding the event giving rise to the claim; or</p>
+                <p><strong>11.1.2</strong> <span class="highlight-yellow">[insert amount, e.g., £500,000]</span>.</p>
+            </div>
+
+            <h3>11.2 Exclusion of Consequential Loss</h3>
+            <p>Subject to clause 11.3, neither party shall be liable to the other party for any:</p>
+            <div class="sub-clause">
+                <p><strong>11.2.1</strong> loss of profits;</p>
+                <p><strong>11.2.2</strong> loss of sales or business;</p>
+                <p><strong>11.2.3</strong> loss of agreements or contracts;</p>
+                <p><strong>11.2.4</strong> loss of anticipated savings;</p>
+                <p><strong>11.2.5</strong> loss of use or corruption of software, data or information;</p>
+                <p><strong>11.2.6</strong> loss of or damage to goodwill; or</p>
+                <p><strong>11.2.7</strong> any indirect or consequential loss.</p>
+            </div>
+
+            <h3>11.3 Exceptions</h3>
+            <p>Nothing in this Agreement shall limit or exclude either party's liability for:</p>
+            <div class="sub-clause">
+                <p><strong>11.3.1</strong> death or personal injury caused by its negligence;</p>
+                <p><strong>11.3.2</strong> fraud or fraudulent misrepresentation;</p>
+                <p><strong>11.3.3</strong> breach of obligations under clauses 7 (Confidentiality) or 8 (Intellectual Property Rights);</p>
+                <p><strong>11.3.4</strong> breach of obligations under clause 9 (Data Protection) or Schedule 2;</p>
+                <p><strong>11.3.5</strong> breach of obligations under clause 13 (Anti-Bribery and Corruption) or Schedule 3;</p>
+                <p><strong>11.3.6</strong> any Losses incurred by the Main Contractor in respect of its liability to the Customer under the Main Contract as a result of a Default by the Sub-Contractor; or</p>
+                <p><strong>11.3.7</strong> any other liability which cannot be limited or excluded by applicable law.</p>
+            </div>
+
+            <h3>11.4 Insurance</h3>
+            <p>The Sub-Contractor shall maintain in force, with a reputable insurance company, professional indemnity insurance and public liability insurance with coverage of not less than <span class="highlight-yellow">[insert amount]</span> per claim and shall, on request, produce evidence of such insurance to the Main Contractor.</p>
+        </div>
+
+        <div class="section" id="indemnity">
+            <h1>12. Indemnity</h1>
+
+            <h3>12.1 Sub-Contractor Indemnity</h3>
+            <p>The Sub-Contractor shall indemnify and keep indemnified the Main Contractor against all Losses incurred by the Main Contractor as a result of or in connection with:</p>
+            <div class="sub-clause">
+                <p><strong>12.1.1</strong> any Default by the Sub-Contractor;</p>
+                <p><strong>12.1.2</strong> any breach by the Sub-Contractor of any Applicable Law;</p>
+                <p><strong>12.1.3</strong> any claim that the use or possession of any Deliverables infringes the Intellectual Property Rights of any third party; or</p>
+                <p><strong>12.1.4</strong> any act or omission of the Sub-Contractor or its personnel in connection with this Agreement.</p>
+            </div>
+
+            <h3>12.2 Conduct of Claims</h3>
+            <p>If the Main Contractor becomes aware of any claim in respect of which it is entitled to the benefit of an indemnity under this clause 12, it shall notify the Sub-Contractor as soon as reasonably practicable and the Sub-Contractor shall be entitled (at its own cost) to conduct all negotiations and proceedings arising from such claim.</p>
+        </div>
+
+        <div class="section" id="anti-bribery">
+            <h1>13. Anti-Bribery and Corruption</h1>
+
+            <h3>13.1 Compliance</h3>
+            <p>Each party shall:</p>
+            <div class="sub-clause">
+                <p><strong>13.1.1</strong> comply with all applicable Bribery Laws;</p>
+                <p><strong>13.1.2</strong> not do or omit to do any act that will cause or lead the other party to be in breach of any Bribery Laws;</p>
+                <p><strong>13.1.3</strong> have and maintain in place throughout the term of this Agreement its own policies and procedures to ensure compliance with Bribery Laws and will enforce them where appropriate;</p>
+                <p><strong>13.1.4</strong> promptly report to the other party any request or demand for any undue financial or other advantage received in connection with this Agreement; and</p>
+                <p><strong>13.1.5</strong> immediately notify the other party if a foreign public official becomes an officer or employee of the first party or acquires a direct or indirect interest in the first party.</p>
+            </div>
+
+            <h3>13.2 Breach</h3>
+            <p>Any breach of this clause 13 by the Sub-Contractor shall be deemed a material breach of this Agreement and the Main Contractor may terminate this Agreement immediately by giving written notice to the Sub-Contractor.</p>
+
+            <h3>13.3 Additional Terms</h3>
+            <p>Further anti-bribery and corruption obligations are set out in Schedule 3.</p>
+        </div>
+
+        <div class="section" id="term-termination">
+            <h1>14. Term and Termination</h1>
+
+            <h3>14.1 Term</h3>
+            <p>This Agreement shall commence on the Commencement Date and shall continue in force until terminated in accordance with its terms.</p>
+
+            <h3>14.2 Termination of Statements of Work</h3>
+            <p>Each Statement of Work shall commence on the date specified therein and shall continue for the Term specified in that Statement of Work, unless terminated earlier in accordance with the provisions of this Agreement.</p>
+
+            <h3>14.3 Termination for Convenience</h3>
+            <p>The Main Contractor may terminate this Agreement or any Statement of Work at any time by giving the Sub-Contractor <span class="highlight-yellow">[insert notice period, e.g., 30 days']</span> written notice.</p>
+
+            <h3>14.4 Termination for Cause</h3>
+            <p>Either party may terminate this Agreement or any Statement of Work immediately by written notice to the other party if:</p>
+            <div class="sub-clause">
+                <p><strong>14.4.1</strong> the other party commits a material breach of this Agreement and (if such breach is remediable) fails to remedy that breach within 30 days of being notified in writing to do so;</p>
+                <p><strong>14.4.2</strong> the other party suspends, or threatens to suspend, payment of its debts or is unable to pay its debts as they fall due;</p>
+                <p><strong>14.4.3</strong> the other party commences negotiations with all or any class of its creditors with a view to rescheduling any of its debts;</p>
+                <p><strong>14.4.4</strong> a petition is filed, a notice is given, a resolution is passed, or an order is made, for or in connection with the winding up of the other party;</p>
+                <p><strong>14.4.5</strong> an application is made to court, or an order is made, for the appointment of an administrator, or a notice of intention to appoint an administrator is given or an administrator is appointed, over the other party;</p>
+                <p><strong>14.4.6</strong> a person becomes entitled to appoint a receiver over the assets of the other party or a receiver is appointed over the assets of the other party; or</p>
+                <p><strong>14.4.7</strong> any event occurs, or proceeding is taken, with respect to the other party in any jurisdiction to which it is subject that has an effect equivalent or similar to any of the events mentioned in clauses 14.4.2 to 14.4.6.</p>
+            </div>
+
+            <h3>14.5 Termination for Main Contract Termination</h3>
+            <p>The Main Contractor may terminate this Agreement or any Statement of Work immediately by written notice if the Main Contract is terminated for any reason.</p>
+
+            <h3>14.6 Consequences of Termination</h3>
+            <p>On termination or expiry of this Agreement or any Statement of Work:</p>
+            <div class="sub-clause">
+                <p><strong>14.6.1</strong> the Sub-Contractor shall immediately cease all Sub-Contract Work;</p>
+                <p><strong>14.6.2</strong> the Sub-Contractor shall deliver to the Main Contractor all Deliverables whether or not then complete, and all materials, equipment, documents and other property belonging to the Main Contractor;</p>
+                <p><strong>14.6.3</strong> the Main Contractor shall pay the Sub-Contractor for all Sub-Contract Work completed in accordance with this Agreement up to the date of termination;</p>
+                <p><strong>14.6.4</strong> the accrued rights and liabilities of the parties as at expiry or termination and the continuation of any provision expressly stated to survive or implicitly surviving termination, shall not be affected; and</p>
+                <p><strong>14.6.5</strong> clauses which expressly or by implication survive termination shall continue in full force and effect.</p>
+            </div>
+        </div>
+
+        <div class="section" id="force-majeure">
+            <h1>15. Force Majeure</h1>
+
+            <h3>15.1 Relief from Liability</h3>
+            <p>Neither party shall be in breach of this Agreement nor liable for delay in performing, or failure to perform, any of its obligations under this Agreement if such delay or failure results from a Force Majeure event, provided that the affected party:</p>
+            <div class="sub-clause">
+                <p><strong>15.1.1</strong> promptly notifies the other party in writing of the nature and extent of the Force Majeure event;</p>
+                <p><strong>15.1.2</strong> uses all reasonable endeavours to mitigate the effect of the Force Majeure event and to carry out its obligations under this Agreement in any way that is reasonably practicable; and</p>
+                <p><strong>15.1.3</strong> keeps the other party informed of developments.</p>
+            </div>
+
+            <h3>15.2 Prolonged Force Majeure</h3>
+            <p>If a Force Majeure event prevents either party from performing its obligations for a continuous period of more than 60 days, either party may terminate this Agreement or the affected Statement of Work by giving 14 days' written notice to the other party.</p>
+        </div>
+
+        <div class="section" id="general">
+            <h1>16. General Provisions</h1>
+
+            <h3>16.1 Notices</h3>
+            <p>Any notice or other communication given to a party under or in connection with this Agreement shall be in writing and shall be delivered by hand or by pre-paid first-class post or other next working day delivery service to the address specified in the Statement of Work or such other address as notified in writing.</p>
+
+            <h3>16.2 Entire Agreement</h3>
+            <p>This Agreement constitutes the entire agreement between the parties and supersedes and extinguishes all previous agreements, promises, assurances, warranties, representations and understandings between them, whether written or oral, relating to its subject matter.</p>
+
+            <h3>16.3 Variation</h3>
+            <p>No variation of this Agreement shall be effective unless it is in writing and signed by the parties (or their authorised representatives).</p>
+
+            <h3>16.4 Waiver</h3>
+            <p>A waiver of any right or remedy under this Agreement or by law is only effective if given in writing and shall not be deemed a waiver of any subsequent right or remedy. A failure or delay by a party to exercise any right or remedy provided under this Agreement or by law shall not constitute a waiver of that or any other right or remedy.</p>
+
+            <h3>16.5 Severance</h3>
+            <p>If any provision or part-provision of this Agreement is or becomes invalid, illegal or unenforceable, it shall be deemed deleted, but that shall not affect the validity and enforceability of the rest of this Agreement.</p>
+
+            <h3>16.6 No Partnership or Agency</h3>
+            <p>Nothing in this Agreement is intended to, or shall be deemed to, establish any partnership or joint venture between the parties, constitute either party the agent of the other, or authorise either party to make or enter into any commitments for or on behalf of the other party.</p>
+
+            <h3>16.7 Third Party Rights</h3>
+            <p>This Agreement does not give rise to any rights under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of this Agreement, except that the Customer may enforce any provision of this Agreement which expressly confers a benefit on the Customer.</p>
+
+            <h3>16.8 Governing Law</h3>
+            <p>This Agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the law of England and Wales.</p>
+
+            <h3>16.9 Jurisdiction</h3>
+            <p>Each party irrevocably agrees that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with this Agreement or its subject matter or formation (including non-contractual disputes or claims).</p>
+        </div>
+
+        <div class="section" id="schedules">
+            <h1>SCHEDULES</h1>
+
+            <h2 id="schedule-1">Schedule 1 - Statement of Work Template</h2>
+            <div class="comment">
+                <p><strong>NOTE:</strong> The "Draft" watermark is included on this schedule to indicate that Schedule 1 does not need to be executed when this Agreement is executed and is a template.</p>
+            </div>
+
+            <div style="background-color: #f5f5f5; padding: 20px; margin: 20px 0; border: 2px dashed #999;">
+                <h3 style="text-align: center; color: #999;">DRAFT TEMPLATE</h3>
+                <h3>STATEMENT OF WORK</h3>
+
+                <p><strong>SOW Number:</strong> <span class="highlight-yellow">[Insert SOW number]</span></p>
+                <p><strong>Date:</strong> <span class="highlight-yellow">[Insert date]</span></p>
+                <p><strong>Main Contractor:</strong> Capgemini UK Plc</p>
+                <p><strong>Sub-Contractor:</strong> <span class="highlight-yellow">[Insert Sub-Contractor name]</span></p>
+                <p><strong>Framework Agreement Date:</strong> <span class="highlight-yellow">[Insert Framework Agreement date]</span></p>
+
+                <h4>1. Description of Sub-Contract Work</h4>
+                <p><span class="highlight-yellow">[Provide detailed description of the Sub-Contract Work to be performed]</span></p>
+
+                <h4>2. Deliverables</h4>
+                <p><span class="highlight-yellow">[List all Deliverables to be provided, including specifications and acceptance criteria]</span></p>
+
+                <h4>3. Key Personnel</h4>
+                <p><span class="highlight-yellow">[Identify Key Personnel and their roles]</span></p>
+
+                <h4>4. Term</h4>
+                <p><strong>Start Date:</strong> <span class="highlight-yellow">[Insert start date]</span></p>
+                <p><strong>End Date:</strong> <span class="highlight-yellow">[Insert end date]</span></p>
+
+                <h4>5. Prices and Payment Terms</h4>
+                <p><span class="highlight-yellow">[Specify pricing structure, rates, payment milestones and invoicing requirements]</span></p>
+
+                <h4>6. Performance Metrics</h4>
+                <p><span class="highlight-yellow">[Define any specific performance metrics, KPIs or service levels]</span></p>
+
+                <h4>7. Customer and Main Contract Details</h4>
+                <p><strong>Customer Name:</strong> <span class="highlight-yellow">[Insert Customer name]</span></p>
+                <p><strong>Main Contract Reference:</strong> <span class="highlight-yellow">[Insert Main Contract reference]</span></p>
+
+                <h4>8. Special Terms</h4>
+                <p><span class="highlight-yellow">[Insert any special terms or variations to the Framework Agreement]</span></p>
+
+                <h4>9. Appendices</h4>
+                <p><strong>Appendix A:</strong> Relevant extracts from Main Contract</p>
+                <p><span class="highlight-yellow">[Add any other appendices as required]</span></p>
+
+                <h4>Signatures</h4>
+                <table style="width: 100%; margin-top: 30px;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 50%; vertical-align: top;">
+                                <p><strong>For and on behalf of Main Contractor:</strong></p>
+                                <p>Signed: _______________________</p>
+                                <p>Name: _______________________</p>
+                                <p>Title: _______________________</p>
+                                <p>Date: _______________________</p>
+                            </td>
+                            <td style="width: 50%; vertical-align: top;">
+                                <p><strong>For and on behalf of Sub-Contractor:</strong></p>
+                                <p>Signed: _______________________</p>
+                                <p>Name: _______________________</p>
+                                <p>Title: _______________________</p>
+                                <p>Date: _______________________</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 id="schedule-2">Schedule 2 - Data Protection</h2>
+
+            <h3>1. Scope and Roles</h3>
+            <p><strong>1.1</strong> For the purposes of this Schedule:</p>
+            <div class="sub-clause">
+                <p>(a) The Main Contractor acts as either a Data Controller or Data Processor (as specified in the Statement of Work)</p>
+                <p>(b) The Sub-Contractor acts as a Data Processor processing Personal Data on behalf of the Main Contractor</p>
+                <p>(c) The details of the processing are set out in Appendix 1 to this Schedule</p>
+            </div>
+
+            <h3>2. Sub-Contractor Obligations</h3>
+            <p><strong>2.1</strong> The Sub-Contractor shall, in relation to any Personal Data processed in connection with this Agreement:</p>
+            <div class="sub-clause">
+                <p>(a) process Personal Data only on the written instructions of the Main Contractor unless required to do so by Applicable Law;</p>
+                <p>(b) ensure that all personnel authorized to process Personal Data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality;</p>
+                <p>(c) implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk, including:</p>
+                <div style="margin-left: 20px;">
+                    <p>(i) the pseudonymisation and encryption of Personal Data;</p>
+                    <p>(ii) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services;</p>
+                    <p>(iii) the ability to restore the availability and access to Personal Data in a timely manner in the event of a physical or technical incident;</p>
+                    <p>(iv) a process for regularly testing, assessing and evaluating the effectiveness of technical and organizational measures;</p>
+                </div>
+                <p>(d) not engage another processor without prior specific or general written authorization of the Main Contractor;</p>
+                <p>(e) assist the Main Contractor in ensuring compliance with the Main Contractor's obligations under Articles 32 to 36 of the GDPR;</p>
+                <p>(f) delete or return all Personal Data to the Main Contractor at the end of the provision of services, and delete existing copies unless storage of Personal Data is required by Applicable Law;</p>
+                <p>(g) make available to the Main Contractor all information necessary to demonstrate compliance with obligations under this Schedule and allow for and contribute to audits.</p>
+            </div>
+
+            <h3>3. Data Breaches</h3>
+            <p><strong>3.1</strong> The Sub-Contractor shall notify the Main Contractor without undue delay (and in any event within 24 hours) after becoming aware of any Personal Data breach.</p>
+            <p><strong>3.2</strong> The Sub-Contractor shall provide the Main Contractor with all relevant information and cooperate with the Main Contractor in relation to any Personal Data breach.</p>
+
+            <h3>4. Sub-Processors</h3>
+            <p><strong>4.1</strong> Where the Sub-Contractor engages a sub-processor with the Main Contractor's authorization:</p>
+            <div class="sub-clause">
+                <p>(a) the Sub-Contractor shall enter into a written agreement with the sub-processor imposing data protection obligations no less onerous than those imposed on the Sub-Contractor under this Schedule;</p>
+                <p>(b) the Sub-Contractor shall remain fully liable to the Main Contractor for the performance of the sub-processor's obligations.</p>
+            </div>
+
+            <h3>5. International Transfers</h3>
+            <p><strong>5.1</strong> The Sub-Contractor shall not transfer Personal Data to a Third Country without the prior written consent of the Main Contractor.</p>
+            <p><strong>5.2</strong> Where such transfer is authorized, the Sub-Contractor shall ensure appropriate safeguards are in place in accordance with Chapter V of the GDPR, including by executing the Standard Contractual Clauses and/or UK Addendum.</p>
+
+            <h3>Appendix 1 to Schedule 2 - Processing Details</h3>
+
+            <table class="definition-table">
+                <thead>
+                    <tr>
+                        <th>Element</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Subject matter of processing</strong></td>
+                        <td><span class="highlight-yellow">[Describe the subject matter of processing]</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Duration of processing</strong></td>
+                        <td><span class="highlight-yellow">[Specify duration, e.g., "For the Term of the Statement of Work"]</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nature and purpose of processing</strong></td>
+                        <td><span class="highlight-yellow">[Describe nature and purpose]</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Type of Personal Data</strong></td>
+                        <td><span class="highlight-yellow">[List types of Personal Data, e.g., names, contact details, financial information]</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Categories of Data Subjects</strong></td>
+                        <td><span class="highlight-yellow">[List categories, e.g., employees, customers, suppliers]</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Processing operations</strong></td>
+                        <td><span class="highlight-yellow">[Describe processing operations, e.g., collection, storage, retrieval, consultation, use, disclosure, erasure]</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 id="schedule-3">Schedule 3 - Anti-Bribery and Corruption</h2>
+
+            <h3>1. Interpretation</h3>
+            <p><strong>1.1</strong> In this Schedule:</p>
+            <div class="sub-clause">
+                <p><strong>Associated Person</strong> means any person who performs services for or on behalf of the Sub-Contractor;</p>
+                <p><strong>Prohibited Act</strong> means:</p>
+                <div style="margin-left: 20px;">
+                    <p>(a) offering, promising or giving any person working for or engaged by the Main Contractor, the Customer or any other public body a financial or other advantage to induce or reward improper performance of a relevant function or activity;</p>
+                    <p>(b) requesting, agreeing to receive or accepting any financial or other advantage as an inducement or reward for improper performance of a relevant function or activity in connection with this Agreement;</p>
+                    <p>(c) committing any offence under the Bribery Laws;</p>
+                    <p>(d) doing any act or thing in contravention of any Bribery Laws;</p>
+                </div>
+            </div>
+
+            <h3>2. Compliance</h3>
+            <p><strong>2.1</strong> The Sub-Contractor shall:</p>
+            <div class="sub-clause">
+                <p>(a) comply with all Bribery Laws;</p>
+                <p>(b) not engage in any activity, practice or conduct which would constitute a Prohibited Act;</p>
+                <p>(c) have and maintain in place throughout the term of this Agreement its own policies and procedures, including adequate procedures under the Bribery Act 2010, to ensure compliance with Bribery Laws and will enforce them where appropriate;</p>
+                <p>(d) ensure that all Associated Persons comply with this Schedule;</p>
+                <p>(e) promptly report to the Main Contractor any request or demand for any undue financial or other advantage received by the Sub-Contractor in connection with this Agreement;</p>
+                <p>(f) within 10 Business Days of the Commencement Date, and annually thereafter, certify to the Main Contractor in writing compliance with this clause by the Sub-Contractor and all Associated Persons.</p>
+            </div>
+
+            <h3>3. Breach</h3>
+            <p><strong>3.1</strong> Any breach of this Schedule by the Sub-Contractor shall be deemed a material breach of this Agreement.</p>
+            <p><strong>3.2</strong> If the Sub-Contractor breaches this Schedule, the Main Contractor may:</p>
+            <div class="sub-clause">
+                <p>(a) terminate this Agreement immediately by giving written notice to the Sub-Contractor; or</p>
+                <p>(b) require the Sub-Contractor to remove from performance of the Sub-Contract Work any Associated Person who has committed or is suspected of having committed a Prohibited Act.</p>
+            </div>
+
+            <h3>4. Right to Audit</h3>
+            <p><strong>4.1</strong> The Main Contractor may, on reasonable notice, audit the Sub-Contractor's compliance with this Schedule. The Sub-Contractor shall provide all reasonable assistance and access to information as may be required.</p>
+
+            <h2 id="schedule-4">Schedule 4 - Rebates</h2>
+
+            <div class="comment">
+                <p class="guidance">Please complete this schedule if rebates are applicable. Delete this schedule if not applicable.</p>
+            </div>
+
+            <h3>1. Rebate Calculation</h3>
+            <p><strong>1.1</strong> The Sub-Contractor shall pay to the Main Contractor a Rebate calculated as follows:</p>
+            <p><span class="highlight-yellow">[Insert rebate calculation formula, e.g., "X% of all revenues received by the Sub-Contractor in respect of services provided under this Agreement to the Customer or any Affiliate of the Customer"]</span></p>
+
+            <h3>2. Payment Terms</h3>
+            <p><strong>2.1</strong> Rebates shall be calculated and paid <span class="highlight-yellow">[insert frequency, e.g., quarterly/annually]</span> within <span class="highlight-yellow">[insert number]</span> days of the end of each <span class="highlight-yellow">[quarter/year]</span>.</p>
+
+            <h3>3. Reporting</h3>
+            <p><strong>3.1</strong> The Sub-Contractor shall provide the Main Contractor with a detailed report of all revenues and the Rebate calculation within <span class="highlight-yellow">[insert number]</span> days of the end of each reporting period.</p>
+
+            <h3>4. Records and Audit</h3>
+            <p><strong>4.1</strong> The Sub-Contractor shall maintain accurate and up-to-date records of all transactions relevant to the calculation of Rebates.</p>
+            <p><strong>4.2</strong> The Main Contractor (and its appointed auditors) may, on reasonable notice during normal business hours, inspect and audit such records to verify the accuracy of any Rebate calculation.</p>
+
+            <h3>5. Interest on Late Payment</h3>
+            <p><strong>5.1</strong> If any Rebate is not paid when due, the Sub-Contractor shall pay interest on the overdue amount at the rate of <span class="highlight-yellow">[insert rate, e.g., 4% per annum above the Bank of England base rate]</span> from the due date until the date of actual payment.</p>
+        </div>
+
+        <div class="section">
+            <h2>EXECUTION</h2>
+            <p>This Agreement has been entered into on the date stated at the beginning of it.</p>
+
+            <table style="width: 100%; margin-top: 40px;">
+                <tbody>
+                    <tr>
+                        <td style="width: 50%; vertical-align: top; padding-right: 20px;">
+                            <h3>Main Contractor</h3>
+                            <p><strong>CAPGEMINI UK PLC</strong></p>
+                            <p style="margin-top: 40px;">Signed: _______________________</p>
+                            <p>Name: _______________________</p>
+                            <p>Title: _______________________</p>
+                            <p>Date: _______________________</p>
+                        </td>
+                        <td style="width: 50%; vertical-align: top; padding-left: 20px; border-left: 1px solid #ddd;">
+                            <h3>Sub-Contractor</h3>
+                            <p><span class="highlight-yellow">[Insert Sub-Contractor Name]</span></p>
+                            <p style="margin-top: 40px;">Signed: _______________________</p>
+                            <p>Name: _______________________</p>
+                            <p>Title: _______________________</p>
+                            <p>Date: _______________________</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="copyright">
+            <p>© Copyright 2025 Capgemini. All rights reserved.</p>
+            <p>This document is confidential and proprietary to Capgemini.</p>
+            <p>No part of this document may be reproduced in any form or by any means without prior written permission from Capgemini.</p>
+        </div>
+    </div>
+</div>
+
+<style>
+	.cap-contract-wrapper {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		line-height: 1.6;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: #f5f5f5;
+	}
+
+	:global(.cap-contract-wrapper .container) {
+		background-color: white;
+		padding: 40px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+	:global(.cap-contract-wrapper .header) {
+		text-align: center;
+		border-bottom: 3px solid #0070ad;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+	}
+
+	:global(.cap-contract-wrapper .logo) {
+		color: #0070ad;
+		font-size: 32px;
+		font-weight: bold;
+		font-style: italic;
+		margin-bottom: 10px;
+	}
+
+	:global(.cap-contract-wrapper h1) {
+		color: #0070ad;
+		font-size: 24px;
+		margin-top: 30px;
+	}
+
+	:global(.cap-contract-wrapper h2) {
+		color: #0070ad;
+		font-size: 20px;
+		margin-top: 25px;
+	}
+
+	:global(.cap-contract-wrapper h3) {
+		color: #333;
+		font-size: 18px;
+		margin-top: 20px;
+	}
+
+	:global(.cap-contract-wrapper h4) {
+		color: #333;
+		font-size: 16px;
+		margin-top: 15px;
+	}
+
+	:global(.cap-contract-wrapper .section) {
+		margin-bottom: 25px;
+	}
+
+	:global(.cap-contract-wrapper .definition-table) {
+		width: 100%;
+		border-collapse: collapse;
+		margin: 20px 0;
+	}
+
+	:global(.cap-contract-wrapper .definition-table th),
+	:global(.cap-contract-wrapper .definition-table td) {
+		border: 1px solid #ddd;
+		padding: 12px;
+		text-align: left;
+	}
+
+	:global(.cap-contract-wrapper .definition-table th) {
+		background-color: #0070ad;
+		color: white;
+	}
+
+	:global(.cap-contract-wrapper .definition-table tr:nth-child(even)) {
+		background-color: #f9f9f9;
+	}
+
+	:global(.cap-contract-wrapper .clause) {
+		margin-left: 20px;
+		margin-bottom: 15px;
+	}
+
+	:global(.cap-contract-wrapper .sub-clause) {
+		margin-left: 40px;
+		margin-bottom: 10px;
+	}
+
+	:global(.cap-contract-wrapper .highlight-yellow) {
+		background-color: #ffeb3b;
+		padding: 2px 4px;
+	}
+
+	:global(.cap-contract-wrapper .comment) {
+		background-color: #fff3cd;
+		border-left: 4px solid #ffc107;
+		padding: 10px;
+		margin: 10px 0;
+		font-style: italic;
+	}
+
+	:global(.cap-contract-wrapper .guidance) {
+		color: #d32f2f;
+		font-style: italic;
+	}
+
+	:global(.cap-contract-wrapper .parties) {
+		background-color: #e3f2fd;
+		padding: 15px;
+		border-radius: 5px;
+		margin: 15px 0;
+	}
+
+	:global(.cap-contract-wrapper .copyright) {
+		text-align: center;
+		color: #666;
+		font-size: 12px;
+		margin-top: 40px;
+		padding-top: 20px;
+		border-top: 1px solid #ddd;
+	}
+
+	:global(.cap-contract-wrapper table) {
+		width: 100%;
+	}
+
+	:global(.cap-contract-wrapper ul) {
+		margin-left: 20px;
+	}
+
+	:global(.cap-contract-wrapper p) {
+		margin-bottom: 10px;
+	}
+</style>
