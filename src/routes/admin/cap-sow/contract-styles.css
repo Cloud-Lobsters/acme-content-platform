@@ -1,0 +1,103 @@
+/* Contract Document Sections Styling */
+
+.section {
+	margin-bottom: 3rem;
+	padding: 2rem;
+	background: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+	color: #0070ad;
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 2px solid #e0e0e0;
+}
+
+.section h3 {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.section p {
+	margin-bottom: 1rem;
+	line-height: 1.8;
+}
+
+.section p strong {
+	color: #0070ad;
+	font-weight: 600;
+}
+
+/* Sub-clauses */
+.sub-clause {
+	margin-left: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.sub-clause p {
+	margin-bottom: 0.75rem;
+	line-height: 1.7;
+}
+
+/* Definition Table */
+.definition-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1.5rem 0;
+	background: white;
+}
+
+.definition-table thead {
+	background: #0070ad;
+	color: white;
+}
+
+.definition-table th {
+	padding: 1rem;
+	text-align: left;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+.definition-table td {
+	padding: 1rem;
+	border-bottom: 1px solid #e0e0e0;
+	vertical-align: top;
+	line-height: 1.7;
+}
+
+.definition-table tr:last-child td {
+	border-bottom: none;
+}
+
+.definition-table tr:hover {
+	background-color: #f8f9fa;
+}
+
+.definition-table td:first-child {
+	font-weight: 600;
+	color: #0070ad;
+	width: 25%;
+}
+
+.definition-table td:last-child {
+	width: 75%;
+}
+
+/* Comment styling */
+.comment {
+	background-color: #fff3cd;
+	border-left: 4px solid #ffc107;
+	padding: 1rem;
+	margin: 1rem 0;
+	font-style: italic;
+	color: #856404;
+}
