@@ -42,51 +42,19 @@
 		rebateInterestRate: '4% per annum above the Bank of England base rate'
 	});
 
-	let saving = $state(false);
-	let saveError = $state('');
-
-	onMount(async () => {
-		await loadData();
+	onMount(() => {
+		const saved = localStorage.getItem('capgemini-contract-data');
+		if (saved) {
+			formData = JSON.parse(saved);
+		}
 	});
 
-	async function loadData() {
-		try {
-			const response = await fetch('/api/contract-data');
-			if (response.ok) {
-				const data = await response.json();
-				formData = data;
-			}
-		} catch (error) {
-			console.error('Error loading contract data:', error);
-		}
+	function saveData() {
+		localStorage.setItem('capgemini-contract-data', JSON.stringify(formData));
+		showModal = false;
 	}
 
-	async function saveData() {
-		saving = true;
-		saveError = '';
-		try {
-			const response = await fetch('/api/contract-data', {
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify(formData)
-			});
-
-			if (response.ok) {
-				showModal = false;
-			} else {
-				saveError = 'Failed to save data. Please try again.';
-			}
-		} catch (error) {
-			console.error('Error saving contract data:', error);
-			saveError = 'Failed to save data. Please try again.';
-		} finally {
-			saving = false;
-		}
-	}
-
-	async function resetData() {
+	function resetData() {
 		if (confirm('Are you sure you want to reset all data?')) {
 			formData = {
 				agreementDayMonth: '',
@@ -125,7 +93,7 @@
 				rebateDays2: '',
 				rebateInterestRate: '4% per annum above the Bank of England base rate'
 			};
-			await saveData();
+			localStorage.removeItem('capgemini-contract-data');
 		}
 	}
 
@@ -434,13 +402,8 @@
 					</section>
 
 					<div class="modal-footer">
-						{#if saveError}
-							<div class="error-message">{saveError}</div>
-						{/if}
-						<button type="button" class="btn-secondary" onclick={() => (showModal = false)} disabled={saving}>Cancel</button>
-						<button type="submit" class="btn-primary" disabled={saving}>
-							{saving ? 'Saving...' : 'Save Changes'}
-						</button>
+						<button type="button" class="btn-secondary" onclick={() => (showModal = false)}>Cancel</button>
+						<button type="submit" class="btn-primary">Save Changes</button>
 					</div>
 				</form>
 			</div>
@@ -469,10 +432,10 @@
 
 		<div class="section">
 			<h2>Agreement Details</h2>
-			<p>This Framework Subcontract Agreement is made <span class:highlight-yellow={!formData.agreementDayMonth} class:highlight-green={formData.agreementDayMonth}>{formData.agreementDayMonth || '[insert day and month]'}</span> 20<span class:highlight-yellow={!formData.agreementYear} class:highlight-green={formData.agreementYear}>{formData.agreementYear || '[insert year]'}</span> ("<strong>Agreement</strong>")</p>
+			<p>This Framework Subcontract Agreement is made <span class="highlight-yellow">{formData.agreementDayMonth || '[insert day and month]'}</span> 20<span class="highlight-yellow">{formData.agreementYear || '[insert year]'}</span> ("<strong>Agreement</strong>")</p>
 		</div>
 
-		<div class="parties" id="parties-section">
+		<div class="parties">
 			<h2>Parties</h2>
 			<div class="section">
 				<h3>(1) Main Contractor</h3>
@@ -480,7 +443,7 @@
 			</div>
 			<div class="section">
 				<h3>(2) Sub-Contractor</h3>
-				<p><span class:highlight-yellow={!formData.subContractorDetails} class:highlight-green={formData.subContractorDetails}>{formData.subContractorDetails || '[Insert name of party] [of OR a company incorporated in [England and Wales] under number [insert registered number] whose registered office is at] [insert address]'}</span> (<strong>Sub-Contractor</strong>)</p>
+				<p><span class="highlight-yellow">{formData.subContractorDetails || '[Insert name of party] [of OR a company incorporated in [England and Wales] under number [insert registered number] whose registered office is at] [insert address]'}</span> (<strong>Sub-Contractor</strong>)</p>
 			</div>
 			<p>(each of the Main Contractor and the Sub-Contractor being a party and together the Main Contractor and the Sub-Contractor are the parties).</p>
 		</div>
@@ -652,16 +615,17 @@
 			<div class="sub-clause">
 				<p><strong>1.2.1</strong> a reference to this Agreement includes its schedules, appendices and annexes (if any);</p>
 				<p><strong>1.2.2</strong> the table of contents, background section and any clause, schedule or other headings in this Agreement are included for convenience only and shall have no effect on the interpretation of this Agreement;</p>
-				<p id="clause-1-2-3"><strong>1.2.3</strong> a reference to a 'party' includes that party's personal representatives, successors and permitted assigns;</p>
-				<p id="clause-1-2-4"><strong>1.2.4</strong> a reference to a 'person' includes a natural person, corporate or unincorporated body (in each case whether or not having separate legal personality) and that person's personal representatives, successors and permitted assigns;</p>
+				<p><strong>1.2.3</strong> a reference to a 'party' includes that party's personal representatives, successors and permitted assigns;</p>
+				<p><strong>1.2.4</strong> a reference to a 'person' includes a natural person, corporate or unincorporated body (in each case whether or not having separate legal personality) and that person's personal representatives, successors and permitted assigns;</p>
 				<p><strong>1.2.5</strong> a reference to a 'company' includes any company, corporation or other body corporate, wherever and however incorporated or established;</p>
 				<p><strong>1.2.6</strong> a reference to a gender includes each other gender;</p>
 				<p><strong>1.2.7</strong> words in the singular include the plural and vice versa;</p>
-				<p id="clause-1-2-8"><strong>1.2.8</strong> any words that follow 'include', 'includes', 'including', 'in particular' or any similar words and expressions shall be construed as illustrative only and shall not limit the sense of any word, phrase, term, definition or description preceding those words;</p>
+				<p><strong>1.2.8</strong> any words that follow 'include', 'includes', 'including', 'in particular' or any similar words and expressions shall be construed as illustrative only and shall not limit the sense of any word, phrase, term, definition or description preceding those words;</p>
 				<p><strong>1.2.9</strong> a reference to 'writing' or 'written' includes any method of reproducing words in a legible and non-transitory form;</p>
 				<p><strong>1.2.10</strong> a reference to legislation is a reference to that legislation as amended, extended, re-enacted or consolidated from time to time;</p>
-				<p><strong>1.2.11</strong> a reference to legislation includes all subordinate legislation made from time to time under that legislation; and</p>
-				<p id="clause-1-2-12"><strong>1.2.12</strong> a reference to any English action, remedy, method of judicial proceeding, court, official, legal document, legal status, legal doctrine, legal concept or thing shall, in respect of any jurisdiction other than England, be deemed to include a reference to that which most nearly approximates to the English equivalent in that jurisdiction.</p>
+				<p><strong>1.2.11</strong> a reference to any English action, remedy, method of judicial proceeding, court, official, legal document, legal status, legal doctrine, legal concept or thing shall, in respect of any jurisdiction other than England, be deemed to include a reference to that which most nearly approximates to the English equivalent in that jurisdiction;</p>
+				<p><strong>1.2.12</strong> unless expressly provided otherwise in this Agreement, all references to times of day are to London (GMT/BST) time; and</p>
+				<p><strong>1.2.13</strong> any obligation on a party not to do or omit to do anything shall include an obligation not to allow that thing to be done or omitted to be done.</p>
 			</div>
 
 			<ContractExplainer
@@ -676,11 +640,11 @@
 					'Non-exhaustive lists (1.2.8): Any list preceded by "including" is not complete, leaving room for Capgemini to claim additional items fall under a category.'
 				]}
 				amendments={[
-					{ text: 'Add explicit carve-out in 1.2.13: "...shall not apply where the Sub-Contractor has taken all reasonable steps to prevent such act or omission."', clauseRef: 'clause-1-2-13' },
-					{ text: 'Request mutual time zone clause: "All times shall be specified with time zone. If no time zone is stated, the time zone of the performing party shall apply."', clauseRef: 'clause-1-2-12' },
-					{ text: 'Limit successor obligations: "A reference to a \'party\' includes that party\'s permitted successors and assigns, provided such succession does not materially increase the obligations under this Agreement."', clauseRef: 'clause-1-2-3' },
-					{ text: 'Clarify "writing" scope: Add explicit confirmation that electronic signatures and common collaboration tools (Slack, Teams messages) constitute "writing."' },
-					{ text: 'Add interpretation tie-breaker: "In case of ambiguity in interpretation, the ambiguity shall not be construed against the drafting party, and the interpretation most favorable to both parties\' commercial intent shall prevail."' }
+					'Add explicit carve-out in 1.2.13: "...shall not apply where the Sub-Contractor has taken all reasonable steps to prevent such act or omission."',
+					'Request mutual time zone clause: "All times shall be specified with time zone. If no time zone is stated, the time zone of the performing party shall apply."',
+					'Limit successor obligations: "A reference to a \'party\' includes that party\'s permitted successors and assigns, provided such succession does not materially increase the obligations under this Agreement."',
+					'Clarify "writing" scope: Add explicit confirmation that electronic signatures and common collaboration tools (Slack, Teams messages) constitute "writing."',
+					'Add interpretation tie-breaker: "In case of ambiguity in interpretation, the ambiguity shall not be construed against the drafting party, and the interpretation most favorable to both parties\' commercial intent shall prevail."'
 				]}
 			/>
 
@@ -693,60 +657,39 @@
 			</div>
 		</div>
 
-		<div class="section" id="scope-sow">
-			<h1>2. Scope of this Agreement and procedure for agreeing Statements of Work</h1>
+		<div class="section" id="sub-contract-work">
+			<h1>2. Sub-Contract Work</h1>
 
-			<p><strong>2.1</strong> The Main Contractor may from time to time during the term of this Agreement seek proposals from Sub-Contractor for services. The Main Contractor is not obliged to request any proposal from the Sub-Contractor.</p>
+			<h3>2.1 Appointment</h3>
+			<p>The Main Contractor hereby appoints the Sub-Contractor and the Sub-Contractor hereby agrees to carry out and complete the Sub-Contract Work in accordance with the terms and conditions set out in this Agreement and the applicable Statement of Work and to comply in all respects with the Statement of Work and this Agreement.</p>
 
-			<p><strong>2.2</strong> Each Statement of Work is separate and made by the parties signing the relevant Statement of Work.</p>
-
-			<p><strong>2.3</strong> Each Statement of Work is entered into pursuant to the terms of this Agreement and fully incorporates the terms of this Agreement and the terms of the Main Contract unless expressly agreed otherwise by the parties in a Statement of Work.</p>
-
-			<p><strong>2.4</strong> Unless express provision is made to the contrary, the following order of priority shall apply in the event of any conflict or inconsistency between the above documents:</p>
+			<h3>2.2 Performance Standards</h3>
+			<p>The Sub-Contractor shall:</p>
 			<div class="sub-clause">
-				<p><strong>2.4.1</strong> the Statement of Work; and</p>
-				<p><strong>2.4.2</strong> the terms and conditions of this Agreement.</p>
+				<p><strong>2.2.1</strong> perform the Sub-Contract Work in a professional and workmanlike manner and in accordance with Good Industry Practice and the standard specified in a Statement of Work (if any);</p>
+				<p><strong>2.2.2</strong> carry out the Sub-Contract Work in accordance with all Applicable Laws;</p>
+				<p><strong>2.2.3</strong> carry out the Sub-Contract Work and deliver all Deliverables in accordance with the timescales specified in the Statement of Work or as otherwise agreed by the parties in writing;</p>
+				<p><strong>2.2.4</strong> provide such information as the Main Contractor may reasonably require, and ensure that all information provided by the Sub-Contractor is true, accurate and complete in all respects and not misleading;</p>
+				<p><strong>2.2.5</strong> co-operate with the Main Contractor and the Customer in all matters relating to the Sub-Contract Work; and</p>
+				<p><strong>2.2.6</strong> comply with all the Main Contractor's reasonable written instructions.</p>
 			</div>
+
+			<h3>2.3 Main Contractor Obligations</h3>
+			<p>The Main Contractor shall:</p>
+			<div class="sub-clause">
+				<p><strong>2.3.1</strong> co-operate with the Sub-Contractor in all matters relating to the Sub-Contract Work; and</p>
+				<p><strong>2.3.2</strong> provide the Sub-Contractor with reasonable access (subject to such access being available to the Main Contractor under the Main Contract) to the Customer's premises, office accommodation and other facilities as reasonably required by the Sub-Contractor for carrying out the Sub-Contract Work.</p>
+			</div>
+
+			<h3>2.4 Sub-Contracting</h3>
+			<p>The Sub-Contractor shall not sub-contract any of the Sub-Contract Work without the prior written consent of the Main Contractor.</p>
+
+			<h3>2.5 Assignment</h3>
+			<p>The Sub-Contractor shall not, without the prior written consent of the Main Contractor, assign, transfer, charge, sub-contract or deal in any other manner with all or any of its rights or obligations under this Agreement.</p>
 		</div>
 
-		<div class="section" id="sub-contractor-obligations">
-			<h1>3. Sub-Contractor's obligations</h1>
-
-			<p><strong>3.1</strong> During the Term, the Sub-Contractor shall:</p>
-			<div class="sub-clause">
-				<p><strong>3.1.1</strong> perform the Sub-Contract Work (including the provision of Deliverables) in accordance with the terms of this Statement of Work, and the Main Contract so as to put the Main Contractor into a position in which the Main Contractor is able to fulfil all of its obligations to the Customer under the Main Contract in so far as the same relate to the Sub-Contract Work;</p>
-				<p><strong>3.1.2</strong> collaborate with, and act in accordance with the instructions of, the Main Contractor and the Customer where required by the Main Contractor (including co-operating and working with all other 3rd party service providers engaged by Main Contractor as part of providing its services to the Customer);</p>
-				<p><strong>3.1.3</strong> achieve the Sub-Contract Work and each part of them by the corresponding date(s) set out in the Statement of Work and in any event to enable the Main Contractor to have reasonable time to fulfil its obligations to the Customer;</p>
-				<p><strong>3.1.4</strong> co-operate with the Main Contractor and the Customer where required by the Main Contractor in all matters arising under this Agreement and any Statement of Work;</p>
-				<p><strong>3.1.5</strong> provide all information, documents, materials, data or other items necessary for the provision of the Sub-Contract Works to the Main Contractor in a timely manner;</p>
-				<p><strong>3.1.6</strong> inform the Main Contractor in a timely manner of any matters (including any health, safety or security requirements) which may affect the provision of the Sub-Contract Works;</p>
-				<p><strong>3.1.7</strong> ensure that all tools, equipment, materials or other items used in the provision of the Sub-Contract Works are suitable for the performance of the same, in good condition and in good working order;</p>
-				<p><strong>3.1.8</strong> provide, as required, sufficient numbers of staff of the suitable grade and calibre at all times to provide and maintain the Deliverables and Sub-Contract Work;</p>
-				<p><strong>3.1.9</strong> ensure that the Sub-Contract Work and Deliverables are provided by the Key Personnel. The Sub-Contractor may not change Key Personnel without the Main Contractor's prior written consent and any replacement must be approved by the Main Contractor;</p>
-				<p><strong>3.1.10</strong> provide the Sub-contract Works and Deliverables using all reasonable skill and care and in accordance with Good Industry Practice and Applicable Law;</p>
-				<p><strong>3.1.11</strong> will ensure that Deliverables will be free from defects in design material and workmanship and will be of satisfactory quality including fit for purpose for any reason made known by Main Contractor to Sub-Contractor;</p>
-				<p><strong>3.1.12</strong> enter into any copyright agreement and/or confidentiality agreement if and when reasonably required by the Main Contractor or the Customer; and</p>
-				<p><strong>3.1.13</strong> obtain and maintain all necessary licences, permits and consents required to enable it to perform the Sub-Contract Work and otherwise comply with its obligations under the Statements of Work.</p>
-			</div>
-
-			<p><strong>3.2</strong> The Sub-Contractor's employees, subcontractors and agents shall have reasonable access to and use of existing facilities within any premises where relevant to its responsibilities under a Statement of Work and, such access is granted subject to Clause 3.3 and any, rights, obligations or restrictions specified in the Main Contract; and</p>
-
-			<p><strong>3.3</strong> The Sub-Contractor will ensure that its employees and subcontractors comply with such rules, regulations and practices whilst on premises which are under Customer and/or Main Contractor's control. In any case, the Sub-Contractor shall at all times be responsible for the actions of its personnel, the personnel of its sub-contractors and visitors while these personnel and visitors are at the premises and the said responsibility shall extend to all acts of such personnel while they are on any of the said premises whether or not such acts fall within the scope and course of their employment.</p>
-
-			<p><strong>3.4</strong> The Sub-Contractor shall achieve the Sub-Contract Work and each part of them by the corresponding date[s] set out in the relevant Statement of Work. If the Sub-Contractor fails to comply with the provisions of this Clause 3.4, due to its Default, then the Main Contractor may:</p>
-			<div class="sub-clause">
-				<p><strong>3.4.1</strong> refuse to accept any subsequent attempts to perform the Sub-Contract Works (or part thereof) and terminate the Statement of Work immediately by written notice to the Sub-Contractor;</p>
-				<p><strong>3.4.2</strong> procure work similar to the Sub-Contract Work from an alternative supplier; and</p>
-				<p><strong>3.4.3</strong> recover from the Sub-Contractor all Losses, damages, costs and expenses incurred by the Main Contractor arising from the Sub-Contractor's default.</p>
-			</div>
-
-			<p><strong>3.5</strong> The Sub-Contractor shall not (during the term of the applicable Statement of Work and for 6 (six) months afterwards), without the Main Contractor's written consent, offer employment to any of the Main Contractor's personnel who have been engaged in any Sub-Contract in relation to a Statement of Work. However, this restriction shall not apply to any person who (without having been approached directly or indirectly) responds to a general recruitment advert placed by or on behalf of the new employer. If the Sub-Contractor breaches this Clause 3.5, the Sub-Contractor shall promptly pay to the Main Contractor a sum equal to the annual salary of the employee in question (net of benefits) and it is agreed that this amount is a genuine pre-estimate of the loss that the Main Contractor is likely to suffer as a result of such breach.</p>
-
-			<p><strong>3.6</strong> Notwithstanding, clause 3.5, the Sub-Contractor agrees that any restrictions in the Main Contract relating to the non-solicitation of personnel shall be construed as placing restrictions on the Sub-Contractor with regards to both the solicitation of the Customer's and the Main Contractor's personnel.</p>
-		</div>
-
-		<div class="section" id="warranties">
-			<h1>4. Warranties</h1>
+		<div class="section" id="personnel">
+			<h1>3. Personnel</h1>
 
 			<h3>3.1 Key Personnel</h3>
 			<p>The Sub-Contractor shall ensure that the Key Personnel identified in the applicable Statement of Work are dedicated to the performance of the Sub-Contract Work in accordance with the terms of the Statement of Work for the duration of the Statement of Work.</p>
@@ -929,8 +872,8 @@
 			<h3>11.1 Total Liability Cap</h3>
 			<p>Subject to clause 11.3, the total aggregate liability of either party arising out of or in connection with this Agreement, whether in contract, tort (including negligence), breach of statutory duty or otherwise, shall not exceed the greater of:</p>
 			<div class="sub-clause">
-				<p><strong>11.1.1</strong> <span class:highlight-yellow={!formData.liabilityCap1} class:highlight-green={formData.liabilityCap1}>{formData.liabilityCap1 || '[insert amount, e.g., 125%]'}</span> of the Prices paid or payable in the 12 months immediately preceding the event giving rise to the claim; or</p>
-				<p><strong>11.1.2</strong> <span class:highlight-yellow={!formData.liabilityCap2} class:highlight-green={formData.liabilityCap2}>{formData.liabilityCap2 || '[insert amount, e.g., £500,000]'}</span>.</p>
+				<p><strong>11.1.1</strong> <span class="highlight-yellow">{formData.liabilityCap1 || '[insert amount, e.g., 125%]'}</span> of the Prices paid or payable in the 12 months immediately preceding the event giving rise to the claim; or</p>
+				<p><strong>11.1.2</strong> <span class="highlight-yellow">{formData.liabilityCap2 || '[insert amount, e.g., £500,000]'}</span>.</p>
 			</div>
 
 			<h3>11.2 Exclusion of Consequential Loss</h3>
@@ -958,7 +901,7 @@
 			</div>
 
 			<h3>11.4 Insurance</h3>
-			<p>The Sub-Contractor shall maintain in force, with a reputable insurance company, professional indemnity insurance and public liability insurance with coverage of not less than <span class:highlight-yellow={!formData.insuranceAmount} class:highlight-green={formData.insuranceAmount}>{formData.insuranceAmount || '[insert amount]'}</span> per claim and shall, on request, produce evidence of such insurance to the Main Contractor.</p>
+			<p>The Sub-Contractor shall maintain in force, with a reputable insurance company, professional indemnity insurance and public liability insurance with coverage of not less than <span class="highlight-yellow">{formData.insuranceAmount || '[insert amount]'}</span> per claim and shall, on request, produce evidence of such insurance to the Main Contractor.</p>
 		</div>
 
 		<div class="section" id="indemnity">
@@ -1007,7 +950,7 @@
 			<p>Each Statement of Work shall commence on the date specified therein and shall continue for the Term specified in that Statement of Work, unless terminated earlier in accordance with the provisions of this Agreement.</p>
 
 			<h3>14.3 Termination for Convenience</h3>
-			<p>The Main Contractor may terminate this Agreement or any Statement of Work at any time by giving the Sub-Contractor <span class:highlight-yellow={!formData.terminationNoticePeriod} class:highlight-green={formData.terminationNoticePeriod}>{formData.terminationNoticePeriod || "[insert notice period, e.g., 30 days']"}</span> written notice.</p>
+			<p>The Main Contractor may terminate this Agreement or any Statement of Work at any time by giving the Sub-Contractor <span class="highlight-yellow">{formData.terminationNoticePeriod || "[insert notice period, e.g., 30 days']"}</span> written notice.</p>
 
 			<h3>14.4 Termination for Cause</h3>
 			<p>Either party may terminate this Agreement or any Statement of Work immediately by written notice to the other party if:</p>
@@ -1093,41 +1036,41 @@
 				<h3 style="text-align: center; color: #999;">DRAFT TEMPLATE</h3>
 				<h3>STATEMENT OF WORK</h3>
 
-				<p><strong>SOW Number:</strong> <span class:highlight-yellow={!formData.sowNumber} class:highlight-green={formData.sowNumber}>{formData.sowNumber || '[Insert SOW number]'}</span></p>
-				<p><strong>Date:</strong> <span class:highlight-yellow={!formData.sowDate} class:highlight-green={formData.sowDate}>{formData.sowDate || '[Insert date]'}</span></p>
+				<p><strong>SOW Number:</strong> <span class="highlight-yellow">{formData.sowNumber || '[Insert SOW number]'}</span></p>
+				<p><strong>Date:</strong> <span class="highlight-yellow">{formData.sowDate || '[Insert date]'}</span></p>
 				<p><strong>Main Contractor:</strong> Capgemini UK Plc</p>
-				<p><strong>Sub-Contractor:</strong> <span class:highlight-yellow={!formData.sowSubContractorName} class:highlight-green={formData.sowSubContractorName}>{formData.sowSubContractorName || '[Insert Sub-Contractor name]'}</span></p>
-				<p><strong>Framework Agreement Date:</strong> <span class:highlight-yellow={!formData.frameworkAgreementDate} class:highlight-green={formData.frameworkAgreementDate}>{formData.frameworkAgreementDate || '[Insert Framework Agreement date]'}</span></p>
+				<p><strong>Sub-Contractor:</strong> <span class="highlight-yellow">{formData.sowSubContractorName || '[Insert Sub-Contractor name]'}</span></p>
+				<p><strong>Framework Agreement Date:</strong> <span class="highlight-yellow">{formData.frameworkAgreementDate || '[Insert Framework Agreement date]'}</span></p>
 
 				<h4>1. Description of Sub-Contract Work</h4>
-				<p><span class:highlight-yellow={!formData.subContractWorkDescription} class:highlight-green={formData.subContractWorkDescription}>{formData.subContractWorkDescription || '[Provide detailed description of the Sub-Contract Work to be performed]'}</span></p>
+				<p><span class="highlight-yellow">{formData.subContractWorkDescription || '[Provide detailed description of the Sub-Contract Work to be performed]'}</span></p>
 
 				<h4>2. Deliverables</h4>
-				<p><span class:highlight-yellow={!formData.deliverables} class:highlight-green={formData.deliverables}>{formData.deliverables || '[List all Deliverables to be provided, including specifications and acceptance criteria]'}</span></p>
+				<p><span class="highlight-yellow">{formData.deliverables || '[List all Deliverables to be provided, including specifications and acceptance criteria]'}</span></p>
 
 				<h4>3. Key Personnel</h4>
-				<p><span class:highlight-yellow={!formData.keyPersonnel} class:highlight-green={formData.keyPersonnel}>{formData.keyPersonnel || '[Identify Key Personnel and their roles]'}</span></p>
+				<p><span class="highlight-yellow">{formData.keyPersonnel || '[Identify Key Personnel and their roles]'}</span></p>
 
 				<h4>4. Term</h4>
-				<p><strong>Start Date:</strong> <span class:highlight-yellow={!formData.startDate} class:highlight-green={formData.startDate}>{formData.startDate || '[Insert start date]'}</span></p>
-				<p><strong>End Date:</strong> <span class:highlight-yellow={!formData.endDate} class:highlight-green={formData.endDate}>{formData.endDate || '[Insert end date]'}</span></p>
+				<p><strong>Start Date:</strong> <span class="highlight-yellow">{formData.startDate || '[Insert start date]'}</span></p>
+				<p><strong>End Date:</strong> <span class="highlight-yellow">{formData.endDate || '[Insert end date]'}</span></p>
 
 				<h4>5. Prices and Payment Terms</h4>
-				<p><span class:highlight-yellow={!formData.pricesPayment} class:highlight-green={formData.pricesPayment}>{formData.pricesPayment || '[Specify pricing structure, rates, payment milestones and invoicing requirements]'}</span></p>
+				<p><span class="highlight-yellow">{formData.pricesPayment || '[Specify pricing structure, rates, payment milestones and invoicing requirements]'}</span></p>
 
 				<h4>6. Performance Metrics</h4>
-				<p><span class:highlight-yellow={!formData.performanceMetrics} class:highlight-green={formData.performanceMetrics}>{formData.performanceMetrics || '[Define any specific performance metrics, KPIs or service levels]'}</span></p>
+				<p><span class="highlight-yellow">{formData.performanceMetrics || '[Define any specific performance metrics, KPIs or service levels]'}</span></p>
 
 				<h4>7. Customer and Main Contract Details</h4>
-				<p><strong>Customer Name:</strong> <span class:highlight-yellow={!formData.customerName} class:highlight-green={formData.customerName}>{formData.customerName || '[Insert Customer name]'}</span></p>
-				<p><strong>Main Contract Reference:</strong> <span class:highlight-yellow={!formData.mainContractReference} class:highlight-green={formData.mainContractReference}>{formData.mainContractReference || '[Insert Main Contract reference]'}</span></p>
+				<p><strong>Customer Name:</strong> <span class="highlight-yellow">{formData.customerName || '[Insert Customer name]'}</span></p>
+				<p><strong>Main Contract Reference:</strong> <span class="highlight-yellow">{formData.mainContractReference || '[Insert Main Contract reference]'}</span></p>
 
 				<h4>8. Special Terms</h4>
-				<p><span class:highlight-yellow={!formData.specialTerms} class:highlight-green={formData.specialTerms}>{formData.specialTerms || '[Insert any special terms or variations to the Framework Agreement]'}</span></p>
+				<p><span class="highlight-yellow">{formData.specialTerms || '[Insert any special terms or variations to the Framework Agreement]'}</span></p>
 
 				<h4>9. Appendices</h4>
 				<p><strong>Appendix A:</strong> Relevant extracts from Main Contract</p>
-				<p><span class:highlight-yellow={!formData.additionalAppendices} class:highlight-green={formData.additionalAppendices}>{formData.additionalAppendices || '[Add any other appendices as required]'}</span></p>
+				<p><span class="highlight-yellow">{formData.additionalAppendices || '[Add any other appendices as required]'}</span></p>
 
 				<h4>Signatures</h4>
 				<table style="width: 100%; margin-top: 30px;">
@@ -1207,27 +1150,27 @@
 				<tbody>
 					<tr>
 						<td><strong>Subject matter of processing</strong></td>
-						<td><span class:highlight-yellow={!formData.processingSubject} class:highlight-green={formData.processingSubject}>{formData.processingSubject || '[Describe the subject matter of processing]'}</span></td>
+						<td><span class="highlight-yellow">{formData.processingSubject || '[Describe the subject matter of processing]'}</span></td>
 					</tr>
 					<tr>
 						<td><strong>Duration of processing</strong></td>
-						<td><span class:highlight-yellow={!formData.processingDuration} class:highlight-green={formData.processingDuration}>{formData.processingDuration || '[Specify duration, e.g., "For the Term of the Statement of Work"]'}</span></td>
+						<td><span class="highlight-yellow">{formData.processingDuration || '[Specify duration, e.g., "For the Term of the Statement of Work"]'}</span></td>
 					</tr>
 					<tr>
 						<td><strong>Nature and purpose of processing</strong></td>
-						<td><span class:highlight-yellow={!formData.processingNature} class:highlight-green={formData.processingNature}>{formData.processingNature || '[Describe nature and purpose]'}</span></td>
+						<td><span class="highlight-yellow">{formData.processingNature || '[Describe nature and purpose]'}</span></td>
 					</tr>
 					<tr>
 						<td><strong>Type of Personal Data</strong></td>
-						<td><span class:highlight-yellow={!formData.personalDataTypes} class:highlight-green={formData.personalDataTypes}>{formData.personalDataTypes || '[List types of Personal Data, e.g., names, contact details, financial information]'}</span></td>
+						<td><span class="highlight-yellow">{formData.personalDataTypes || '[List types of Personal Data, e.g., names, contact details, financial information]'}</span></td>
 					</tr>
 					<tr>
 						<td><strong>Categories of Data Subjects</strong></td>
-						<td><span class:highlight-yellow={!formData.dataSubjectCategories} class:highlight-green={formData.dataSubjectCategories}>{formData.dataSubjectCategories || '[List categories, e.g., employees, customers, suppliers]'}</span></td>
+						<td><span class="highlight-yellow">{formData.dataSubjectCategories || '[List categories, e.g., employees, customers, suppliers]'}</span></td>
 					</tr>
 					<tr>
 						<td><strong>Processing operations</strong></td>
-						<td><span class:highlight-yellow={!formData.processingOperations} class:highlight-green={formData.processingOperations}>{formData.processingOperations || '[Describe processing operations, e.g., collection, storage, retrieval, consultation, use, disclosure, erasure]'}</span></td>
+						<td><span class="highlight-yellow">{formData.processingOperations || '[Describe processing operations, e.g., collection, storage, retrieval, consultation, use, disclosure, erasure]'}</span></td>
 					</tr>
 				</tbody>
 			</table>
@@ -1277,20 +1220,20 @@
 
 			<h3>1. Rebate Calculation</h3>
 			<p><strong>1.1</strong> The Sub-Contractor shall pay to the Main Contractor a Rebate calculated as follows:</p>
-			<p><span class:highlight-yellow={!formData.rebateFormula} class:highlight-green={formData.rebateFormula}>{formData.rebateFormula || '[Insert rebate calculation formula, e.g., "X% of all revenues received by the Sub-Contractor in respect of services provided under this Agreement to the Customer or any Affiliate of the Customer"]'}</span></p>
+			<p><span class="highlight-yellow">{formData.rebateFormula || '[Insert rebate calculation formula, e.g., "X% of all revenues received by the Sub-Contractor in respect of services provided under this Agreement to the Customer or any Affiliate of the Customer"]'}</span></p>
 
 			<h3>2. Payment Terms</h3>
-			<p><strong>2.1</strong> Rebates shall be calculated and paid <span class:highlight-yellow={!formData.rebateFrequency} class:highlight-green={formData.rebateFrequency}>{formData.rebateFrequency || '[insert frequency, e.g., quarterly/annually]'}</span> within <span class:highlight-yellow={!formData.rebateDays1} class:highlight-green={formData.rebateDays1}>{formData.rebateDays1 || '[insert number]'}</span> days of the end of each <span class:highlight-yellow={!formData.rebatePeriod} class:highlight-green={formData.rebatePeriod}>{formData.rebatePeriod || '[quarter/year]'}</span>.</p>
+			<p><strong>2.1</strong> Rebates shall be calculated and paid <span class="highlight-yellow">{formData.rebateFrequency || '[insert frequency, e.g., quarterly/annually]'}</span> within <span class="highlight-yellow">{formData.rebateDays1 || '[insert number]'}</span> days of the end of each <span class="highlight-yellow">{formData.rebatePeriod || '[quarter/year]'}</span>.</p>
 
 			<h3>3. Reporting</h3>
-			<p><strong>3.1</strong> The Sub-Contractor shall provide the Main Contractor with a detailed report of all revenues and the Rebate calculation within <span class:highlight-yellow={!formData.rebateDays2} class:highlight-green={formData.rebateDays2}>{formData.rebateDays2 || '[insert number]'}</span> days of the end of each reporting period.</p>
+			<p><strong>3.1</strong> The Sub-Contractor shall provide the Main Contractor with a detailed report of all revenues and the Rebate calculation within <span class="highlight-yellow">{formData.rebateDays2 || '[insert number]'}</span> days of the end of each reporting period.</p>
 
 			<h3>4. Records and Audit</h3>
 			<p><strong>4.1</strong> The Sub-Contractor shall maintain accurate and up-to-date records of all transactions relevant to the calculation of Rebates.</p>
 			<p><strong>4.2</strong> The Main Contractor (and its appointed auditors) may, on reasonable notice during normal business hours, inspect and audit such records to verify the accuracy of any Rebate calculation.</p>
 
 			<h3>5. Interest on Late Payment</h3>
-			<p><strong>5.1</strong> If any Rebate is not paid when due, the Sub-Contractor shall pay interest on the overdue amount at the rate of <span class:highlight-yellow={!formData.rebateInterestRate} class:highlight-green={formData.rebateInterestRate}>{formData.rebateInterestRate || '[insert rate, e.g., 4% per annum above the Bank of England base rate]'}</span> from the due date until the date of actual payment.</p>
+			<p><strong>5.1</strong> If any Rebate is not paid when due, the Sub-Contractor shall pay interest on the overdue amount at the rate of <span class="highlight-yellow">{formData.rebateInterestRate || '[insert rate, e.g., 4% per annum above the Bank of England base rate]'}</span> from the due date until the date of actual payment.</p>
 		</div>
 
 		<div class="section">
@@ -1310,7 +1253,7 @@
 						</td>
 						<td style="width: 50%; vertical-align: top; padding-left: 20px; border-left: 1px solid #ddd;">
 							<h3>Sub-Contractor</h3>
-							<p><span class:highlight-yellow={!formData.subContractorName} class:highlight-green={formData.subContractorName}>{formData.subContractorName || '[Insert Sub-Contractor Name]'}</span></p>
+							<p><span class="highlight-yellow">{formData.subContractorName || '[Insert Sub-Contractor Name]'}</span></p>
 							<p style="margin-top: 40px;">Signed: _______________________</p>
 							<p>Name: _______________________</p>
 							<p>Title: _______________________</p>
@@ -1489,17 +1432,10 @@
 	.modal-footer {
 		display: flex;
 		justify-content: flex-end;
-		align-items: center;
 		gap: 10px;
 		padding: 20px 30px;
 		border-top: 1px solid #ddd;
 		margin-top: 20px;
-	}
-
-	.error-message {
-		color: #d32f2f;
-		font-size: 14px;
-		margin-right: auto;
 	}
 
 	.reference-links {
