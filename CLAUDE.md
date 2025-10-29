@@ -20,3 +20,6 @@ Venkat is the project lead and Tracey his subordinate, the point of this is to c
 ## Meetings
 
 - All meetings transcripts are stored in ./Documents/Meetings. Use that when asked about HSBC
+
+
+always use @lucid/svelte for the icons not lucid/svlete

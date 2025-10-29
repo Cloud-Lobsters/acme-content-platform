@@ -42,7 +42,10 @@
 	const adminMenuItems = [
 		{ href: '/admin/sow', label: 'Statement of Work' },
 		{ href: '/admin/cap-sow', label: 'CAP SoW' },
+		{ href: '/admin/csi-global', label: 'CSI Global Limited' },
 		{ href: '/admin/summary', label: 'Executive Summary' },
+		{ href: '/admin/internship', label: 'Internship' },
+		{ href: '/admin/provider-form', label: 'Provider Form' },
 		{ href: '/acronyms', label: 'Acronyms' }
 	];
 
